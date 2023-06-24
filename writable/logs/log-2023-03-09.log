@@ -1,0 +1,739 @@
+CRITICAL - 2023-03-09 10:57:17 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 10:57:17 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 10:59:16 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 10:59:16 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 10:59:52 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:01:24 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 739.
+ 1 APPPATH\Controllers\Estimasi.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 739)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:01:24 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 739.
+ 1 APPPATH\Controllers\Estimasi.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 739)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:05:25 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 738.
+ 1 APPPATH\Controllers\Estimasi.php(738): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 738)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:06:49 --> Undefined array key "norangka"
+in APPPATH\Controllers\Estimasi.php on line 739.
+ 1 APPPATH\Controllers\Estimasi.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "norangka"', 'APPPATH\\Controllers\\Estimasi.php', 739)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:10:09 --> Undefined array key "kode"
+in APPPATH\Controllers\Estimasi.php on line 746.
+ 1 APPPATH\Controllers\Estimasi.php(746): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Estimasi.php', 746)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:11:12 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Estimasi.php on line 747.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:12:44 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Estimasi.php on line 748.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:15:00 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Estimasi.php on line 748.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:16:46 --> Undefined variable $datapaket
+in APPPATH\Controllers\Estimasi.php on line 765.
+ 1 APPPATH\Controllers\Estimasi.php(765): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datapaket', 'APPPATH\\Controllers\\Estimasi.php', 765)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:17:50 --> Undefined variable $datapaket
+in APPPATH\Controllers\Estimasi.php on line 765.
+ 1 APPPATH\Controllers\Estimasi.php(765): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datapaket', 'APPPATH\\Controllers\\Estimasi.php', 765)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:36:02 --> Undefined array key "harga_jual"
+in APPPATH\Views\estimasi\modalcarijasa.php on line 30.
+ 1 APPPATH\Views\estimasi\modalcarijasa.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_jual"', 'APPPATH\\Views\\estimasi\\modalcarijasa.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcarijasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcarijasa', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(833): view('estimasi/modalcarijasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatajasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:36:16 --> Undefined array key "harga_jual"
+in APPPATH\Views\estimasi\modalcarijasa.php on line 30.
+ 1 APPPATH\Views\estimasi\modalcarijasa.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_jual"', 'APPPATH\\Views\\estimasi\\modalcarijasa.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcarijasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcarijasa', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(833): view('estimasi/modalcarijasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatajasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:36:34 --> Undefined array key "harga_jual"
+in APPPATH\Views\estimasi\modalcarijasa.php on line 30.
+ 1 APPPATH\Views\estimasi\modalcarijasa.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_jual"', 'APPPATH\\Views\\estimasi\\modalcarijasa.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcarijasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcarijasa', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(833): view('estimasi/modalcarijasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatajasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 11:38:11 --> Undefined array key "harga_jual"
+in APPPATH\Controllers\Estimasi.php on line 1127.
+ 1 APPPATH\Controllers\Estimasi.php(1127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_jual"', 'APPPATH\\Controllers\\Estimasi.php', 1127)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->repljasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:20:46 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:20:48 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:20:49 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:20:51 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:20:55 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 01:21:03 --> ci4 is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 65.
+ 1 APPPATH\Controllers\Estimasi.php(30): CodeIgniter\Database\Config::connect('ci4', false)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Estimasi.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Estimasi.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\estimasi')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\estimasi')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\estimasi', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-09 14:24:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = 'ES...' at line 2 in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM s...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM s...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM s...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM s...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Controllers\Estimasi.php(765): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-09 14:24:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = 'ES...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = \'ES20230300003\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = \'ES20230300003\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = \'ES20230300003\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM select sum(subtotal) from estimasi_detail as jumjasa
+WHERE `noestimasi` = :noestimasi:', [...], false)
+ 5 APPPATH\Controllers\Estimasi.php(765): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 14:31:23 --> Call to undefined method App\Models\EstimasijasaModel::getestimasi
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi.php(767): CodeIgniter\Model->__call('getestimasi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 14:33:42 --> Call to a member function select() on array
+in APPPATH\Controllers\Estimasi.php on line 767.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:14:29 --> Call to undefined method App\Models\EstimasijasaModel::jumpart
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi.php(773): CodeIgniter\Model->__call('jumpart', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:15:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(795): CodeIgniter\Model->update('259', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:16:49 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(796): CodeIgniter\Model->update('260', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:18:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(797): CodeIgniter\Model->update('261', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:18:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(797): CodeIgniter\Model->update('262', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:20:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(797): CodeIgniter\Model->update('263', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 15:22:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Estimasi.php(797): CodeIgniter\Model->update('264', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:25:37 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(290): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:25:57 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(290): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:26:09 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(290): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:27:29 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(290): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:29:45 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:29:52 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:31:50 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:35:07 --> Cannot access offset of type string on string
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 4 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:35:15 --> Cannot access offset of type string on string
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 4 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:36:19 --> Cannot access offset of type string on string
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 4 APPPATH\Controllers\Estimasi.php(281): view('estimasi/detailestimasi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:36:57 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(281): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:37:29 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(281): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:39:10 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:40:49 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:40:58 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:41:10 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:41:12 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:41:22 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(282): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:41:40 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(283): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:41:49 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(283): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:42:35 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:42:52 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:42:59 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:43:34 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:43:46 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 160.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:45:09 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 161.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:45:32 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 161.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:46:57 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 161.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:52:32 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 161.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:53:47 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Estimasi.php on line 262.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:55:59 --> Undefined array key "nama"
+in APPPATH\Views\estimasi\detailestimasi.php on line 162.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 162)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:57:25 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\detailestimasi.php on line 161.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 161)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 16:57:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\estimasi\detailestimasi.php on line 159.
+ 1 APPPATH\Views\estimasi\detailestimasi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\estimasi\\detailestimasi.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\detailestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/detailestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(278): view('estimasi/detailestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->detailestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

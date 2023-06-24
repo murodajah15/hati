@@ -1,0 +1,258 @@
+CRITICAL - 2022-10-18 11:03:37 --> Invalid file: rwtkeluarga/modalcari1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rwtkeluarga/modalcari1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari1', [], true)
+ 3 APPPATH\Controllers\Rwtkeluarga.php(465): view('rwtkeluarga/modalcari1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:47:29 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 30.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:49:40 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 30.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:49:48 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 30.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:50:25 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 28.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:50:31 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 28.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 11:51:26 --> Undefined variable $jumlah
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 28.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(466): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->cari_data_divisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 13:13:30 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 36.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(450): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:10:24 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:12:24 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:13:00 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:13:10 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:13:15 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:15:23 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 481.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(481): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 481)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:15:23 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:16:27 --> Undefined variable $tbdivisi
+in APPPATH\Views\rwtkeluarga\modalcari.php on line 23.
+ 1 APPPATH\Views\rwtkeluarga\modalcari.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbdivisi', 'APPPATH\\Views\\rwtkeluarga\\modalcari.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\modalcari.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/modalcari', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(448): view('rwtkeluarga/modalcari', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formcari()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:20:25 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 480.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(480): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 480)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:20:42 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 480.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(480): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 480)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:22:56 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 469.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(469): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 469)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:28:53 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:29:23 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:31:00 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:32:47 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:34:07 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-18 15:34:26 --> Undefined array key "kode_divisi"
+in APPPATH\Controllers\Rwtkeluarga.php on line 460.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_divisi"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 460)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

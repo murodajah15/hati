@@ -1,0 +1,165 @@
+CRITICAL - 2022-11-04 11:32:40 --> Undefined property: App\Controllers\tbmobil::$tbcustomerModel
+in APPPATH\Controllers\Tbmobil.php on line 333.
+ 1 APPPATH\Controllers\Tbmobil.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tbmobil::$tbcustomerModel', 'APPPATH\\Controllers\\Tbmobil.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->cari_data_pemakai()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 11:32:57 --> Undefined property: App\Controllers\tbmobil::$tbcustomerModel
+in APPPATH\Controllers\Tbmobil.php on line 333.
+ 1 APPPATH\Controllers\Tbmobil.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tbmobil::$tbcustomerModel', 'APPPATH\\Controllers\\Tbmobil.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->cari_data_pemakai()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:38:19 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:39:19 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:40:47 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:41:04 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:41:10 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:42:11 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:42:38 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:43:55 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:44:21 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:45:17 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:46:55 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:48:47 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:49:30 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:49:35 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:51:20 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:52:17 --> Too few arguments to function App\Controllers\Tbcustomer::detail_mobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detail_mobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:54:08 --> Too few arguments to function App\Controllers\Tbcustomer::detailmobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detailmobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:55:28 --> Too few arguments to function App\Controllers\Tbcustomer::detailmobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 326.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detailmobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:56:25 --> Undefined variable $id
+in APPPATH\Controllers\Tbcustomer.php on line 330.
+ 1 APPPATH\Controllers\Tbcustomer.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Tbcustomer.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:56:29 --> Undefined variable $id
+in APPPATH\Controllers\Tbcustomer.php on line 330.
+ 1 APPPATH\Controllers\Tbcustomer.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Tbcustomer.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 16:59:21 --> Too few arguments to function App\Controllers\Tbcustomer::detailmobil(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 326.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->detailmobil()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

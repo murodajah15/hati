@@ -1,0 +1,186 @@
+<!-- Modal -->
+<div class="modal fade" id="modaledit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 60%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><?= $title; ?></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <?= form_open('tasklist_bp/updatedata', ['class' => 'formtasklist_bp']) ?>
+      <input type="hidden" class="form-control" name="id" id="id" value="<?= $tasklist_bp['id'] ?>">
+      <input type="hidden" class="form-control" name="kodelama" id="kodelama" value="<?= $tasklist_bp['kode'] ?>">
+      <input type="hidden" class="form-control" name="kdasuransilama" id="kdasuransilama" value="<?= $tasklist_bp['kdasuransi'] ?>">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 col-sm-12">
+            <label for="kode" class="form-label mb-1">Kode</label>
+            <input type="text" class="form-control mb-2" name="kode" id="kode" value="<?= $tasklist_bp['kode'] ?>">
+            <div class="invalid-feedback errorKode">
+            </div>
+            <label for="nama" class="form-label mb-1">Nama</label>
+            <input type="text" class="form-control mb-2" name="nama" id="nama" value="<?= $tasklist_bp['nama'] ?>">
+            <div class="invalid-feedback errorNama">
+            </div>
+            <!-- <label for="nama" class="form-label mb-0 labeltipe">Asuransi</label>
+            <select class="form-select mb-1" name="kdasuransi" id="kdasuransi" required>
+              <option value="">[Pilih Asuransi]
+                <?php
+                foreach ($tbasuransi as $key) {
+                  if ($key['kode'] == $tasklist_bp['kdasuransi']) {
+                    echo "<option value='$key[kode]' selected>$key[kode] - $key[nama]</option>";
+                  } else {
+                    echo "<option value='$key[kode]'>$key[kode] - $key[nama]</option>";
+                  }
+                }
+                ?>
+              </option>
+            </select> -->
+            <label for="keluhan" class="form-label mb-1">Asuransi</label>
+            <div class="input-group mb-1">
+              <input type="text" class="form-control form-control-sm" name="kdasuransi" id="kdasuransi" value="<?= $tasklist_bp['kdasuransi'] ?>">
+              <input type="text" style="width: 40%" class="form-control form-control-sm" name="nmasuransi" id="nmasuransi" value="<?= $tasklist_bp['nmasuransi'] ?>" readonly>
+              <button class="btn btn-outline-secondary" type="button" id="cariasuransi"><i class="fa fa-search"></i></button>
+            </div>
+            <label for="nama" class="form-label mb-1">Aktif</label><br>
+            <?php
+            if ($tasklist_bp['aktif'] == 'Y') {
+              // echo "<tr><td>Aktif</td>     <td> : <input type=radio name='aktif' value='Y' disabled> Y 
+              // 						  <input type=radio name='aktif' value='N' checked disabled> N </td></tr></table>";
+              echo '<div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="aktif" name="aktif" checked>
+                  </div>';
+            } else {
+              // echo "<tr><td>Aktif</td>     <td> : <input type=radio name='aktif' value='Y' checked disabled> Y  
+              // 						  <input type=radio name='aktif' value='N' disabled> N </td></tr></table>";
+              echo '<div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="aktif" name="aktif"
+                  </div>';
+            }
+            ?>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" id="btnsimpan" class="btn btn-primary btnsimpan">Simpan</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+      </div>
+      <?= form_close() ?>
+    </div>
+  </div>
+</div>
+<script>
+  var myModal = document.getElementById('modaledit')
+  var myInput = document.getElementById('nama')
+  myModal.addEventListener('shown.bs.modal', function() {
+    myInput.focus()
+  })
+
+  $(document).ready(function() {
+    $('.formtasklist_bp').submit(function(e) {
+      e.preventDefault();
+      $.ajax({
+        type: "post",
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        dataType: "json",
+        beforeSend: function() {
+          $('.btnsimpan').attr('disable', 'disabled')
+          $('.btnsimpan').html('<i class="fa fa-spin fa-spinner"></i>')
+        },
+        complete: function() {
+          $('.btnsimpan').removeAttr('disable')
+          $('.btnsimpan').html('Simpan')
+        },
+        success: function(response) {
+          if (response.error) {
+            // alert(response.error);
+            if (response.error.kode) {
+              $('#kode').addClass('is-invalid');
+              $('.errorKode').html(response.error.kode);
+            }
+          } else {
+            // alert(response.sukses);
+            $('#modaledit').modal('hide');
+            // swal({
+            //   title: "Data berhasil disimpan",
+            //   text: "",
+            //   icon: "success",
+            //   buttons: true,
+            //   dangerMode: true,
+            // })
+
+            swal({
+              title: "Data Berhasil diupdate ",
+              text: "",
+              icon: "success"
+            })
+            reload_table();
+            // .then(function() {
+            //   window.location.href = '/tasklist_bp';
+            // });
+
+            // window.location = '/tasklist_bp';
+          }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+        }
+      });
+      return false;
+    })
+  });
+
+  $('#kdasuransi').on('keypress', function(e) {
+    if (e.which == 13) {
+      var keyPressed = event.keyCode || event.which;
+      if (keyPressed === 13) {
+        alert("Press tab to continue!");
+        event.preventDefault();
+        return false;
+      }
+    }
+  });
+  $('#cariasuransi').click(function(e) {
+    e.preventDefault();
+    $.ajax({
+      url: "<?= site_url('tasklist_bp/caridataasuransi') ?>",
+      dataType: "json",
+      success: function(response) {
+        $('.viewmodalcari').html(response.data).show();
+        $('#modalcariasuransi').modal('show');
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+      }
+    })
+  })
+  $('#kdasuransi').on('blur', function(e) {
+    let cari = $(this).val()
+    if (cari !== "") {
+      $.ajax({
+        url: "<?= site_url('tasklist_bp/replasuransi') ?>",
+        type: 'post',
+        data: {
+          'kdasuransi': cari
+        },
+        success: function(data) {
+          let data_response = JSON.parse(data);
+          if (data_response['kode'] == '') {
+            $('#kdasuransi').val('');
+            $('#nmasuransi').val('');
+            return;
+          } else {
+            $('#kdasuransi').val(data_response['kode']);
+            $('#nmasuransi').val(data_response['nama']);
+          }
+        },
+        error: function() {
+          $('#kdasuransi').val('');
+          return;
+          // console.log('file not fount');
+        }
+      })
+      // console.log(cari);
+    }
+  });
+</script>

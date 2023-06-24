@@ -1,0 +1,144 @@
+CRITICAL - 2023-04-13 12:03:39 --> Call to undefined method App\Models\TbcustomerModel::getmgr
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(1031): CodeIgniter\Model->__call('getmgr', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->repl_nmstnk()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 12:03:49 --> Call to undefined method App\Models\TbcustomerModel::getmgr
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(1031): CodeIgniter\Model->__call('getmgr', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->repl_nmstnk()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 12:05:08 --> Call to undefined method App\Models\TbcustomerModel::getmgr
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(1031): CodeIgniter\Model->__call('getmgr', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->repl_nmstnk()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 12:05:27 --> Call to undefined method App\Models\TbcustomerModel::getmgr
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(1031): CodeIgniter\Model->__call('getmgr', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->repl_nmstnk()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 12:06:15 --> Call to undefined method App\Models\TbcustomerModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(1031): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->repl_nmstnk()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:07:15 --> Undefined array key "tgl_lahir"
+in APPPATH\Views\mohfaktur\modaledit.php on line 345.
+ 1 APPPATH\Views\mohfaktur\modaledit.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_lahir"', 'APPPATH\\Views\\mohfaktur\\modaledit.php', 345)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaledit', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(275): view('mohfaktur/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:07:30 --> Undefined array key "tgl_lahir"
+in APPPATH\Views\mohfaktur\modaledit.php on line 345.
+ 1 APPPATH\Views\mohfaktur\modaledit.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_lahir"', 'APPPATH\\Views\\mohfaktur\\modaledit.php', 345)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaledit', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(275): view('mohfaktur/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:19:15 --> Undefined variable $memombr
+in APPPATH\Views\mohfaktur\modaldetail.php on line 14.
+ 1 APPPATH\Views\mohfaktur\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\mohfaktur\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaldetail', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(75): view('mohfaktur/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:20:00 --> Undefined variable $memombr
+in APPPATH\Views\mohfaktur\modaldetail.php on line 14.
+ 1 APPPATH\Views\mohfaktur\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\mohfaktur\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaldetail', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(75): view('mohfaktur/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:20:27 --> Undefined variable $memombr
+in APPPATH\Views\mohfaktur\modaldetail.php on line 14.
+ 1 APPPATH\Views\mohfaktur\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\mohfaktur\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaldetail', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(75): view('mohfaktur/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:20:33 --> Undefined variable $memombr
+in APPPATH\Views\mohfaktur\modaldetail.php on line 14.
+ 1 APPPATH\Views\mohfaktur\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\mohfaktur\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaldetail', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(75): view('mohfaktur/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 14:20:40 --> Undefined variable $memombr
+in APPPATH\Views\mohfaktur\modaldetail.php on line 14.
+ 1 APPPATH\Views\mohfaktur\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\mohfaktur\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/modaldetail', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(75): view('mohfaktur/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 15:07:08 --> Undefined array key "approv_dir"
+in APPPATH\Controllers\Mohfaktur.php on line 813.
+ 1 APPPATH\Controllers\Mohfaktur.php(813): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "approv_dir"', 'APPPATH\\Controllers\\Mohfaktur.php', 813)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->unproses('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-13 15:41:41 --> Undefined array key "nmsppv"
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 59.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmsppv"', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

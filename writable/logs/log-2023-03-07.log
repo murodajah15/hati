@@ -1,0 +1,686 @@
+CRITICAL - 2023-03-07 10:30:28 --> Undefined array key "kdsupplier"
+in APPPATH\Controllers\Tbjasa.php on line 177.
+ 1 APPPATH\Controllers\Tbjasa.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsupplier"', 'APPPATH\\Controllers\\Tbjasa.php', 177)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:49:23 --> Undefined variable $tbjasaparent
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbjasaparent', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:49:40 --> Undefined variable $tbjasaparent
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbjasaparent', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:50:17 --> Undefined array key "parent_id"
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:54:32 --> Undefined array key "parent_id"
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:55:03 --> Undefined array key "parent_id"
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 10:55:38 --> Undefined array key "parent_id"
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(187): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:11:44 --> Undefined array key "parent_id"
+in APPPATH\Views\tbjasa\modaledit.php on line 45.
+ 1 APPPATH\Views\tbjasa\modaledit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(195): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:39:18 --> Undefined array key "kdsupplier"
+in APPPATH\Controllers\Tbjasa.php on line 74.
+ 1 APPPATH\Controllers\Tbjasa.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsupplier"', 'APPPATH\\Controllers\\Tbjasa.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:40:51 --> Undefined variable $tbopl
+in APPPATH\Views\tbjasa\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbopl', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(81): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:40:55 --> Undefined variable $tbopl
+in APPPATH\Views\tbjasa\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbopl', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(81): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:41:22 --> Undefined variable $tbopl
+in APPPATH\Views\tbjasa\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbopl', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(81): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 11:50:21 --> Undefined variable $tbopl
+in APPPATH\Views\tbjasa\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbopl', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(81): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 12:13:09 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaledit.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaledit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(180): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 12:13:18 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaledit.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaledit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(180): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 12:13:33 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaledit.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaledit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaledit.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(180): view('tbjasa/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:12:47 --> Undefined property: App\Controllers\Tbmodule::$N
+in APPPATH\Controllers\Tbmodule.php on line 216.
+ 1 APPPATH\Controllers\Tbmodule.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbmodule::$N', 'APPPATH\\Controllers\\Tbmodule.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:12:57 --> Undefined property: App\Controllers\Tbmodule::$N
+in APPPATH\Controllers\Tbmodule.php on line 216.
+ 1 APPPATH\Controllers\Tbmodule.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbmodule::$N', 'APPPATH\\Controllers\\Tbmodule.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:13:21 --> Undefined property: App\Controllers\Tbmodule::$N
+in APPPATH\Controllers\Tbmodule.php on line 216.
+ 1 APPPATH\Controllers\Tbmodule.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbmodule::$N', 'APPPATH\\Controllers\\Tbmodule.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 14:21:16 --> mysqli_sql_exception: Table 'ci4.tbpaket' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-07 14:21:16 --> Table 'ci4.tbpaket' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbpaket`
+ORDER BY `kode` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbpaket`
+ORDER BY `kode` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbpaket`
+ORDER BY `kode` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbpaket`
+ORDER BY `kode` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbpaket.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 14:45:58 --> mysqli_sql_exception: Column 'jenis' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(144): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 14:45:58 --> Column 'jenis' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbpaket` (`kode`, `nama`, `jenis`, `user`, `aktif`, `created_at`, `updated_at`) VALUES (\'PM\', \'PERAWATAN 20.000 KM\', NULL, \'Edit-Murod-07-03-2023 14:45:58\', \'Y\', \'2023-03-07 14:45:58\', \'2023-03-07 14:45:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbpaket` (`kode`, `nama`, `jenis`, `user`, `aktif`, `created_at`, `updated_at`) VALUES (\'PM\', \'PERAWATAN 20.000 KM\', NULL, \'Edit-Murod-07-03-2023 14:45:58\', \'Y\', \'2023-03-07 14:45:58\', \'2023-03-07 14:45:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbpaket` (`kode`, `nama`, `jenis`, `user`, `aktif`, `created_at`, `updated_at`) VALUES (\'PM\', \'PERAWATAN 20.000 KM\', NULL, \'Edit-Murod-07-03-2023 14:45:58\', \'Y\', \'2023-03-07 14:45:58\', \'2023-03-07 14:45:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbpaket` (`kode`, `nama`, `jenis`, `user`, `aktif`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :jenis:, :user:, :aktif:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbpaket.php(144): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:50:21 --> Undefined array key "parent_id"
+in APPPATH\Controllers\Tbpaket.php on line 161.
+ 1 APPPATH\Controllers\Tbpaket.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Controllers\\Tbpaket.php', 161)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:54:32 --> Undefined array key "parent_id"
+in APPPATH\Controllers\Tbpaket.php on line 74.
+ 1 APPPATH\Controllers\Tbpaket.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "parent_id"', 'APPPATH\\Controllers\\Tbpaket.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 14:54:53 --> Undefined variable $tbjasa
+in APPPATH\Views\tbpaket\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbpaket\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbjasa', 'APPPATH\\Views\\tbpaket\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(79): view('tbpaket/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 14:57:17 --> mysqli_sql_exception: Unknown column 'kdservice' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasijasaModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(239): App\Models\EstimasijasaModel->getkodeservice('aa')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->hapus('3')
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 14:57:17 --> Unknown column 'kdservice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = :kdservice:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasijasaModel.php(31): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(239): App\Models\EstimasijasaModel->getkodeservice('aa')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->hapus('3')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 14:57:47 --> mysqli_sql_exception: Unknown column 'kdservice' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasijasaModel.php(31): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(239): App\Models\EstimasijasaModel->getkodeservice('aa')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->hapus('3')
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 14:57:47 --> Unknown column 'kdservice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = \'aa\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail`
+WHERE `kdservice` = :kdservice:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasijasaModel.php(31): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(239): App\Models\EstimasijasaModel->getkodeservice('aa')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->hapus('3')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:34:25 --> Undefined variable $tbtipe
+in APPPATH\Views\tbpaket\modaltambah.php on line 33.
+ 1 APPPATH\Views\tbpaket\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbpaket\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(100): view('tbpaket/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:34:28 --> Undefined variable $tbtipe
+in APPPATH\Views\tbpaket\modaltambah.php on line 33.
+ 1 APPPATH\Views\tbpaket\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbpaket\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(100): view('tbpaket/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:36:04 --> Undefined variable $tbtipe
+in APPPATH\Views\tbpaket\modaltambah.php on line 33.
+ 1 APPPATH\Views\tbpaket\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbpaket\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(103): view('tbpaket/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:36:17 --> Undefined variable $tbtipe
+in APPPATH\Views\tbpaket\modaltambah.php on line 33.
+ 1 APPPATH\Views\tbpaket\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbpaket\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(103): view('tbpaket/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:41:24 --> Undefined variable $tbmobil
+in APPPATH\Views\tbpaket\modaledit.php on line 44.
+ 1 APPPATH\Views\tbpaket\modaledit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmobil', 'APPPATH\\Views\\tbpaket\\modaledit.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(173): view('tbpaket/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:41:28 --> Undefined variable $tbmobil
+in APPPATH\Views\tbpaket\modaledit.php on line 44.
+ 1 APPPATH\Views\tbpaket\modaledit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmobil', 'APPPATH\\Views\\tbpaket\\modaledit.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(173): view('tbpaket/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 15:42:09 --> Undefined variable $tbPAKET
+in APPPATH\Views\tbpaket\modaledit.php on line 44.
+ 1 APPPATH\Views\tbpaket\modaledit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbPAKET', 'APPPATH\\Views\\tbpaket\\modaledit.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(173): view('tbpaket/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 16:21:34 --> Undefined variable $estimasi
+in APPPATH\Views\tbpaket\modaldetailpaket.php on line 39.
+ 1 APPPATH\Views\tbpaket\modaldetailpaket.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\tbpaket\\modaldetailpaket.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaldetailpaket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaldetailpaket', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(104): view('tbpaket/modaldetailpaket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formdetailpaket()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 16:22:32 --> Undefined variable $estimasi
+in APPPATH\Views\tbpaket\modaldetailpaket.php on line 108.
+ 1 APPPATH\Views\tbpaket\modaldetailpaket.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\tbpaket\\modaldetailpaket.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbpaket\\modaldetailpaket.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbpaket/modaldetailpaket', [], true)
+ 5 APPPATH\Controllers\Tbpaket.php(104): view('tbpaket/modaldetailpaket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->formdetailpaket()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 17:02:37 --> Undefined array key "nopaket"
+in APPPATH\Controllers\Tbpaket.php on line 299.
+ 1 APPPATH\Controllers\Tbpaket.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopaket"', 'APPPATH\\Controllers\\Tbpaket.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 17:03:02 --> Undefined array key "nopaket"
+in APPPATH\Controllers\Tbpaket.php on line 299.
+ 1 APPPATH\Controllers\Tbpaket.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopaket"', 'APPPATH\\Controllers\\Tbpaket.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 17:03:45 --> Call to undefined method App\Models\PaketpartModel::getkdpaket
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbpaket.php(303): CodeIgniter\Model->__call('getkdpaket', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 17:05:05 --> mysqli_sql_exception: Table 'ci4.paket_detail' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 17:05:05 --> Table 'ci4.paket_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `paket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `paket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `paket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `paket_detail`
+WHERE `kdpaket` = :kdpaket:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 17:15:08 --> mysqli_sql_exception: Table 'ci4.tbpaket_detail' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 17:15:08 --> Table 'ci4.tbpaket_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = :kdpaket:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 17:15:36 --> mysqli_sql_exception: Table 'ci4.tbpaket_detail' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 17:15:36 --> Table 'ci4.tbpaket_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = :kdpaket:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 17:16:14 --> mysqli_sql_exception: Table 'ci4.tbpaket_detail' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 17:16:14 --> Table 'ci4.tbpaket_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = \'GR.CT\'
+AND `jenis` = \'PART\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbpaket_detail`
+WHERE `kdpaket` = :kdpaket:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PaketpartModel.php(32): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tbpaket.php(303): App\Models\PaketpartModel->getkdpaket('GR.CT')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbpaket->table_paket_part()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbpaket))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

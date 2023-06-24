@@ -1,0 +1,533 @@
+CRITICAL - 2023-05-29 10:53:01 --> Undefined variable $tbpaket
+in APPPATH\Views\tasklist_bp\modaledit.php on line 10.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbpaket', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(177): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:53:04 --> Undefined variable $tbpaket
+in APPPATH\Views\tasklist_bp\modaldetail.php on line 14.
+ 1 APPPATH\Views\tasklist_bp\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbpaket', 'APPPATH\\Views\\tasklist_bp\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(43): view('tasklist_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:54:24 --> Undefined variable $tbpaket
+in APPPATH\Views\tasklist_bp\modaldetail.php on line 14.
+ 1 APPPATH\Views\tasklist_bp\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbpaket', 'APPPATH\\Views\\tasklist_bp\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(43): view('tasklist_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:54:50 --> Undefined variable $tbpaket
+in APPPATH\Views\tasklist_bp\modaledit.php on line 10.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbpaket', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(177): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:55:41 --> Undefined variable $tbasuranti
+in APPPATH\Views\tasklist_bp\modaledit.php on line 27.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuranti', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(177): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:56:08 --> Undefined variable $tbasuranti
+in APPPATH\Views\tasklist_bp\modaledit.php on line 27.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuranti', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(177): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:56:29 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaledit.php on line 27.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(177): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 10:57:23 --> Undefined array key "kdasuransi"
+in APPPATH\Views\tasklist_bp\modaledit.php on line 28.
+ 1 APPPATH\Views\tasklist_bp\modaledit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdasuransi"', 'APPPATH\\Views\\tasklist_bp\\modaledit.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaledit', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(180): view('tasklist_bp/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:21:28 --> Invalid file: tasklist_bp/modalcari.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tasklist_bp/modalcari.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modalcari', [], true)
+ 3 APPPATH\Controllers\Tasklist_bp.php(287): view('tasklist_bp/modalcari', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->caridataasuransi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:22:14 --> Undefined array key "kdsa"
+in APPPATH\Controllers\Estimasi.php on line 1623.
+ 1 APPPATH\Controllers\Estimasi.php(1623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsa"', 'APPPATH\\Controllers\\Estimasi.php', 1623)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replasuransi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:23:13 --> Undefined array key "kdsa"
+in APPPATH\Controllers\Estimasi.php on line 1623.
+ 1 APPPATH\Controllers\Estimasi.php(1623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsa"', 'APPPATH\\Controllers\\Estimasi.php', 1623)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replasuransi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:23:33 --> Undefined array key "kdsa"
+in APPPATH\Controllers\Estimasi.php on line 1623.
+ 1 APPPATH\Controllers\Estimasi.php(1623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsa"', 'APPPATH\\Controllers\\Estimasi.php', 1623)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replasuransi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:23:58 --> Undefined array key "kdsa"
+in APPPATH\Controllers\Estimasi.php on line 1623.
+ 1 APPPATH\Controllers\Estimasi.php(1623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsa"', 'APPPATH\\Controllers\\Estimasi.php', 1623)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replasuransi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:38:54 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaldetail.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(43): view('tasklist_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:39:39 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaldetail.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(43): view('tasklist_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 11:39:47 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaldetail.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(43): view('tasklist_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 12:05:56 --> Undefined variable $tbpaket
+in APPPATH\Views\tasklist_bp\modaldetailtasklist.php on line 18.
+ 1 APPPATH\Views\tasklist_bp\modaldetailtasklist.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbpaket', 'APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetailtasklist', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(65): view('tasklist_bp/modaldetailtasklist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetailtasklist_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 12:23:01 --> Call to undefined function App\Controllers\vardump()
+in APPPATH\Controllers\Tasklist_bp.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetailtasklist_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 12:24:20 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaldetailtasklist.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\modaldetailtasklist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetailtasklist', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(65): view('tasklist_bp/modaldetailtasklist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetailtasklist_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 12:24:55 --> Undefined variable $tbasuransi
+in APPPATH\Views\tasklist_bp\modaldetailtasklist.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\modaldetailtasklist.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbasuransi', 'APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaldetailtasklist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaldetailtasklist', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(65): view('tasklist_bp/modaldetailtasklist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formdetailtasklist_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 13:48:07 --> Undefined property: App\Controllers\Tasklist_bp::$paketjasaModel
+in APPPATH\Controllers\Tasklist_bp.php on line 418.
+ 1 APPPATH\Controllers\Tasklist_bp.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tasklist_bp::$paketjasaModel', 'APPPATH\\Controllers\\Tasklist_bp.php', 418)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 13:48:23 --> Undefined property: App\Controllers\Tasklist_bp::$paketjasaModel
+in APPPATH\Controllers\Tasklist_bp.php on line 418.
+ 1 APPPATH\Controllers\Tasklist_bp.php(418): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tasklist_bp::$paketjasaModel', 'APPPATH\\Controllers\\Tasklist_bp.php', 418)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-29 14:03:18 --> mysqli_sql_exception: Table 'hati.tasklist_bpd' doesn't exist in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Tasklist_bpdModel.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Tasklist_bp.php(417): App\Models\Tasklist_bpdModel->getdoublebarang(NULL, 'PM1000-02')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-29 14:03:18 --> Table 'hati.tasklist_bpd' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tasklist_bpd`
+WHERE `kdtasklist` IS NULL
+AND `kode` = \'PM1000-02\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tasklist_bpd`
+WHERE `kdtasklist` IS NULL
+AND `kode` = \'PM1000-02\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tasklist_bpd`
+WHERE `kdtasklist` IS NULL
+AND `kode` = \'PM1000-02\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tasklist_bpd`
+WHERE `kdtasklist` IS NULL
+AND `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Tasklist_bpdModel.php(47): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tasklist_bp.php(417): App\Models\Tasklist_bpdModel->getdoublebarang(null, 'PM1000-02')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-29 14:06:33 --> mysqli_sql_exception: Column 'kdtasklist' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-29 14:06:33 --> Column 'kdtasklist' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:33\', \'2023-05-29 14:06:33\', \'2023-05-29 14:06:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:33\', \'2023-05-29 14:06:33\', \'2023-05-29 14:06:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:33\', \'2023-05-29 14:06:33\', \'2023-05-29 14:06:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (:kdtasklist:, :kode:, :nama:, :harga:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-29 14:06:46 --> mysqli_sql_exception: Column 'kdtasklist' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-29 14:06:46 --> Column 'kdtasklist' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:46\', \'2023-05-29 14:06:46\', \'2023-05-29 14:06:46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:46\', \'2023-05-29 14:06:46\', \'2023-05-29 14:06:46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'50000\', \'Edit-Murod-29-05-2023 14:06:46\', \'2023-05-29 14:06:46\', \'2023-05-29 14:06:46\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (:kdtasklist:, :kode:, :nama:, :harga:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-29 14:07:25 --> mysqli_sql_exception: Column 'kdtasklist' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-29 14:07:25 --> Column 'kdtasklist' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, \'PM1000-02\', \'TUNE-UP\', \'50000\', \'Edit-Murod-29-05-2023 14:07:25\', \'2023-05-29 14:07:25\', \'2023-05-29 14:07:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, \'PM1000-02\', \'TUNE-UP\', \'50000\', \'Edit-Murod-29-05-2023 14:07:25\', \'2023-05-29 14:07:25\', \'2023-05-29 14:07:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (NULL, \'PM1000-02\', \'TUNE-UP\', \'50000\', \'Edit-Murod-29-05-2023 14:07:25\', \'2023-05-29 14:07:25\', \'2023-05-29 14:07:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasklist_bpd` (`kdtasklist`, `kode`, `nama`, `harga`, `user`, `created_at`, `updated_at`) VALUES (:kdtasklist:, :kode:, :nama:, :harga:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tasklist_bp.php(434): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpanjasa()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:41:17 --> Call to undefined method App\Models\Tasklist_bpdModel::getkdpaket
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(310): CodeIgniter\Model->__call('getkdpaket', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->table_tasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:42:56 --> Call to undefined method App\Models\Tasklist_bpdModel::getkdpaket
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(310): CodeIgniter\Model->__call('getkdpaket', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->table_tasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:45:48 --> Undefined array key "jam"
+in APPPATH\Views\tasklist_bp\tabel_tasklist_bpd.php on line 19.
+ 1 APPPATH\Views\tasklist_bp\tabel_tasklist_bpd.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jam"', 'APPPATH\\Views\\tasklist_bp\\tabel_tasklist_bpd.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\tabel_tasklist_bpd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/tabel_tasklist_bpd', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(312): view('tasklist_bp/tabel_tasklist_bpd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->table_tasklist_bpd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:54:46 --> Call to undefined method App\Models\Tasklist_bpdModel::delete_by_id
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(297): CodeIgniter\Model->__call('delete_by_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->hapusdetailtasklist_bpd('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:55:25 --> Call to undefined method App\Models\Tasklist_bpdModel::hapusdetailtasklist_bpd
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(297): CodeIgniter\Model->__call('hapusdetailtasklist_bpd', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->hapusdetailtasklist_bpd('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 14:55:38 --> Call to undefined method App\Models\Tasklist_bpdModel::hapusdetailtasklist_bpd
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(297): CodeIgniter\Model->__call('hapusdetailtasklist_bpd', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->hapusdetailtasklist_bpd('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-05-29 15:04:30 --> mysqli_sql_exception: Column 'nmasuransi' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ta...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Tasklist_bp.php(180): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpandata()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-29 15:04:30 --> Column 'nmasuransi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tasklist_bp` (`kode`, `nama`, `kdasuransi`, `nmasuransi`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'777\', \'8888\', \'A20230300001\', NULL, \'Y\', \'Tambah-Murod-29-05-2023 15:04:30\', \'2023-05-29 15:04:30\', \'2023-05-29 15:04:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tasklist_bp` (`kode`, `nama`, `kdasuransi`, `nmasuransi`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'777\', \'8888\', \'A20230300001\', NULL, \'Y\', \'Tambah-Murod-29-05-2023 15:04:30\', \'2023-05-29 15:04:30\', \'2023-05-29 15:04:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tasklist_bp` (`kode`, `nama`, `kdasuransi`, `nmasuransi`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'777\', \'8888\', \'A20230300001\', NULL, \'Y\', \'Tambah-Murod-29-05-2023 15:04:30\', \'2023-05-29 15:04:30\', \'2023-05-29 15:04:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tasklist_bp` (`kode`, `nama`, `kdasuransi`, `nmasuransi`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :kdasuransi:, :nmasuransi:, :aktif:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tasklist_bp.php(180): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 15:45:05 --> Undefined variable $tasklist_bp
+in APPPATH\Views\tasklist_bp\modaltambah.php on line 33.
+ 1 APPPATH\Views\tasklist_bp\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasklist_bp', 'APPPATH\\Views\\tasklist_bp\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(124): view('tasklist_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 15:45:11 --> Undefined variable $tasklist_bp
+in APPPATH\Views\tasklist_bp\modaltambah.php on line 33.
+ 1 APPPATH\Views\tasklist_bp\modaltambah.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasklist_bp', 'APPPATH\\Views\\tasklist_bp\\modaltambah.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(124): view('tasklist_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:02:34 --> Invalid file: tasklist_bp/caridatatbklpjasa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tasklist_bp/caridatatbklpjasa.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/caridatatbklpjasa', [], true)
+ 3 APPPATH\Controllers\Tasklist_bp.php(334): view('tasklist_bp/caridatatbklpjasa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->caridatatbklpjasa()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:04:10 --> Undefined array key "kode"
+in APPPATH\Controllers\Tasklist_bp.php on line 344.
+ 1 APPPATH\Controllers\Tasklist_bp.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tasklist_bp.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->repltbklpjasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:05:34 --> Undefined array key "kode"
+in APPPATH\Controllers\Tasklist_bp.php on line 344.
+ 1 APPPATH\Controllers\Tasklist_bp.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tasklist_bp.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->repltbklpjasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:05:39 --> Undefined array key "kode"
+in APPPATH\Controllers\Tasklist_bp.php on line 344.
+ 1 APPPATH\Controllers\Tasklist_bp.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tasklist_bp.php', 344)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->repltbklpjasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:07:39 --> Call to undefined function App\Controllers\vardump()
+in APPPATH\Controllers\Tasklist_bp.php on line 359.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->repltbklpjasa()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:10:45 --> Call to undefined method App\Models\Tasklist_bpdModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(107): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-29 16:10:59 --> Call to undefined method App\Models\Tasklist_bpdModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(107): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

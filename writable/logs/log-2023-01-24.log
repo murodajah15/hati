@@ -1,0 +1,957 @@
+CRITICAL - 2023-01-24 09:03:38 --> Undefined property: App\Controllers\Tbuser::$load
+in APPPATH\Controllers\Tbuser.php on line 614.
+ 1 APPPATH\Controllers\Tbuser.php(614): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbuser::$load', 'APPPATH\\Controllers\\Tbuser.php', 614)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:22:02 --> Class "ifsnop\Mysqldump\Mysqldump" not found
+in APPPATH\Controllers\Tbuser.php on line 617.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:24:32 --> Class "ifsnop\Mysqldump\Mysqldump" not found
+in APPPATH\Controllers\Tbuser.php on line 617.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:33:36 --> Class "ifsnop\Mysqldump\Mysqldump" not found
+in APPPATH\Controllers\Tbuser.php on line 617.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:35:15 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:36:24 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:36:31 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:37:00 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:37:02 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:37:06 --> Unsupported database type (mysqli)
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 378.
+ 1 VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php(410): Ifsnop\Mysqldump\Mysqldump->connect()
+ 2 APPPATH\Controllers\Tbuser.php(618): Ifsnop\Mysqldump\Mysqldump->start('database/backup/dbbackup240123.sql')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 09:57:23 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 380.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-24 10:05:06 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\ifsnop\mysqldump-php\src\Ifsnop\Mysqldump\Mysqldump.php on line 380.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-24 10:11:29 --> Call to undefined function App\Controllers\write_file()
+in APPPATH\Controllers\Tbuser.php on line 640.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 10:14:15 --> Undefined property: App\Controllers\Tbuser::$load
+in APPPATH\Controllers\Tbuser.php on line 629.
+ 1 APPPATH\Controllers\Tbuser.php(629): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbuser::$load', 'APPPATH\\Controllers\\Tbuser.php', 629)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 10:18:02 --> Call to undefined function App\Controllers\write_file()
+in APPPATH\Controllers\Tbuser.php on line 640.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 10:19:02 --> Call to undefined function App\Controllers\write_file()
+in APPPATH\Controllers\Tbuser.php on line 641.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 10:21:13 --> Call to undefined function App\Controllers\write_file()
+in APPPATH\Controllers\Tbuser.php on line 641.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->proses_backup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 11:52:35 --> Invalid file: saplikasi/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('saplikasi/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 11:53:28 --> Undefined variable $tbcabang
+in APPPATH\Views\saplikasi\index.php on line 100.
+ 1 APPPATH\Views\saplikasi\index.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcabang', 'APPPATH\\Views\\saplikasi\\index.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 11:59:22 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 11:59:22 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 12:00:33 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 12:00:33 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 12:00:40 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 12:00:40 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 12:00:54 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 12:00:54 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `saplikasi`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 12:02:14 --> Undefined array key "created_at"
+in APPPATH\Views\saplikasi\index.php on line 106.
+ 1 APPPATH\Views\saplikasi\index.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\saplikasi\\index.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 12:03:30 --> Undefined array key "kode"
+in APPPATH\Views\saplikasi\index.php on line 124.
+ 1 APPPATH\Views\saplikasi\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\saplikasi\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 12:04:03 --> Undefined array key "kode"
+in APPPATH\Views\saplikasi\index.php on line 152.
+ 1 APPPATH\Views\saplikasi\index.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\saplikasi\\index.php', 152)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 12:04:22 --> Undefined array key "nama"
+in APPPATH\Views\saplikasi\index.php on line 156.
+ 1 APPPATH\Views\saplikasi\index.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\saplikasi\\index.php', 156)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/index', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(23): view('saplikasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 14:13:51 --> mysqli_sql_exception: Unknown column 'nurut' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 14:13:51 --> Unknown column 'nurut' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `saplikasi`
+ORDER BY `nurut`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `saplikasi`
+ORDER BY `nurut`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `saplikasi`
+ORDER BY `nurut`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `saplikasi`
+ORDER BY `nurut`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Saplikasi.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:23:37 --> Class "App\Models\SaplikasiModel" not found
+in APPPATH\Controllers\Saplikasi.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Saplikasi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:44:20 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(247): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:46:40 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(247): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:48:01 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(247): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:48:10 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(247): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:57:27 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(246): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 14:59:21 --> Invalid file: tbsaplikasi/tabel_saplikasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbsaplikasi/tabel_saplikasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsaplikasi/tabel_saplikasi', [], true)
+ 3 APPPATH\Controllers\Saplikasi.php(247): view('tbsaplikasi/tabel_saplikasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:00:25 --> Undefined array key "cmodule"
+in APPPATH\Views\saplikasi\tabel_saplikasi.php on line 43.
+ 1 APPPATH\Views\saplikasi\tabel_saplikasi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cmodule"', 'APPPATH\\Views\\saplikasi\\tabel_saplikasi.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\tabel_saplikasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/tabel_saplikasi', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(247): view('saplikasi/tabel_saplikasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->table_saplikasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:02:47 --> Undefined array key "nurut"
+in APPPATH\Controllers\Saplikasi.php on line 175.
+ 1 APPPATH\Controllers\Saplikasi.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nurut"', 'APPPATH\\Controllers\\Saplikasi.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:02:50 --> Undefined array key "nurut"
+in APPPATH\Controllers\Saplikasi.php on line 77.
+ 1 APPPATH\Controllers\Saplikasi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nurut"', 'APPPATH\\Controllers\\Saplikasi.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:03:42 --> Undefined variable $nurut
+in APPPATH\Views\saplikasi\modaldetail.php on line 14.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(82): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:49:42 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(82): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:49:48 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(82): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:52:58 --> Undefined variable $id
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:53:01 --> Undefined variable $id
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:53:48 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:53:51 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:54:13 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:55:00 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(84): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:56:18 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaldetail.php on line 26.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(85): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:08:36 --> Undefined variable $saplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 14.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(85): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:09:11 --> Attempt to read property "kd_perusahaan" on array
+in APPPATH\Views\saplikasi\modaldetail.php on line 14.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on array', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:09:16 --> Attempt to read property "kd_perusahaan" on array
+in APPPATH\Views\saplikasi\modaldetail.php on line 14.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on array', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:09:37 --> Call to undefined function App\Controllers\console_log()
+in APPPATH\Controllers\Saplikasi.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:10:20 --> Attempt to read property "kd_perusahaan" on array
+in APPPATH\Views\saplikasi\modaldetail.php on line 14.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on array', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:10:34 --> Attempt to read property "kd_perusahaan" on array
+in APPPATH\Views\saplikasi\modaldetail.php on line 13.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on array', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:11:42 --> Undefined variable $telp
+in APPPATH\Views\saplikasi\modaledit.php on line 28.
+ 1 APPPATH\Views\saplikasi\modaledit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telp', 'APPPATH\\Views\\saplikasi\\modaledit.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaledit', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(179): view('saplikasi/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:13:36 --> Undefined variable $data
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:14:01 --> Undefined variable $aplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:16:28 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:18:07 --> Undefined variable $kd_perusahaan
+in APPPATH\Views\saplikasi\modaldetail.php on line 16.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kd_perusahaan', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:19:04 --> Undefined variable $kd_perusahaan
+in APPPATH\Views\saplikasi\modaldetail.php on line 17.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kd_perusahaan', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:19:34 --> Undefined variable $aplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 9.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:20:24 --> Attempt to read property "kd_perusahaan" on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on string', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:21:07 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:23:21 --> Undefined variable $data
+in APPPATH\Views\saplikasi\modaldetail.php on line 9.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:23:42 --> Undefined variable $aplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 9.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:23:53 --> Undefined variable $aplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 9.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:24:08 --> Undefined variable $kd_perusahaan
+in APPPATH\Views\saplikasi\modaldetail.php on line 18.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kd_perusahaan', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:25:27 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:25:37 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:26:12 --> Attempt to read property "kd_perusahaan" on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on string', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:31:45 --> Attempt to read property "Reference" on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Reference" on string', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:32:09 --> Attempt to read property "kd_perusahaan" on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 10.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kd_perusahaan" on string', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:39:07 --> Undefined variable $aplikasi
+in APPPATH\Views\saplikasi\modaldetail.php on line 11.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:39:44 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:40:56 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:41:20 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:43:32 --> Cannot access offset of type string on string
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 4 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:45:48 --> Uninitialized string offset 0
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:46:23 --> Uninitialized string offset 0
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 APPPATH\Views\saplikasi\modaldetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 0', 'APPPATH\\Views\\saplikasi\\modaldetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\saplikasi\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('saplikasi/modaldetail', [], true)
+ 5 APPPATH\Controllers\Saplikasi.php(86): view('saplikasi/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Saplikasi->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Saplikasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 16:46:32 --> Cannot use [] for reading
+in APPPATH\Views\saplikasi\modaldetail.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

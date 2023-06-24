@@ -1,0 +1,60 @@
+CRITICAL - 2022-10-07 02:05:23 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Crudajax.php on line 162.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Crudajax.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Crudajax')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Crudajax')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Crudajax', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 15:27:31 --> Undefined property: App\Controllers\Crudajax::$validate
+in APPPATH\Controllers\Crudajax.php on line 108.
+ 1 APPPATH\Controllers\Crudajax.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Crudajax::$validate', 'APPPATH\\Controllers\\Crudajax.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 15:27:34 --> Undefined property: App\Controllers\Crudajax::$validate
+in APPPATH\Controllers\Crudajax.php on line 108.
+ 1 APPPATH\Controllers\Crudajax.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Crudajax::$validate', 'APPPATH\\Controllers\\Crudajax.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 15:27:37 --> Undefined property: App\Controllers\Crudajax::$validate
+in APPPATH\Controllers\Crudajax.php on line 108.
+ 1 APPPATH\Controllers\Crudajax.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Crudajax::$validate', 'APPPATH\\Controllers\\Crudajax.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 15:31:13 --> Undefined property: App\Controllers\Crudajax::$validate
+in APPPATH\Controllers\Crudajax.php on line 108.
+ 1 APPPATH\Controllers\Crudajax.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Crudajax::$validate', 'APPPATH\\Controllers\\Crudajax.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 15:31:15 --> Undefined property: App\Controllers\Crudajax::$validate
+in APPPATH\Controllers\Crudajax.php on line 108.
+ 1 APPPATH\Controllers\Crudajax.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Crudajax::$validate', 'APPPATH\\Controllers\\Crudajax.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-07 03:33:58 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Tbdivisi.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Tbdivisi.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tbdivisi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tbdivisi')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Tbdivisi', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

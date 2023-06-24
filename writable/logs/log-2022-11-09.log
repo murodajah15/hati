@@ -1,0 +1,380 @@
+CRITICAL - 2022-11-09 10:13:27 --> Invalid file: tbcustomer/formdetailmobil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbcustomer/formdetailmobil.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 3 APPPATH\Controllers\Tbcustomer.php(430): view('tbcustomer/formdetailmobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 10:44:34 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 12.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 10:44:40 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 12.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 10:44:46 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 12.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 10:47:15 --> Undefined variable $db
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 33.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:09:02 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:09:21 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:18:43 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:19:46 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:19:51 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:19:53 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:40:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcustomer\detailmobil.php on line 8.
+ 1 APPPATH\Views\tbcustomer\detailmobil.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcustomer\\detailmobil.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\detailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/detailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(339): view('tbcustomer/detailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_detail('20221100001')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:41:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcustomer\detailmobil.php on line 8.
+ 1 APPPATH\Views\tbcustomer\detailmobil.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcustomer\\detailmobil.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\detailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/detailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(339): view('tbcustomer/detailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_detail('20221100001')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:44:57 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:45:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:46:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:47:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:47:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:47:52 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:48:11 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:48:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:52:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:52:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:53:07 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:53:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:53:41 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:55:56 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:57:01 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 11:57:07 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbcustomer.php on line 420.
+ 1 APPPATH\Controllers\Tbcustomer.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbcustomer.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 13:12:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 380.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 13:51:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 380.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 14:12:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 445.
+ 1 APPPATH\Controllers\Tbcustomer.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 445)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 14:13:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbcustomer.php on line 445.
+ 1 APPPATH\Controllers\Tbcustomer.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbcustomer.php', 445)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-09 16:15:17 --> mysqli_sql_exception: Unknown column 'nopolisi' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbcustomer.php(459): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-09 16:15:17 --> Unknown column 'nopolisi' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbcustomer.php(459): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-09 16:16:12 --> mysqli_sql_exception: Unknown column 'nopolisi' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbcustomer.php(459): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-09 16:16:12 --> Unknown column 'nopolisi' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbcustomer`
+ORDER BY `nopolisi`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbcustomer.php(459): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 17:02:46 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 440.
+ 1 APPPATH\Controllers\Tbcustomer.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 17:04:01 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 440.
+ 1 APPPATH\Controllers\Tbcustomer.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

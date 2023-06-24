@@ -1,0 +1,7 @@
+CRITICAL - 2023-06-07 22:25:48 --> Class "App\Controllers\EstimasipartModel" not found
+in APPPATH\Controllers\Estimasi_bp.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Estimasi_bp->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

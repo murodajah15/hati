@@ -1,0 +1,279 @@
+CRITICAL - 2022-09-20 04:25:41 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:27:03 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:27:10 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:27:24 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:27:32 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:17 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:18 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:21 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:54 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:56 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:56 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:56 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:28:57 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:29:44 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 04:30:08 --> Invalid file: login/index1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login/index1', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index1')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 23:17:04 --> Invalid file: login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(13): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-20 23:27:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-aut...', 'user_email', Array, NULL)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-aut...', Array, Array)
+#7 D:\xampp\htdocs\ci4sbadmin704\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Register.php(30): CodeIgniter\Controller->validate(Array)
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Register->save()
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-aut...', 'user_email', Array, NULL)
+#5 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-aut...', Array, Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Register.php(30): CodeIgniter\Controller->validate(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Register->save()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-09-20 23:27:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-autoland.com', 'user_email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-autoland.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Register.php(30): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Register->save()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-20 23:28:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-aut...', 'user_email', Array, NULL)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-aut...', Array, Array)
+#7 D:\xampp\htdocs\ci4sbadmin704\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Register.php(30): CodeIgniter\Controller->validate(Array)
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Register->save()
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-aut...', 'user_email', Array, NULL)
+#5 D:\xampp\htdocs\ci4sbadmin704\system\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-aut...', Array, Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Register.php(30): CodeIgniter\Controller->validate(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Register->save()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-09-20 23:28:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(315): CodeIgniter\Validation\Rules->is_unique('murod@honda-autoland.com', 'user_email', [...], null)
+ 5 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'murod@honda-autoland.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\Register.php(30): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Register->save()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 23:39:26 --> Class "Config\App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-20 23:50:30 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 462.
+ 1 SYSTEMPATH\Router\Router.php(462): explode('::', [...])
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

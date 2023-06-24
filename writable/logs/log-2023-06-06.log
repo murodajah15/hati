@@ -1,0 +1,187 @@
+ERROR - 2023-06-06 14:51:39 --> mysqli_sql_exception: Table 'hati.estimasi_bp' doesn't exist in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Controllers\Estimasi_bp.php(73): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Estimasi_bp->index()
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-06 14:51:39 --> Table 'hati.estimasi_bp' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_bp`
+ORDER BY `noestimasi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_bp`
+ORDER BY `noestimasi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_bp`
+ORDER BY `noestimasi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_bp`
+ORDER BY `noestimasi`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Estimasi_bp.php(73): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:00:28 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:01:56 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:02:22 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:02:28 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:03:34 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:03:45 --> Invalid file: estimasi_bp/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 15:08:40 --> Invalid file: estimasi_bp/modalestimasi_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalestimasi_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalestimasi_bp', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(158): view('estimasi_bp/modalestimasi_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->modalestimasi_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 16:16:03 --> Undefined variable $estimasi
+in APPPATH\Views\estimasi_bp\tabel_estimasi_bp.php on line 46.
+ 1 APPPATH\Views\estimasi_bp\tabel_estimasi_bp.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\estimasi_bp\\tabel_estimasi_bp.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\tabel_estimasi_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/tabel_estimasi_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(664): view('estimasi_bp/tabel_estimasi_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->table_estimasi_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 16:25:47 --> Undefined variable $estimasi
+in APPPATH\Views\estimasi_bp\editestimasi_bp.php on line 27.
+ 1 APPPATH\Views\estimasi_bp\editestimasi_bp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\estimasi_bp\\editestimasi_bp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\editestimasi_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/editestimasi_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(339): view('estimasi_bp/editestimasi_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editestimasi_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 16:27:00 --> Undefined variable $estimasi
+in APPPATH\Views\estimasi_bp\editestimasi_bp.php on line 27.
+ 1 APPPATH\Views\estimasi_bp\editestimasi_bp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\estimasi_bp\\editestimasi_bp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\editestimasi_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/editestimasi_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(339): view('estimasi_bp/editestimasi_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editestimasi_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 16:43:03 --> Invalid file: estimasi_bp/modalcariasuransi1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/modalcariasuransi1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/modalcariasuransi1', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(1613): view('estimasi_bp/modalcariasuransi1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->caridataasuransi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 17:06:32 --> Invalid file: estimasi_bp/inputestimasid.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/inputestimasid.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/inputestimasid', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/inputestimasid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->inputestimasi_bpd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 17:06:51 --> Undefined variable $estimasi
+in APPPATH\Views\estimasi_bp\inputestimasi_bpd.php on line 43.
+ 1 APPPATH\Views\estimasi_bp\inputestimasi_bpd.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\estimasi_bp\\inputestimasi_bpd.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\inputestimasi_bpd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/inputestimasi_bpd', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/inputestimasi_bpd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->inputestimasi_bpd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-06 17:06:56 --> Undefined variable $estimasi
+in APPPATH\Views\estimasi_bp\inputestimasi_bpd.php on line 43.
+ 1 APPPATH\Views\estimasi_bp\inputestimasi_bpd.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\estimasi_bp\\inputestimasi_bpd.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\inputestimasi_bpd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/inputestimasi_bpd', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/inputestimasi_bpd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->inputestimasi_bpd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

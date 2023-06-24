@@ -1,0 +1,249 @@
+CRITICAL - 2023-06-02 10:45:21 --> Class "PHPExcel" not found
+in APPPATH\Controllers\Tbjasa.php on line 347.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 10:49:33 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 10:50:07 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 10:52:22 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 10:52:27 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 10:53:14 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:01:27 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:03:00 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 549.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:07:19 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 537.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:09:55 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 537.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:10:32 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 537.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:14:01 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:16:50 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:18:27 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:18:31 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:19:23 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:19:34 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:19:55 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:20:27 --> Class "PHPExcel_IOFactory" not found
+in APPPATH\Controllers\Tbjasa.php on line 351.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:21:47 --> Class "PHPExcel" not found
+in APPPATH\Controllers\Tbjasa.php on line 347.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:21:59 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 526.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:28:39 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 538.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:28:55 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 539.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:29:08 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 541.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:29:28 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 2551.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:30:40 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 2673.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:31:43 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 2764.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:32:33 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 2780.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:33:03 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3034.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:33:29 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3166.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:33:56 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:34:09 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3169.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:34:22 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3456.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:35:05 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3892.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:36:13 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3937.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:36:49 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3943.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:37:04 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Calculation.php on line 3999.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:37:35 --> Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Worksheet.php on line 1477.
+ 1 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter', 'APPPATH\\ThirdParty\\PHPExcel\\PHPExcel\\Worksheet.php', 1477)
+ 2 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+ 3 APPPATH\ThirdParty\PHPExcel\PHPExcel.php(371): PHPExcel_Autoloader::load('PHPExcel_Worksheet')
+ 4 APPPATH\Controllers\Tbjasa.php(347): PHPExcel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:39:08 --> Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Worksheet.php on line 1477.
+ 1 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter', 'APPPATH\\ThirdParty\\PHPExcel\\PHPExcel\\Worksheet.php', 1477)
+ 2 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+ 3 APPPATH\ThirdParty\PHPExcel\PHPExcel.php(371): PHPExcel_Autoloader::load('PHPExcel_Worksheet')
+ 4 APPPATH\Controllers\Tbjasa.php(347): PHPExcel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:42:13 --> Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Worksheet.php on line 1477.
+ 1 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter', 'APPPATH\\ThirdParty\\PHPExcel\\PHPExcel\\Worksheet.php', 1477)
+ 2 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+ 3 APPPATH\ThirdParty\PHPExcel\PHPExcel.php(373): PHPExcel_Autoloader::load('PHPExcel_Worksheet')
+ 4 APPPATH\Controllers\Tbjasa.php(347): PHPExcel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:42:25 --> Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Worksheet.php on line 1477.
+ 1 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter', 'APPPATH\\ThirdParty\\PHPExcel\\PHPExcel\\Worksheet.php', 1477)
+ 2 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+ 3 APPPATH\ThirdParty\PHPExcel\PHPExcel.php(373): PHPExcel_Autoloader::load('PHPExcel_Worksheet')
+ 4 APPPATH\Controllers\Tbjasa.php(347): PHPExcel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:42:39 --> Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Worksheet.php on line 1477.
+ 1 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $pCoordinate declared before required parameter $pValue is implicitly treated as a required parameter', 'APPPATH\\ThirdParty\\PHPExcel\\PHPExcel\\Worksheet.php', 1477)
+ 2 APPPATH\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+ 3 APPPATH\ThirdParty\PHPExcel\PHPExcel.php(373): PHPExcel_Autoloader::load('PHPExcel_Worksheet')
+ 4 APPPATH\Controllers\Tbjasa.php(347): PHPExcel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 11:46:40 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:47:32 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 11:50:54 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 13:39:35 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 13:39:54 --> Array and string offset access syntax with curly braces is no longer supported
+in APPPATH\ThirdParty\PHPExcel\PHPExcel\Shared\String.php on line 529.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-02 15:12:16 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaldetail.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(83): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 15:12:23 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaldetail.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(83): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 15:12:34 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaldetail.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(83): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 15:12:46 --> Undefined array key "nama"
+in APPPATH\Views\tbjasa\modaldetail.php on line 46.
+ 1 APPPATH\Views\tbjasa\modaldetail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbjasa\\modaldetail.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbjasa\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbjasa/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbjasa.php(83): view('tbjasa/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 16:46:14 --> Undefined array key 2
+in APPPATH\Controllers\Tbjasa.php on line 383.
+ 1 APPPATH\Controllers\Tbjasa.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Tbjasa.php', 383)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbjasa->importdata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbjasa))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

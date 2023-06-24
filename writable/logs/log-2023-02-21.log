@@ -1,0 +1,408 @@
+CRITICAL - 2023-02-21 09:52:05 --> Undefined array key "kd_supplier"
+in APPPATH\Views\estimasi\modalcaribahan.php on line 32.
+ 1 APPPATH\Views\estimasi\modalcaribahan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kd_supplier"', 'APPPATH\\Views\\estimasi\\modalcaribahan.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcaribahan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcaribahan', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(735): view('estimasi/modalcaribahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatabahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 09:52:12 --> Undefined array key "kd_supplier"
+in APPPATH\Views\estimasi\modalcaribahan.php on line 32.
+ 1 APPPATH\Views\estimasi\modalcaribahan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kd_supplier"', 'APPPATH\\Views\\estimasi\\modalcaribahan.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcaribahan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcaribahan', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(735): view('estimasi/modalcaribahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatabahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-21 10:01:36 --> mysqli_sql_exception: Table 'ci4.tbopl' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbopl.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbopl->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-21 10:01:36 --> Table 'ci4.tbopl' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbopl`
+ORDER BY `kode` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbopl`
+ORDER BY `kode` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbopl`
+ORDER BY `kode` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbopl`
+ORDER BY `kode` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbopl.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:04:56 --> Call to undefined method App\Models\TboplModel::getopl
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbopl.php(264): CodeIgniter\Model->__call('getopl', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->table_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:05:38 --> Call to undefined method App\Models\TboplModel::getopl
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbopl.php(264): CodeIgniter\Model->__call('getopl', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->table_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:06:55 --> Undefined variable $tbbarang
+in APPPATH\Views\tbopl\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbopl\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbarang', 'APPPATH\\Views\\tbopl\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbopl\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbopl/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbopl.php(84): view('tbopl/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:10:10 --> Undefined variable $tbsupplier
+in APPPATH\Views\tbopl\modaldetail.php on line 25.
+ 1 APPPATH\Views\tbopl\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsupplier', 'APPPATH\\Views\\tbopl\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbopl\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbopl/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbopl.php(84): view('tbopl/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:10:15 --> Undefined variable $tbsupplier
+in APPPATH\Views\tbopl\modaldetail.php on line 25.
+ 1 APPPATH\Views\tbopl\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsupplier', 'APPPATH\\Views\\tbopl\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbopl\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbopl/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbopl.php(84): view('tbopl/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbopl->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbopl))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:37:18 --> Undefined array key "discount"
+in APPPATH\Controllers\Tbbarang.php on line 462.
+ 1 APPPATH\Controllers\Tbbarang.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'APPPATH\\Controllers\\Tbbarang.php', 462)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ambildatatbdisc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:37:20 --> Undefined array key "discount"
+in APPPATH\Controllers\Tbbarang.php on line 462.
+ 1 APPPATH\Controllers\Tbbarang.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'APPPATH\\Controllers\\Tbbarang.php', 462)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ambildatatbdisc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:37:21 --> Undefined array key "discount"
+in APPPATH\Controllers\Tbbarang.php on line 462.
+ 1 APPPATH\Controllers\Tbbarang.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discount"', 'APPPATH\\Controllers\\Tbbarang.php', 462)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ambildatatbdisc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 10:38:39 --> Undefined variable $discount
+in APPPATH\Controllers\Tbbarang.php on line 466.
+ 1 APPPATH\Controllers\Tbbarang.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $discount', 'APPPATH\\Controllers\\Tbbarang.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ambildatatbdisc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 11:44:36 --> Call to undefined method App\Models\EstimasipartModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(302): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->hapus('1866')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 11:44:43 --> Call to undefined method App\Models\EstimasipartModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(302): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->hapus('1866')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 11:44:59 --> Call to undefined method App\Models\EstimasipartModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(302): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->hapus('1864')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 13:53:58 --> Call to undefined method App\Models\TbbarangModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbdisc.php(247): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbdisc->hapus('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 13:54:08 --> Call to undefined method App\Models\TbbarangModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbdisc.php(247): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbdisc->hapus('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 13:54:21 --> Call to undefined method App\Models\TbbarangModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbdisc.php(247): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbdisc->hapus('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-21 13:58:11 --> mysqli_sql_exception: Unknown column 'kddisc' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\bp\app\Models\TbbarangModel.php(79): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbdisc.php(247): App\Models\TbbarangModel->getkodedisc('A')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbdisc->hapus('7')
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-21 13:58:11 --> Unknown column 'kddisc' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbbarang`
+WHERE `kddisc` = \'A\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbbarang`
+WHERE `kddisc` = \'A\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbbarang`
+WHERE `kddisc` = \'A\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbbarang`
+WHERE `kddisc` = :kddisc:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\TbbarangModel.php(79): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Tbdisc.php(247): App\Models\TbbarangModel->getkodedisc('A')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbdisc->hapus('7')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-21 15:55:06 --> mysqli_sql_exception: Duplicate entry 'ISLAM' for key 'PRIMARY' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbagama.php(151): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbagama->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-21 15:55:06 --> Duplicate entry 'ISLAM' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:06\', \'2023-02-21 15:55:06\', \'2023-02-21 15:55:06\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:06\', \'2023-02-21 15:55:06\', \'2023-02-21 15:55:06\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:06\', \'2023-02-21 15:55:06\', \'2023-02-21 15:55:06\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbagama.php(151): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbagama->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-21 15:55:18 --> mysqli_sql_exception: Duplicate entry 'ISLAM' for key 'PRIMARY' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbagama.php(151): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbagama->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-21 15:55:18 --> Duplicate entry 'ISLAM' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:18\', \'2023-02-21 15:55:18\', \'2023-02-21 15:55:18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:18\', \'2023-02-21 15:55:18\', \'2023-02-21 15:55:18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'08\', \'ISLAM\', \'Edit-Murod-21-02-2023 15:55:18\', \'2023-02-21 15:55:18\', \'2023-02-21 15:55:18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbagama` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbagama.php(151): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbagama->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:27:47 --> Invalid file: tbbarang/tambahtbnegara.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbarang/tambahtbnegara.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbarang/tambahtbnegara', [], true)
+ 3 APPPATH\Controllers\Tbbarang.php(495): view('tbbarang/tambahtbnegara', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->tambahtbnegara()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:29:46 --> Invalid file: tbbarang/tambahtbdisc.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbarang/tambahtbdisc.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbarang/tambahtbdisc', [], true)
+ 3 APPPATH\Controllers\Tbbarang.php(455): view('tbbarang/tambahtbdisc', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->tambahtbdisc()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:30:07 --> Invalid file: tbbarang/tambahtbdisc.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbarang/tambahtbdisc.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbarang/tambahtbdisc', [], true)
+ 3 APPPATH\Controllers\Tbbarang.php(455): view('tbbarang/tambahtbdisc', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->tambahtbdisc()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:30:55 --> Invalid file: tbbarang/tambahtbdisc.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbarang/tambahtbdisc.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbarang/tambahtbdisc', [], true)
+ 3 APPPATH\Controllers\Tbbarang.php(455): view('tbbarang/tambahtbdisc', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->tambahtbdisc()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:31:00 --> Invalid file: tbbarang/tambahtbdisc.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbarang/tambahtbdisc.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbarang/tambahtbdisc', [], true)
+ 3 APPPATH\Controllers\Tbbarang.php(455): view('tbbarang/tambahtbdisc', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->tambahtbdisc()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-21 16:31:40 --> mysqli_sql_exception: Column 'disc_normal' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbdisc.php(146): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbdisc->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-21 16:31:40 --> Column 'disc_normal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbdisc` (`kode`, `disc_normal`, `disc_urgent`, `disc_hotline`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'00\', NULL, NULL, NULL, \'Y\', \'Edit-Murod-21-02-2023 16:31:40\', \'2023-02-21 16:31:40\', \'2023-02-21 16:31:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbdisc` (`kode`, `disc_normal`, `disc_urgent`, `disc_hotline`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'00\', NULL, NULL, NULL, \'Y\', \'Edit-Murod-21-02-2023 16:31:40\', \'2023-02-21 16:31:40\', \'2023-02-21 16:31:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbdisc` (`kode`, `disc_normal`, `disc_urgent`, `disc_hotline`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'00\', NULL, NULL, NULL, \'Y\', \'Edit-Murod-21-02-2023 16:31:40\', \'2023-02-21 16:31:40\', \'2023-02-21 16:31:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbdisc` (`kode`, `disc_normal`, `disc_urgent`, `disc_hotline`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :disc_normal:, :disc_urgent:, :disc_hotline:, :aktif:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbdisc.php(146): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbdisc->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbdisc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:44:32 --> Invalid file: tbbahan/modalcarinegara.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbbahan/modalcarinegara.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbahan/modalcarinegara', [], true)
+ 3 APPPATH\Controllers\Tbbahan.php(511): view('tbbahan/modalcarinegara', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbahan->caridatanegara()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbahan))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 16:47:38 --> Undefined variable $tbsupplier
+in APPPATH\Views\tbbahan\modaledit.php on line 25.
+ 1 APPPATH\Views\tbbahan\modaledit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsupplier', 'APPPATH\\Views\\tbbahan\\modaledit.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbahan\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbahan/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbbahan.php(214): view('tbbahan/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbahan->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbahan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 22:48:02 --> Class "App\Models\oplModel" not found
+in APPPATH\Controllers\Tbsupplier.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\tbsupplier->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

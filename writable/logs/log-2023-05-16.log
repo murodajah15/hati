@@ -1,0 +1,52 @@
+CRITICAL - 2023-05-16 04:42:15 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$request
+in APPPATH\Controllers\Dashboard.php on line 45.
+ 1 APPPATH\Controllers\Dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$request', 'APPPATH\\Controllers\\Dashboard.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->tampilGrafik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 04:45:57 --> Undefined variable $bulan1
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan1', 'APPPATH\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->tampilGrafik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 05:10:18 --> Undefined variable $tanggal1
+in APPPATH\Views\dashboard\grafikmemombr.php on line 23.
+ 1 APPPATH\Views\dashboard\grafikmemombr.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal1', 'APPPATH\\Views\\dashboard\\grafikmemombr.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\grafikmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/grafikmemombr', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(52): view('dashboard/grafikmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->tampilGrafik()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 22:22:47 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\dashboard\grafikmemombr.php on line 25.
+ 1 APPPATH\Views\dashboard\grafikmemombr.php(25): date('Y-m-d', '\'2023-03-09 17:23:27\',\'2023-03-11 10:15:28\',\'2023-03-23 10:13:47\',\'2023-03-23 10:19:13\',\'2023-03-27 10:18:26\',\'2023-03-30 13:41:54\',')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\grafikmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/grafikmemombr', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(52): view('dashboard/grafikmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->tampilGrafik()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-16 23:40:18 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\dashboard\grafikgabungan.php on line 10.
+ 1 APPPATH\Views\dashboard\grafikgabungan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\dashboard\\grafikgabungan.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\grafikgabungan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/grafikgabungan', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(75): view('dashboard/grafikgabungan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->tampilGrafik()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

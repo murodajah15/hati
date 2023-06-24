@@ -1,0 +1,24 @@
+CRITICAL - 2023-02-24 16:38:35 --> Undefined variable $nmsa
+in APPPATH\Views\estimasi\tambahestimasi.php on line 83.
+ 1 APPPATH\Views\estimasi\tambahestimasi.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nmsa', 'APPPATH\\Views\\estimasi\\tambahestimasi.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tambahestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tambahestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(155): view('estimasi/tambahestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->tambahestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-24 16:38:40 --> Undefined variable $nmsa
+in APPPATH\Views\estimasi\tambahestimasi.php on line 83.
+ 1 APPPATH\Views\estimasi\tambahestimasi.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nmsa', 'APPPATH\\Views\\estimasi\\tambahestimasi.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tambahestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tambahestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(155): view('estimasi/tambahestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->tambahestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

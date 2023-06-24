@@ -1,0 +1,1071 @@
+<script src="<?= base_url('/js/autoNumeric.js') ?>" crossorigin="anonymous"></script>
+
+<?php $session = session(); ?>
+
+<!-- Modal -->
+<div class="modal fade" id="modaldetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 90%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><?= $title; ?></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <?= form_open('memombr/updatedata', ['class' => 'formmemombr']) ?>
+      <input type="hidden" class="form-control" name="id" id="id" value="<?= $mohfaktur['id'] ?>">
+      <div class="modal-body">
+        <div class="row mb-2">
+          <div class="col-12 col-sm-6">
+            <?php
+            date_default_timezone_set('Asia/Jakarta');
+            // $tgl = date('Y-m-d H:i:s');
+            $tgl = date('Y-m-d');
+            ?>
+            <div class="input-group">
+              <div class="col-md-4">
+                <label for="nama" class="form-label mb-1">No. Pengajuan</label>
+                <input type='text' class='form-control form-control-sm mb-2' id="nomor" name="nomor" readonly style="width: 100%" value="<?= $mohfaktur['nomor'] ?>" readonly>
+              </div>
+              <div class="col-md-4">
+                <label for="nama" class="form-label mb-1">Tanggal (M-D-Y)</label>
+                <input type="date" class='form-control form-control-sm mb-2' name='tanggal' id='tanggal' style="width: 100%" value="<?= $mohfaktur['tanggal'] ?>" readonly>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12">
+              <label for="nama" class="form-label mb-0"><b><u>MEMO</u></b></label>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="No. Memo" name="nomemo" id="nomemo" value="<?= $mohfaktur['nomemo'] ?>" readonly>
+                <button class="btn btn-outline-secondary btn-sm" type="button" id="carimemo">Cari</button>
+                <input type="datetime-local" class="col-8" class="form-control" placeholder="Tgl. Memo" name="tglmemo" id="tglmemo" value="<?= $mohfaktur['tglmemo'] ?>" readonly>
+              </div>
+              <label for="nama" class="form-label mb-0"><b><u>SPK</u></b></label>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="No. SPK" name="nospk" id="nospk" value="<?= $mohfaktur['nospk'] ?>" readonly>
+                <input type="datetime-local" class="col-8" class="form-control" placeholder="Tgl. spk" name="tglspk" id="tglspk" value="<?= $mohfaktur['tglspk'] ?>" readonly>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="col-md-12">
+                <label for="nama" class="form-label mb-0">Sales</label>
+                <div class="input-group mb-2">
+                  <input type="text" class="form-control" placeholder="Kode Sales" name="kdsales" id="kdsales" value="<?= $mohfaktur['kdsales'] ?>" readonly>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" id="carisales">Cari</button>
+                  <input type="text" class="col-8" class="form-control" placeholder="Nama Sales" name="nmsales" id="nmsales" value="<?= $mohfaktur['nmsales'] ?>" readonly>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="nama" class="form-label mb-0">Supervisor</label>
+                <div class="input-group mb-2">
+                  <input type="text" class="form-control" placeholder="Kode Supervisor" name="kdspv" id="kdspv" value="<?= $mohfaktur['kdspv'] ?>" readonly>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" id="carispv">Cari</button>
+                  <input type="text" class="col-8" class="form-control" placeholder="Nama Supervisor" name="nmspv" id="nmspv" value="<?= $mohfaktur['nmspv'] ?>" readonly>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12">
+                <div class="input-group">
+                  <div class="col-12 col-sm-4">
+                    <label for="nama" class="form-label mb-0 labeltipe">Tipe Faktur&nbsp;&nbsp;</label>
+                  </div>
+                  <div class="col-12 col-sm-8">
+                    <div class="input-group">
+                      <div class="col-12 col-sm-4">
+                        <div class="form-check form-check-inline">
+                          <input disabled class="form-check-input" type="radio" name="tipe_faktur" id="tipe_faktur" value='Personal' <?= $mohfaktur['tipe_faktur'] == 'Personal' ? 'checked' : '' ?> readonly>
+                          <label class="form-check-label" for="tipe_faktur1">
+                            Personal
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-8">
+                        <div class="form-check form-check-inline">
+                          <input disabled class="form-check-input" type="radio" name="tipe_faktur" id="tipe_faktur" value='Company' <?= $mohfaktur['tipe_faktur'] == 'Company' ? 'checked' : '' ?>>
+                          <label class="form-check-label" for="tipe_faktur2">
+                            Company
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="col-12 col-sm-4">
+                      <label for="nama" class="form-label mb-0 labeltipe">Tipe Pelanggan&nbsp;&nbsp;</label>
+                    </div>
+                    <div class="col-12 col-sm-8">
+                      <div class="input-group">
+                        <div class="col-12 col-sm-4">
+                          <div class="form-check form-check-inline">
+                            <input disabled class="form-check-input" type="radio" name="tipe_pelanggan" id="tipe_pelanggan" value='Personal' <?= $mohfaktur['tipe_pelanggan'] == 'Personal' ? 'checked' : '' ?>>
+                            <label class="form-check-label" for="tipe_pelanggan1">
+                              Personal
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                          <div class="form-check form-check-inline">
+                            <input disabled class="form-check-input" type="radio" name="tipe_pelanggan" id="tipe_pelanggan" value='Fleet' <?= $mohfaktur['tipe_pelanggan'] == 'Fleet' ? 'checked' : '' ?>>
+                            <label class="form-check-label" for="tipe_pelanggan2">
+                              Fleet
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="input-group">
+                      <div class="col-12 col-sm-4">
+                        <label for="nama" class="form-label mb-0 labeltipe">Status Pelanggan&nbsp;&nbsp;</label>
+                      </div>
+                      <div class="col-12 col-sm-8">
+                        <div class="input-group">
+                          <div class="col-12 col-sm-4">
+                            <div class="form-check form-check-inline">
+                              <input disabled class="form-check-input" type="radio" name="status_pelanggan" id="status_pelanggan" value='Baru' <?= $mohfaktur['status_pelanggan'] == 'Baru' ? 'checked' : '' ?>>
+                              <label class="form-check-label" for="status_pelanggan1">
+                                Baru
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-8">
+                            <div class="form-check form-check-inline">
+                              <input disabled class="form-check-input" type="radio" name="status_pelanggan" id="status_pelanggan" value='Lama' <?= $mohfaktur['status_pelanggan'] == 'Lama' ? 'checked' : '' ?>>
+                              <label class="form-check-label" for="status_pelanggan2">
+                                Lama
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="nama" class="form-label mb-0"><b><u>DATA PEMESAN</u></b></label><br>
+                    <div class="form-check form-switch">
+                      <input disabled class="form-check-input" type="checkbox" role="switch" name="sama_spk" id="sama_spk" <?= $mohfaktur['sama_spk'] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="flexSwitchCheck"><b>Data Pemesan sama dengan data di SPK</b></label>
+                    </div>
+                    <div class="input-group mb-2">
+                      <input type="text" class="form-control" placeholder="Pemesan" name="kdpemesan" id="kdpemesan" value="<?= $mohfaktur['kdpemesan'] ?>" readonly>
+                      <input type="text" class="col-8" class="form-control" name="nmpemesan" id="nmpemesan" value="<?= $mohfaktur['nmpemesan'] ?>" readonly>
+                    </div>
+                    <label for="nama" class="form-label mb-0">Nomor KTP</label>
+                    <input type="text" class="form-control mb-1" name="nik_pemesan" id="nik_pemesan" value="<?= $mohfaktur['nik_pemesan'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Alamat</label>
+                    <input type="text" class="form-control mb-1" name="alamat_pemesan" id="alamat_pemesan" value="<?= $mohfaktur['alamat_pemesan'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kelurahan</label>
+                    <input type="text" class="form-control mb-1" name="kel_pemesan" id="kel_pemesan" value="<?= $mohfaktur['kel_pemesan'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kecamatan</label>
+                    <input type="text" class="form-control mb-1" name="kec_pemesan" id="kec_pemesan" value="<?= $mohfaktur['kec_pemesan'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kota</label>
+                    <input type="text" class="form-control mb-1" name="kota_pemesan" id="kota_pemesan" value="<?= $mohfaktur['kota_pemesan'] ?>" readonly>
+                  </div>
+                  <div class="input-group">
+                    <div class="col-md-8">
+                      <label for="nama" class="form-label mb-0">Provinsi</label>
+                      <input type="text" class="form-control mb-1" name="provinsi_pemesan" id="provinsi_pemesan" value="<?= $mohfaktur['provinsi_pemesan'] ?>" readonly>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="nama" class="form-label mb-0">Kode Pos</label>
+                      <input type="text" class="form-control mb-1" name="kodepos_pemesan" id="kodepos_pemesan" value="<?= $mohfaktur['kodepos_pemesan'] ?>" readonly>
+                    </div>
+                  </div>
+                  <div class="input-group mb-2">
+                    <div class="col-md-4">
+                      <label for="nama" class="form-label mb-0">No. HP</label>
+                      <input type="text" class="form-control mb-1" name="hp_pemesan" id="hp_pemesan" value="<?= $mohfaktur['hp_pemesan'] ?>" readonly>
+                    </div>
+                    <div class="col-md-8">
+                      <label for="nama" class="form-label mb-0">Email</label>
+                      <input type="text" class="form-control mb-1" name="email_pemesan" id="email_pemesan" value="<?= $mohfaktur['email_pemesan'] ?>" readonly>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="nama" class="form-label mb-0"><b><u>DATA FAKTUR</u></b></label>
+                    <div class="form-check form-switch">
+                      <input disabled class="form-check-input" type="checkbox" role="switch" name="sama_pemesan" id="sama_pemesan" <?= $mohfaktur['sama_pemesan'] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="flexSwitchCheck"><b>Sama dengan data Pemesan</b></label>
+                    </div>
+                    <div class="input-group mb-2">
+                      <div class="col-md-6">
+                        <label for="nama" class="form-label mb-0">Nomor Kartu Keluarga</label>
+                        <input type="text" class="form-control mb-2" name="nkk" id="nkk" value="<?= $mohfaktur['nkk'] ?>" readonly>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="nama" class="form-label mb-0">Nomor KTP</label>
+                        <input type="text" class="form-control mb-2" name="nik_stnk" id="nik_stnk" value="<?= $mohfaktur['nik_stnk'] ?>" readonly>
+                      </div>
+                    </div>
+                    <div class="input-group mb-2">
+                      <input type="text" class="form-control" placeholder="STNK a/n" name="kdstnk" id="kdstnk" value="<?= $mohfaktur['kdstnk'] ?>" readonly>
+                      <input type="text" class="col-8" class="form-control" name="nmstnk" id="nmstnk" value="<?= $mohfaktur['nmstnk'] ?>" readonly>
+                    </div>
+                    <label for="nama" class="form-label mb-0">Alamat</label>
+                    <input type="text" class="form-control mb-1" name="alamat_stnk" id="alamat_stnk" value="<?= $mohfaktur['alamat_stnk'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kelurahan</label>
+                    <input type="text" class="form-control mb-1" name="kel_stnk" id="kel_stnk" value="<?= $mohfaktur['kel_stnk'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kecamatan</label>
+                    <input type="text" class="form-control mb-1" name="kec_stnk" id="kec_stnk" value="<?= $mohfaktur['kec_stnk'] ?>" readonly>
+                    <label for="nama" class="form-label mb-0">Kota</label>
+                    <input type="text" class="form-control mb-1" name="kota_stnk" id="kota_stnk" value="<?= $mohfaktur['kota_stnk'] ?>" readonly>
+                  </div>
+                  <div class="input-group">
+                    <div class="col-md-8">
+                      <label for="nama" class="form-label mb-0">Provinsi</label>
+                      <input type="text" class="form-control mb-1" name="provinsi_stnk" id="provinsi_stnk" value="<?= $mohfaktur['provinsi_stnk'] ?>" readonly>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="nama" class="form-label mb-0">Kode Pos</label>
+                      <input type="text" class="form-control mb-1" name="kodepos_stnk" id="kodepos_stnk" value="<?= $mohfaktur['kodepos_stnk'] ?>" readonly>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="col-md-4">
+                      <label for="nama" class="form-label mb-0">No. HP</label>
+                      <input type="text" class="form-control mb-1" name="hp_stnk" id="hp_stnk" value="<?= $mohfaktur['hp_stnk'] ?>" readonly>
+                    </div>
+                    <div class="col-md-8">
+                      <label for="nama" class="form-label mb-0">Email</label>
+                      <input type="text" class="form-control mb-1" name="email_stnk" id="email_stnk" value="<?= $mohfaktur['email_stnk'] ?>" readonly>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="nama" class="form-label mb-0"><b><u>DATA KENDARAAN</u></b></label>
+            <div class="col-12 col-sm-12">
+              <label for="nama" class="form-label mb-0">Model</label>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control mb-1" name="kdmodel" id="kdmodel" value="<?= $mohfaktur['kdmodel'] ?>" readonly>
+                <input type="text" class="form-control mb-1" name="nmmodel" id="nmmodel" value="<?= $mohfaktur['nmmodel'] ?>" readonly>
+              </div>
+              <label for="nama" class="form-label mb-0">Tipe</label>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control mb-1" name="kdtipe" id="kdtipe" value="<?= $mohfaktur['kdtipe'] ?>" readonly>
+                <input type="text" class="form-control mb-1" name="nmtipe" id="nmtipe" value="<?= $mohfaktur['nmtipe'] ?>" readonly>
+              </div>
+              <label for="nama" class="form-label mb-0">Warna</label>
+              <div class="input-group">
+                <input type="text" class="form-control mb-1" name="kdwarna" id="kdwarna" value="<?= $mohfaktur['kdwarna'] ?>" readonly>
+                <input type="text" class="form-control mb-1" name="nmwarna" id="nmwarna" value="<?= $mohfaktur['nmwarna'] ?>" readonly>
+              </div>
+              <div class="input-group">
+                <div class="col-md-7">
+                  <label for="nama" class="form-label mb-0">No. Rangka</label>
+                  <input type="text" class="form-control mb-1" name="norangka" id="norangka" value="<?= $mohfaktur['norangka'] ?>" readonly>
+                </div>
+                <div class="col-md-5">
+                  <label for="nama" class="form-label mb-0">No. Mesin</label>
+                  <input type="text" class="form-control mb-1" name="nomesin" id="nomesin" value="<?= $mohfaktur['nomesin'] ?>" readonly>
+                </div>
+              </div>
+
+              <label for="nama" class="form-label mb-1">Accessories</label>
+              <textarea rows=2 class='form-control mb-2' name='accessories' id='accessories' readonly><?= $mohfaktur['accessories'] ?></textarea>
+              <label for="nama" class="form-label mb-1">Harga</label>
+              <input type="text" style="text-align:right;" class='form-control mb-2' name='harga' id='harga' value="<?= $mohfaktur['harga'] ?>" readonly>
+              <div class="input-group">
+                <div class="col-md-6">
+                  <label for="nama" class="form-label mb-1">Down Payment</label>
+                  <input type="text" style="text-align:right;" class='form-control mb-2' name='dp' id='dp' value="<?= $mohfaktur['dp'] ?>" readonly>
+                </div>
+                <div class="col-md-6">
+                  <label for="nama" class="form-label mb-1">Tanggal Pembayaran DP</label>
+                  <input type="date" style="text-align:right;" class='form-control mb-2' name='tgl_dp' id='tgl_dp' value="<?= $mohfaktur['tgl_dp'] ?>" readonly>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="col-md-6">
+                  <label for="nama" class="form-label mb-1">ETA</label>
+                  <input type="datetime-local" style="text-align:right;" class='form-control mb-2' name='eta' id='eta' value="<?= $mohfaktur['eta'] ?>" readonly>
+                </div>
+                <div class="col-md-6">
+                  <label for="nama" class="form-label mb-1">ETD</label>
+                  <input type="datetime-local" style="text-align:right;" class='form-control mb-2' name='etd' id='etd' value="<?= $mohfaktur['etd'] ?>" readonly>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="col-12 col-sm-4">
+                  <label for="nama" class="form-label mb-0 labeltipe">Paket&nbsp;&nbsp;</label>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="input-group">
+                    <div class="col-12 col-sm-3">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="paket" id="paket" value='Pahe 1' <?= $mohfaktur['paket'] == 'Pahe 1' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="paket1">
+                          Pahe 1
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="paket" id="paket" value='Pahe 2' <?= $mohfaktur['paket'] == 'Pahe 2' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="paket2">
+                          Pahe 2
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="paket" id="paket" value='Extended Warranty' <?= $mohfaktur['paket'] == 'Extended Warranty' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="paket3">
+                          Extended Warranty
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <label for="nama" class="form-label mb-1"><b><u>INFORMASI TAMBAHAN</u></b></label>
+              <div class="input-group">
+                <div class="col-12 col-sm-4">
+                  <label for="nama" class="form-label mb-0 labeltipe">Jenis Kelamin&nbsp;&nbsp;</label>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="input-group">
+                    <div class="col-12 col-sm-3">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jekel" id="jekel" value='Pria' <?= $mohfaktur['jekel'] == 'Pria' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jekel1">
+                          Pria
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jekel" id="jekel" value='Wanita' <?= $mohfaktur['jekel'] == 'Wanita' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jekel2">
+                          Wanita
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <label for="nama" class="form-label mb-1">Tanggal Lahir</label>
+              <input type="date" style="text-align:right;" class='form-control mb-2' name='tgllahir' id='tgllahir' value="<?= $mohfaktur['tgllahir'] ?>" readonly>
+              <div class="input-group">
+                <div class="col-12 col-sm-4">
+                  <label for="nama" class="form-label mb-0 labeltipe">Status Pernikahan&nbsp;&nbsp;</label>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="input-group">
+                    <div class="col-12 col-sm-3">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="status_menikah" id="status_menikah" value='Menikah' <?= $mohfaktur['status_menikah'] == 'Menikah' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="status_menikah1">
+                          Menikah
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-5">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="status_menikah" id="status_menikah" value='Belum Menikah' <?= $mohfaktur['status_menikah'] == 'Belum Menikah' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="status_menikah2">
+                          Belum Menikah
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="col-12 col-sm-4">
+                  <label for="nama" class="form-label mb-0 labeltipe">Jumlah Keluarga Inti&nbsp;&nbsp;</label>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="input-group">
+                    <div class="col-12 col-sm-2">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jumlah_keluarga" id="jumlah_keluarga" value='1' <?= $mohfaktur['jumlah_keluarga'] == '1' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jumlah_keluarga1">
+                          1
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jumlah_keluarga" id="jumlah_keluarga" value='2' <?= $mohfaktur['jumlah_keluarga'] == '2' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jumlah_keluarga2">
+                          2
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jumlah_keluarga" id="jumlah_keluarga" value='3' <?= $mohfaktur['jumlah_keluarga'] == '3' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jumlah_keluarga2">
+                          3
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jumlah_keluarga" id="jumlah_keluarga" value='4' <?= $mohfaktur['jumlah_keluarga'] == '4' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jumlah_keluarga2">
+                          4
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-2">
+                      <div class="form-check form-check-inline">
+                        <input disabled class="form-check-input" type="radio" name="jumlah_keluarga" id="jumlah_keluarga" value='5' <?= $mohfaktur['jumlah_keluarga'] == '5' ? "checked" : "" ?> disabled>
+                        <label class="form-check-label" for="jumlah_keluarga2">
+                          >=5
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <label for="nama" class="form-label mb-1">Agama</label>
+            <select class="form-select form-select-mb2 " name="agama" id="agama" disabled>
+              <option value="">[Pilih Agama]
+                <?php
+                foreach ($tbagama as $key) {
+                  if ($mohfaktur['agama'] == $key['nama']) {
+                    echo "<option value='$key[nama]' selected>$key[nama]</option>";
+                  } else {
+                    echo "<option value=$key[nama]>$key[nama]</option>";
+                  }
+                }
+                ?>
+              </option>
+            </select>
+            <label for="nama" class="form-label mb-1 mt-2">Pekerjaan</label>
+            <select class="form-select" name="pekerjaan" id="pekerjaan" disabled>
+              <option value="">[Pilih Pekerjaan]</option>
+              <?php
+              $arr = array("Tentara", "Dokter", "Pegawai Pemerintah", "Pegawai Swasta", "Arsitek", "Pelajar", "Guru/Dosen", "Lain-lain");
+              $jml_kata = count($arr);
+              for ($c = 0; $c < $jml_kata; $c += 1) {
+                if ($arr[$c] == $mohfaktur['pekerjaan']) {
+                  echo "<option value='$arr[$c]' selected>$arr[$c] </option>";
+                } else {
+                  echo "<option value='$arr[$c]'> $arr[$c] </option>";
+                }
+              }
+              ?>
+            </select>
+            <div class="input-group">
+              <div class="col-12 col-sm-4">
+                <label for="nama" class="form-label mb-0 labeltipe">Metode Pembelian&nbsp;&nbsp;</label>
+              </div>
+              <div class="col-12 col-sm-8">
+                <div class="form-check">
+                  <input disabled class="form-check-input" type="radio" name="metode_pembelian" id="metode_pembelian" value='Mobil Pertama' <?= $mohfaktur["metode_pembelian"] == "Mobil Pertama" ? "checked" : "" ?> disabled>
+                  <label class="form-check-label" for="metode_pembelian1">
+                    Mobil Pertama
+                  </label>
+                </div>
+                <div class="input-group">
+                  <div class="col-md-5">
+                    <div class="form-check">
+                      <input disabled class="form-check-input" type="radio" name="metode_pembelian" id="metode_pembelian" value='Mobil Tambahan' <?= $mohfaktur["metode_pembelian"] == "Mobil Tambahan" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Mobil Tambahan
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="form-check form-check-inline">
+                      <input disabled class="form-check-input" type="checkbox" name="tambah_honda" id="tambah_honda" <?= $mohfaktur["tambah_honda"] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Honda
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input disabled class="form-check-input" type="checkbox" name="tambah_nonhonda" id="tambah_nonhonda" <?= $mohfaktur["tambah_nonhonda"] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Bukan Honda
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="col-md-5">
+                    <div class="form-check">
+                      <input disabled class="form-check-input" type="radio" name="metode_pembelian" id="metode_pembelian" value='Mobil Pengganti' <?= $mohfaktur["metode_pembelian"] == "Mobil Pengganti" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Mobil Pengganti
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="form-check form-check-inline">
+                      <input disabled class="form-check-input" type="checkbox" name="ganti_honda" id="ganti_honda" <?= $mohfaktur["ganti_honda"] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Honda
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input disabled class="form-check-input" type="checkbox" name="ganti_nonhonda" id="ganti_nonhonda" <?= $mohfaktur["ganti_nonhonda"] == "Y" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembelian2">
+                        Bukan Honda
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="col-12 col-sm-4">
+                <label for="nama" class="form-label mb-0 labeltipe">Metode Pembayaran&nbsp;&nbsp;</label>
+              </div>
+              <div class="col-12 col-sm-8">
+                <div class="form-check">
+                  <input disabled class="form-check-input" type="radio" name="metode_pembayaran" id="metode_pembayaran" value='Cash' <?= $mohfaktur["metode_pembayaran"] == "Cash" ? "checked" : "" ?> disabled>
+                  <label class="form-check-label" for="metode_pembayaran1">
+                    Cash
+                  </label>
+                </div>
+                <div class="input-group">
+                  <div class="col-md-5">
+                    <div class="form-check">
+                      <input disabled class="form-check-input" type="radio" name="metode_pembayaran" id="metode_pembayaran" value='Credit' <?= $mohfaktur["metode_pembayaran"] == "Credit" ? "checked" : "" ?> disabled>
+                      <label class="form-check-label" for="metode_pembayaran2">
+                        Credit
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="nama" class="form-label mb-0 labeltipe">Perusahaan Leasing :</label>
+                  <input type="text" class="form-control mb-1" name="leasing" id="leasing" value="<?= $mohfaktur["leasing"] ?>" readonly>
+                </div>
+                <div class="input-group">
+                  <div class="col-md-8">
+                    <label for="nama" class="form-label mb-0 labeltipe">Tenor Pembayaran :</label>
+                    <input type="text" class="form-control mb-1" name="tenor" id="tenor" value="<?= $mohfaktur["tenor"] ?>" readonly>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="nama" class="form-label mb-0 labeltipe">Bulan</label>
+                    <input type="text" class="form-control mb-1" name="bulan" id="bulan" value="<?= $mohfaktur["bulan"] ?>" readonly>
+                  </div>
+                </div>
+                <div class=" input-group">
+                  <div class="col-12 col-sm-4">
+                    <label for="nama" class="form-label mb-0 labeltipe">Asuransi : </label>
+                  </div>
+                  <div class="col-12 col-sm-8">
+                    <div class="input-group">
+                      <div class="col-12 col-sm-3">
+                        <div class="form-check form-check-inline">
+                          <input disabled class="form-check-input" type="radio" name="asuransi" id="asuransi" value='Ya' <?= $mohfaktur["asuransi"] == "Y" ? "checked" : "" ?> disabled>
+                          <label class="form-check-label" for="asuransi1">
+                            Ya
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5">
+                        <div class="form-check form-check-inline">
+                          <input disabled class="form-check-input" type="radio" name="asuransi" id="asuransi" value='Tidak' <?= $mohfaktur["asuransi"] == "N" ? "checked" : "" ?> disabled>
+                          <label class="form-check-label" for="asuransi2">
+                            Tidak
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-4">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="nama" class="form-label mb-0">Sales Manager</label>
+              <div class="input-group mb-2">
+                <input type="text" class="form-control" placeholder="Kode SM" name="kdsm" id="kdsm" value="<?= $mohfaktur["kdsm"] ?>" readonly>
+                <!-- <button class=" btn btn-outline-secondary btn-sm" type="button" id="carism">Cari</button> -->
+                <input type="text" class="col-8" placeholder="Nama SM" name="nmsm" id="nmsm" value="<?= $mohfaktur["nmsm"] ?>" readonly>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="nama" class="form-label mb-0">Admin</label>
+              <input type="text" class="form-control" placeholder="Admin" name="admin" id="admin" value="<?= $mohfaktur["admin"] ?>" readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  <?= form_close() ?>
+</div>
+</div>
+</div>
+
+<script>
+  var myModal = document.getElementById('modaldetail')
+  // var myInput = document.getElementById('nama')
+  // myModal.addEventListener('shown.bs.modal', function() {
+  //   myInput.focus()
+  // })
+
+  $(document).ready(function() {
+    $('#harga').autoNumeric('init', {
+      aSep: ',',
+      aDec: '.',
+      mDec: '0'
+    })
+    $('#dp').autoNumeric('init', {
+      aSep: ',',
+      aDec: '.',
+      mDec: '0'
+    })
+  });
+
+  function approv_spv($id) {
+    $.ajax({
+      type: "post",
+      url: "<?= site_url('mohfaktur/formapprov_spv') ?>",
+      dataType: "json",
+      data: {
+        id: $id
+      },
+      success: function(response) {
+        if (response.sukses) {
+          $('.viewmodalapprov').html(response.sukses).show();
+          $('#modalapprov').modal('show');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+      }
+    })
+  };
+
+  function approv_sm($id) {
+    $.ajax({
+      type: "post",
+      url: "<?= site_url('mohfaktur/formapprov_sm') ?>",
+      dataType: "json",
+      data: {
+        id: $id
+      },
+      success: function(response) {
+        if (response.sukses) {
+          $('.viewmodalapprov').html(response.sukses).show();
+          $('#modalapprov').modal('show');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+      }
+    })
+  };
+
+  function approv_dir($id) {
+    $.ajax({
+      type: "post",
+      url: "<?= site_url('mohfaktur/formapprov_dir') ?>",
+      dataType: "json",
+      data: {
+        id: $id
+      },
+      success: function(response) {
+        if (response.sukses) {
+          $('.viewmodalapprov').html(response.sukses).show();
+          $('#modalapprov').modal('show');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+      }
+    })
+  };
+
+
+  function approv_spv1($id) {
+    swal({
+        title: "Yakin akan di Approved SPV ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/approv_spv') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di Approved",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function batalapprov_spv($id) {
+    swal({
+        title: "Yakin akan di Batal Approved SPV ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/batalapprov_spv') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di batal Approved!",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di batal Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function approv_sm1($id) {
+    swal({
+        title: "Yakin akan di Approved SM ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/approv_sm') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di Approved",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function batalapprov_sm($id) {
+    swal({
+        title: "Yakin akan di Batal Approved sm ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/batalapprov_sm') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di batal Approved!",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di batal Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function approv_dir1($id) {
+    swal({
+        title: "Yakin akan di Approved dir ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/approv_dir') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di Approved",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function batalapprov_dir($id) {
+    swal({
+        title: "Yakin akan di Batal Approved dir ?",
+        text: "",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            url: "<?php echo site_url('mohfaktur/batalapprov_dir') ?>/" + $id,
+            data: {
+              id: $id,
+            },
+            type: "POST",
+            dataType: "JSON",
+            success: function(data) {
+              //if success reload ajax table
+              // $('#modal_form').modal('hide');
+              reload_table();
+              if (data.status == false) {
+                swal({
+                  title: "Data gagal di batal Approved!",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                swal({
+                  title: "Data berhasil di batal Approved! ",
+                  text: "",
+                  icon: "success"
+                })
+              }
+              // .then(function() {
+              //   window.location.href = '/wo';
+              // });
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+              alert('Error validating data id ' + $kode);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  $(document).ready(function() {
+    function proses_mohfaktur($id) {
+      swal({
+          title: "Yakin akan Validasi ?",
+          text: "",
+          icon: "warning",
+          buttons: true,
+          dangerMode: true,
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            $.ajax({
+              url: "<?php echo site_url('mohfaktur/proses') ?>/" + $id,
+              data: {
+                id: $id,
+              },
+              type: "POST",
+              dataType: "JSON",
+              success: function(data) {
+                //if success reload ajax table
+                // $('#modal_form').modal('hide');
+                reload_table();
+                if (data.status == false) {
+                  swal({
+                    title: "Data gagal divalidasi!",
+                    text: "",
+                    icon: "error"
+                  })
+                } else {
+                  swal({
+                    title: "Data berhasil divalidasi! ",
+                    text: "",
+                    icon: "success"
+                  })
+                }
+                // .then(function() {
+                //   window.location.href = '/wo';
+                // });
+              },
+              error: function(jqXHR, textStatus, errorThrown) {
+                alert('Error validating data id ' + $kode);
+              }
+            });
+          } else {
+            // swal("Batal Hapus!");
+          }
+        });
+    }
+
+    $('#approv_dir').click(function(e) {
+      e.preventDefault();
+      swal({
+          title: "Yakin akan di Approved ?",
+          text: "",
+          icon: "warning",
+          buttons: true,
+          dangerMode: true,
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            $.ajax({
+              url: "<?php echo site_url('pengajuandiscount/approv-dir') ?>/" + id,
+              data: {
+                id: id,
+              },
+              type: "POST",
+              dataType: "JSON",
+              success: function(data) {
+                //if success reload ajax table
+                // $('#modal_form').modal('hide');
+                reload_table();
+                if (data.status == false) {
+                  swal({
+                    title: "Data gagal di Approved!",
+                    text: "",
+                    icon: "error"
+                  })
+                } else {
+                  swal({
+                    title: "Data berhasil di Approved! ",
+                    text: "",
+                    icon: "success"
+                  })
+                }
+                // .then(function() {
+                //   window.location.href = '/wo';
+                // });
+              },
+              error: function(jqXHR, textStatus, errorThrown) {
+                alert('Error validating data id ' + $kode);
+              }
+            });
+          } else {
+            // swal("Batal Hapus!");
+          }
+        });
+    })
+  });
+</script>

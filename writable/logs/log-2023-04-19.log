@@ -1,0 +1,215 @@
+CRITICAL - 2023-04-19 09:38:40 --> Undefined array key "nama"
+in APPPATH\Controllers\Memombr.php on line 214.
+ 1 APPPATH\Controllers\Memombr.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Memombr.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 09:40:09 --> Undefined array key "nama"
+in APPPATH\Controllers\Memombr.php on line 214.
+ 1 APPPATH\Controllers\Memombr.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Memombr.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 09:41:06 --> Undefined array key "nama"
+in APPPATH\Controllers\Memombr.php on line 214.
+ 1 APPPATH\Controllers\Memombr.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Memombr.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 09:42:11 --> Undefined array key "nama"
+in APPPATH\Controllers\Memombr.php on line 214.
+ 1 APPPATH\Controllers\Memombr.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Memombr.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 10:27:17 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Models\MemombrModel.php on line 147.
+ 1 APPPATH\Models\MemombrModel.php(147): date('Y-m-d', 'tanggal')
+ 2 APPPATH\Controllers\Memombr.php(1231): App\Models\MemombrModel->getperiode('2023-04-19', '2023-04-19')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 14:46:31 --> Invalid file: pengajuandiscount/rpengajuandiscount.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengajuandiscount/rpengajuandiscount.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/rpengajuandiscount', [], true)
+ 3 APPPATH\Controllers\Pengajuandiscount.php(783): view('pengajuandiscount/rpengajuandiscount', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->rpengajuandiscount()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:00:33 --> Undefined variable $tanggal1
+in APPPATH\Controllers\Memombr.php on line 1236.
+ 1 APPPATH\Controllers\Memombr.php(1236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal1', 'APPPATH\\Controllers\\Memombr.php', 1236)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:01:46 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:01:55 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:02:44 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:02:55 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:03:48 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:06:45 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:07:00 --> Undefined variable $memombr
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 41.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:07:40 --> Invalid file: pengajuan_discount/tabel_rpengajuan_discount.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengajuan_discount/tabel_rpengajuan_discount.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuan_discount/tabel_rpengajuan_discount', [], true)
+ 3 APPPATH\Controllers\Pengajuandiscount.php(808): view('pengajuan_discount/tabel_rpengajuan_discount', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:08:02 --> Invalid file: pengajuandiscount/tabel_rpengajuandiscount.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengajuandiscount/tabel_rpengajuandiscount.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/tabel_rpengajuandiscount', [], true)
+ 3 APPPATH\Controllers\Pengajuandiscount.php(808): view('pengajuandiscount/tabel_rpengajuandiscount', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:08:37 --> Undefined array key "nospk"
+in APPPATH\Views\pengajuandiscount\tabel_rpengajuandiscount.php on line 46.
+ 1 APPPATH\Views\pengajuandiscount\tabel_rpengajuandiscount.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nospk"', 'APPPATH\\Views\\pengajuandiscount\\tabel_rpengajuandiscount.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\tabel_rpengajuandiscount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/tabel_rpengajuandiscount', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('pengajuandiscount/tabel_rpengajuandiscount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:11:29 --> Undefined array key "nospk"
+in APPPATH\Views\pengajuandiscount\tabel_rpengajuandiscount.php on line 46.
+ 1 APPPATH\Views\pengajuandiscount\tabel_rpengajuandiscount.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nospk"', 'APPPATH\\Views\\pengajuandiscount\\tabel_rpengajuandiscount.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\tabel_rpengajuandiscount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/tabel_rpengajuandiscount', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(808): view('pengajuandiscount/tabel_rpengajuandiscount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:22:51 --> Call to undefined method App\Models\PengajuandiscountModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pengajuandiscount.php(804): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:22:53 --> Call to undefined method App\Models\PengajuandiscountModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Pengajuandiscount.php(804): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_rpengajuandiscount()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-19 15:45:00 --> Undefined array key "nmcustomer"
+in APPPATH\Views\mohfaktur\tabel_rmohfaktur.php on line 47.
+ 1 APPPATH\Views\mohfaktur\tabel_rmohfaktur.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmcustomer"', 'APPPATH\\Views\\mohfaktur\\tabel_rmohfaktur.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\tabel_rmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/tabel_rmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(1171): view('mohfaktur/tabel_rmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->table_rmohfaktur()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

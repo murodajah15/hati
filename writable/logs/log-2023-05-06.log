@@ -1,0 +1,57 @@
+CRITICAL - 2023-05-06 13:53:54 --> Undefined variable $mohfaktur
+in APPPATH\Views\penerimaankasir\modaledit.php on line 59.
+ 1 APPPATH\Views\penerimaankasir\modaledit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mohfaktur', 'APPPATH\\Views\\penerimaankasir\\modaledit.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penerimaankasir\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('penerimaankasir/modaledit', [], true)
+ 5 APPPATH\Controllers\Penerimaankasir.php(193): view('penerimaankasir/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Penerimaankasir->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaankasir))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-06 13:54:05 --> Undefined variable $mohfaktur
+in APPPATH\Views\penerimaankasir\modaledit.php on line 59.
+ 1 APPPATH\Views\penerimaankasir\modaledit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mohfaktur', 'APPPATH\\Views\\penerimaankasir\\modaledit.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penerimaankasir\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('penerimaankasir/modaledit', [], true)
+ 5 APPPATH\Controllers\Penerimaankasir.php(193): view('penerimaankasir/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Penerimaankasir->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaankasir))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-06 13:54:38 --> Undefined variable $penerimaan
+in APPPATH\Views\penerimaankasir\modaledit.php on line 59.
+ 1 APPPATH\Views\penerimaankasir\modaledit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penerimaan', 'APPPATH\\Views\\penerimaankasir\\modaledit.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penerimaankasir\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('penerimaankasir/modaledit', [], true)
+ 5 APPPATH\Controllers\Penerimaankasir.php(193): view('penerimaankasir/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Penerimaankasir->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaankasir))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-06 13:55:20 --> Undefined variable $penerimaan
+in APPPATH\Views\penerimaankasir\modaledit.php on line 59.
+ 1 APPPATH\Views\penerimaankasir\modaledit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penerimaan', 'APPPATH\\Views\\penerimaankasir\\modaledit.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\penerimaankasir\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('penerimaankasir/modaledit', [], true)
+ 5 APPPATH\Controllers\Penerimaankasir.php(193): view('penerimaankasir/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Penerimaankasir->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaankasir))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-06 14:33:42 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH\Controllers\Penerimaankasir.php on line 248.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH\\Controllers\\Penerimaankasir.php', 248)
+ 2 APPPATH\Controllers\Penerimaankasir.php(248): preg_replace('/[^a-zA-Z0-9]/', 'ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Penerimaankasir->updatedata()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penerimaankasir))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

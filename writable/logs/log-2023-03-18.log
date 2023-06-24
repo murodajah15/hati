@@ -1,0 +1,26 @@
+CRITICAL - 2023-03-18 14:35:04 --> Undefined variable $cparent
+in APPPATH\Views\dashboard\index.php on line 282.
+ 1 APPPATH\Views\dashboard\index.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cparent', 'APPPATH\\Views\\dashboard\\index.php', 282)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/index', [], true)
+ 6 APPPATH\Controllers\Tbcabang.php(23): view('tbcabang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 14:35:12 --> Undefined variable $cparent
+in APPPATH\Views\dashboard\index.php on line 282.
+ 1 APPPATH\Views\dashboard\index.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cparent', 'APPPATH\\Views\\dashboard\\index.php', 282)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/index', [], true)
+ 6 APPPATH\Controllers\Estimasi.php(75): view('estimasi/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,76 @@
+1. file .env
+app.baseURL = 'https://www.honda-autoland.com/hati.honda-autoland.com/'
+# If you have trouble with `.`, you could also use `_`.
+# app_baseURL = ''
+# app.forceGlobalSecureRequests = false
+
+# app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
+# app.sessionCookieName = 'ci_session'
+# app.sessionExpiration = 7200
+# app.sessionSavePath = null
+# app.sessionMatchIP = false
+# app.sessionTimeToUpdate = 300
+# app.sessionRegenerateDestroy = false
+
+# app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+# $username = "hondaau1_murod";
+# $password = "OUGz786ZX%fG";
+
+database.default.hostname = localhost
+database.default.database = hondaau1_hati
+database.default.username = hondaau1_murod
+database.default.password = OUGz786ZX%fG
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+2. file : /app/config/app.php
+<?php
+
+namespace Config;
+
+use CodeIgniter\Config\BaseConfig;
+use CodeIgniter\Session\Handlers\FileHandler;
+
+class App extends BaseConfig
+{
+    /**
+     * --------------------------------------------------------------------------
+     * Base Site URL
+     * --------------------------------------------------------------------------
+     *
+     * URL to your CodeIgniter root. Typically this will be your base URL,
+     * WITH a trailing slash:
+     *
+     *    http://example.com/
+     *
+     * If this is not set then CodeIgniter will try guess the protocol, domain
+     * and path to your installation. However, you should always configure this
+     * explicitly and never rely on auto-guessing, especially in production
+     * environments.
+     *
+     * @var string
+     */
+    public $baseURL = 'https://www.honda-autoland.com/hati.honda-autoland.com/';
+
+3. /System/Codeigniter.php
+// Set default locale on the server
+        // Locale::setDefault($this->config->defaultLocale ?? 'en');
+        if( function_exists('locale_set_default' ) ) :
+            locale_set_default($this->config->defaultLocale ?? 'en');
+        endif;
+
+4. File index.php di root/domain 
+(rubah di baris ../app/Config/Paths.php) sesuai lokasi file CI
+// Load our paths config file
+// This is the line that might need to be changed, depending on your folder structure.
+require FCPATH . '../../hati/app/Config/Paths.php';
+// ^^^ Change this line if you move your application folder
+
+5. Min PHP 8.1 
+rubah di cpanel, php Version

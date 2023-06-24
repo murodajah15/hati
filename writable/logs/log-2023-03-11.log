@@ -1,0 +1,279 @@
+CRITICAL - 2023-03-11 11:08:16 --> Call to undefined method App\Models\EstimasijasaModel::hapuspaket
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi.php(446): CodeIgniter\Model->__call('hapuspaket', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->updateestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:01:07 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Estimasi.php on line 600.
+ 1 APPPATH\Controllers\Estimasi.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Estimasi.php', 600)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi(null)
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:03:48 --> Invalid file: estimasi/cetakestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi/cetakestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(629): view('estimasi/cetakestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:05:27 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Estimasi.php on line 600.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:08:34 --> Invalid file: estimasi/cetakestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi/cetakestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(628): view('estimasi/cetakestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:08:45 --> Invalid file: estimasi/cetakestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi/cetakestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(628): view('estimasi/cetakestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:09:22 --> Invalid file: estimasi/cetakestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi/cetakestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(628): view('estimasi/cetakestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:11:49 --> Undefined variable $tbjasa
+in APPPATH\Views\estimasi\cetakestimasi.php on line 25.
+ 1 APPPATH\Views\estimasi\cetakestimasi.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbjasa', 'APPPATH\\Views\\estimasi\\cetakestimasi.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\cetakestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(628): view('estimasi/cetakestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 12:28:45 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 13:51:58 --> Invalid file: windos.open(estimasi/cetakestimasi).php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('windos.open(estimasi/cetakestimasi).php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('windos.open(estimasi/cetakestimasi)', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(628): view('windos.open(estimasi/cetakestimasi)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 13:52:21 --> Invalid file: window.open(estimasi/cetakestimasi).php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('window.open(estimasi/cetakestimasi).php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('window.open(estimasi/cetakestimasi)', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(628): view('window.open(estimasi/cetakestimasi)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:11:56 --> Undefined variable $w
+in APPPATH\Views\estimasi\tabel_estimasi.php on line 231.
+ 1 APPPATH\Views\estimasi\tabel_estimasi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w', 'APPPATH\\Views\\estimasi\\tabel_estimasi.php', 231)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tabel_estimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tabel_estimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(649): view('estimasi/tabel_estimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:11:58 --> Undefined variable $w
+in APPPATH\Views\estimasi\tabel_estimasi.php on line 231.
+ 1 APPPATH\Views\estimasi\tabel_estimasi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w', 'APPPATH\\Views\\estimasi\\tabel_estimasi.php', 231)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tabel_estimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tabel_estimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(649): view('estimasi/tabel_estimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:11:59 --> Undefined variable $w
+in APPPATH\Views\estimasi\tabel_estimasi.php on line 231.
+ 1 APPPATH\Views\estimasi\tabel_estimasi.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w', 'APPPATH\\Views\\estimasi\\tabel_estimasi.php', 231)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tabel_estimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tabel_estimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(649): view('estimasi/tabel_estimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:17:30 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 599.
+ 1 APPPATH\Controllers\Estimasi.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 599)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:18:43 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 599.
+ 1 APPPATH\Controllers\Estimasi.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 599)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:19:02 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 599.
+ 1 APPPATH\Controllers\Estimasi.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 599)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:20:43 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 599.
+ 1 APPPATH\Controllers\Estimasi.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 599)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:21:12 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi.php on line 600.
+ 1 APPPATH\Controllers\Estimasi.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi.php', 600)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:24:57 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:24:57 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:25:45 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:30:18 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:30:54 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:32:48 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:33:14 --> Too few arguments to function App\Controllers\Estimasi::cetakestimasi(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Estimasi.php on line 593.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:39:59 --> Array to string conversion
+in APPPATH\Controllers\Estimasi.php on line 630.
+ 1 APPPATH\Controllers\Estimasi.php(630): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Estimasi.php', 630)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:44:54 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Estimasi.php on line 632.
+ 1 APPPATH\Controllers\Estimasi.php(632): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:45:59 --> Undefined variable $msg
+in APPPATH\Views\estimasi\cetakestimasi.php on line 32.
+ 1 APPPATH\Views\estimasi\cetakestimasi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msg', 'APPPATH\\Views\\estimasi\\cetakestimasi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\cetakestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(628): view('estimasi/cetakestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:51:44 --> Undefined variable $data
+in APPPATH\Views\estimasi\cetakestimasi.php on line 13.
+ 1 APPPATH\Views\estimasi\cetakestimasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\estimasi\\cetakestimasi.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\cetakestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(625): view('estimasi/cetakestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-11 14:52:26 --> Undefined variable $data
+in APPPATH\Views\estimasi\cetakestimasi.php on line 13.
+ 1 APPPATH\Views\estimasi\cetakestimasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\estimasi\\cetakestimasi.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\cetakestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/cetakestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(625): view('estimasi/cetakestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->cetakestimasi('266')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

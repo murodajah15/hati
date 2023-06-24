@@ -1,0 +1,36 @@
+CRITICAL - 2022-11-18 16:09:04 --> Undefined variable $tambah
+in APPPATH\Views\wo\modalwo.php on line 193.
+ 1 APPPATH\Views\wo\modalwo.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambah', 'APPPATH\\Views\\wo\\modalwo.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\wo\\modalwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/modalwo', [], true)
+ 5 APPPATH\Controllers\Wo.php(502): view('wo/modalwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formwo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 16:09:20 --> Undefined variable $tambah
+in APPPATH\Views\wo\modalwo.php on line 193.
+ 1 APPPATH\Views\wo\modalwo.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambah', 'APPPATH\\Views\\wo\\modalwo.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\wo\\modalwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/modalwo', [], true)
+ 5 APPPATH\Controllers\Wo.php(502): view('wo/modalwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formwo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 16:10:10 --> Undefined variable $tambah
+in APPPATH\Views\wo\modalwo.php on line 193.
+ 1 APPPATH\Views\wo\modalwo.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambah', 'APPPATH\\Views\\wo\\modalwo.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\wo\\modalwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/modalwo', [], true)
+ 5 APPPATH\Controllers\Wo.php(502): view('wo/modalwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formwo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

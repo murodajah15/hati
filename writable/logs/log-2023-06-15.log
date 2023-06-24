@@ -1,0 +1,124 @@
+CRITICAL - 2023-06-15 11:41:25 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi_bp.php on line 1806.
+ 1 APPPATH\Controllers\Estimasi_bp.php(1806): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi_bp.php', 1806)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->summary()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 11:41:58 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi_bp.php on line 1806.
+ 1 APPPATH\Controllers\Estimasi_bp.php(1806): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi_bp.php', 1806)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->summary()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 11:43:17 --> Undefined array key "noestimasi"
+in APPPATH\Controllers\Estimasi_bp.php on line 1806.
+ 1 APPPATH\Controllers\Estimasi_bp.php(1806): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noestimasi"', 'APPPATH\\Controllers\\Estimasi_bp.php', 1806)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->summary()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 14:49:47 --> Invalid file: estimasi_bp/input_wo_bpd1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/input_wo_bpd1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/input_wo_bpd1', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(579): view('estimasi_bp/input_wo_bpd1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->input_wo_bpd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 14:49:53 --> Invalid file: estimasi_bp/input_wo_bpd1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estimasi_bp/input_wo_bpd1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/input_wo_bpd1', [], true)
+ 3 APPPATH\Controllers\Estimasi_bp.php(579): view('estimasi_bp/input_wo_bpd1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->input_wo_bpd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:09 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:11 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('557')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:12 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:12 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('557')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:13 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:13 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('557')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:15 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:15 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('557')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:29 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 16:00:40 --> Undefined array key "rp_discount"
+in APPPATH\Controllers\Estimasi_bp.php on line 752.
+ 1 APPPATH\Controllers\Estimasi_bp.php(752): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rp_discount"', 'APPPATH\\Controllers\\Estimasi_bp.php', 752)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->editdetailwo_bp('554')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

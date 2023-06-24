@@ -1,0 +1,42 @@
+CRITICAL - 2023-05-11 13:22:09 --> Invalid file: approvmemospv/index1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('approvmemospv/index1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('approvmemospv/index1', [], true)
+ 3 APPPATH\Controllers\Approvmemospv.php(49): view('approvmemospv/index1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Approvmemospv->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approvmemospv))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-11 14:17:24 --> Undefined array key "kdspv"
+in APPPATH\Controllers\Approvmemospv.php on line 83.
+ 1 APPPATH\Controllers\Approvmemospv.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdspv"', 'APPPATH\\Controllers\\Approvmemospv.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Approvmemospv->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approvmemospv))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-11 14:17:31 --> Undefined array key "kdspv"
+in APPPATH\Controllers\Approvmemospv.php on line 83.
+ 1 APPPATH\Controllers\Approvmemospv.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdspv"', 'APPPATH\\Controllers\\Approvmemospv.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Approvmemospv->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approvmemospv))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-11 14:18:05 --> Undefined array key "kdspv"
+in APPPATH\Controllers\Approvmemospv.php on line 83.
+ 1 APPPATH\Controllers\Approvmemospv.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdspv"', 'APPPATH\\Controllers\\Approvmemospv.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Approvmemospv->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approvmemospv))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-11 14:18:09 --> Undefined array key "kdspv"
+in APPPATH\Controllers\Approvmemospv.php on line 83.
+ 1 APPPATH\Controllers\Approvmemospv.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdspv"', 'APPPATH\\Controllers\\Approvmemospv.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Approvmemospv->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approvmemospv))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

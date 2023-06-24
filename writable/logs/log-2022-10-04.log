@@ -1,0 +1,1212 @@
+CRITICAL - 2022-10-04 10:04:44 --> Undefined array key "Id"
+in APPPATH\Views\teman\table_teman.php on line 25.
+ 1 APPPATH\Views\teman\table_teman.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'APPPATH\\Views\\teman\\table_teman.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\table_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/table_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(26): view('teman/table_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->table_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 12:06:46 --> Call to undefined method App\Models\MCrudajax::getTeman
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Crudajax.php(24): CodeIgniter\Model->__call('getTeman', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->table_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:15:45 --> Undefined variable $data
+in APPPATH\Controllers\Crudajax.php on line 50.
+ 1 APPPATH\Controllers\Crudajax.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Crudajax.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 13:18:41 --> mysqli_sql_exception: Column 'namateman' cannot be null in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\app\Models\MCrudajax.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(44): App\Models\MCrudajax->simpanTeman(Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-04 13:18:41 --> Column 'namateman' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (:NamaTeman:, :Alamat:, :JenisKelamin:)', [...], false)
+ 5 APPPATH\Models\MCrudajax.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Crudajax.php(44): App\Models\MCrudajax->simpanTeman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:24:54 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Crudajax.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:49:42 --> Undefined variable $builder
+in APPPATH\Controllers\Crudajax.php on line 54.
+ 1 APPPATH\Controllers\Crudajax.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Controllers\\Crudajax.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:49:57 --> Undefined variable $modelr
+in APPPATH\Controllers\Crudajax.php on line 54.
+ 1 APPPATH\Controllers\Crudajax.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelr', 'APPPATH\\Controllers\\Crudajax.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:53:08 --> Undefined constant "App\Controllers\data"
+in APPPATH\Controllers\Crudajax.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:54:16 --> Undefined constant "App\Controllers\data"
+in APPPATH\Controllers\Crudajax.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 13:54:51 --> Too few arguments to function App\Controllers\Crudajax::edit_form_teman(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Crudajax.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 14:14:34 --> Undefined property: stdClass::$Uraian
+in APPPATH\Controllers\Crudajax.php on line 76.
+ 1 APPPATH\Controllers\Crudajax.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Uraian', 'APPPATH\\Controllers\\Crudajax.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->getjeniskelamin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 14:16:40 --> Undefined property: stdClass::$Uraian
+in APPPATH\Controllers\Crudajax.php on line 76.
+ 1 APPPATH\Controllers\Crudajax.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Uraian', 'APPPATH\\Controllers\\Crudajax.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->getjeniskelamin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 14:25:41 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Crudajax.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 14:31:22 --> Call to undefined method App\Models\MCrudajax::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Crudajax.php(52): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 14:36:35 --> Call to undefined method App\Models\MCrudajax::getFirst
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Crudajax.php(52): CodeIgniter\Model->__call('getFirst', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:15:45 --> Undefined variable $data
+in APPPATH\Controllers\Crudajax.php on line 61.
+ 1 APPPATH\Controllers\Crudajax.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Crudajax.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->getjeniskelamin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:23:39 --> Undefined variable $jk
+in APPPATH\Views\teman\form_teman.php on line 16.
+ 1 APPPATH\Views\teman\form_teman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jk', 'APPPATH\\Views\\teman\\form_teman.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\form_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/form_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(53): view('teman/form_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:24:02 --> Undefined variable $jk
+in APPPATH\Views\teman\form_teman.php on line 16.
+ 1 APPPATH\Views\teman\form_teman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jk', 'APPPATH\\Views\\teman\\form_teman.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\form_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/form_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(53): view('teman/form_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:24:45 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 53
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(53): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:25:21 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 53
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(53): view('teman/form_teman', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:27:44 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Crudajax.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:28:30 --> Undefined variable $jk
+in APPPATH\Views\teman\form_teman.php on line 16.
+ 1 APPPATH\Views\teman\form_teman.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jk', 'APPPATH\\Views\\teman\\form_teman.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\form_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/form_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(54): view('teman/form_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:31:51 --> Undefined variable $namateman
+in APPPATH\Views\teman\form_teman.php on line 5.
+ 1 APPPATH\Views\teman\form_teman.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namateman', 'APPPATH\\Views\\teman\\form_teman.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\form_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/form_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(32): view('teman/form_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:37:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Crudajax.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:15 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:15 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 03:54:33 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Crudajax.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Crudajax.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Crudajax')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Crudajax')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Crudajax', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:42 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:42 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:44 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:44 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:50 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:54:50 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:55:08 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:55:08 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:56:01 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Crudajax.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:56:01 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Crudajax.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:56:28 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 15:56:28 --> view(): Argument #2 ($data) must be of type array, null given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 65
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(65): view('teman/form_teman', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:01:03 --> Undefined variable $model
+in APPPATH\Controllers\Crudajax.php on line 32.
+ 1 APPPATH\Controllers\Crudajax.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\Crudajax.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:01:06 --> Undefined variable $model
+in APPPATH\Controllers\Crudajax.php on line 32.
+ 1 APPPATH\Controllers\Crudajax.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\Crudajax.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:01:08 --> Undefined variable $model
+in APPPATH\Controllers\Crudajax.php on line 32.
+ 1 APPPATH\Controllers\Crudajax.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\Crudajax.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:02:03 --> Call to undefined function App\Controllers\getRow()
+in APPPATH\Controllers\Crudajax.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:02:41 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php on line 35
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\Crudajax.php(35): view('teman/form_teman', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:03:08 --> Attempt to read property "uraian" on string
+in APPPATH\Views\teman\form_teman.php on line 17.
+ 1 APPPATH\Views\teman\form_teman.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uraian" on string', 'APPPATH\\Views\\teman\\form_teman.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\teman\\form_teman.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('teman/form_teman', [], true)
+ 5 APPPATH\Controllers\Crudajax.php(35): view('teman/form_teman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->form_teman()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:16:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Controllers\Mahasiswa.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Mahasiswa->ajax_edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:22:43 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Crudajax.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:22:43 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Crudajax.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:26:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Crudajax.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:31:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman where id='' order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_tem...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_tem...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_tem...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_tem...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:31:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman where id='' order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_teman where id=\'\' order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_teman where id=\'\' order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_teman where id=\'\' order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_teman where id=\'\' order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:31:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman where id='' order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_tem...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_tem...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_tem...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_tem...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:31:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman where id='' order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_teman where id=\'\' order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_teman where id=\'\' order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_teman where id=\'\' order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_teman where id=\'\' order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:32:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_tem...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_tem...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_tem...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_tem...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:32:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_teman order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_teman order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_teman order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_teman order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:32:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_tem...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_tem...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_tem...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_tem...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:32:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tb_teman order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * tb_teman order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * tb_teman order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * tb_teman order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * tb_teman order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:38:13 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Crudajax.php on line 60.
+ 1 APPPATH\Controllers\Crudajax.php(60): json_decode([])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:38:13 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Crudajax.php on line 60.
+ 1 APPPATH\Controllers\Crudajax.php(60): json_decode([])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:43:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:43:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:43:33 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:43:33 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:46:03 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:46:03 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('User')
+ 3 SYSTEMPATH\Database\BaseResult.php(286): CodeIgniter\Database\BaseResult->getCustomResultObject('User')
+ 4 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Database\BaseResult->getCustomRowObject(0, 'User')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:53:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Result()
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 16:53:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Result()
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:55:38 --> mysqli_sql_exception: Column 'namateman' cannot be null in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\app\Models\MCrudajax.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(44): App\Models\MCrudajax->simpanTeman(Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-04 16:55:38 --> Column 'namateman' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_teman` (`NamaTeman`, `Alamat`, `JenisKelamin`) VALUES (:NamaTeman:, :Alamat:, :JenisKelamin:)', [...], false)
+ 5 APPPATH\Models\MCrudajax.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Crudajax.php(44): App\Models\MCrudajax->simpanTeman([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->tambah_teman()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:57:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:57:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id= order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id= order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id= order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id= order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 16:57:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 16:57:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id= order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id= order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id= order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id= order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:07:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:07:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=> order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=> order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=> order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=> order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:07:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:07:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=> order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=> order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=> order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=> order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:07:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>'1' order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:07:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>'1' order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=>\'1\' order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=>\'1\' order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=>\'1\' order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=>\'1\' order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:07:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>'1' order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:07:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '>'1' order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=>\'1\' order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=>\'1\' order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=>\'1\' order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=>\'1\' order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:12:22 --> Call to undefined method App\Models\MCrudajax::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:12:22 --> Call to undefined method App\Models\MCrudajax::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Crudajax.php(57): CodeIgniter\Model->__call('getRow', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:14:17 --> Call to undefined method stdClass::where()
+in APPPATH\Controllers\Crudajax.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:14:17 --> Call to undefined method stdClass::where()
+in APPPATH\Controllers\Crudajax.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:20:46 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Crudajax.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:20:46 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Crudajax.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:38:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(56): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-04 17:38:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Crudajax.php(56): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:38:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(56): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-04 17:38:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_teman`
+WHERE 0 = :0:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Crudajax.php(56): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:39:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\Crudajax.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:39:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\Crudajax.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:41:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id' => ]) order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:41:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id' => ]) order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where ([\'id\' => ]) order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where ([\'id\' => ]) order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where ([\'id\' => ]) order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where ([\'id\' => ]) order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:41:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id' => ]) order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:41:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['id' => ]) order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where ([\'id\' => ]) order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where ([\'id\' => ]) order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where ([\'id\' => ]) order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where ([\'id\' => ]) order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:41:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?= ; ?> order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:41:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?= ; ?> order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=<?= ; ?> order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=<?= ; ?> order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=<?= ; ?> order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=<?= ; ?> order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:41:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?= ; ?> order by id' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:41:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?= ; ?> order by id' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=<?= ; ?> order by id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=<?= ; ?> order by id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=<?= ; ?> order by id')
+ 4 APPPATH\Controllers\Crudajax.php(55): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=<?= ; ?> order by id')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 05:46:16 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Crudajax.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Crudajax')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Crudajax')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Crudajax', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:52:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?=  ?>' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(61): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:52:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?=  ?>' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=<?=  ?>', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=<?=  ?>')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=<?=  ?>')
+ 4 APPPATH\Controllers\Crudajax.php(61): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=<?=  ?>')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:52:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?=  ?>' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(61): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:52:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<?=  ?>' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=<?=  ?>', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=<?=  ?>')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=<?=  ?>')
+ 4 APPPATH\Controllers\Crudajax.php(61): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=<?=  ?>')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:54:19 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:54:19 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:54:39 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:54:39 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:55:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(62): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:55:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=')
+ 4 APPPATH\Controllers\Crudajax.php(62): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-04 17:55:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from t...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Crudajax.php(62): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+#6 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-04 17:55:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select * from tb_teman where id=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from tb_teman where id=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from tb_teman where id=')
+ 4 APPPATH\Controllers\Crudajax.php(62): CodeIgniter\Database\BaseConnection->query('select * from tb_teman where id=')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:57:09 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:57:09 --> Unsupported operand types: string + null
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:57:32 --> shell_exec(): Argument #1 ($command) cannot be empty
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 APPPATH\Controllers\Crudajax.php(55): shell_exec('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 17:57:32 --> shell_exec(): Argument #1 ($command) cannot be empty
+in APPPATH\Controllers\Crudajax.php on line 55.
+ 1 APPPATH\Controllers\Crudajax.php(55): shell_exec('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 18:27:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Crudajax.php on line 56.
+ 1 APPPATH\Controllers\Crudajax.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Crudajax.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 18:27:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Crudajax.php on line 56.
+ 1 APPPATH\Controllers\Crudajax.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Crudajax.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 18:29:45 --> Too few arguments to function App\Controllers\Crudajax::edit_form_teman(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Crudajax.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 18:29:45 --> Too few arguments to function App\Controllers\Crudajax::edit_form_teman(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Crudajax.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Crudajax->edit_form_teman()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudajax))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-04 23:11:36 --> syntax error, unexpected token "echo", expecting "function" or "const"
+in APPPATH\Controllers\Crudajax.php on line 83.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Crudajax.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Crudajax')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Crudajax')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Crudajax', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

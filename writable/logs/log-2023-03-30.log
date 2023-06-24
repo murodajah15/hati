@@ -1,0 +1,80 @@
+CRITICAL - 2023-03-30 13:43:29 --> Undefined array key "nmtipe"
+in APPPATH\Controllers\Memombr.php on line 188.
+ 1 APPPATH\Controllers\Memombr.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Controllers\\Memombr.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 14:38:46 --> Undefined property: App\Controllers\Pengajuandiscount::$memombrModel1
+in APPPATH\Controllers\Pengajuandiscount.php on line 282.
+ 1 APPPATH\Controllers\Pengajuandiscount.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pengajuandiscount::$memombrModel1', 'APPPATH\\Controllers\\Pengajuandiscount.php', 282)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->cari_data_memo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 14:48:14 --> Undefined variable $valid
+in APPPATH\Views\pengajuandiscount\tabel_pengajuandiscount.php on line 105.
+ 1 APPPATH\Views\pengajuandiscount\tabel_pengajuandiscount.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valid', 'APPPATH\\Views\\pengajuandiscount\\tabel_pengajuandiscount.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\tabel_pengajuandiscount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/tabel_pengajuandiscount', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(52): view('pengajuandiscount/tabel_pengajuandiscount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->table_pengajuandiscount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 14:55:59 --> Undefined array key "id"
+in APPPATH\Controllers\Pengajuandiscount.php on line 320.
+ 1 APPPATH\Controllers\Pengajuandiscount.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Pengajuandiscount.php', 320)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->proses('8')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 14:56:08 --> Undefined array key "id"
+in APPPATH\Controllers\Pengajuandiscount.php on line 320.
+ 1 APPPATH\Controllers\Pengajuandiscount.php(320): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Pengajuandiscount.php', 320)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->proses('8')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 16:00:24 --> Undefined variable $memombr
+in APPPATH\Views\pengajuandiscount\modaledit.php on line 12.
+ 1 APPPATH\Views\pengajuandiscount\modaledit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\pengajuandiscount\\modaledit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaledit', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(175): view('pengajuandiscount/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 16:58:32 --> Undefined array key "tipe"
+in APPPATH\Views\pengajuandiscount\modaledit.php on line 92.
+ 1 APPPATH\Views\pengajuandiscount\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe"', 'APPPATH\\Views\\pengajuandiscount\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaledit', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(178): view('pengajuandiscount/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-30 16:58:45 --> Undefined array key "tipe"
+in APPPATH\Views\pengajuandiscount\modaledit.php on line 92.
+ 1 APPPATH\Views\pengajuandiscount\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe"', 'APPPATH\\Views\\pengajuandiscount\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaledit', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(178): view('pengajuandiscount/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

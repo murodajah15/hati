@@ -1,0 +1,980 @@
+CRITICAL - 2022-10-20 09:53:06 --> Undefined variable $sessionExpiration
+in APPPATH\Views\dashboard\index.php on line 163.
+ 1 APPPATH\Views\dashboard\index.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sessionExpiration', 'APPPATH\\Views\\dashboard\\index.php', 163)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/index', [], true)
+ 6 APPPATH\Controllers\Tbcabang.php(24): view('tbcabang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 13:17:35 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbmodule.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-20 13:17:35 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbmodule`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbmodule`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbmodule`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbmodule`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbmodule.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:18:46 --> Invalid file: tbmodule/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:22:30 --> Undefined array key "kode"
+in APPPATH\Views\tbmodule\index.php on line 52.
+ 1 APPPATH\Views\tbmodule\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmodule\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:25:33 --> Undefined array key "level"
+in APPPATH\Views\tbmodule\index.php on line 59.
+ 1 APPPATH\Views\tbmodule\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "level"', 'APPPATH\\Views\\tbmodule\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:25:48 --> Undefined array key "kode"
+in APPPATH\Views\tbmodule\index.php on line 70.
+ 1 APPPATH\Views\tbmodule\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmodule\\index.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:26:05 --> Undefined array key "kode"
+in APPPATH\Views\tbmodule\index.php on line 96.
+ 1 APPPATH\Views\tbmodule\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmodule\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:28:32 --> Invalid file: tbmodule/create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/create.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/create', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(45): view('tbmodule/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:29:10 --> Invalid file: tbmodule/create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/create.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/create', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(45): view('tbmodule/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:30:38 --> Invalid file: tbmodule/create.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/create.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/create', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(45): view('tbmodule/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->create()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:49:41 --> Invalid file: tbmodule/modaltambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/modaltambah.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaltambah', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(97): view('tbmodule/modaltambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:52:43 --> Undefined array key "nourut"
+in APPPATH\Views\tbmodule\tabel_module.php on line 32.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nourut"', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(214): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:53:08 --> Undefined array key "nurut"
+in APPPATH\Views\tbmodule\tabel_module.php on line 32.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nurut"', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(214): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:53:38 --> Undefined variable $row
+in APPPATH\Views\tbmodule\tabel_module.php on line 32.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(214): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:57:23 --> Undefined variable $tbcabang
+in APPPATH\Views\tbmodule\tabel_module.php on line 32.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcabang', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(215): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:59:08 --> Invalid file: tbmodule/modaltambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/modaltambah.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaltambah', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(97): view('tbmodule/modaltambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:59:10 --> Invalid file: tbmodule/modaltambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/modaltambah.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaltambah', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(97): view('tbmodule/modaltambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:59:53 --> Invalid file: tbmodule/modaltambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/modaltambah.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaltambah', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(97): view('tbmodule/modaltambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 13:59:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcabang\edit.php on line 25.
+ 1 APPPATH\Views\tbcabang\edit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcabang\\edit.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcabang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/edit', [], true)
+ 5 APPPATH\Controllers\Tbcabang.php(108): view('tbcabang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:08:43 --> Invalid file: tbmodule/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/detail.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/detail', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(35): view('tbmodule/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:12:46 --> Invalid file: tbmodule/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/detail.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/detail', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(35): view('tbmodule/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:13:37 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 169.
+ 1 APPPATH\Controllers\Tbmodule.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:14:06 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 169.
+ 1 APPPATH\Controllers\Tbmodule.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:14:28 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 169.
+ 1 APPPATH\Controllers\Tbmodule.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:15:30 --> Invalid file: tbmodule/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmodule/detail.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/detail', [], true)
+ 3 APPPATH\Controllers\Tbmodule.php(35): view('tbmodule/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:16:41 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 168.
+ 1 APPPATH\Controllers\Tbmodule.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:18:59 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:21:16 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:21:16 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:21:23 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:22:07 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:22:38 --> Undefined variable $nurut
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nurut', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(81): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:23:32 --> Undefined variable $cmodule
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:24:21 --> Undefined variable $cmodule
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:24:27 --> Undefined variable $cmodule
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:25:06 --> Undefined variable $cmodule
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:27:44 --> Undefined variable $cmodule
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:29:12 --> Undefined variable $nama
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:29:52 --> Undefined variable $nama
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:30:16 --> Undefined variable $nama
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:31:30 --> Undefined variable $nama
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:31:52 --> Undefined variable $nama
+in APPPATH\Views\tbmodule\modaldetail.php on line 18.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:32:43 --> Undefined variable $nuru
+in APPPATH\Views\tbmodule\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nuru', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:41:42 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 169.
+ 1 APPPATH\Controllers\Tbmodule.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 14:50:41 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-20 14:50:41 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:50:41\', \'2022-10-20 14:50:41\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:50:41\', \'2022-10-20 14:50:41\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:50:41\', \'2022-10-20 14:50:41\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (:nurut:, :cmodule:, :cmenu:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 14:52:39 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-20 14:52:39 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:52:39\', \'2022-10-20 14:52:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:52:39\', \'2022-10-20 14:52:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, \'2022-10-20 14:52:39\', \'2022-10-20 14:52:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (:nurut:, :cmodule:, :cmenu:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 14:56:33 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-20 14:56:33 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (\'333\', \'121212\', \'121212\', \'2022-10-20 14:56:33\', \'2022-10-20 14:56:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (\'333\', \'121212\', \'121212\', \'2022-10-20 14:56:33\', \'2022-10-20 14:56:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (\'333\', \'121212\', \'121212\', \'2022-10-20 14:56:33\', \'2022-10-20 14:56:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbmodule` (`nurut`, `cmodule`, `cmenu`, `created_at`, `updated_at`) VALUES (:nurut:, :cmodule:, :cmenu:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmodule.php(150): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 14:57:32 --> Call to undefined method App\Models\TbmoduleModel::delete_by_id
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmodule.php(205): CodeIgniter\Model->__call('delete_by_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->hapus('48')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:34:52 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 170.
+ 1 APPPATH\Controllers\Tbmodule.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:36:10 --> Undefined array key "kode"
+in APPPATH\Controllers\Tbmodule.php on line 170.
+ 1 APPPATH\Controllers\Tbmodule.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Tbmodule.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:36:45 --> Undefined variable $kode
+in APPPATH\Views\tbmodule\modaledit.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaledit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbmodule\\modaledit.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(174): view('tbmodule/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:36:45 --> Undefined variable $kode
+in APPPATH\Views\tbmodule\modaledit.php on line 14.
+ 1 APPPATH\Views\tbmodule\modaledit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbmodule\\modaledit.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(174): view('tbmodule/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:39:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(192): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->updatedata()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 15:40:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(192): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->updatedata()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:00:12 --> Undefined variable $clokasi_menu
+in APPPATH\Views\tbmodule\modaldetail.php on line 26.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clokasi_menu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(82): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:01:27 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:01:38 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:01:41 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:02:17 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:02:38 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 16:02:44 --> Undefined variable $cmenu
+in APPPATH\Views\tbmodule\modaldetail.php on line 22.
+ 1 APPPATH\Views\tbmodule\modaldetail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmenu', 'APPPATH\\Views\\tbmodule\\modaldetail.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(84): view('tbmodule/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 04:40:25 --> Undefined variable $menu
+in APPPATH\Views\dashboard\index.php on line 68.
+ 1 APPPATH\Views\dashboard\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\dashboard\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/user/rubah_password', [], true)
+ 6 APPPATH\Controllers\Rubah_password.php(28): view('/user/rubah_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rubah_password->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rubah_password))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 04:40:46 --> Undefined variable $menu
+in APPPATH\Views\dashboard\index.php on line 68.
+ 1 APPPATH\Views\dashboard\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\dashboard\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/user/rubah_password', [], true)
+ 6 APPPATH\Controllers\Rubah_password.php(28): view('/user/rubah_password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rubah_password->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rubah_password))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 04:41:31 --> Undefined variable $menu
+in APPPATH\Views\dashboard\index.php on line 68.
+ 1 APPPATH\Views\dashboard\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\dashboard\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/user/update_profile', [], true)
+ 6 APPPATH\Controllers\Update_profile.php(27): view('/user/update_profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Update_profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update_profile))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 04:42:46 --> Undefined variable $menu
+in APPPATH\Views\dashboard\index.php on line 68.
+ 1 APPPATH\Views\dashboard\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\dashboard\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/user/update_profile', [], true)
+ 6 APPPATH\Controllers\Update_profile.php(27): view('/user/update_profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Update_profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update_profile))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 04:44:48 --> Undefined variable $menu
+in APPPATH\Views\dashboard\index.php on line 68.
+ 1 APPPATH\Views\dashboard\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'APPPATH\\Views\\dashboard\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/user/update_profile', [], true)
+ 6 APPPATH\Controllers\Update_profile.php(27): view('/user/update_profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Update_profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update_profile))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 17:04:19 --> mysqli_sql_exception: Table 'ci4.tbuser' doesn't exist in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-20 17:04:19 --> Table 'ci4.tbuser' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbuser`
+ORDER BY `nurut`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbuser`
+ORDER BY `nurut`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbuser`
+ORDER BY `nurut`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbuser`
+ORDER BY `nurut`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 17:04:52 --> mysqli_sql_exception: Unknown column 'nurut' in 'order clause' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-20 17:04:52 --> Unknown column 'nurut' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 17:05:18 --> mysqli_sql_exception: Unknown column 'nurut' in 'order clause' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-20 17:05:18 --> Unknown column 'nurut' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-20 17:05:28 --> mysqli_sql_exception: Unknown column 'nurut' in 'order clause' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-20 17:05:28 --> Unknown column 'nurut' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+ORDER BY `nurut`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+ORDER BY `nurut`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbuser.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-20 17:06:14 --> Invalid file: tbuser/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbuser/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/index', [], true)
+ 3 APPPATH\Controllers\Tbuser.php(23): view('tbuser/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

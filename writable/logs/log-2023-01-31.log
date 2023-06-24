@@ -1,0 +1,85 @@
+CRITICAL - 2023-01-31 11:59:44 --> Invalid file: wo/modalestimasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/modalestimasi.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/modalestimasi', [], true)
+ 3 APPPATH\Controllers\Estimasi.php(96): view('wo/modalestimasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->modalestimasi()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 15:45:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Wo.php on line 180.
+ 1 APPPATH\Controllers\Wo.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Wo.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:01:20 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Estimasi.php on line 371.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:03:48 --> Undefined variable $nopolisi
+in APPPATH\Views\estimasi\modalestimasi.php on line 248.
+ 1 APPPATH\Views\estimasi\modalestimasi.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nopolisi', 'APPPATH\\Views\\estimasi\\modalestimasi.php', 248)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(128): view('estimasi/modalestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->modalestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:03:54 --> Undefined variable $nopolisi
+in APPPATH\Views\estimasi\modalestimasi.php on line 248.
+ 1 APPPATH\Views\estimasi\modalestimasi.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nopolisi', 'APPPATH\\Views\\estimasi\\modalestimasi.php', 248)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalestimasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalestimasi', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(128): view('estimasi/modalestimasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->modalestimasi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:04:13 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Estimasi.php on line 371.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:05:29 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Estimasi.php on line 371.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:05:32 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Estimasi.php on line 371.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:05:39 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Estimasi.php on line 371.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 16:46:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Wo.php on line 180.
+ 1 APPPATH\Controllers\Wo.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Wo.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

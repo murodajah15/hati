@@ -1,0 +1,660 @@
+CRITICAL - 2023-04-15 09:53:35 --> Dompdf\Image\Cache::resolve_url(): Argument #5 ($dompdf) must be of type Dompdf\Dompdf, Dompdf\Options given, called in D:\xampp\htdocs\hati\vendor\dompdf\dompdf\src\FrameDecorator\Image.php on line 58
+in VENDORPATH\dompdf\dompdf\src\Image\Cache.php on line 62.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\Image.php(58): Dompdf\Image\Cache::resolve_url('http://localhost:8080/img/logo_honda.png', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', Object(Dompdf\Options))
+ 2 VENDORPATH\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+ 4 APPPATH\Controllers\Mohfaktur.php(734): Dompdf\Dompdf->render()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 09:56:36 --> Allowed memory size of 2147483648 bytes exhausted (tried to allocate 1065357312 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-15 09:56:37 --> Dompdf\Image\Cache::resolve_url(): Argument #5 ($dompdf) must be of type Dompdf\Dompdf, Dompdf\Options given, called in D:\xampp\htdocs\hati\vendor\dompdf\dompdf\src\FrameDecorator\Image.php on line 58
+in VENDORPATH\dompdf\dompdf\src\Image\Cache.php on line 62.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\Image.php(58): Dompdf\Image\Cache::resolve_url('http://localhost:8080/img/logo_honda.png', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', Object(Dompdf\Options))
+ 2 VENDORPATH\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+ 4 APPPATH\Controllers\Mohfaktur.php(734): Dompdf\Dompdf->render()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 11:14:32 --> mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 59.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated', 'VENDORPATH\\dompdf\\dompdf\\src\\Helpers.php', 59)
+ 2 VENDORPATH\dompdf\dompdf\src\Helpers.php(59): mb_strtolower(null)
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(647): Dompdf\Helpers::build_url(null, 'ROOTPATH\\public', 'ROOTPATH\\public', ' http://localhost:8080/css/dataTables.bootstrap5.min.css')
+ 4 VENDORPATH\dompdf\dompdf\src\Dompdf.php(761): Dompdf\Dompdf->processHtml()
+ 5 APPPATH\Controllers\Mohfaktur.php(738): Dompdf\Dompdf->render()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 11:15:00 --> mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 59.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated', 'VENDORPATH\\dompdf\\dompdf\\src\\Helpers.php', 59)
+ 2 VENDORPATH\dompdf\dompdf\src\Helpers.php(59): mb_strtolower(null)
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(647): Dompdf\Helpers::build_url(null, 'ROOTPATH\\public', 'ROOTPATH\\public', ' http://localhost:8080/css/dataTables.bootstrap5.min.css')
+ 4 VENDORPATH\dompdf\dompdf\src\Dompdf.php(761): Dompdf\Dompdf->processHtml()
+ 5 APPPATH\Controllers\Mohfaktur.php(738): Dompdf\Dompdf->render()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 11:15:01 --> mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+in VENDORPATH\dompdf\dompdf\src\Helpers.php on line 59.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated', 'VENDORPATH\\dompdf\\dompdf\\src\\Helpers.php', 59)
+ 2 VENDORPATH\dompdf\dompdf\src\Helpers.php(59): mb_strtolower(null)
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(647): Dompdf\Helpers::build_url(null, 'ROOTPATH\\public', 'ROOTPATH\\public', ' http://localhost:8080/css/dataTables.bootstrap5.min.css')
+ 4 VENDORPATH\dompdf\dompdf\src\Dompdf.php(761): Dompdf\Dompdf->processHtml()
+ 5 APPPATH\Controllers\Mohfaktur.php(738): Dompdf\Dompdf->render()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:41:17 --> require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:43:49 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 764.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:44:05 --> Class "mpdf\mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 764.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:46:02 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 764.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:49:42 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 764.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:53:24 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 764.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:58:47 --> require_once(D:\xampp\htdocs\hati\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:59:16 --> require_once(/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 13:59:38 --> require_once(base_url(/vendor/autoload.php)): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(base_url(/vendor/autoload.php)): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:00:01 --> require_once(./vendor/autoload.php)): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(./vendor/autoload.php)): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:00:33 --> require_once(localhost:8080endor\autoload.php)): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(localhost:8080endor\\autoload.php)): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:00:46 --> require_once(localhost:8080/vendor/autoload.php)): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(localhost:8080/vendor/autoload.php)): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:03:28 --> require_once(./vendor/autoload.php)): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(./vendor/autoload.php)): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:04:32 --> require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:04:55 --> require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Controllers\Mohfaktur.php on line 749.
+ 1 APPPATH\Controllers\Mohfaktur.php(749): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'APPPATH\\Controllers\\Mohfaktur.php', 749)
+ 2 APPPATH\Controllers\Mohfaktur.php(749): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:06:13 --> require_once(D:\xampp\htdocs\hati\public/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 750.
+ 1 APPPATH\Controllers\Mohfaktur.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\public/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 750)
+ 2 APPPATH\Controllers\Mohfaktur.php(750): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:06:35 --> require_once(D:\xampp\htdocs\hati\public./vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 750.
+ 1 APPPATH\Controllers\Mohfaktur.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\public./vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 750)
+ 2 APPPATH\Controllers\Mohfaktur.php(750): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:06:43 --> require_once(D:\xampp\htdocs\hati\publicvendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 750.
+ 1 APPPATH\Controllers\Mohfaktur.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\publicvendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 750)
+ 2 APPPATH\Controllers\Mohfaktur.php(750): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:07:09 --> require_once(D:\xampp\htdocs\hati\publicvendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 750.
+ 1 APPPATH\Controllers\Mohfaktur.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\publicvendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 750)
+ 2 APPPATH\Controllers\Mohfaktur.php(750): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:07:24 --> require_once(D:\xampp\htdocs\hati\public\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 750.
+ 1 APPPATH\Controllers\Mohfaktur.php(750): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\public\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 750)
+ 2 APPPATH\Controllers\Mohfaktur.php(750): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:07:50 --> require_once(D:\xampp\htdocs\hati\public/composer/autoload_real.php): Failed to open stream: No such file or directory
+in FCPATH\autoload.php on line 10.
+ 1 FCPATH\autoload.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\public/composer/autoload_real.php): Failed to open stream: No such file or directory', 'FCPATH\\autoload.php', 10)
+ 2 FCPATH\autoload.php(10): require_once()
+ 3 APPPATH\Controllers\Mohfaktur.php(750): require_once('FCPATH\\autoload.php')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:08:23 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 765.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:12:37 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 774.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:14:16 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 774.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:16:06 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:16:24 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:33:01 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:33:15 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:33:25 --> Undefined variable $mpdf
+in APPPATH\Controllers\Mohfaktur.php on line 774.
+ 1 APPPATH\Controllers\Mohfaktur.php(774): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mpdf', 'APPPATH\\Controllers\\Mohfaktur.php', 774)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:33:36 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:34:23 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:36:08 --> require_once(D:\xampp\htdocs\hati\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 APPPATH\Controllers\Mohfaktur.php(773): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 773)
+ 2 APPPATH\Controllers\Mohfaktur.php(773): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:37:53 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:44:05 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:04 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:06 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:07 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:08 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:09 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:09 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:10 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:11 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:49:17 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:23 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:24 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:25 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:25 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:26 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:26 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:27 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:33 --> require_once(D:\xampp\htdocs\hati\vendor\autoload1.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mohfaktur.php on line 773.
+ 1 APPPATH\Controllers\Mohfaktur.php(773): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(D:\\xampp\\htdocs\\hati\\vendor\\autoload1.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Mohfaktur.php', 773)
+ 2 APPPATH\Controllers\Mohfaktur.php(773): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:50:47 --> Class "ComposerAutoloaderInit3eee584a3b7878f32f5e2f10aab5c67b" not found
+in VENDORPATH\autoload2.php on line 7.
+ 1 APPPATH\Controllers\Mohfaktur.php(773): require_once()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:51:28 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:52:05 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 02:52:52 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\Mohfaktur.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Mohfaktur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\mohfaktur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\mohfaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\mohfaktur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:53:06 --> Class "Dompdf1\Dompdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 719.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:53:16 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:41 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:43 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:43 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:44 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:44 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:45 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:46 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:47 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:47 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:48 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:49 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:54:50 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:59:11 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:59:13 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:59:14 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:59:15 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 14:59:16 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 15:14:57 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 15:14:58 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 15:14:59 --> Class "Mpdf\Mpdf" not found
+in APPPATH\Controllers\Mohfaktur.php on line 775.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 17:27:43 --> Undefined variable $aData
+in APPPATH\Controllers\Mohfaktur.php on line 734.
+ 1 APPPATH\Controllers\Mohfaktur.php(734): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aData', 'APPPATH\\Controllers\\Mohfaktur.php', 734)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-15 18:04:43 --> syntax error, unexpected single-quoted string "data:image;base64,", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Mohfaktur.php on line 753.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Mohfaktur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\mohfaktur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\mohfaktur')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\mohfaktur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

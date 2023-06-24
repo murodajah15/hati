@@ -1,0 +1,571 @@
+CRITICAL - 2022-10-15 10:07:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 407.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(407): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:08:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 407.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(407): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:14:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 407.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(407): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:15:55 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 408.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(408): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:16:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 408.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(408): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:17:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 408.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(408): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:27:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 411.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(411): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 411)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 10:33:25 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rw...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rw...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rw...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rw...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(410): App\Models\RwtkeluargadModel->delete_by_kode(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 10:33:25 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Rwtkeluarga.php(410): App\Models\RwtkeluargadModel->delete_by_kode([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 10:33:47 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rw...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rw...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rw...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rw...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(410): App\Models\RwtkeluargadModel->delete_by_kode(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 10:33:47 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Rwtkeluarga.php(410): App\Models\RwtkeluargadModel->delete_by_kode([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:39:26 --> Undefined variable $kode
+in APPPATH\Views\rwtkeluarga\tabel_detail.php on line 25.
+ 1 APPPATH\Views\rwtkeluarga\tabel_detail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\rwtkeluarga\\tabel_detail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(378): view('rwtkeluarga/tabel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:40:04 --> Undefined variable $kode
+in APPPATH\Views\rwtkeluarga\tabel_detail.php on line 25.
+ 1 APPPATH\Views\rwtkeluarga\tabel_detail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\rwtkeluarga\\tabel_detail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(378): view('rwtkeluarga/tabel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:42:49 --> Undefined variable $kode
+in APPPATH\Views\rwtkeluarga\tabel_detail.php on line 2.
+ 1 APPPATH\Views\rwtkeluarga\tabel_detail.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\rwtkeluarga\\tabel_detail.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(378): view('rwtkeluarga/tabel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:53:21 --> Undefined variable $kode
+in APPPATH\Views\rwtkeluarga\tabel_detail.php on line 3.
+ 1 APPPATH\Views\rwtkeluarga\tabel_detail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\rwtkeluarga\\tabel_detail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(382): view('rwtkeluarga/tabel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:56:19 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 380.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:56:34 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 380.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 10:58:10 --> Call to a member function find() on null
+in APPPATH\Controllers\Rwtkeluarga.php on line 377.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:01:52 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:02:52 --> Call to a member function find() on null
+in APPPATH\Controllers\Rwtkeluarga.php on line 377.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:03:23 --> Call to a member function find() on null
+in APPPATH\Controllers\Rwtkeluarga.php on line 377.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:05:30 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 381.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 381)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:14:40 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:20:21 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:24:20 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:24:44 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 380.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:25:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 381.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 381)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 11:34:02 --> mysqli_sql_exception: Unknown column '$kode' in 'where clause' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from r...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from r...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from r...')
+#3 D:\xampp\htdocs\ci4sbadmin704\app\Views\rwtkeluarga\tabel_detail.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * from r...')
+#4 D:\xampp\htdocs\ci4sbadmin704\system\View\View.php(213): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\ci4sbadmin704\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\ci4sbadmin704\system\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tab...', Array, true)
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(386): view('rwtkeluarga/tab...', Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 11:34:02 --> Unknown column '$kode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from rwtkeluargad where kode=$kode', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from rwtkeluargad where kode=$kode')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from rwtkeluargad where kode=$kode')
+ 4 APPPATH\Views\rwtkeluarga\tabel_detail.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * from rwtkeluargad where kode=$kode')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 8 APPPATH\Controllers\Rwtkeluarga.php(386): view('rwtkeluarga/tabel_detail', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:44:03 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:46:17 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:47:09 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:47:45 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:48:18 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:48:34 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:52:11 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:58:19 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:58:40 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:59:11 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:00:35 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:01:30 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:03:10 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:05:16 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:08:06 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:09:52 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:11:01 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:12:24 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:17:00 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:19:40 --> Too few arguments to function App\Controllers\Rwtkeluarga::table_detail(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Rwtkeluarga.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 12:22:18 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 379.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(379): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 379)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 13:50:44 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rw...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rw...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rw...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rw...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 13:50:44 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 13:51:09 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rw...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rw...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rw...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rw...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 13:51:09 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 13:52:37 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\ci4sbadmin704\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rw...', 0)
+#1 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rw...')
+#2 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rw...')
+#3 D:\xampp\htdocs\ci4sbadmin704\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rw...', Array, false)
+#4 D:\xampp\htdocs\ci4sbadmin704\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\ci4sbadmin704\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 D:\xampp\htdocs\ci4sbadmin704\app\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+#7 D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode(Array)
+#8 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+#9 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+#10 D:\xampp\htdocs\ci4sbadmin704\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci4sbadmin704\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\ci4sbadmin704\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-15 13:52:37 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `rwtkeluargad`
+WHERE `kode` = (\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\',\'00001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `rwtkeluargad`
+WHERE `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Models\RwtkeluargadModel.php(86): CodeIgniter\BaseModel->delete()
+ 8 APPPATH\Controllers\Rwtkeluarga.php(418): App\Models\RwtkeluargadModel->delete_by_kode([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->simpan_data_detail()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 14:46:38 --> Undefined variable $piihan
+in APPPATH\Views\rwtkeluarga\tabel_detail.php on line 60.
+ 1 APPPATH\Views\rwtkeluarga\tabel_detail.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $piihan', 'APPPATH\\Views\\rwtkeluarga\\tabel_detail.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rwtkeluarga\\tabel_detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/tabel_detail', [], true)
+ 5 APPPATH\Controllers\Rwtkeluarga.php(386): view('rwtkeluarga/tabel_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->table_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

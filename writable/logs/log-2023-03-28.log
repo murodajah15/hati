@@ -1,0 +1,173 @@
+CRITICAL - 2023-03-28 11:38:53 --> Undefined array key "nama"
+in APPPATH\Views\memombr\modaledit.php on line 359.
+ 1 APPPATH\Views\memombr\modaledit.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\memombr\\modaledit.php', 359)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaledit', [], true)
+ 5 APPPATH\Controllers\Memombr.php(288): view('memombr/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 11:39:08 --> Undefined array key "nama"
+in APPPATH\Views\memombr\modaledit.php on line 359.
+ 1 APPPATH\Views\memombr\modaledit.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\memombr\\modaledit.php', 359)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaledit', [], true)
+ 5 APPPATH\Controllers\Memombr.php(288): view('memombr/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 11:39:18 --> Undefined array key "nama"
+in APPPATH\Views\memombr\modaledit.php on line 359.
+ 1 APPPATH\Views\memombr\modaledit.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\memombr\\modaledit.php', 359)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaledit', [], true)
+ 5 APPPATH\Controllers\Memombr.php(288): view('memombr/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 11:42:36 --> Undefined array key "nama"
+in APPPATH\Views\memombr\modaledit.php on line 367.
+ 1 APPPATH\Views\memombr\modaledit.php(367): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\memombr\\modaledit.php', 367)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaledit', [], true)
+ 5 APPPATH\Controllers\Memombr.php(288): view('memombr/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:18:26 --> Undefined array key "nomemombr"
+in APPPATH\Controllers\Memombr.php on line 566.
+ 1 APPPATH\Controllers\Memombr.php(566): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomemombr"', 'APPPATH\\Controllers\\Memombr.php', 566)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('53')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:19:09 --> Undefined array key "nomemombr"
+in APPPATH\Controllers\Memombr.php on line 566.
+ 1 APPPATH\Controllers\Memombr.php(566): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomemombr"', 'APPPATH\\Controllers\\Memombr.php', 566)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('53')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:30:33 --> Undefined array key "nomemombr"
+in APPPATH\Controllers\Memombr.php on line 566.
+ 1 APPPATH\Controllers\Memombr.php(566): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomemombr"', 'APPPATH\\Controllers\\Memombr.php', 566)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('51')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:31:49 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Memombr.php on line 567.
+ 1 APPPATH\Controllers\Memombr.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Memombr.php', 567)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('51')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:33:54 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Memombr.php on line 567.
+ 1 APPPATH\Controllers\Memombr.php(567): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Memombr.php', 567)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('53')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:38:11 --> Undefined array key "kdjenis"
+in APPPATH\Controllers\Memombr.php on line 571.
+ 1 APPPATH\Controllers\Memombr.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdjenis"', 'APPPATH\\Controllers\\Memombr.php', 571)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('53')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 15:38:42 --> Undefined variable $estimasi
+in APPPATH\Views\memombr\cetakmemombr.php on line 26.
+ 1 APPPATH\Views\memombr\cetakmemombr.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\memombr\\cetakmemombr.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\cetakmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/cetakmemombr', [], true)
+ 5 APPPATH\Controllers\Memombr.php(587): view('memombr/cetakmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakmemombr('53')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 03:47:10 --> syntax error, unexpected token "/", expecting "]"
+in APPPATH\Controllers\Pengajuandiscount.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Pengajuandiscount.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\pengajuandiscount')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\pengajuandiscount')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\pengajuandiscount', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 04:11:10 --> Class "App\Models\PengajuandiscountModel" not found
+in APPPATH\Controllers\Pengajuandiscount.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Pengajuandiscount->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 16:47:10 --> Undefined variable $tbmerek
+in APPPATH\Views\memombr\modaltambah.php on line 272.
+ 1 APPPATH\Views\memombr\modaltambah.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\memombr\\modaltambah.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaltambah', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(87): view('memombr/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 16:47:39 --> Undefined variable $tbmerek
+in APPPATH\Views\memombr\modaltambah.php on line 272.
+ 1 APPPATH\Views\memombr\modaltambah.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\memombr\\modaltambah.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modaltambah', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(87): view('memombr/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 16:48:38 --> Undefined variable $tbmerek
+in APPPATH\Views\pengajuandiscount\modaltambah.php on line 272.
+ 1 APPPATH\Views\pengajuandiscount\modaltambah.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\pengajuandiscount\\modaltambah.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaltambah', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(84): view('pengajuandiscount/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 17:00:50 --> Undefined variable $tbtipe
+in APPPATH\Views\pengajuandiscount\modaltambah.php on line 105.
+ 1 APPPATH\Views\pengajuandiscount\modaltambah.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\pengajuandiscount\\modaltambah.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaltambah', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(84): view('pengajuandiscount/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

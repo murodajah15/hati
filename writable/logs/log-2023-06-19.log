@@ -1,0 +1,180 @@
+CRITICAL - 2023-06-19 10:59:27 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 10:59:34 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 10:59:40 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 10:59:43 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 11:00:03 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 11:02:50 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 11:04:11 --> Call to undefined method App\Models\TbmekanikModel::getmekanik
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmekanik.php(282): CodeIgniter\Model->__call('getmekanik', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmekanik->table_mekanik()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmekanik))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 13:24:01 --> Invalid file: part_bp/detail_wo_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('part_bp/detail_wo_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('part_bp/detail_wo_bp', [], true)
+ 3 APPPATH\Controllers\Part_bp.php(131): view('part_bp/detail_wo_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Part_bp->detail_wo_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Part_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 13:24:04 --> Invalid file: part_bp/detail_wo_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('part_bp/detail_wo_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('part_bp/detail_wo_bp', [], true)
+ 3 APPPATH\Controllers\Part_bp.php(131): view('part_bp/detail_wo_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Part_bp->detail_wo_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Part_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 13:24:27 --> Invalid file: part_bp/detail_wo_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('part_bp/detail_wo_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('part_bp/detail_wo_bp', [], true)
+ 3 APPPATH\Controllers\Part_bp.php(131): view('part_bp/detail_wo_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Part_bp->detail_wo_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Part_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:04:55 --> Call to a member function getnopolisi() on null
+in APPPATH\Controllers\Bahan_bp.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->detail_wo_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:05:05 --> Call to a member function getnopolisi() on null
+in APPPATH\Controllers\Bahan_bp.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->detail_wo_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:16:34 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:17:29 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:20:02 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:20:25 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:21:01 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:21:37 --> Invalid file: bahan_bp/input_part_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bahan_bp/input_part_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/input_part_bp', [], true)
+ 3 APPPATH\Controllers\Bahan_bp.php(72): view('bahan_bp/input_part_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->input_bahan_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 14:57:19 --> Undefined variable $wo_bahan
+in APPPATH\Views\bahan_bp\tabel_bahan_bp.php on line 27.
+ 1 APPPATH\Views\bahan_bp\tabel_bahan_bp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_bahan', 'APPPATH\\Views\\bahan_bp\\tabel_bahan_bp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bahan_bp\\tabel_bahan_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('bahan_bp/tabel_bahan_bp', [], true)
+ 5 APPPATH\Controllers\Bahan_bp.php(94): view('bahan_bp/tabel_bahan_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bahan_bp->table_bahan_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-19 15:02:18 --> Call to undefined method App\Models\Wobahan_bpModel::getid
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi_bp.php(785): CodeIgniter\Model->__call('getid', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->tampildetailbahanwo('583')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

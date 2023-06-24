@@ -1,0 +1,842 @@
+CRITICAL - 2022-11-10 10:45:33 --> Undefined variable $kodecustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 26.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodecustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:45:39 --> Undefined variable $kodecustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 26.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodecustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:46:24 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 11.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:47:54 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 11.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:47:59 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 11.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:50:49 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 11.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:53:49 --> Invalid file: tbcustomer/formmodaledit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbcustomer/formmodaledit.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formmodaledit', [], true)
+ 3 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formmodaledit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:53:58 --> Invalid file: tbcustomer/formmodaledit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbcustomer/formmodaledit.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formmodaledit', [], true)
+ 3 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formmodaledit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 10:56:07 --> Undefined variable $kode
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 30.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:08:13 --> Undefined variable $kode
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 56.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:41:11 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:41:28 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:41:47 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:43:14 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:43:22 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:44:21 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:44:29 --> Undefined array key "nmtipe"
+in APPPATH\Views\tbcustomer\modalcari_nopolisi.php on line 32.
+ 1 APPPATH\Views\tbcustomer\modalcari_nopolisi.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmtipe"', 'APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modalcari_nopolisi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modalcari_nopolisi', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(465): view('tbcustomer/modalcari_nopolisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->cari_nopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:47:21 --> Undefined variable $kode
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 15.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 11:47:54 --> Undefined variable $kode
+in APPPATH\Views\tbcustomer\formdetailmobil.php on line 17.
+ 1 APPPATH\Views\tbcustomer\formdetailmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode', 'APPPATH\\Views\\tbcustomer\\formdetailmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\formdetailmobil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/formdetailmobil', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(432): view('tbcustomer/formdetailmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetailmobil()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:22:40 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbcustomer.php on line 476.
+ 1 APPPATH\Controllers\Tbcustomer.php(476): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbcustomer.php', 476)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->repl_nopolisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:39:18 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:41:37 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:41:53 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:42:33 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:42:47 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:43:32 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:45:01 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:48:49 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:50:59 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 14:51:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbmobil.php on line 45.
+ 1 APPPATH\Controllers\Tbmobil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbmobil.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 15:40:19 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbcustomer.php on line 434.
+ 1 APPPATH\Controllers\Tbcustomer.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbcustomer.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->repl_nopolisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 15:40:26 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbcustomer.php on line 434.
+ 1 APPPATH\Controllers\Tbcustomer.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbcustomer.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->repl_nopolisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 15:40:38 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbcustomer.php on line 434.
+ 1 APPPATH\Controllers\Tbcustomer.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbcustomer.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->repl_nopolisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 15:40:41 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbcustomer.php on line 434.
+ 1 APPPATH\Controllers\Tbcustomer.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbcustomer.php', 434)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->repl_nopolisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:13:01 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:19:15 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:19:30 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:19:49 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:20:49 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:21:05 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:24:00 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:24:07 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:24:25 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(509): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:30:18 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:30:30 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:33:08 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:33:36 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:33:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:35:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(511): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:36:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(512): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:38:36 --> Call to undefined method App\Models\TbcustomerModel::etkdcustomer
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbcustomer.php(509): CodeIgniter\Model->__call('etkdcustomer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:40:12 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(512): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:40:18 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(512): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:40:26 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(512): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:47:46 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(512): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:49:01 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:49:47 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:50:10 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:51:17 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:58:02 --> Undefined array key "kdpemilik"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdpemilik"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 16:58:29 --> Undefined array key "kdpemilik"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdpemilik"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:01:31 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:02:02 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:08:43 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:10:49 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:11:44 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:12:31 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:12:50 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:13:29 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:14:43 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:15:19 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:15:35 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:16:00 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:16:11 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:16:37 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:17:19 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:17:41 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:18:02 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:18:51 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:19:07 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:19:13 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:23:38 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:23:49 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:25:03 --> Too few arguments to function App\Controllers\Tbcustomer::table_mobil_customer(), 0 passed in D:\xampp\htdocs\bp\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Tbcustomer.php on line 503.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:26:59 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:27:43 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(514): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:28:22 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(514): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:29:24 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(514): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:29:59 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(514): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:33:55 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\tabel_mobil_customer.php on line 33.
+ 1 APPPATH\Views\tbcustomer\tabel_mobil_customer.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_mobil_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_mobil_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(514): view('tbcustomer/tabel_mobil_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:35:50 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 17:36:37 --> Undefined array key "id"
+in APPPATH\Controllers\Tbcustomer.php on line 506.
+ 1 APPPATH\Controllers\Tbcustomer.php(506): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbcustomer.php', 506)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_mobil_customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

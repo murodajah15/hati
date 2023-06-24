@@ -1,0 +1,194 @@
+CRITICAL - 2023-04-14 14:09:31 --> Undefined array key "nospv"
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 79.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nospv"', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:13:58 --> Undefined array key "alaamt_pemesan"
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 131.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alaamt_pemesan"', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:16:16 --> Undefined array key "kk"
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 159.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kk"', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:50:07 --> Call to a member function format() on string
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 257.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 4 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:52:03 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 257.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(257): date('d-m-Y', '1972-03-15')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:53:09 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 258.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(258): date_format('1972-03-15', 'd-m-Y')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 14:53:52 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 257.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(257): date_format('1972-03-15', 'd-m-Y')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 15:48:09 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-14 16:14:35 --> Undefined variable $base64
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 50.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base64', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:14:37 --> Undefined variable $base64
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 50.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base64', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:15:04 --> Undefined variable $base64
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 50.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base64', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:15:08 --> Undefined variable $base64
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 50.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base64', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:17:28 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-14 16:23:17 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-14 16:29:37 --> Undefined variable $base64
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 49.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base64', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:31:25 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-14 16:38:25 --> file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 43.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 43)
+ 2 APPPATH\Views\mohfaktur\cetakmohfaktur.php(43): file_get_contents('http://localhost:8080/img/logo_honda.jpg')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 6 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:40:16 --> file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 43.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 43)
+ 2 APPPATH\Views\mohfaktur\cetakmohfaktur.php(43): file_get_contents('http://localhost:8080/img/logo_honda.jpg')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 6 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-14 16:57:12 --> file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 43.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost:8080/img/logo_honda.jpg): Failed to open stream: HTTP request failed!', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 43)
+ 2 APPPATH\Views\mohfaktur\cetakmohfaktur.php(43): file_get_contents('http://localhost:8080/img/logo_honda.jpg')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 6 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

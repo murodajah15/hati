@@ -1,0 +1,13 @@
+located the file c:/xampp/php/php
+open the file
+open php.ini
+search for fileinfo and gd
+if your see ;extension=fileinfo ;extension=gd
+Remove the semicolon so it will be like this: extension=fileinfo extension=gd
+Close the file and run the package again
+
+Open your project in visual studio and click ctr+shift+` to open terminal or open cmd and to your project directory
+
+and paste below code
+
+composer require phpoffice/phpspreadsheet --ignore-platform-req=ext-gd

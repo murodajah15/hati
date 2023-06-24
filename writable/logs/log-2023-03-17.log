@@ -1,0 +1,37 @@
+CRITICAL - 2023-03-17 15:43:03 --> Undefined array key "level"
+in APPPATH\Views\dashboard\index.php on line 171.
+ 1 APPPATH\Views\dashboard\index.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "level"', 'APPPATH\\Views\\dashboard\\index.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/index', [], true)
+ 6 APPPATH\Controllers\Tbmodule.php(23): view('tbmodule/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-17 15:58:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 525.
+ 1 APPPATH\Controllers\Tbuser.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 525)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-17 16:12:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 525.
+ 1 APPPATH\Controllers\Tbuser.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 525)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-17 16:13:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 525.
+ 1 APPPATH\Controllers\Tbuser.php(525): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 525)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,718 @@
+CRITICAL - 2023-02-16 10:22:56 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::all()
+in APPPATH\Controllers\Tbbarang.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 10:36:47 --> Call to a member function getPost() on null
+in APPPATH\Models\TbbarangModel.php on line 33.
+ 1 APPPATH\Controllers\Tbbarang.php(68): App\Models\TbbarangModel->tampilData('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 10:44:33 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\Tbbarang.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 10:46:04 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\Tbbarang.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 13:58:50 --> explode(): Argument #2 ($string) must be of type string, CodeIgniter\HTTP\IncomingRequest given
+in APPPATH\Models\EstimasiModel.php on line 23.
+ 1 APPPATH\Models\EstimasiModel.php(23): explode(' ', Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 APPPATH\Controllers\Estimasi.php(79): App\Models\EstimasiModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->ajaxLoadData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 13:59:43 --> explode(): Argument #2 ($string) must be of type string, CodeIgniter\HTTP\IncomingRequest given
+in APPPATH\Models\EstimasiModel.php on line 23.
+ 1 APPPATH\Models\EstimasiModel.php(23): explode(' ', Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 APPPATH\Controllers\Estimasi.php(79): App\Models\EstimasiModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->ajaxLoadData()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:03:12 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:04:24 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:05:51 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:06:02 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:08:59 --> mysqli_sql_exception: Unknown column 'nowo' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-16 14:08:59 --> Unknown column 'nowo' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:09:15 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:11:41 --> Call to a member function getPost() on string
+in APPPATH\Models\TbmobilModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData('ROOTPATH\\public', '0', '10')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:14:47 --> mysqli_sql_exception: Unknown column 'nowo' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-16 14:14:47 --> Unknown column 'nowo' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:19:14 --> mysqli_sql_exception: Unknown column 'tbmobil.nama' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:19:14 --> Unknown column 'tbmobil.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:19:34 --> mysqli_sql_exception: Unknown column 'tbmobil.nama' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:19:34 --> Unknown column 'tbmobil.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:19:46 --> mysqli_sql_exception: Unknown column 'tbmobil.nama' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:19:46 --> Unknown column 'tbmobil.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `kdmobil`, `tbmobil`.`nama` as `nmmobil`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`nopolisi`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:26:45 --> mysqli_sql_exception: Unknown column 'tbmodel.nama' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:26:45 --> Unknown column 'tbmodel.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:28:09 --> mysqli_sql_exception: Unknown column 'tbmobil.aktif' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:28:09 --> Unknown column 'tbmobil.aktif' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:28:23 --> mysqli_sql_exception: Unknown column 'tbmobil.aktif' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '10')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-16 14:28:23 --> Unknown column 'tbmobil.aktif' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi` as `nopolisi`, `tbmobil`.`nmpemilik` as `nmpemilik`, `tbmobil`.`user`, `tbmobil`.`kdmerek`, `tbmobil`.`kdmodel`, `tbmobil`.`kdtipe`, `tbmobil`.`kdwarna`, `tbmerek`.`nama` as `nmmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`nama` as `nmtipe`, `tbmobil`.`aktif` as `aktif`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmobil`.`kdmerek` = `tbmerek`.`kode`
+LEFT JOIN `tbmodel` as `tbmodel` ON `tbmobil`.`kdmodel` = `tbmodel`.`kode`
+LEFT JOIN `tbtipe` as `tbtipe` ON `tbmobil`.`kdtipe` = `tbtipe`.`kode`
+ORDER BY `nopolisi` ASC, `nopolisi` ASC', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(91): App\Models\TbmobilModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->ajaxLoadData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:30:37 --> mysqli_sql_exception: Unknown column 'nowo' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-16 14:30:37 --> Unknown column 'nowo' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:30:54 --> mysqli_sql_exception: Unknown column 'nowo' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-16 14:30:54 --> Unknown column 'nowo' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 14:31:39 --> Invalid file: wo/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/index', [], true)
+ 3 APPPATH\Controllers\Wo.php(44): view('wo/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-16 14:31:52 --> mysqli_sql_exception: Unknown column 'nowo' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-16 14:31:52 --> Unknown column 'nowo' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbagama`
+ORDER BY `nowo`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Wo.php(510): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->formdetailmobil()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 15:55:07 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:02:55 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Tbmobil.php on line 296.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('9')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:03:09 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Tbmobil.php on line 296.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('9')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:14:58 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 APPPATH\Controllers\Tbmobil.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbmobil.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:16:13 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 APPPATH\Controllers\Tbmobil.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbmobil.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:16:54 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 APPPATH\Controllers\Tbmobil.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbmobil.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:18:30 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbmobil.php on line 300.
+ 1 APPPATH\Controllers\Tbmobil.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbmobil.php', 300)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:21:58 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:22:28 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('11')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:24:34 --> Undefined array key "nopolisi"
+in APPPATH\Controllers\Tbmobil.php on line 300.
+ 1 APPPATH\Controllers\Tbmobil.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nopolisi"', 'APPPATH\\Controllers\\Tbmobil.php', 300)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->hapus('9')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:44:12 --> Invalid file: wo/tabel_wo_part.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo_part.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo_part', [], true)
+ 3 APPPATH\Controllers\Wo.php(123): view('wo/tabel_wo_part', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo_part()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:45:54 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:45:57 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:46:12 --> Invalid file: wo/tabel_wo_part.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo_part.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo_part', [], true)
+ 3 APPPATH\Controllers\Wo.php(123): view('wo/tabel_wo_part', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo_part()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:46:21 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 16:47:35 --> Invalid file: wo/tabel_wo_part.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo_part.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo_part', [], true)
+ 3 APPPATH\Controllers\Wo.php(123): view('wo/tabel_wo_part', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo_part()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 17:08:58 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 17:14:16 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 17:16:32 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 17:19:46 --> Invalid file: wo/tabel_wo.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wo/tabel_wo.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('wo/tabel_wo', [], true)
+ 3 APPPATH\Controllers\Wo.php(494): view('wo/tabel_wo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Wo->table_wo()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wo))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

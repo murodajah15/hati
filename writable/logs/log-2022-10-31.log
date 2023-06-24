@@ -1,0 +1,1987 @@
+CRITICAL - 2022-10-31 09:18:04 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\tabel_customer.php on line 42.
+ 1 APPPATH\Views\tbcustomer\tabel_customer.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\tabel_customer.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(219): view('tbcustomer/tabel_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 09:18:18 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\tabel_customer.php on line 42.
+ 1 APPPATH\Views\tbcustomer\tabel_customer.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\tabel_customer.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(219): view('tbcustomer/tabel_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 09:18:24 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\tabel_customer.php on line 42.
+ 1 APPPATH\Views\tbcustomer\tabel_customer.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\tabel_customer.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(219): view('tbcustomer/tabel_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 09:19:13 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\tabel_customer.php on line 97.
+ 1 APPPATH\Views\tbcustomer\tabel_customer.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\tabel_customer.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(219): view('tbcustomer/tabel_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 09:20:11 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\tabel_customer.php on line 99.
+ 1 APPPATH\Views\tbcustomer\tabel_customer.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\tabel_customer.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\tabel_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/tabel_customer', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(219): view('tbcustomer/tabel_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->table_customer()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 09:21:55 --> Undefined variable $session
+in APPPATH\Views\tbcustomer\index.php on line 29.
+ 1 APPPATH\Views\tbcustomer\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\tbcustomer\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/index', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(25): view('tbcustomer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 10:56:19 --> mysqli_sql_exception: Column 'contact_person_rmh' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbcustomer.php(182): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbcustomer->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-31 10:56:19 --> Column 'contact_person_rmh' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `contact_person_rmh`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', NULL, \'\', NULL, \'Edit-murod-31-10-2022 10:56:19\', \'2022-10-31 10:56:19\', \'2022-10-31 10:56:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `contact_person_rmh`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', NULL, \'\', NULL, \'Edit-murod-31-10-2022 10:56:19\', \'2022-10-31 10:56:19\', \'2022-10-31 10:56:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `contact_person_rmh`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', NULL, \'\', NULL, \'Edit-murod-31-10-2022 10:56:19\', \'2022-10-31 10:56:19\', \'2022-10-31 10:56:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `contact_person_rmh`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :alamat:, :kota:, :telp2:, :agama:, :alamat_ktr:, :kota_ktr:, :kodepos_ktr:, :telp1_ktr:, :telp2_ktr:, :npwp:, :alamat_npwp:, :alamat_ktp:, :kota_ktp:, :kodepos_ktp:, :contact_person_rmh:, :mak_piutang:, :tgl_register:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbcustomer.php(182): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 10:56:35 --> mysqli_sql_exception: Column 'tgl_register' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbcustomer.php(181): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbcustomer->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-31 10:56:35 --> Column 'tgl_register' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', \'\', NULL, \'Edit-murod-31-10-2022 10:56:35\', \'2022-10-31 10:56:35\', \'2022-10-31 10:56:35\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', \'\', NULL, \'Edit-murod-31-10-2022 10:56:35\', \'2022-10-31 10:56:35\', \'2022-10-31 10:56:35\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (\'aaa\', \'aaa\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'211121\', \'$nmagama\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'jl. re. martadinata no.52\\r\\nCipayung\', \'Ciputat\', \'15416\', \'\', NULL, \'Edit-murod-31-10-2022 10:56:35\', \'2022-10-31 10:56:35\', \'2022-10-31 10:56:35\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbcustomer` (`kode`, `nama`, `alamat`, `kota`, `telp2`, `agama`, `alamat_ktr`, `kota_ktr`, `kodepos_ktr`, `telp1_ktr`, `telp2_ktr`, `npwp`, `alamat_npwp`, `alamat_ktp`, `kota_ktp`, `kodepos_ktp`, `mak_piutang`, `tgl_register`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :alamat:, :kota:, :telp2:, :agama:, :alamat_ktr:, :kota_ktr:, :kodepos_ktr:, :telp1_ktr:, :telp2_ktr:, :npwp:, :alamat_npwp:, :alamat_ktp:, :kota_ktp:, :kodepos_ktp:, :mak_piutang:, :tgl_register:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbcustomer.php(181): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:00:14 --> Undefined variable $tbagama
+in APPPATH\Views\tbcustomer\modaledit.php on line 54.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbagama', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(206): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:00:18 --> Undefined variable $tbagama
+in APPPATH\Views\tbcustomer\modaledit.php on line 54.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbagama', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(206): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:00:32 --> Undefined variable $tbagama
+in APPPATH\Views\tbcustomer\modaledit.php on line 54.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbagama', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(206): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:27:44 --> Undefined array key "kelompok]"
+in APPPATH\Views\tbcustomer\modaledit.php on line 37.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelompok]"', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(210): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:32:50 --> Undefined array key "tgllahir"
+in APPPATH\Views\tbcustomer\modaledit.php on line 75.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgllahir"', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(210): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:32:59 --> Undefined array key "tgllahir"
+in APPPATH\Views\tbcustomer\modaledit.php on line 75.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgllahir"', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(210): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:33:04 --> Undefined array key "tgllahir"
+in APPPATH\Views\tbcustomer\modaledit.php on line 75.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgllahir"', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(210): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 11:55:08 --> Undefined variable $customer
+in APPPATH\Views\tbcustomer\modaledit.php on line 11.
+ 1 APPPATH\Views\tbcustomer\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\tbcustomer\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(210): view('tbcustomer/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 11:59:17 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbagama...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbagama...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbagama...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbagama...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbagama.php(191): CodeIgniter\Model->update('6', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbagama->updatedata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-31 11:59:17 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbagama` SET `nama` = \'LAIN-LAIN (KEPERCAYAAN)\', `user` = \'Edit-murod-31-10-2022 11:59:16\', `updated_at` = \'2022-10-31 11:59:16\'
+WHERE `tbagama`.`id` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbagama` SET `nama` = \'LAIN-LAIN (KEPERCAYAAN)\', `user` = \'Edit-murod-31-10-2022 11:59:16\', `updated_at` = \'2022-10-31 11:59:16\'
+WHERE `tbagama`.`id` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbagama` SET `nama` = \'LAIN-LAIN (KEPERCAYAAN)\', `user` = \'Edit-murod-31-10-2022 11:59:16\', `updated_at` = \'2022-10-31 11:59:16\'
+WHERE `tbagama`.`id` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbagama` SET `nama` = :nama:, `user` = :user:, `updated_at` = :updated_at:
+WHERE `tbagama`.`id` IN :tbagama.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbagama.php(191): CodeIgniter\Model->update('6', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbagama->updatedata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 12:16:38 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbcustomer\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(84): view('tbcustomer/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 12:18:00 --> Undefined variable $tbcustomer
+in APPPATH\Views\tbcustomer\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbcustomer\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcustomer', 'APPPATH\\Views\\tbcustomer\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(84): view('tbcustomer/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:22:15 --> Undefined variable $sessionExpiration
+in APPPATH\Views\tbcustomer\index.php on line 23.
+ 1 APPPATH\Views\tbcustomer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sessionExpiration', 'APPPATH\\Views\\tbcustomer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/index', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(25): view('tbcustomer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:22:25 --> Undefined variable $sessionExpiration
+in APPPATH\Views\tbcustomer\index.php on line 23.
+ 1 APPPATH\Views\tbcustomer\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sessionExpiration', 'APPPATH\\Views\\tbcustomer\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/index', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(25): view('tbcustomer/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:44:32 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:44:37 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:45:59 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:46:09 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:46:51 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 14:46:59 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'SYSTEMPATH\\Session\\Handlers\\FileHandler.php', 71)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(71): ini_set('session.save_path', 'ROOTPATH\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(939): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\BaseController.php(52): session()
+10 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:08:57 --> Undefined variable $id
+in APPPATH\Views\tbagama\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbagama\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbagama\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbagama\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbagama/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbagama.php(83): view('tbagama/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbagama->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbagama))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:22:00 --> Undefined variable $aktif
+in APPPATH\Views\tbbank\modaldetail.php on line 24.
+ 1 APPPATH\Views\tbbank\modaldetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktif', 'APPPATH\\Views\\tbbank\\modaldetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(41): view('tbbank/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:22:03 --> Undefined variable $id
+in APPPATH\Views\tbbank\modaledit.php on line 11.
+ 1 APPPATH\Views\tbbank\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbbank\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(168): view('tbbank/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:22:55 --> Undefined variable $aktif
+in APPPATH\Views\tbbank\modaldetail.php on line 24.
+ 1 APPPATH\Views\tbbank\modaldetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktif', 'APPPATH\\Views\\tbbank\\modaldetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(41): view('tbbank/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:23:13 --> Undefined variable $aktif
+in APPPATH\Views\tbbank\modaldetail.php on line 24.
+ 1 APPPATH\Views\tbbank\modaldetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aktif', 'APPPATH\\Views\\tbbank\\modaldetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(41): view('tbbank/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 15:24:18 --> Undefined variable $id
+in APPPATH\Views\tbbank\modaledit.php on line 11.
+ 1 APPPATH\Views\tbbank\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbbank\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(168): view('tbbank/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 16:08:30 --> mysqli_sql_exception: Table 'ci4.tbmerek' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbmerek.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmerek->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmerek))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-31 16:08:30 --> Table 'ci4.tbmerek' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbmerek`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbmerek`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbmerek`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbmerek`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbmerek.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmerek->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmerek))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 16:09:34 --> Invalid file: tbmerek/tabel_bank.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmerek/tabel_bank.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmerek/tabel_bank', [], true)
+ 3 APPPATH\Controllers\Tbmerek.php(251): view('tbmerek/tabel_bank', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmerek->table_bank()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmerek))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 16:10:44 --> Invalid file: tbmerek/tabel_bank.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmerek/tabel_bank.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmerek/tabel_bank', [], true)
+ 3 APPPATH\Controllers\Tbmerek.php(251): view('tbmerek/tabel_bank', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmerek->table_bank()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmerek))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 16:31:03 --> mysqli_sql_exception: Table 'ci4.tbtipe' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-10-31 16:31:03 --> Table 'ci4.tbtipe' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Tbtipe`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Tbtipe`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Tbtipe`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Tbtipe`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbtipe.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 16:42:17 --> mysqli_sql_exception: Unknown column 'aktif' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(142): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-31 16:42:17 --> Unknown column 'aktif' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmodel` (`kode`, `nama`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'01\', \'01\', \'N\', \'Edit-murod-31-10-2022 16:42:17\', \'2022-10-31 16:42:17\', \'2022-10-31 16:42:17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmodel` (`kode`, `nama`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'01\', \'01\', \'N\', \'Edit-murod-31-10-2022 16:42:17\', \'2022-10-31 16:42:17\', \'2022-10-31 16:42:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmodel` (`kode`, `nama`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'01\', \'01\', \'N\', \'Edit-murod-31-10-2022 16:42:17\', \'2022-10-31 16:42:17\', \'2022-10-31 16:42:17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmodel` (`kode`, `nama`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :aktif:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmodel.php(142): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 16:48:11 --> Undefined variable $tbbank
+in APPPATH\Views\tbmodel\modaledit.php on line 11.
+ 1 APPPATH\Views\tbmodel\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbank', 'APPPATH\\Views\\tbmodel\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(168): view('tbmodel/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 16:48:14 --> Undefined variable $tbbank
+in APPPATH\Views\tbmodel\modaledit.php on line 11.
+ 1 APPPATH\Views\tbmodel\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbank', 'APPPATH\\Views\\tbmodel\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(168): view('tbmodel/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 16:58:07 --> Undefined variable $tbagama
+in APPPATH\Views\tbmodel\modaltambah.php on line 25.
+ 1 APPPATH\Views\tbmodel\modaltambah.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbagama', 'APPPATH\\Views\\tbmodel\\modaltambah.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(106): view('tbmodel/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:11:30 --> Undefined variable $tbmodel
+in APPPATH\Views\tbbank\modaldetail.php on line 25.
+ 1 APPPATH\Views\tbbank\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmodel', 'APPPATH\\Views\\tbbank\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(41): view('tbbank/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:11:47 --> Undefined variable $tbank
+in APPPATH\Views\tbbank\modaldetail.php on line 25.
+ 1 APPPATH\Views\tbbank\modaldetail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbank', 'APPPATH\\Views\\tbbank\\modaldetail.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbbank\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbbank/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbbank.php(41): view('tbbank/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbank->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbank))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:25:45 --> mysqli_sql_exception: Unknown column 'tbmodel.id' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:25:45 --> Unknown column 'tbmodel.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:27:23 --> mysqli_sql_exception: Unknown column 'tbmodel.id' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:27:23 --> Unknown column 'tbmodel.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:27:31 --> mysqli_sql_exception: Unknown column 'tbmodel.id' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:27:31 --> Unknown column 'tbmodel.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:29:16 --> Call to undefined method App\Models\TbmodelModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmodel.php(259): CodeIgniter\Model->__call('getkode', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:29:55 --> Call to undefined method App\Models\TbmodelModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmodel.php(259): CodeIgniter\Model->__call('getkode', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:30:48 --> mysqli_sql_exception: Unknown column 'tbmodel.id' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:30:48 --> Unknown column 'tbmodel.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:30:58 --> mysqli_sql_exception: Unknown column 'tbmodel.id' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:30:58 --> Unknown column 'tbmodel.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmode`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:31:24 --> mysqli_sql_exception: Unknown column 'tbmrek.kdmerek' in 'on clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:31:24 --> Unknown column 'tbmrek.kdmerek' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmrek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:31:40 --> mysqli_sql_exception: Unknown column 'tbmerek.kdmerek' in 'on clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:31:40 --> Unknown column 'tbmerek.kdmerek' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(259): App\Models\TbmodelModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:32:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(261): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:34:45 --> mysqli_sql_exception: Unknown column 'tbmerek.kdmerek' in 'on clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:34:45 --> Unknown column 'tbmerek.kdmerek' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(23): App\Models\TbmodelModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:35:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(261): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:36:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(261): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:36:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(261): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:36:54 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(261): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:23 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:38:58 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:39:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:41:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:42:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:43:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:45:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(262): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 17:49:40 --> mysqli_sql_exception: Unknown column 'tbmerek.kdmerek' in 'on clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmodel.php(24): App\Models\TbmodelModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 17:49:40 --> Unknown column 'tbmerek.kdmerek' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmodel`.`id`, `tbmodel`.`kode`, `tbmodel`.`nama`, `tbmodel`.`user`, `tbmerek`.`nama`
+FROM `tbmodel` as `tbmodel`
+JOIN `tbmerek` as `tbmerek` ON `tbmodel`.`kode` = `tbmerek`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmodelModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmodel.php(24): App\Models\TbmodelModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:53:12 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:55:33 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:56:07 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 17:59:47 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:02:32 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:03:32 --> Cannot access offset of type string on string
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:09:58 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Models\TbmodelModel.php on line 33.
+ 1 APPPATH\Controllers\Tbmodel.php(261): App\Models\TbmodelModel->getkode()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:11:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:21:34 --> Undefined variable $title
+in APPPATH\Views\tbmodel\index.php on line 6.
+ 1 APPPATH\Views\tbmodel\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\tbmodel\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/index', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(29): view('tbmodel/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:22:01 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:23:54 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 40.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:29:29 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:30:31 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:31:12 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:33:14 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:33:56 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:34:27 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:35:38 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 43.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:37:10 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 42.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:38:01 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 42.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:38:16 --> Undefined property: stdClass::$aktif
+in APPPATH\Views\tbmodel\tabel_model.php on line 42.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$aktif', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:38:47 --> Undefined property: stdClass::$kode
+in APPPATH\Views\tbmodel\tabel_model.php on line 40.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:40:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmodel\tabel_model.php on line 58.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 4 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 18:40:57 --> Undefined property: stdClass::$kode
+in APPPATH\Views\tbmodel\tabel_model.php on line 58.
+ 1 APPPATH\Views\tbmodel\tabel_model.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode', 'APPPATH\\Views\\tbmodel\\tabel_model.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodel\\tabel_model.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodel/tabel_model', [], true)
+ 5 APPPATH\Controllers\Tbmodel.php(263): view('tbmodel/tabel_model', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodel->table_model()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodel))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:05:29 --> Undefined property: App\Controllers\Tbtipe::$tbtipeModel
+in APPPATH\Controllers\Tbtipe.php on line 21.
+ 1 APPPATH\Controllers\Tbtipe.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbtipe::$tbtipeModel', 'APPPATH\\Controllers\\Tbtipe.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 19:06:17 --> mysqli_sql_exception: Unknown column 'tbtipe.kdmerek' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 19:06:17 --> Unknown column 'tbtipe.kdmerek' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', [], false)
+ 5 APPPATH\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 19:07:05 --> mysqli_sql_exception: Unknown column 'tbtipe.kdmerek' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 19:07:05 --> Unknown column 'tbtipe.kdmerek' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbtipe`.`kdmerek`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', [], false)
+ 5 APPPATH\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 19:07:20 --> mysqli_sql_exception: Unknown column 'tbmodel.kdmodel' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 19:07:20 --> Unknown column 'tbmodel.kdmodel' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', [], false)
+ 5 APPPATH\Models\TbtipeModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbtipe.php(21): App\Models\TbtipeModel->getid()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 19:08:55 --> mysqli_sql_exception: Unknown column 'tbmodel.kdmodel' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbtipeModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(250): App\Models\TbtipeModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 19:08:55 --> Unknown column 'tbmodel.kdmodel' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', [], false)
+ 5 APPPATH\Models\TbtipeModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbtipe.php(250): App\Models\TbtipeModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-31 19:09:02 --> mysqli_sql_exception: Unknown column 'tbmodel.kdmodel' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbtipeModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbtipe.php(250): App\Models\TbtipeModel->getkode()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-31 19:09:02 --> Unknown column 'tbmodel.kdmodel' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbtipe`.`id`, `tbtipe`.`kode` as `kdtipe`, `tbtipe`.`nama` as `nmtipe`, `tbtipe`.`user`, `tbmodel`.`kdmodel`, `tbmodel`.`nama` as `nmmodel`, `tbtipe`.`aktif` as `aktif`
+FROM `tbtipe` as `tbtipe`
+JOIN `tbmodel` as `tbmodel` ON `tbtipe`.`kdmodel` = `tbmodel`.`kode`', [], false)
+ 5 APPPATH\Models\TbtipeModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbtipe.php(250): App\Models\TbtipeModel->getkode()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:09:39 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 33.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(252): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:11:11 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 33.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:11:35 --> Undefined variable $tbtipe1
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 33.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe1', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:14:39 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:15:22 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:17:49 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:18:40 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:21:23 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 35.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:23:41 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 35.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:24:11 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 35.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_Tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:25:35 --> Undefined property: stdClass::$kdtipe
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 40.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kdtipe', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:26:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 53.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 4 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_tipe()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:26:31 --> Undefined property: stdClass::$kode
+in APPPATH\Views\tbtipe\tabel_tipe.php on line 57.
+ 1 APPPATH\Views\tbtipe\tabel_tipe.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode', 'APPPATH\\Views\\tbtipe\\tabel_tipe.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\tabel_tipe.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/tabel_Tipe', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(253): view('Tbtipe/tabel_Tipe', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->table_tipe()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:27:05 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:27:36 --> Call to a member function insert() on null
+in APPPATH\Controllers\Tbtipe.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:46:08 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\modaledit.php on line 11.
+ 1 APPPATH\Views\tbtipe\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(170): view('Tbtipe/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 19:47:12 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\modaledit.php on line 11.
+ 1 APPPATH\Views\tbtipe\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(170): view('Tbtipe/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:05:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\tbtipe\modaledit.php on line 18.
+ 1 APPPATH\Views\tbtipe\modaledit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\tbtipe\\modaledit.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(176): view('Tbtipe/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:05:50 --> Cannot access offset of type string on string
+in APPPATH\Views\tbtipe\modaledit.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbtipe.php(176): view('Tbtipe/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:07:06 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\tbtipe\modaledit.php on line 18.
+ 1 APPPATH\Views\tbtipe\modaledit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\tbtipe\\modaledit.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(176): view('Tbtipe/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:07:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\tbtipe\modaledit.php on line 18.
+ 1 APPPATH\Views\tbtipe\modaledit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\tbtipe\\modaledit.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(176): view('Tbtipe/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:08:24 --> Undefined property: App\Controllers\Tbtipe::$tbmerekModel
+in APPPATH\Controllers\Tbtipe.php on line 173.
+ 1 APPPATH\Controllers\Tbtipe.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbtipe::$tbmerekModel', 'APPPATH\\Controllers\\Tbtipe.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:09:02 --> Call to a member function find() on null
+in APPPATH\Controllers\Tbtipe.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:10:50 --> Call to a member function find() on null
+in APPPATH\Controllers\Tbtipe.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:11:01 --> Call to a member function find() on null
+in APPPATH\Controllers\Tbtipe.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:13:40 --> Call to a member function find() on null
+in APPPATH\Controllers\Tbtipe.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:14:01 --> Undefined variable $tbmerek
+in APPPATH\Views\tbtipe\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbtipe\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbtipe\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(46): view('Tbtipe/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:14:52 --> Undefined variable $tbmodel
+in APPPATH\Views\tbtipe\modaldetail.php on line 15.
+ 1 APPPATH\Views\tbtipe\modaldetail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmodel', 'APPPATH\\Views\\tbtipe\\modaldetail.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(46): view('Tbtipe/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 20:15:25 --> Undefined variable $tbtipe
+in APPPATH\Views\tbtipe\modaldetail.php on line 16.
+ 1 APPPATH\Views\tbtipe\modaldetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtipe', 'APPPATH\\Views\\tbtipe\\modaldetail.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbtipe\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Tbtipe/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbtipe.php(47): view('Tbtipe/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbtipe->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbtipe))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-31 21:53:48 --> Undefined variable $session
+in APPPATH\Views\dashboard\index.php on line 46.
+ 1 APPPATH\Views\dashboard\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\dashboard\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

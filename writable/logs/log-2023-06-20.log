@@ -1,0 +1,141 @@
+ERROR - 2023-06-20 10:45:00 --> mysqli_sql_exception: Column 'kdmekanik' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-20 10:45:00 --> Column 'kdmekanik' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:44:59\', \'2023-06-20 10:44:59\', \'2023-06-20 10:44:59\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:44:59\', \'2023-06-20 10:44:59\', \'2023-06-20 10:44:59\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:44:59\', \'2023-06-20 10:44:59\', \'2023-06-20 10:44:59\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (:nowo:, :kode:, :nama:, :kerusakan:, :kdmekanik:, :nmmekanik:, :jenis:, :qty:, :harga:, :pr_discount:, :subtotal:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-20 10:46:24 --> mysqli_sql_exception: Column 'kdmekanik' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-20 10:46:24 --> Column 'kdmekanik' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:46:24\', \'2023-06-20 10:46:24\', \'2023-06-20 10:46:24\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:46:24\', \'2023-06-20 10:46:24\', \'2023-06-20 10:46:24\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-01\', \'KENCANGKAN BAUT-BAUT KOLONG\', \'\', NULL, NULL, \'JASA\', \'1\', \'250000\', \'0\', \'250000\', \'Tambah-Murod-20-06-2023 10:46:24\', \'2023-06-20 10:46:24\', \'2023-06-20 10:46:24\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (:nowo:, :kode:, :nama:, :kerusakan:, :kdmekanik:, :nmmekanik:, :jenis:, :qty:, :harga:, :pr_discount:, :subtotal:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 14:23:04 --> Invalid file: close_wo_bp/modalcaritasklist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_wo_bp/modalcaritasklist.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_wo_bp/modalcaritasklist', [], true)
+ 3 APPPATH\Controllers\Close_wo_bp.php(1092): view('close_wo_bp/modalcaritasklist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->caridatatasklist()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 14:23:08 --> Invalid file: close_wo_bp/modalcaritasklist.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_wo_bp/modalcaritasklist.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_wo_bp/modalcaritasklist', [], true)
+ 3 APPPATH\Controllers\Close_wo_bp.php(1092): view('close_wo_bp/modalcaritasklist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->caridatatasklist()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-20 14:25:20 --> mysqli_sql_exception: Column 'kdmekanik' cannot be null in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\hati\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\hati\app\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-20 14:25:20 --> Column 'kdmekanik' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-02\', \'TUNE-UP\', \'\', NULL, NULL, \'JASA\', \'1\', \'125000\', \'0\', \'125000\', \'Tambah-Murod-20-06-2023 14:25:20\', \'2023-06-20 14:25:20\', \'2023-06-20 14:25:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-02\', \'TUNE-UP\', \'\', NULL, NULL, \'JASA\', \'1\', \'125000\', \'0\', \'125000\', \'Tambah-Murod-20-06-2023 14:25:20\', \'2023-06-20 14:25:20\', \'2023-06-20 14:25:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (\'BW20230600005\', \'PM1000-02\', \'TUNE-UP\', \'\', NULL, NULL, \'JASA\', \'1\', \'125000\', \'0\', \'125000\', \'Tambah-Murod-20-06-2023 14:25:20\', \'2023-06-20 14:25:20\', \'2023-06-20 14:25:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wo_bp_detail` (`nowo`, `kode`, `nama`, `kerusakan`, `kdmekanik`, `nmmekanik`, `jenis`, `qty`, `harga`, `pr_discount`, `subtotal`, `user`, `created_at`, `updated_at`) VALUES (:nowo:, :kode:, :nama:, :kerusakan:, :kdmekanik:, :nmmekanik:, :jenis:, :qty:, :harga:, :pr_discount:, :subtotal:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Estimasi_bp.php(2365): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpan_jasa_wo()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 03:57:34 --> Class "App\Controllers\Estimasi_bpModel" not found
+in APPPATH\Controllers\Close_wo_bp.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Close_wo_bp->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 15:58:15 --> Call to a member function getnopolisi() on null
+in APPPATH\Controllers\Close_wo_bp.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->input_wo_bpd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 15:59:03 --> Call to a member function getNama() on null
+in APPPATH\Controllers\Close_wo_bp.php on line 207.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->input_wo_bpd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-20 16:02:24 --> Call to a member function getkdcustomer() on null
+in APPPATH\Controllers\Close_wo_bp.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->input_wo_bpd()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

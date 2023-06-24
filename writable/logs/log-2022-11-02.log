@@ -1,0 +1,557 @@
+ERROR - 2022-11-02 09:32:08 --> mysqli_sql_exception: Unknown column 'aktif' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\View\View.php(213): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\bp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\bp\system\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakse...', Array, true)
+#8 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(408): view('tbuser/formakse...', Array)
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#11 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-02 09:32:08 --> Unknown column 'aktif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `aktif` = :aktif:
+ORDER BY `email`', [...], false)
+ 5 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 9 APPPATH\Controllers\Tbuser.php(408): view('tbuser/formakses', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 09:32:14 --> mysqli_sql_exception: Unknown column 'aktif' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\View\View.php(213): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\bp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\bp\system\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakse...', Array, true)
+#8 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(408): view('tbuser/formakse...', Array)
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#11 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-02 09:32:14 --> Unknown column 'aktif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `aktif` = :aktif:
+ORDER BY `email`', [...], false)
+ 5 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 9 APPPATH\Controllers\Tbuser.php(408): view('tbuser/formakses', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 09:32:19 --> mysqli_sql_exception: Unknown column 'aktif' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\View\View.php(213): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\bp\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\bp\system\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakse...', Array, true)
+#8 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(408): view('tbuser/formakse...', Array)
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#11 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-11-02 09:32:19 --> Unknown column 'aktif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `aktif` = \'Y\'
+ORDER BY `email`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `aktif` = :aktif:
+ORDER BY `email`', [...], false)
+ 5 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 9 APPPATH\Controllers\Tbuser.php(408): view('tbuser/formakses', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 10:46:19 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbuser.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 10:47:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbuser.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 10:51:07 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbuser.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 11:02:40 --> Undefined array key "iduser"
+in APPPATH\Controllers\Tbuser.php on line 217.
+ 1 APPPATH\Controllers\Tbuser.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'APPPATH\\Controllers\\Tbuser.php', 217)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 11:43:33 --> Undefined variable $tbwarna
+in APPPATH\Views\tbuser\modaledit.php on line 121.
+ 1 APPPATH\Views\tbuser\modaledit.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbuser\\modaledit.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(270): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 11:43:57 --> Undefined variable $tbwarna
+in APPPATH\Views\tbuser\modaledit.php on line 121.
+ 1 APPPATH\Views\tbuser\modaledit.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbuser\\modaledit.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(271): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 11:44:01 --> Undefined variable $tbwarna
+in APPPATH\Views\tbuser\modaledit.php on line 121.
+ 1 APPPATH\Views\tbuser\modaledit.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbuser\\modaledit.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(271): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 11:44:43 --> Undefined variable $tbuser
+in APPPATH\Views\tbuser\modaledit.php on line 121.
+ 1 APPPATH\Views\tbuser\modaledit.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbuser', 'APPPATH\\Views\\tbuser\\modaledit.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(271): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 13:38:23 --> Undefined variable $tambah
+in APPPATH\Views\tbuser\tabel_user.php on line 18.
+ 1 APPPATH\Views\tbuser\tabel_user.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambah', 'APPPATH\\Views\\tbuser\\tabel_user.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\tabel_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/tabel_user', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(438): view('tbuser/tabel_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->tabel_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 13:38:27 --> Undefined variable $tambah
+in APPPATH\Views\tbuser\tabel_user.php on line 18.
+ 1 APPPATH\Views\tbuser\tabel_user.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambah', 'APPPATH\\Views\\tbuser\\tabel_user.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\tabel_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/tabel_user', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(438): view('tbuser/tabel_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->tabel_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 13:42:50 --> Attempt to read property "user" on array
+in APPPATH\Views\tbmodule\tabel_module.php on line 56.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(247): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 13:43:53 --> Attempt to read property "id" on array
+in APPPATH\Views\tbmodule\tabel_module.php on line 57.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(247): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 13:45:32 --> Attempt to read property "id" on array
+in APPPATH\Views\tbmodule\tabel_module.php on line 61.
+ 1 APPPATH\Views\tbmodule\tabel_module.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\tbmodule\\tabel_module.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmodule\\tabel_module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmodule/tabel_module', [], true)
+ 5 APPPATH\Controllers\Tbmodule.php(247): view('tbmodule/tabel_module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->table_module()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 14:21:20 --> mysqli_sql_exception: Table 'ci4.tbmobil' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-02 14:21:20 --> Table 'ci4.tbmobil' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbmobil.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 14:23:55 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-02 14:23:55 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Tbmobil`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbmobil.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 14:27:25 --> Call to undefined method App\Models\TbmobilModel::getnopolisi
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmobil.php(249): CodeIgniter\Model->__call('getnopolisi', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 14:27:57 --> Call to undefined method App\Models\TbmobilModel::getnopolisi
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmobil.php(249): CodeIgniter\Model->__call('getnopolisi', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 14:27:59 --> Call to undefined method App\Models\TbmobilModel::getnopolisi
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmobil.php(249): CodeIgniter\Model->__call('getnopolisi', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 14:32:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3 in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-02 14:32:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+INNER JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+INNER JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+INNER JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+INNER JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 14:32:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3 in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-02 14:32:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+RIGHT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+RIGHT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+RIGHT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+RIGHT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-02 14:32:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3 in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-02 14:32:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tbmobil`.`kdmerek`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbmobil`.`id`, `tbmobil`.`nopolisi`, `tbmobil`.`norangka`, `tbmobil`.`kdmerek`, `tbmerek`.`nama` as `nmmerek`
+FROM `tbmobil` as `tbmobil`
+LEFT JOIN `tbmerek` as `tbmerek` ON `tbmerek`.`kode` =`=` `tbmobil`.`kdmerek`', [], false)
+ 5 APPPATH\Models\TbmobilModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tbmobil.php(249): App\Models\TbmobilModel->getnopolisi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->table_mobil()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 15:14:39 --> Undefined variable $tbmerek
+in APPPATH\Views\tbmobil\modaltambah.php on line 26.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(99): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 15:32:58 --> Undefined variable $tbmerek
+in APPPATH\Views\tbmobil\modaltambah.php on line 28.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(94): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 15:34:53 --> Undefined variable $tbmerek
+in APPPATH\Views\tbmobil\modaltambah.php on line 28.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(94): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 15:35:00 --> Undefined variable $tbmerek
+in APPPATH\Views\tbmobil\modaltambah.php on line 28.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(94): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 15:37:40 --> Undefined variable $tbmerek
+in APPPATH\Views\tbmobil\modaltambah.php on line 28.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmerek', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(100): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 16:44:27 --> Call to undefined method App\Models\TbmobilModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_model()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 16:50:39 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Tbmobil.php on line 261.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_model()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-02 16:50:54 --> Call to a member function find() on null
+in APPPATH\Controllers\Tbmobil.php on line 261.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_model()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

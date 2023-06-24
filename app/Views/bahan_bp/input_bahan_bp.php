@@ -1,0 +1,539 @@
+<?php
+$session = session();
+$pakai = session()->get('pakai');
+$tambah = session()->get('tambah');
+$edit = session()->get('edit');
+$hapus = session()->get('hapus');
+$proses = session()->get('proses');
+$unproses = session()->get('unproses');
+$cetak = session()->get('cetak');
+$nmform = [
+  'form' => "edit",
+];
+$session->set($nmform);
+?>
+
+<script src="<?= base_url('/js/autoNumeric.js') ?>" crossorigin="anonymous"></script>
+
+<div class="modal fade" id="input_bahan_bp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 100%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><?= $title; ?></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <input type="hidden" id='title' value="<?= $title ?>">
+      </div>
+      <div class="modal-body">
+        <?php if ($tambah == 1) {
+          if ($title == "Detail Data WO Body Repair") {
+          }
+        ?>
+          <div class="row mb-2 mt-2">
+            <div class="col-12 col-sm-4">
+              <?php
+              date_default_timezone_set('Asia/Jakarta');
+              $tglwo = date('Y-m-d H:i:s');
+              ?>
+              <input type="hidden" name="kode_asuransi" id="kode_asuransi" value="<?= $wo_bp['kode_asuransi'] ?>">
+              <label for="nama" class="form-label mb-1">No. WO / Tanggal (M-D-Y)</label>
+              <div class="input-group mb-1">
+                <input type='text' class='form-control form-control-sm mb-2' value="<?= $wo_bp['nowo'] ?>" name="nowo" id="nowo" readonly style="width: 5%">
+                <input type="datetime-local" class='form-control form-control-sm mb-2' name='tanggal' id='tanggal' value="<?= $wo_bp['tanggal'] ?>" style="width: 40%" readonly>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <label for="nama" class="form-label mb-1">No. Polisi / No. Rangka</label>
+              <div class="input-group mb-1">
+                <input type="text" class="form-control form-control-sm" placeholder="No. Polisi" name="nopolisi" id="nopolisi" value="<?= $wo_bp['nopolisi'] ?>" readonly>
+                <input type="text" style="width: 40%" class="form-control form-control-sm" name="norangka" id="norangka" value="<?= $wo_bp['norangka'] ?>" readonly>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <label for="nama" class="form-label mb-1">Customer</label>
+              <div class="input-group mb-1">
+                <input type="text" class="form-control form-control-sm mb-2" name="kdpemilik" id="kdpemilik" readonly style="width: 5%" value="<?= $wo_bp['kdpemilik'] ?>">
+                <input type="text" class="form-control form-control-sm mb-2" name="nmpemilik" id="nmpemilik" readonly style="width: 40%" value="<?= $wo_bp['nmpemilik'] ?>">
+              </div>
+            </div>
+          </div>
+          <?= form_open('estimasi_bp/simpanestimasidxxx', ['class' => 'forminputbahan']) ?>
+          <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $wo_bp['nowo'] ?>" name="nowo" id="nowo" readonly style="width: 5%">
+          <?= csrf_field(); ?>
+          <div class="row mb-2">
+            <table class="table table-striped" style="width:100%">
+              <thead>
+                <tr>
+                  <!-- <th>ID</th> -->
+                  <th width="180">Kode Bahan</th>
+                  <th width="250">Nama Bahan</th>
+                  <th width="100">Qty</th>
+                  <th>Harga Satuan</th>
+                  <th width="90">Disc (%)</th>
+                  <th>Disc (Rp.)</th>
+                  <th>Subtotal</th>
+                  <th>Kd.Mekanik</th>
+                  <th>Mekanik</th>
+                  <th>Aksi</th>
+                </tr>
+              </thead>
+              <tbody">
+                <input type="hidden" name="id" id="id">
+                <td>
+                  <div class="input-group mb-0">
+                    <input type="text" class="form-control form-control-sm" placeholder="Kode Bahan" name="kodebahan" id="kodebahan" onblur="hit_ssubtotal_bahan()">
+                    <button class="btn btn-outline-secondary btn-sm caribahan" type="button" id="caribahan"><i class="fa fa-search"></i></button>
+                    <div class="invalid-feedback errorKodebahan">
+                    </div>
+                  </div>
+                </td>
+                <td><input type="text" name="namabahan" id="namabahan" class="form-control form-control-sm" value="" readonly></td>
+                <!-- <td><input type="text" name="qtybahan" id="qtybahan" class="form-control form-control-sm text-end" onkeyup="validAngka(this)" value=0 onblur="hit_ssubtotal_bahan()" required> -->
+                <!-- <td><input type="text" name="qtybahan" id="qtybahan" class="form-control form-control-sm text-end" onkeyup="autoNumber(this)" value=0 onblur="hit_ssubtotal_bahan()" required> -->
+                <td><input type="text" name="qtybahan" id="qtybahan" class="form-control form-control-sm text-end" value=0 onblur="hit_ssubtotal_bahan()" required>
+                  <div class="invalid-feedback errorQtybahan">
+                  </div>
+                </td>
+                <td><input type="text" name="hargabahan" id="hargabahan" class="form-control form-control-sm text-end" value=0 onblur="hit_ssubtotal_bahan()"></td>
+                <!-- onkeyup="validAngka_no_titik(this)" -->
+                <td><input name="pr_discountbahan" id="pr_discountbahan" class="form-control form-control-sm text-end" onkeyup="validAngka(this)" value=0 onblur="hit_ssubtotal_bahan()"></td>
+                <td><input name="rp_discountbahan" id="rp_discountbahan" class="form-control form-control-sm text-end" value="0" readonly></td>
+                <td><input type="text" name="subtotalbahan" id="subtotalbahan" class="form-control form-control-sm text-end" value=0 readonly></td>
+                <td>
+                  <div class="input-group mb-0">
+                    <input type="text" name="kdmekanik" id="kdmekanik" class="form-control form-control-sm" onblur="replmekanik()" required>
+                    <button class="btn btn-outline-secondary btn-sm carimekanik" type="button" id="carimekanik"><i class="fa fa-search"></i></button>
+                  </div>
+                </td>
+                <td><input type="text" name="nmmekanik" id="nmmekanik" class="form-control form-control-sm" readonly></td>
+                <td><button type="submit" id="btnaddbahan" class="btn btn-primary btn-sm btnaddbahan"><i class="fa fa-plus"></i></button></td>
+                </tbody>
+            </table>
+          </div>
+          <div class="row mb-2">
+            <div id="tabel_bahan_bp"></div>
+          </div>
+          <?= form_close() ?>
+        <?php
+        } else {
+        ?>
+          <?php
+          $session = session();
+          if (session()->get('nama') == "") {
+          ?>
+            <script>
+              window.setTimeout(function() {
+                window.location.href = "dashboard";
+              }, 0);
+            </script>
+          <?php
+          } else {
+            echo "<p>Anda tidak berhak membuat Estimasi / WO</p>";
+          }
+          ?>
+          <button class="btn btn-flat btn-primary btn-sm mb-3 tomboltambah" type="button" disabled><i class="fa fa-plus"></i> Tambah</button>
+        <?php
+        }
+        ?>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $('#hargabahan').autoNumeric('init', {
+        aSep: ',',
+        aDec: '.',
+        mDec: '0'
+      })
+      $('#qtybahan').autoNumeric('init', {
+        aSep: ',',
+        aDec: '.',
+        mDec: '2'
+      })
+      $('#pr_discountbahan').autoNumeric('init', {
+        aSep: ',',
+        aDec: '.',
+        mDec: '2'
+      })
+      reload_table_bp_bahan();
+
+
+      $('#caribahan').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+          url: "<?= site_url('estimasi_bp/caridatabahan') ?>",
+          dataType: "json",
+          success: function(response) {
+            $('.viewmodalcari').html(response.data).show();
+            $('#modalcari').modal('show');
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+          }
+        })
+      })
+
+      $('#carimekanik').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+          url: "<?= site_url('estimasi_bp/caridatamekanik') ?>",
+          dataType: "json",
+          success: function(response) {
+            $('.viewmodalcari').html(response.data).show();
+            $('#modalcari').modal('show');
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+          }
+        })
+      })
+
+      $('.forminputbahan').submit(function() {
+        // alert('1')
+        $.ajax({
+          type: "post",
+          // url: $(this).attr('action'),
+          url: "<?= site_url('estimasi_bp/simpan_bahan_wo') ?>",
+          data: $(this).serialize(),
+          dataType: "json",
+          beforeSend: function() {
+            $('.btnaddbahan').attr('disable', 'disabled')
+            $('.btnaddbahan').html('<i class="fa fa-spin fa-spinner"></i>')
+          },
+          complete: function() {
+            $('.btnaddbahan').removeAttr('disable')
+            $('.btnaddbahan').html('<i class="fa fa-plus"></i>')
+          },
+          success: function(response) {
+            if (response.error) {
+              if (response.error.kodebahan) {
+                // alert(response.error.kodebahan);
+                $('#kodebahan').addClass('is-invalid');
+                $('.errorKodebahan').html(response.error.kodebahan);
+              } else {
+                $('.errorKodebahan').fadeOut();
+                $('#kodebahan').removeClass('is-invalid');
+                $('#kodebahan').addClass('is-valid');
+              }
+              if (response.error.qtybahan) {
+                $('#qtybahan').addClass('is-invalid');
+                $('.errorQtybahan').html(response.error.qtybahan);
+              } else {
+                $('.errorQtybahan').fadeOut();
+                $('#qtybahan').removeClass('is-invalid');
+                $('#qtybahan').addClass('is-valid');
+              }
+              // reload_table_wo_bahan();
+            } else {
+              $('.errorKodebahan').fadeOut();
+              $('#kodebahan').removeClass('is-invalid');
+              $('#kodebahan').addClass('is-valid');
+              $('.errorQtybahan').fadeOut();
+              $('#qtybahan').removeClass('is-invalid');
+              $('#qtybahan').addClass('is-valid');
+              reload_table_bp_bahan();
+              hitung_summary_wo()
+              if (response.sukses == "Data gagal ditambah") {
+                swal({
+                  icon: 'error',
+                  title: "Data gagal ditambah!",
+                  text: "Barang Double / QTY masih kosong",
+                });
+
+              } else {
+                swal({
+                  icon: 'success',
+                  title: response.sukses, //"Data berhasil ditambah ",
+                  text: response.sukses,
+                });
+                document.getElementById("kodebahan").value = "";
+                document.getElementById("namabahan").value = "";
+                document.getElementById("qtybahan").value = "0.00";
+                document.getElementById("hargabahan").value = "0";
+                document.getElementById("pr_discountbahan").value = "0";
+                document.getElementById("rp_discountbahan").value = "0";
+                // document.getElementById("kdmekanik").value = "";
+                // document.getElementById("nmmekanik").value = "";
+                document.getElementById("subtotalbahan").value = "0";
+              }
+            }
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+          }
+        });
+        return false;
+      })
+
+      $('#kodebahan').on('focusin', function(e) {
+        hit_ssubtotal_bahan();
+      })
+      $('#qtybahan').on('keyup', function(e) {
+        hit_ssubtotal_bahan();
+      })
+      $('#hargabahan').on('keyup', function(e) {
+        hit_ssubtotal_bahan();
+      })
+      $('#pr_discountbahan').on('keyup', function(e) {
+        hit_ssubtotal_bahan();
+      })
+
+      $('#kodebahan').on('blur', function(e) {
+        let cari = $(this).val()
+        if (cari !== "") {
+          $.ajax({
+            url: "<?= site_url('estimasi_bp/replbahan') ?>",
+            type: 'post',
+            data: {
+              'kodebahan': cari
+            },
+            success: function(data) {
+              let data_response = JSON.parse(data);
+              if (data_response['kode'] == '') {
+                $('#kodebahan').val('');
+                $('#namabahan').val('');
+                $('#qtybahan').val('0.00');
+                $('#hargabahan').val('');
+
+                return;
+              } else {
+                $('#kodebahan').val(data_response['kode']);
+                $('#namabahan').val(data_response['nama']);
+                if ($('#qtybahan').val() == "") {
+                  $('#qtybahan').val(1);
+                }
+                if ($('#qtybahan').val() == "0.00") {
+                  $('#qtybahan').val(1);
+                }
+                if ($('#qtybahan').val() == "0") {
+                  $('#qtybahan').val(1);
+                }
+
+                $('#hargabahan').val(data_response['harga']);
+                hit_ssubtotal_bahan();
+              }
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+              return;
+              // console.log('file not fount');
+            }
+          })
+          // console.log(cari);
+        }
+      })
+
+      $('#kdmekanik').on('blur', function(e) {
+        let cari = $(this).val()
+        if (cari !== "") {
+          $.ajax({
+            url: "<?= site_url('estimasi_bp/replmekanik') ?>",
+            type: 'post',
+            data: {
+              'kode': cari
+            },
+            success: function(data) {
+              let data_response = JSON.parse(data);
+              if (data_response['kode'] == '') {
+                $('#kdmekanik').val('');
+                $('#nmmekanik').val('');
+                return;
+              } else {
+                $('#kdmekanik').val(data_response['kdmekanik']);
+                $('#nmmekanik').val(data_response['nmmekanik']);
+              }
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+              return;
+              // console.log('file not fount');
+            }
+          })
+          // console.log(cari);
+        }
+      })
+
+    });
+
+    function reload_table_bp_bahan() {
+      $nowo = document.getElementById('nowo').value;
+      // alert($nowo);
+      <?php
+      $session = session();
+      // if ($session->get('nama') == "") {
+      if (!$session->has('nama')) {
+      ?>
+        vexpired();
+
+        function vexpired() {
+          $(document).ready(function() {
+            $('#expired').modal('show');
+          });
+        }
+      <?php
+      }
+      ?>
+      $.ajax({
+        type: "post",
+        data: {
+          nowo: $("#nowo").val()
+        },
+        // dataType: "json",
+        url: "<?= site_url('bahan_bp/table_bahan_bp'); ?>",
+        beforeSend: function(f) {
+          $('.btnreload').attr('disable', 'disabled')
+          $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
+          // alert('1');
+          $('#tabel_bahan_bp').html('<center>Loading Table ...</center>');
+        },
+        success: function(data) {
+          $('#tabel_bahan_bp').html(data);
+          $('.btnreload').removeAttr('disable')
+          $('.btnreload').html('<i class="fa fa-spinner">')
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+        }
+      })
+    }
+
+    function hit_ssubtotal_bahan() {
+      let textharga = document.getElementById("hargabahan").value
+      let harga = textharga.replace(/,/g, "");
+      let textqty = document.getElementById("qtybahan").value
+      let qty = textqty.replace(/,/g, "");
+      let total_sementara = harga * qty;
+      let $rp_discount = (document.getElementById("pr_discountbahan").value / 100) * total_sementara;
+      let subtotal = total_sementara - $rp_discount;
+      document.getElementById("rp_discountbahan").value = $rp_discount.toLocaleString('en-US');
+      document.getElementById("subtotalbahan").value = subtotal.toLocaleString('en-US');
+    }
+
+    function editdetailwo_bp($id) {
+      $.ajax({
+        url: "<?php echo site_url('estimasi_bp/editdetailwo_bp') ?>/" + $id,
+        type: "POST",
+        data: {
+          id: $id
+        },
+        // dataType: "JSON",
+        success: function(data) {
+          // alert(data);
+          let data_response = JSON.parse(data);
+          // $('#kodejasa').val(data_response['kodejasa']);
+          // document.getElementById("kodejasa").value = data_response['kodejasa'];
+          document.getElementById("kodejasa").value = data_response['kodejasa'];
+          document.getElementById("namajasa").value = data_response['namajasa'];
+          document.getElementById("kerusakan").value = data_response['kerusakan'];
+          document.getElementById("kdmekanik").value = data_response['kdmekanik'];
+          document.getElementById("nmmekanik").value = data_response['nmmekanik'];
+          document.getElementById("qtyjasa").value = data_response['qtyjasa'];
+          document.getElementById("hargajasa").value = data_response['hargajasa'];
+          document.getElementById("pr_discountjasa").value = data_response['pr_discountjasa'];
+          document.getElementById("subtotaljasa").value = data_response['subtotaljasa'];
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          alert('Error deleting data id ' + $kode);
+        }
+      });
+    }
+
+    function hapusdetailwo_bp($id) {
+      swal({
+          title: "Yakin akan hapus ?",
+          text: "Once deleted, you will not be able to recover this data!",
+          icon: "warning",
+          buttons: true,
+          dangerMode: true,
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            $.ajax({
+              url: "<?php echo site_url('estimasi_bp/hapusdetailwo_bp') ?>/" + $id,
+              type: "POST",
+              dataType: "JSON",
+              success: function(data1) {
+                //if success reload ajax table
+                // $('#modal_form').modal('hide');
+                reload_table_bp_bahan();
+                hitung_summary_wo()
+                swal({
+                  title: "Data Berhasil dihapus ",
+                  text: "",
+                  icon: "info"
+                })
+                // .then(function() {
+                //   window.location.href = '/wo';
+                // });
+              },
+              error: function(jqXHR, textStatus, errorThrown) {
+                alert('Error deleting data id ' + $kode);
+              }
+            });
+          } else {
+            // swal("Batal Hapus!");
+          }
+        });
+    }
+
+    function hitung_summary_wo() {
+      $nowo = document.getElementById('nowo').value;
+      // alert($nowo);
+      <?php
+      $session = session();
+      // if ($session->get('nama') == "") {
+      if (!$session->has('nama')) {
+      ?>
+        vexpired();
+
+        function vexpired() {
+          $(document).ready(function() {
+            $('#expired').modal('show');
+          });
+        }
+      <?php
+      }
+      ?>
+      $.ajax({
+        type: "post",
+        data: {
+          nowo: $("#nowo").val()
+        },
+        // dataType: "json",
+        url: "<?= site_url('estimasi_bp/hitung_summary_wo'); ?>",
+        beforeSend: function(f) {
+          $('.btnreload').attr('disable', 'disabled')
+          $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
+          // alert('1');
+          // $('#tabel_bahan_bp').html('<center>Loading Table ...</center>');
+        },
+        success: function(data) {
+          // $('#tabel_bahan_bp').html(data);
+          $('.btnreload').removeAttr('disable')
+          $('.btnreload').html('<i class="fa fa-spinner">')
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+        }
+      })
+    }
+
+    $("#input_bahan_bp").on('hide.bs.modal', function() {
+      // alert('The modal is about to be hidden.');
+      reload_table_wo_bp()
+    });
+
+    $("#input_bahan_bp").on('show.bs.modal', function() {
+      // alert('The modal is about to be show.');
+      // reload_table_wo_bp()
+    });
+
+    // $(document).ready(function() {
+    $("#nowo").dblclick(function() {
+      alert("The paragraph was double-clicked.");
+    });
+    // });
+  </script>

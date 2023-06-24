@@ -1,0 +1,209 @@
+CRITICAL - 2023-04-18 10:51:47 --> Invalid file: memombr/rmemombr.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('memombr/rmemombr.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/rmemombr', [], true)
+ 3 APPPATH\Controllers\Memombr.php(1201): view('memombr/rmemombr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->rmemombr()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:11:05 --> Undefined array key "nomemo"
+in APPPATH\Controllers\Memombr.php on line 1206.
+ 1 APPPATH\Controllers\Memombr.php(1206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomemo"', 'APPPATH\\Controllers\\Memombr.php', 1206)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:28:41 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1206.
+ 1 APPPATH\Controllers\Memombr.php(1206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1206)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:50:26 --> Call to undefined method App\Models\MemombrdModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:50:45 --> Call to undefined method App\Models\MemombrdModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:51:37 --> Call to undefined method App\Models\MemombrdModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:51:51 --> Call to undefined method App\Models\MemombrdModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:52:58 --> Call to undefined method App\Models\MemombrModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:53:03 --> Call to undefined method App\Models\MemombrModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 14:53:39 --> Call to undefined method App\Models\MemombrModel::getperiode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Memombr.php(1222): CodeIgniter\Model->__call('getperiode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:06:27 --> Undefined variable $tbcabang
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 43.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcabang', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Memombr.php(1226): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:06:36 --> Undefined variable $tbcabang
+in APPPATH\Views\memombr\tabel_rmemombr.php on line 43.
+ 1 APPPATH\Views\memombr\tabel_rmemombr.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbcabang', 'APPPATH\\Views\\memombr\\tabel_rmemombr.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\tabel_rmemombr.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/tabel_rmemombr', [], true)
+ 5 APPPATH\Controllers\Memombr.php(1226): view('memombr/tabel_rmemombr', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->table_rmemombr()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:44:13 --> Too few arguments to function App\Controllers\Memombr::cetakrmemombr(), 0 passed in D:\xampp\htdocs\hati\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Memombr.php on line 1229.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:44:32 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:45:03 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:45:18 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:46:46 --> Invalid file: memombr/cetakrmemombr.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('memombr/cetakrmemombr.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/cetakrmemombr', [], true)
+ 3 APPPATH\Controllers\Memombr.php(1250): view('memombr/cetakrmemombr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:47:00 --> Invalid file: memombr/cetakrmemombr.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('memombr/cetakrmemombr.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/cetakrmemombr', [], true)
+ 3 APPPATH\Controllers\Memombr.php(1250): view('memombr/cetakrmemombr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:47:15 --> Invalid file: memombr/cetakrmemombr.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('memombr/cetakrmemombr.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/cetakrmemombr', [], true)
+ 3 APPPATH\Controllers\Memombr.php(1250): view('memombr/cetakrmemombr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:48:06 --> Invalid file: memombr/cetakrmemombr.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('memombr/cetakrmemombr.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/cetakrmemombr', [], true)
+ 3 APPPATH\Controllers\Memombr.php(1251): view('memombr/cetakrmemombr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:55:27 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 15:57:06 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 16:07:04 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-18 16:50:25 --> Undefined array key "tanggal1"
+in APPPATH\Controllers\Memombr.php on line 1231.
+ 1 APPPATH\Controllers\Memombr.php(1231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal1"', 'APPPATH\\Controllers\\Memombr.php', 1231)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cetakrmemombr()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

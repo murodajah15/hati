@@ -1,0 +1,1228 @@
+CRITICAL - 2022-10-27 08:34:34 --> Undefined array key "idmodule"
+in APPPATH\Views\tbuser\formakses.php on line 43.
+ 1 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmodule"', 'APPPATH\\Views\\tbuser\\formakses.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(393): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 08:34:37 --> Undefined array key "idmodule"
+in APPPATH\Views\tbuser\formakses.php on line 43.
+ 1 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmodule"', 'APPPATH\\Views\\tbuser\\formakses.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(393): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 08:34:38 --> Undefined array key "idmodule"
+in APPPATH\Views\tbuser\formakses.php on line 43.
+ 1 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmodule"', 'APPPATH\\Views\\tbuser\\formakses.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(393): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 08:34:39 --> Undefined array key "idmodule"
+in APPPATH\Views\tbuser\formakses.php on line 43.
+ 1 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmodule"', 'APPPATH\\Views\\tbuser\\formakses.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(393): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 08:36:05 --> Undefined array key "idmodule"
+in APPPATH\Views\tbuser\formakses.php on line 43.
+ 1 APPPATH\Views\tbuser\formakses.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmodule"', 'APPPATH\\Views\\tbuser\\formakses.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(393): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 08:37:43 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(427): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 08:37:43 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 08:37:43\', \'2022-10-27 08:37:43\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 08:37:43\', \'2022-10-27 08:37:43\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 08:37:43\', \'2022-10-27 08:37:43\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(427): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 08:56:36 --> mysqli_sql_exception: Unknown column 'userdtl.id' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 08:56:36 --> Unknown column 'userdtl.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:56:36\'
+WHERE `userdtl`.`id` IN (\'File\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:56:36\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:56:36\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 08:58:02 --> mysqli_sql_exception: Unknown column 'userdtl.id' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 08:58:02 --> Unknown column 'userdtl.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:02\'
+WHERE `userdtl`.`id` IN (\'File\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:02\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:02\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 08:58:57 --> mysqli_sql_exception: Unknown column 'userdtl.id' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 08:58:57 --> Unknown column 'userdtl.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:57\'
+WHERE `userdtl`.`id` IN (\'File\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:57\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 08:58:57\'
+WHERE `userdtl`.`id` IN (\'File\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(443): CodeIgniter\Model->update('File', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:01:55 --> mysqli_sql_exception: Unknown column 'userdtl.id' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(443): CodeIgniter\Model->update('1', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:01:55 --> Unknown column 'userdtl.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:01:55\'
+WHERE `userdtl`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:01:55\'
+WHERE `userdtl`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:01:55\'
+WHERE `userdtl`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(443): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:08:27 --> Undefined property: App\Controllers\Tbuser::$db
+in APPPATH\Controllers\Tbuser.php on line 452.
+ 1 APPPATH\Controllers\Tbuser.php(452): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tbuser::$db', 'APPPATH\\Controllers\\Tbuser.php', 452)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:08:51 --> mysqli_sql_exception: Unknown column 'module' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(453): CodeIgniter\Model->update('userdtl ', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:08:51 --> Unknown column 'module' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:08:51\'
+WHERE `module` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:08:51\'
+WHERE `module` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:08:51\'
+WHERE `module` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `module` = :module :
+AND `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(453): CodeIgniter\Model->update('userdtl ', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:09:20 --> mysqli_sql_exception: Unknown column 'userdtl.id' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(453): CodeIgniter\Model->update('userdtl ', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:09:20 --> Unknown column 'userdtl.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:09:20\'
+WHERE `cmodule` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:09:20\'
+WHERE `cmodule` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1, `updated_at` = \'2022-10-27 09:09:20\'
+WHERE `cmodule` = \'File\'
+AND `userdtl`.`id` IN (\'userdtl \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:, `updated_at` = :updated_at:
+WHERE `cmodule` = :cmodule :
+AND `userdtl`.`id` IN :userdtl.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbuser.php(453): CodeIgniter\Model->update('userdtl ', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:13:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tbuser.php on line 418.
+ 1 APPPATH\Controllers\Tbuser.php(418): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:13:57 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:13:57 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:13:57\', \'2022-10-27 09:13:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:13:57\', \'2022-10-27 09:13:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:13:57\', \'2022-10-27 09:13:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:14:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tbuser.php on line 418.
+ 1 APPPATH\Controllers\Tbuser.php(418): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:14:16 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tbuser.php on line 418.
+ 1 APPPATH\Controllers\Tbuser.php(418): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:14:30 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:14:30 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:30\', \'2022-10-27 09:14:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:30\', \'2022-10-27 09:14:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:30\', \'2022-10-27 09:14:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:14:58 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:14:58 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:58\', \'2022-10-27 09:14:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:58\', \'2022-10-27 09:14:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'Tabel Cabang\',\'Tabel Divisi\'), \'2022-10-27 09:14:58\', \'2022-10-27 09:14:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:24:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tbuser.php on line 418.
+ 1 APPPATH\Controllers\Tbuser.php(418): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:25:42 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:25:42 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:25:42\', \'2022-10-27 09:25:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:25:42\', \'2022-10-27 09:25:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:25:42\', \'2022-10-27 09:25:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:26:31 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:26:31 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:31\', \'2022-10-27 09:26:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:31\', \'2022-10-27 09:26:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:31\', \'2022-10-27 09:26:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 09:26:48 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(428): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 09:26:48 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:48\', \'2022-10-27 09:26:48\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:48\', \'2022-10-27 09:26:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', \'murod@honda-autoland.com\', (\'File\',\'Tabel Cabang\',\'Tabel Divisi\',\'Tabel Jabatan\',\'Tabel Pendidikan\',\'Tabel Agama\',\'Tabel Golongan\',\'Tabel Bank\',\'Tabel Jenis Cuti\',\'Tabel Jenis Ijin\',\'Tabel Jam Kerja\',\'Tabel Shift\',\'Presensi\',\'Setup Payroll\',\'History User\',\'Transaksi\',\'Master Pegawai\',\'Riwayat Keluarga\',\'Penerbitan Cuti\',\'Absensi Pegawai\',\'Jadwal Kerja Pegawai\',\'Pengajuan Ijin\',\'Pengajuan Cuti\',\'Pengajuan Koperasi\',\'Kontrak Pegawai\',\'Permohonan NIP\',\'Cek Suhu\',\'Pelamar\',\'Proses\',\'Approv Cuti (Foreman)\',\'Approv Cuti (Kabag)\',\'Approv Cuti (HRD)\',\'Approv Ijin (Kabag)\',\'Approv Ijin (HRD)\',\'Approv Koperasi (Kabag)\',\'Approv Koperasi (Ketua)\',\'Report\',\'Laporan Master Pegawai\',\'Laporan Ijin\',\'Laporan Cuti \',\'Laporan Absensi \',\'Laporan Koperasi\',\'Laporan Riwayat Keluarga\',\'Laporan Riwayat Pendidikan\',\'Laporan Riwayat Pekerjaan\',\'Laporan Riwayat Sanksi\',\'Kartu Pegawai\'), \'2022-10-27 09:26:48\', \'2022-10-27 09:26:48\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `pakai`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :pakai:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(428): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:33:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tbuser.php on line 420.
+ 1 APPPATH\Controllers\Tbuser.php(420): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:45:21 --> Undefined variable $jmlpakai
+in APPPATH\Controllers\Tbuser.php on line 444.
+ 1 APPPATH\Controllers\Tbuser.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmlpakai', 'APPPATH\\Controllers\\Tbuser.php', 444)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 09:45:59 --> Undefined variable $jmltambah
+in APPPATH\Controllers\Tbuser.php on line 451.
+ 1 APPPATH\Controllers\Tbuser.php(451): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jmltambah', 'APPPATH\\Controllers\\Tbuser.php', 451)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 10:12:12 --> mysqli_sql_exception: Column 'username' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(435): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 10:12:12 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:12:12\', \'2022-10-27 10:12:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:12:12\', \'2022-10-27 10:12:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:12:12\', \'2022-10-27 10:12:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(435): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 10:13:58 --> mysqli_sql_exception: Column 'username' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(434): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 10:13:58 --> Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:13:58\', \'2022-10-27 10:13:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:13:58\', \'2022-10-27 10:13:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', \'1\', \'File\', NULL, \'2022-10-27 10:13:58\', \'2022-10-27 10:13:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `userdtl` (`iduser`, `idmodule`, `nurut`, `cmodule`, `username`, `created_at`, `updated_at`) VALUES (:iduser.1:, :idmodule:, :nurut:, :cmodule:, :username:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbuser.php(434): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 10:23:12 --> mysqli_sql_exception: Unknown column 'username1' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl...', Array, false)
+#4 D:\xampp\htdocs\bp\app\Models\UserdtlModel.php(35): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(442): App\Models\UserdtlModel->updateuserdtl(Array, 'File', 'murod@honda-aut...')
+#6 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-10-27 10:23:12 --> Unknown column 'username1' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `userdtl` SET `pakai` = 1
+WHERE `cmodule` = \'File\'
+AND `username1` = \'murod@honda-autoland.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `userdtl` SET `pakai` = 1
+WHERE `cmodule` = \'File\'
+AND `username1` = \'murod@honda-autoland.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `userdtl` SET `pakai` = 1
+WHERE `cmodule` = \'File\'
+AND `username1` = \'murod@honda-autoland.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `userdtl` SET `pakai` = :pakai:
+WHERE `cmodule` = :cmodule:
+AND `username1` = :username1:', [...], false)
+ 5 APPPATH\Models\UserdtlModel.php(35): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Tbuser.php(442): App\Models\UserdtlModel->updateuserdtl([...], 'File', 'murod@honda-autoland.com')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 10:58:32 --> Undefined variable $lcpakai
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lcpakai', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 10:58:34 --> Undefined variable $lcpakai
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lcpakai', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 10:58:35 --> Undefined variable $lcpakai
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lcpakai', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:04:54 --> Undefined variable $checked
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checked', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:04:56 --> Undefined variable $checked
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checked', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:05:23 --> Undefined variable $checked
+in APPPATH\Views\tbuser\formakses.php on line 58.
+ 1 APPPATH\Views\tbuser\formakses.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checked', 'APPPATH\\Views\\tbuser\\formakses.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:27:02 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:27:04 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:27:05 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:27:06 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:27:21 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:28:58 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:29:01 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:29:06 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:29:12 --> Undefined array key "username"
+in APPPATH\Views\tbuser\formakses.php on line 47.
+ 1 APPPATH\Views\tbuser\formakses.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\tbuser\\formakses.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:32:49 --> Undefined array key "pakai"
+in APPPATH\Views\tbuser\formakses.php on line 69.
+ 1 APPPATH\Views\tbuser\formakses.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pakai"', 'APPPATH\\Views\\tbuser\\formakses.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:35:03 --> Undefined array key "pakai"
+in APPPATH\Views\tbuser\formakses.php on line 76.
+ 1 APPPATH\Views\tbuser\formakses.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pakai"', 'APPPATH\\Views\\tbuser\\formakses.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:35:06 --> Undefined array key "pakai"
+in APPPATH\Views\tbuser\formakses.php on line 76.
+ 1 APPPATH\Views\tbuser\formakses.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pakai"', 'APPPATH\\Views\\tbuser\\formakses.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 11:35:38 --> Undefined array key "pakai"
+in APPPATH\Views\tbuser\formakses.php on line 214.
+ 1 APPPATH\Views\tbuser\formakses.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pakai"', 'APPPATH\\Views\\tbuser\\formakses.php', 214)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\formakses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/formakses', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(395): view('tbuser/formakses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formakses()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 12:42:45 --> Undefined array key 47
+in APPPATH\Controllers\Tbuser.php on line 464.
+ 1 APPPATH\Controllers\Tbuser.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 47', 'APPPATH\\Controllers\\Tbuser.php', 464)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 01:23:36 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Tbuser.php on line 451.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Tbuser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tbuser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tbuser')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\tbuser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 01:23:38 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Tbuser.php on line 451.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Tbuser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tbuser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tbuser')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\tbuser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 01:23:40 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Tbuser.php on line 451.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Tbuser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tbuser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tbuser')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\tbuser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 14:02:57 --> Call to undefined method App\Models\UserdtlModel::delete_by_id
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbuser.php(409): CodeIgniter\Model->__call('delete_by_id', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->simpanakses()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 14:04:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 356.
+ 1 APPPATH\Controllers\Tbuser.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 356)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->hapus('64')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 14:05:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 356.
+ 1 APPPATH\Controllers\Tbuser.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 356)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->hapus('65')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 14:07:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 356.
+ 1 APPPATH\Controllers\Tbuser.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 356)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->hapus('55')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 14:21:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tbuser.php on line 356.
+ 1 APPPATH\Controllers\Tbuser.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tbuser.php', 356)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->hapus('69')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 15:06:04 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1599.
+ 1 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(1, 'update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], 1)
+ 3 APPPATH\Controllers\Tbmodule.php(230): CodeIgniter\Model->update('1', 1)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 15:07:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(233): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 15:09:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(234): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 15:10:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(234): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 15:11:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Tbmodule.php(234): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 15:12:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbmodul...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbmodul...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbmodul...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbmodul...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmodule.php(234): CodeIgniter\Model->update('1', Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-10-27 15:12:25 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbmodule` SET `nurut` = 1, `updated_at` = \'2022-10-27 15:12:25\'
+WHERE `tbmodule`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbmodule` SET `nurut` = 1, `updated_at` = \'2022-10-27 15:12:25\'
+WHERE `tbmodule`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbmodule` SET `nurut` = 1, `updated_at` = \'2022-10-27 15:12:25\'
+WHERE `tbmodule`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbmodule` SET `nurut` = :nurut:, `updated_at` = :updated_at:
+WHERE `tbmodule`.`id` IN :tbmodule.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Tbmodule.php(234): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbmodule->urutkan()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbmodule))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:35:05 --> Undefined property: App\Controllers\Dashboard::$userdtlModel
+in APPPATH\Controllers\Dashboard.php on line 26.
+ 1 APPPATH\Controllers\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$userdtlModel', 'APPPATH\\Controllers\\Dashboard.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:38:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\dashboard\index.php on line 86.
+ 1 APPPATH\Views\dashboard\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\dashboard\\index.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(28): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:41:00 --> Undefined property: App\Controllers\Dashboard::$userdtlModel
+in APPPATH\Controllers\Dashboard.php on line 26.
+ 1 APPPATH\Controllers\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$userdtlModel', 'APPPATH\\Controllers\\Dashboard.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:41:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\dashboard\index.php on line 86.
+ 1 APPPATH\Views\dashboard\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\dashboard\\index.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(28): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:42:30 --> Undefined variable $db
+in APPPATH\Views\dashboard\index.php on line 89.
+ 1 APPPATH\Views\dashboard\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\dashboard\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:44:21 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\index.php on line 87.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:46:42 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\index.php on line 87.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:51:27 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\index.php on line 87.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:52:53 --> Undefined variable $cmodule
+in APPPATH\Views\dashboard\index.php on line 90.
+ 1 APPPATH\Views\dashboard\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cmodule', 'APPPATH\\Views\\dashboard\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:53:30 --> Undefined array key "$cmodule"
+in APPPATH\Views\dashboard\index.php on line 90.
+ 1 APPPATH\Views\dashboard\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$cmodule"', 'APPPATH\\Views\\dashboard\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:55:52 --> Cannot access offset of type string on string
+in APPPATH\Views\dashboard\index.php on line 88.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 04:56:14 --> Attempt to read property "cmodule" on string
+in APPPATH\Views\dashboard\index.php on line 88.
+ 1 APPPATH\Views\dashboard\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cmodule" on string', 'APPPATH\\Views\\dashboard\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 17:17:04 --> Undefined variable $username
+in APPPATH\Views\dashboard\index.php on line 89.
+ 1 APPPATH\Views\dashboard\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\dashboard\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/index', [], true)
+ 6 APPPATH\Controllers\Tbcabang.php(24): view('tbcabang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 17:17:50 --> Undefined variable $username
+in APPPATH\Views\dashboard\index.php on line 89.
+ 1 APPPATH\Views\dashboard\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\dashboard\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/index', [], true)
+ 6 APPPATH\Controllers\Tbcabang.php(24): view('tbcabang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 17:18:00 --> Undefined variable $username
+in APPPATH\Views\dashboard\index.php on line 89.
+ 1 APPPATH\Views\dashboard\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\dashboard\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcabang/index', [], true)
+ 6 APPPATH\Controllers\Tbcabang.php(24): view('tbcabang/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcabang->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcabang))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 23:03:02 --> syntax error, unexpected token ";"
+in APPPATH\Views\dashboard\index.php on line 123.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(30): view('dashboard/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,55 @@
+CRITICAL - 2023-02-01 16:19:47 --> Invalid file: tbmobil/modalcari_pemakai.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmobil/modalcari_pemakai.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modalcari_pemakai', [], true)
+ 3 APPPATH\Controllers\Tbmobil.php(352): view('tbmobil/modalcari_pemakai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->cari_data_pemakai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:19:50 --> Invalid file: tbmobil/modalcari_pemakai.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbmobil/modalcari_pemakai.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modalcari_pemakai', [], true)
+ 3 APPPATH\Controllers\Tbmobil.php(352): view('tbmobil/modalcari_pemakai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->cari_data_pemakai()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:33:29 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Estimasi.php on line 699.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatapart()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:34:26 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Estimasi.php on line 699.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatapart()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:34:42 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Estimasi.php on line 699.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatapart()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:35:00 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Estimasi.php on line 699.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatapart()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 16:35:25 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Estimasi.php on line 699.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatapart()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

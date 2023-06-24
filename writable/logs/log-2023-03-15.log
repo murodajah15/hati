@@ -1,0 +1,123 @@
+CRITICAL - 2023-03-15 12:04:05 --> Undefined variable $estimasi
+in APPPATH\Views\tbmobil\modaltambah.php on line 108.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(121): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:36:07 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:36:48 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:37:05 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:37:16 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:38:20 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 213.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:41:02 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 213.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:41:43 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:41:49 --> Call to a member function getkode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:42:01 --> Call to a member function getKode() on null
+in APPPATH\Controllers\Tbmobil.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:42:58 --> Undefined array key "nama"
+in APPPATH\Views\tbmobil\modaledit.php on line 131.
+ 1 APPPATH\Views\tbmobil\modaledit.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(215): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:43:07 --> Undefined array key "nama"
+in APPPATH\Views\tbmobil\modaledit.php on line 131.
+ 1 APPPATH\Views\tbmobil\modaledit.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(215): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 13:44:07 --> Undefined array key "nama"
+in APPPATH\Views\tbmobil\modaledit.php on line 131.
+ 1 APPPATH\Views\tbmobil\modaledit.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(215): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 14:56:47 --> Undefined array key "telp1_ktp"
+in APPPATH\Views\tbcustomer\modaldetail.php on line 102.
+ 1 APPPATH\Views\tbcustomer\modaldetail.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telp1_ktp"', 'APPPATH\\Views\\tbcustomer\\modaldetail.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(70): view('tbcustomer/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

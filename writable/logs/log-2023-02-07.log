@@ -1,0 +1,129 @@
+CRITICAL - 2023-02-07 00:56:17 --> syntax error, unexpected token "echo", expecting "function" or "const"
+in APPPATH\Controllers\Tbbarang.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Tbbarang.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tbbarang')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tbbarang')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Tbbarang', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:42:51 --> Call to undefined method App\Models\TbbarangModel::getbarang
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(214): CodeIgniter\Model->__call('getbarang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->table_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:43:01 --> Call to undefined method App\Models\TbbarangModel::getbarang
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(214): CodeIgniter\Model->__call('getbarang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->table_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:43:10 --> Call to undefined method App\Models\TbbarangModel::getbarang
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(214): CodeIgniter\Model->__call('getbarang', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->table_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:44:07 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(55): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:44:55 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(55): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:45:18 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(55): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:48:19 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(54): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:48:34 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(54): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:49:00 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(54): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:51:29 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(54): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-07 15:51:58 --> Call to undefined method App\Models\TbbarangModel::tampilData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbbarang.php(54): CodeIgniter\Model->__call('tampilData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->ajaxLoadData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-07 15:56:20 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbbarang.php(146): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbbarang->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-07 15:56:20 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbbarang` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'AA\', \'AA\', \'Edit-Murod-07-02-2023 15:56:20\', \'2023-02-07 15:56:20\', \'2023-02-07 15:56:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbbarang` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'AA\', \'AA\', \'Edit-Murod-07-02-2023 15:56:20\', \'2023-02-07 15:56:20\', \'2023-02-07 15:56:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbbarang` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (\'AA\', \'AA\', \'Edit-Murod-07-02-2023 15:56:20\', \'2023-02-07 15:56:20\', \'2023-02-07 15:56:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbbarang` (`kode`, `nama`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbbarang.php(146): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbbarang->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbbarang))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

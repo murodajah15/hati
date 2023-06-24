@@ -1,0 +1,90 @@
+CRITICAL - 2023-05-31 14:12:36 --> Undefined variable $tbtasklist_salin
+in APPPATH\Views\tasklist_bp\caridatatasklist_salin.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\caridatatasklist_salin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtasklist_salin', 'APPPATH\\Views\\tasklist_bp\\caridatatasklist_salin.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\caridatatasklist_salin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/caridatatasklist_salin', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(389): view('tasklist_bp/caridatatasklist_salin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->caridatatasklist_salin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 14:13:07 --> Undefined variable $tbtasklist_salin
+in APPPATH\Views\tasklist_bp\caridatatasklist_salin.php on line 25.
+ 1 APPPATH\Views\tasklist_bp\caridatatasklist_salin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbtasklist_salin', 'APPPATH\\Views\\tasklist_bp\\caridatatasklist_salin.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tasklist_bp\\caridatatasklist_salin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tasklist_bp/caridatatasklist_salin', [], true)
+ 5 APPPATH\Controllers\Tasklist_bp.php(389): view('tasklist_bp/caridatatasklist_salin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->caridatatasklist_salin()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 14:55:56 --> Undefined array key "kdtasklist"
+in APPPATH\Controllers\Tasklist_bp.php on line 333.
+ 1 APPPATH\Controllers\Tasklist_bp.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdtasklist"', 'APPPATH\\Controllers\\Tasklist_bp.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->table_tasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 14:56:07 --> Undefined array key "kdtasklist"
+in APPPATH\Controllers\Tasklist_bp.php on line 333.
+ 1 APPPATH\Controllers\Tasklist_bp.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdtasklist"', 'APPPATH\\Controllers\\Tasklist_bp.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->table_tasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 15:58:29 --> Call to undefined method App\Models\Tasklist_bpdModel::gettldtl
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(448): CodeIgniter\Model->__call('gettldtl', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 15:58:45 --> Call to undefined method App\Models\Tasklist_bpdModel::gettldtl
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(448): CodeIgniter\Model->__call('gettldtl', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 15:59:10 --> Call to undefined method App\Models\Tasklist_bpdModel::gettldtl
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tasklist_bp.php(448): CodeIgniter\Model->__call('gettldtl', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 16:03:00 --> Undefined array key "id"
+in APPPATH\Controllers\Tasklist_bp.php on line 450.
+ 1 APPPATH\Controllers\Tasklist_bp.php(450): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tasklist_bp.php', 450)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 16:04:31 --> Undefined array key "id"
+in APPPATH\Controllers\Tasklist_bp.php on line 451.
+ 1 APPPATH\Controllers\Tasklist_bp.php(451): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tasklist_bp.php', 451)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-31 16:14:23 --> The route for "/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/dashboard')
+ 2 SYSTEMPATH\Common.php(869): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Tasklist_bp.php(432): redirect('/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tasklist_bp->salindetailtasklist_bpd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasklist_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

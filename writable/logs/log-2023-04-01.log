@@ -1,0 +1,280 @@
+CRITICAL - 2023-04-01 10:57:43 --> Undefined variable $tbklpuser
+in APPPATH\Views\tbuser\modaltambah.php on line 76.
+ 1 APPPATH\Views\tbuser\modaltambah.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbklpuser', 'APPPATH\\Views\\tbuser\\modaltambah.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(110): view('tbuser/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-01 10:58:52 --> mysqli_sql_exception: Table 'ci4.tbklpuser' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbuser.php(108): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbuser->formtambah()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-01 10:58:52 --> Table 'ci4.tbklpuser' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbklpuser`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbklpuser`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbklpuser`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbklpuser`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbuser.php(108): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formtambah()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:05:51 --> Undefined variable $memombr
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(277): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:05:55 --> Undefined variable $memombr
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(277): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:07:15 --> Undefined variable $memombr
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memombr', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(278): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:07:58 --> Undefined array key "kdmerek"
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdmerek"', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(278): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:08:06 --> Undefined array key "kdmerek"
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdmerek"', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(278): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:08:11 --> Undefined array key "kdmerek"
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdmerek"', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(278): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:08:39 --> Undefined array key "kelompok"
+in APPPATH\Views\tbuser\modaledit.php on line 92.
+ 1 APPPATH\Views\tbuser\modaledit.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelompok"', 'APPPATH\\Views\\tbuser\\modaledit.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbuser.php(278): view('tbuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-01 11:28:04 --> mysqli_sql_exception: Unknown column 'kode' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbklpuser.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbklpuser->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-01 11:28:04 --> Unknown column 'kode' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbklpuser`
+ORDER BY `kode`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbklpuser`
+ORDER BY `kode`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbklpuser`
+ORDER BY `kode`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbklpuser`
+ORDER BY `kode`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbklpuser.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:29:42 --> Invalid file: tbklpuser/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tbklpuser/index.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/index', [], true)
+ 3 APPPATH\Controllers\Tbklpuser.php(23): view('tbklpuser/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:34:39 --> Undefined array key "cklpuser"
+in APPPATH\Views\tbklpuser\tabel_klpuser.php on line 39.
+ 1 APPPATH\Views\tbklpuser\tabel_klpuser.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cklpuser"', 'APPPATH\\Views\\tbklpuser\\tabel_klpuser.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\tabel_klpuser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/tabel_klpuser', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(260): view('tbklpuser/tabel_klpuser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->table_klpuser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:35:39 --> Undefined array key "cklpuser"
+in APPPATH\Views\tbklpuser\tabel_klpuser.php on line 39.
+ 1 APPPATH\Views\tbklpuser\tabel_klpuser.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cklpuser"', 'APPPATH\\Views\\tbklpuser\\tabel_klpuser.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\tabel_klpuser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/tabel_klpuser', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(260): view('tbklpuser/tabel_klpuser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->table_klpuser()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:50:34 --> Undefined variable $id
+in APPPATH\Views\tbklpuser\modaledit.php on line 11.
+ 1 APPPATH\Views\tbklpuser\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbklpuser\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(175): view('tbklpuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:50:37 --> Undefined variable $id
+in APPPATH\Views\tbklpuser\modaledit.php on line 11.
+ 1 APPPATH\Views\tbklpuser\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbklpuser\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(175): view('tbklpuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 11:50:39 --> Undefined variable $id
+in APPPATH\Views\tbklpuser\modaledit.php on line 11.
+ 1 APPPATH\Views\tbklpuser\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\tbklpuser\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(175): view('tbklpuser/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 12:00:04 --> Undefined variable $kelompok
+in APPPATH\Views\tbklpuser\modaldetail.php on line 14.
+ 1 APPPATH\Views\tbklpuser\modaldetail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelompok', 'APPPATH\\Views\\tbklpuser\\modaldetail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbklpuser\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbklpuser/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbklpuser.php(41): view('tbklpuser/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbklpuser->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbklpuser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 12:10:55 --> Undefined variable $session
+in APPPATH\Views\pengajuandiscount\modaldetail.php on line 114.
+ 1 APPPATH\Views\pengajuandiscount\modaldetail.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\pengajuandiscount\\modaldetail.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengajuandiscount\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modaldetail', [], true)
+ 5 APPPATH\Controllers\Pengajuandiscount.php(67): view('pengajuandiscount/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 13:49:56 --> Invalid file: pengajuandiscount/modalapprov.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengajuandiscount/modalapprov.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modalapprov', [], true)
+ 3 APPPATH\Controllers\Pengajuandiscount.php(197): view('pengajuandiscount/modalapprov', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formapprov_dir()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-01 13:59:01 --> Invalid file: pengajuandiscount/modalapprov.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengajuandiscount/modalapprov.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('pengajuandiscount/modalapprov', [], true)
+ 3 APPPATH\Controllers\Pengajuandiscount.php(197): view('pengajuandiscount/modalapprov', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Pengajuandiscount->formapprov_dir()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengajuandiscount))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

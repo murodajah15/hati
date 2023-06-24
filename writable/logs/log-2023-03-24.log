@@ -1,0 +1,986 @@
+CRITICAL - 2023-03-24 09:55:26 --> Undefined variable $tbsales
+in APPPATH\Views\memombr\modalcarisales.php on line 23.
+ 1 APPPATH\Views\memombr\modalcarisales.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\memombr\\modalcarisales.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\memombr\\modalcarisales.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('memombr/modalcarisales', [], true)
+ 5 APPPATH\Controllers\Memombr.php(813): view('memombr/modalcarisales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:07:50 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:10:29 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:10:35 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:13:33 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:13:40 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:14:12 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Memombr.php on line 812.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_sales()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:23:54 --> Call to undefined function App\Controllers\alert()
+in APPPATH\Controllers\Memombr.php on line 848.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->cari_data_spv()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:47:23 --> mysqli_sql_exception: Unknown column 'kdsa' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:47:23 --> Unknown column 'kdsa' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsa` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsa` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsa` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsa` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:47:49 --> mysqli_sql_exception: Unknown column 'kdsales' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:47:49 --> Unknown column 'kdsales' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:49:06 --> mysqli_sql_exception: Unknown column 'kdsales' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:49:06 --> Unknown column 'kdsales' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:49:08 --> mysqli_sql_exception: Unknown column 'kdsales' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:49:08 --> Unknown column 'kdsales' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:49:14 --> mysqli_sql_exception: Unknown column 'kdsales' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:49:14 --> Unknown column 'kdsales' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 10:50:17 --> mysqli_sql_exception: Unknown column 'kdsales' in 'order clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-03-24 10:50:17 --> Unknown column 'kdsales' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbsales`
+ORDER BY `kdsales` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Tbsales.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:54:03 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:54:09 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:55:56 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:56:03 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:56:14 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:56:45 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:57:02 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 10:57:52 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 11:00:34 --> Call to undefined method App\Models\TbsalesModel::getsa
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbsales.php(256): CodeIgniter\Model->__call('getsa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 11:23:41 --> Undefined variable $tbsales
+in APPPATH\Views\tbsales\modaltambah.php on line 36.
+ 1 APPPATH\Views\tbsales\modaltambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\tbsales\\modaltambah.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(99): view('tbsales/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 11:24:00 --> Undefined variable $tbsales
+in APPPATH\Views\tbsales\modaltambah.php on line 36.
+ 1 APPPATH\Views\tbsales\modaltambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\tbsales\\modaltambah.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(99): view('tbsales/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 11:24:04 --> Undefined variable $tbsales
+in APPPATH\Views\tbsales\modaltambah.php on line 36.
+ 1 APPPATH\Views\tbsales\modaltambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\tbsales\\modaltambah.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(99): view('tbsales/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 11:25:01 --> Undefined variable $tbsales
+in APPPATH\Views\tbsales\modaltambah.php on line 36.
+ 1 APPPATH\Views\tbsales\modaltambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\tbsales\\modaltambah.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(99): view('tbsales/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 13:00:46 --> mysqli_sql_exception: Column 'nohp1' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(173): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 13:00:46 --> Column 'nohp1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:00:46\', \'2023-03-24 13:00:46\', \'2023-03-24 13:00:46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:00:46\', \'2023-03-24 13:00:46\', \'2023-03-24 13:00:46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:00:46\', \'2023-03-24 13:00:46\', \'2023-03-24 13:00:46\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :nohp1:, :nohp2:, :email:, :status:, :kdspv:, :tglmasuk:, :aktif:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbsales.php(173): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 13:01:33 --> mysqli_sql_exception: Column 'nohp1' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbsales.php(173): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Tbsales->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 13:01:33 --> Column 'nohp1' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:01:33\', \'2023-03-24 13:01:33\', \'2023-03-24 13:01:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:01:33\', \'2023-03-24 13:01:33\', \'2023-03-24 13:01:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (\'1\', \'1\', NULL, \'\', \'\', \'Sales Counter\', \'\', \'\', \'Y\', \'Edit--24-03-2023 13:01:33\', \'2023-03-24 13:01:33\', \'2023-03-24 13:01:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbsales` (`kode`, `nama`, `nohp1`, `nohp2`, `email`, `status`, `kdspv`, `tglmasuk`, `aktif`, `user`, `created_at`, `updated_at`) VALUES (:kode:, :nama:, :nohp1:, :nohp2:, :email:, :status:, :kdspv:, :tglmasuk:, :aktif:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbsales.php(173): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:03:01 --> Undefined array key "kdsales"
+in APPPATH\Controllers\Tbsales.php on line 243.
+ 1 APPPATH\Controllers\Tbsales.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsales"', 'APPPATH\\Controllers\\Tbsales.php', 243)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->hapus('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:04:18 --> Undefined array key "kdsales"
+in APPPATH\Controllers\Tbsales.php on line 243.
+ 1 APPPATH\Controllers\Tbsales.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsales"', 'APPPATH\\Controllers\\Tbsales.php', 243)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->hapus('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:05:13 --> Undefined array key "kdsales"
+in APPPATH\Controllers\Tbsales.php on line 243.
+ 1 APPPATH\Controllers\Tbsales.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsales"', 'APPPATH\\Controllers\\Tbsales.php', 243)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->hapus('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:10:42 --> Undefined array key "kdsales"
+in APPPATH\Controllers\Tbsales.php on line 243.
+ 1 APPPATH\Controllers\Tbsales.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsales"', 'APPPATH\\Controllers\\Tbsales.php', 243)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->hapus('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:12:07 --> Undefined array key "kdsales"
+in APPPATH\Controllers\Tbsales.php on line 244.
+ 1 APPPATH\Controllers\Tbsales.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdsales"', 'APPPATH\\Controllers\\Tbsales.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->hapus('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:19:14 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(198): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:19:18 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(198): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:19:22 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(198): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:21:39 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(198): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:22:26 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(198): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:24:15 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(199): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:25:38 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(199): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:26:08 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(199): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:26:14 --> Cannot access offset of type string on string
+in APPPATH\Views\tbsales\modaledit.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbsales.php(199): view('tbsales/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:26:28 --> Undefined variable $tbsaleslist1
+in APPPATH\Views\tbsales\modaledit.php on line 38.
+ 1 APPPATH\Views\tbsales\modaledit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsaleslist1', 'APPPATH\\Views\\tbsales\\modaledit.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(199): view('tbsales/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 13:41:49 --> Undefined array key "spv"
+in APPPATH\Views\tbsales\tabel_sales.php on line 55.
+ 1 APPPATH\Views\tbsales\tabel_sales.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "spv"', 'APPPATH\\Views\\tbsales\\tabel_sales.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\tabel_sales.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/tabel_sales', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(264): view('tbsales/tabel_sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->table_sales()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:45:11 --> Undefined variable $tbsatuan
+in APPPATH\Views\tbsales\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbsales\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsatuan', 'APPPATH\\Views\\tbsales\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:46:18 --> Undefined variable $tbsatuan
+in APPPATH\Views\tbsales\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbsales\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsatuan', 'APPPATH\\Views\\tbsales\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:50:24 --> Undefined variable $tbsatuan
+in APPPATH\Views\tbsales\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbsales\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsatuan', 'APPPATH\\Views\\tbsales\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:50:29 --> Undefined variable $tbsatuan
+in APPPATH\Views\tbsales\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbsales\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsatuan', 'APPPATH\\Views\\tbsales\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:50:34 --> Undefined variable $tbsatuan
+in APPPATH\Views\tbsales\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbsales\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsatuan', 'APPPATH\\Views\\tbsales\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:51:24 --> Undefined variable $tbsaleslist
+in APPPATH\Views\tbsales\modaldetail.php on line 36.
+ 1 APPPATH\Views\tbsales\modaldetail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsaleslist', 'APPPATH\\Views\\tbsales\\modaldetail.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:51:54 --> Undefined variable $tbsaleslist
+in APPPATH\Views\tbsales\modaldetail.php on line 36.
+ 1 APPPATH\Views\tbsales\modaldetail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsaleslist', 'APPPATH\\Views\\tbsales\\modaldetail.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:52:19 --> Undefined variable $tbsaleslist
+in APPPATH\Views\tbsales\modaldetail.php on line 36.
+ 1 APPPATH\Views\tbsales\modaldetail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsaleslist', 'APPPATH\\Views\\tbsales\\modaldetail.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(86): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 15:53:36 --> Undefined variable $tbstatus_sales
+in APPPATH\Views\tbsales\modaldetail.php on line 50.
+ 1 APPPATH\Views\tbsales\modaldetail.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbstatus_sales', 'APPPATH\\Views\\tbsales\\modaldetail.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbsales\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbsales/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbsales.php(87): view('tbsales/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbsales->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbsales))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:03:36 --> Undefined variable $tbsales
+in APPPATH\Views\tbleasing\tabel_leasing.php on line 47.
+ 1 APPPATH\Views\tbleasing\tabel_leasing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbsales', 'APPPATH\\Views\\tbleasing\\tabel_leasing.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbleasing\\tabel_leasing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbleasing/tabel_leasing', [], true)
+ 5 APPPATH\Controllers\Tbleasing.php(261): view('tbleasing/tabel_leasing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbleasing->table_leasing()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbleasing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:05:52 --> Undefined variable $kodeasuransi
+in APPPATH\Views\tbleasing\modaltambah.php on line 15.
+ 1 APPPATH\Views\tbleasing\modaltambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodeasuransi', 'APPPATH\\Views\\tbleasing\\modaltambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbleasing\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbleasing/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbleasing.php(101): view('tbleasing/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbleasing->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbleasing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:06:52 --> Undefined variable $kodeasuransi
+in APPPATH\Views\tbleasing\modaltambah.php on line 15.
+ 1 APPPATH\Views\tbleasing\modaltambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodeasuransi', 'APPPATH\\Views\\tbleasing\\modaltambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbleasing\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbleasing/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbleasing.php(101): view('tbleasing/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbleasing->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbleasing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:09:32 --> Undefined variable $kodeasuransi
+in APPPATH\Views\tbleasing\modaltambah.php on line 15.
+ 1 APPPATH\Views\tbleasing\modaltambah.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kodeasuransi', 'APPPATH\\Views\\tbleasing\\modaltambah.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbleasing\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbleasing/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbleasing.php(101): view('tbleasing/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbleasing->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbleasing))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:10:39 --> Call to undefined method App\Models\EstimasiModel::getleasing
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbleasing.php(288): CodeIgniter\Model->__call('getleasing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbleasing->hapus('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbleasing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-24 16:11:36 --> Call to undefined method App\Models\EstimasiModel::getleasing
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Tbleasing.php(288): CodeIgniter\Model->__call('getleasing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbleasing->hapus('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbleasing))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:19:38 --> mysqli_sql_exception: Unknown column 'asuransi' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:19:38 --> Unknown column 'asuransi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `asuransi`, `pembeli`, `penjualan`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:19:01\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'L20230300001\', \'\', \'NO COVER\', \'GSO\', \'Off The Road\', \'Edit-Murod-24-03-2023 16:19:38\', \'2023-03-24 16:19:38\', \'2023-03-24 16:19:38\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `asuransi`, `pembeli`, `penjualan`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:19:01\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'L20230300001\', \'\', \'NO COVER\', \'GSO\', \'Off The Road\', \'Edit-Murod-24-03-2023 16:19:38\', \'2023-03-24 16:19:38\', \'2023-03-24 16:19:38\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `asuransi`, `pembeli`, `penjualan`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:19:01\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'L20230300001\', \'\', \'NO COVER\', \'GSO\', \'Off The Road\', \'Edit-Murod-24-03-2023 16:19:38\', \'2023-03-24 16:19:38\', \'2023-03-24 16:19:38\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `asuransi`, `pembeli`, `penjualan`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :kdkreditur:, :lama_kredit:, :asuransi:, :pembeli:, :penjualan:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:23:20 --> mysqli_sql_exception: Unknown column 'kdkreditur' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:23:20 --> Unknown column 'kdkreditur' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', NULL, \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:20\', \'2023-03-24 16:23:20\', \'2023-03-24 16:23:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', NULL, \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:20\', \'2023-03-24 16:23:20\', \'2023-03-24 16:23:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', NULL, \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:20\', \'2023-03-24 16:23:20\', \'2023-03-24 16:23:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `kdkreditur`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :kdkreditur:, :lama_kredit:, :pembeli:, :penjualan:, :kdsales:, :status_sales:, :kdspv:, :sales_mgr:, :kdcust:, :alamat:, :kelurahan:, :kecamatan:, :kota:, :provinsi:, :kdpos:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:23:54 --> mysqli_sql_exception: Unknown column 'sales_mgr' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:23:54 --> Unknown column 'sales_mgr' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:54\', \'2023-03-24 16:23:54\', \'2023-03-24 16:23:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:54\', \'2023-03-24 16:23:54\', \'2023-03-24 16:23:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:23:54\', \'2023-03-24 16:23:54\', \'2023-03-24 16:23:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :lama_kredit:, :pembeli:, :penjualan:, :kdsales:, :status_sales:, :kdspv:, :sales_mgr:, :kdcust:, :alamat:, :kelurahan:, :kecamatan:, :kota:, :provinsi:, :kdpos:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:24:02 --> mysqli_sql_exception: Unknown column 'sales_mgr' in 'field list' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:24:02 --> Unknown column 'sales_mgr' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:24:02\', \'2023-03-24 16:24:02\', \'2023-03-24 16:24:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:24:02\', \'2023-03-24 16:24:02\', \'2023-03-24 16:24:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'2023-03-24T16:22:24\', \'Edit-Murod-24-03-2023 16:24:02\', \'2023-03-24 16:24:02\', \'2023-03-24 16:24:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `sales_mgr`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :lama_kredit:, :pembeli:, :penjualan:, :kdsales:, :status_sales:, :kdspv:, :sales_mgr:, :kdcust:, :alamat:, :kelurahan:, :kecamatan:, :kota:, :provinsi:, :kdpos:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:25:28 --> mysqli_sql_exception: Column 'kelurahan' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:25:28 --> Column 'kelurahan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:25:28\', \'2023-03-24 16:25:28\', \'2023-03-24 16:25:28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:25:28\', \'2023-03-24 16:25:28\', \'2023-03-24 16:25:28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:25:28\', \'2023-03-24 16:25:28\', \'2023-03-24 16:25:28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `kdpos`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :lama_kredit:, :pembeli:, :penjualan:, :kdsales:, :status_sales:, :kdspv:, :kdcust:, :alamat:, :kelurahan:, :kecamatan:, :kota:, :provinsi:, :kdpos:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-24 16:27:00 --> mysqli_sql_exception: Column 'kelurahan' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `me...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Memombr.php(208): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-24 16:27:00 --> Column 'kelurahan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:27:00\', \'2023-03-24 16:27:00\', \'2023-03-24 16:27:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:27:00\', \'2023-03-24 16:27:00\', \'2023-03-24 16:27:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `user`, `created_at`, `updated_at`) VALUES (\'MM20230300002\', \'2023-03-24T16:22:24\', \'\', \'\', \'\', \'01\', \'CT\', \'CTH\', \'01\', \'\', \'TUNAI\', \'\', \'Non GSO\', \'On The Road\', \'\', \'\', \'\', \'\', \'\', NULL, NULL, NULL, NULL, \'Edit-Murod-24-03-2023 16:27:00\', \'2023-03-24 16:27:00\', \'2023-03-24 16:27:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `memombr` (`nomemo`, `tanggal`, `nospk`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `tahun`, `pembayaran`, `lama_kredit`, `pembeli`, `penjualan`, `kdsales`, `status_sales`, `kdspv`, `kdcust`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `provinsi`, `user`, `created_at`, `updated_at`) VALUES (:nomemo:, :tanggal:, :nospk:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :tahun:, :pembayaran:, :lama_kredit:, :pembeli:, :penjualan:, :kdsales:, :status_sales:, :kdspv:, :kdcust:, :alamat:, :kelurahan:, :kecamatan:, :kota:, :provinsi:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Memombr.php(208): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Memombr->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Memombr))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

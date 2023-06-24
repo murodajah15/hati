@@ -1,0 +1,521 @@
+CRITICAL - 2022-09-28 01:24:04 --> Class "App\Models\TbdivisiModel" not found
+in APPPATH\Controllers\Tbdivisi.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:00:16 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 71.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:03:59 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 71.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:04:00 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 71.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:04:11 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 71.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:04:12 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 71.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:04:59 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:05:54 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:05:56 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:05:56 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:05:57 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:06:22 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:06:23 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 02:06:24 --> Too few arguments to function App\Models\TbdivisiModel::__construct(), 0 passed in D:\xampp\htdocs\ci4sbadmin704\app\Controllers\Tbdivisi.php on line 12 and exactly 1 expected
+in APPPATH\Models\TbdivisiModel.php on line 18.
+ 1 APPPATH\Controllers\Tbdivisi.php(12): App\Models\TbdivisiModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tbdivisi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 03:01:55 --> Class "CI_Controller" not found
+in APPPATH\Controllers\Person.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Person.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Person')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Person')
+ 5 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Person', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 03:04:20 --> Cannot call constructor
+in APPPATH\Controllers\Person.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 03:05:19 --> Undefined property: App\Controllers\Person::$load
+in APPPATH\Controllers\Person.php on line 12.
+ 1 APPPATH\Controllers\Person.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Person::$load', 'APPPATH\\Controllers\\Person.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 03:06:54 --> Class "CI_Model" not found
+in APPPATH\Models\Person_model.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 4 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 5 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 03:10:14 --> Cannot redeclare App\Models\Person_model::$table
+in APPPATH\Models\Person_model.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:10:36 --> Declaration of App\Models\Person_model::update($where, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 95.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:24:51 --> Declaration of App\Models\Person_model::update($where, $data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 95.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:25:13 --> Declaration of App\Models\Person_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:28:15 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:29:22 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:29:25 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:30:01 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 03:30:45 --> Declaration of App\Models\Person_model::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:21:25 --> Declaration of App\Models\Person_model::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:21:26 --> Declaration of App\Models\Person_model::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:21:26 --> Declaration of App\Models\Person_model::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:22:09 --> Declaration of App\Models\Person_model::save() must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Person_model.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:22:59 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:23:50 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:13 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:40 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:41 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:41 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:42 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:42 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:42 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:42 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:24:43 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 04:25:56 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Models\Person_model.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:27:07 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:27:42 --> Unclosed '(' on line 91 does not match '}'
+in APPPATH\Models\Person_model.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:28:55 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 92.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:29:34 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:29:44 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 04:56:19 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 05:04:57 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 05:06:24 --> Invalid file: customers_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customers_view.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('customers_view', [], true)
+ 3 APPPATH\Controllers\Customers.php(13): view('customers_view')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Customers->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customers))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 20:46:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:49:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:49:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:49:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:49:52 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:51:18 --> Class "App\Controllers\TbcabangModel" not found
+in APPPATH\Controllers\User.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\User->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 20:51:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:32 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:53:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:56:02 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:56:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 20:58:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:00:02 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:00:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:00:25 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:03:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:03:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:03:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:03:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:06:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+in APPPATH\Controllers\User.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:20:15 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:31:24 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 97.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:31:53 --> Unclosed '(' on line 91 does not match '}'
+in APPPATH\Models\Person_model.php on line 106.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:32:34 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:32:43 --> syntax error, unexpected token "}"
+in APPPATH\Models\Person_model.php on line 100.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:33:32 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Models\Person_model.php on line 105.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Person_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Person_model')
+ 3 APPPATH\Controllers\Person.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Person_model')
+ 4 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Person->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-28 21:33:52 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:35:42 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 21:36:08 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-28 23:14:24 --> Declaration of App\Models\Person_model::update() must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Person_model.php on line 102.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

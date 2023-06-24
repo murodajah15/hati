@@ -1,0 +1,417 @@
+CRITICAL - 2023-02-17 13:54:13 --> Call to undefined method App\Models\TbbarangModel::getkode
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi.php(792): CodeIgniter\Model->__call('getkode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replpart()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 14:16:20 --> Call to undefined method App\Models\EstimasipartModel::getdoublebarang
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Estimasi.php(747): CodeIgniter\Model->__call('getdoublebarang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 14:20:29 --> Call to undefined method App\Models\EstimasipartModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\EstimasipartModel.php(36): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\Estimasi.php(747): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'ABB')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 14:37:48 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in D:\xampp\htdocs\bp\system\Model.php on line 772 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Models\EstimasipartModel.php(39): CodeIgniter\Model->__call('where', [])
+ 3 APPPATH\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'AC')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 14:38:16 --> Call to undefined method App\Models\EstimasipartModel::finAll
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\EstimasipartModel.php(38): CodeIgniter\Model->__call('finAll', [])
+ 2 APPPATH\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'AC')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-17 15:52:16 --> mysqli_sql_exception: Table 'ci4.estimasi_detail1' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasipartModel.php(22): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Estimasi.php(793): App\Models\EstimasipartModel->getnoestimasi('ES20230200002')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-17 15:52:16 --> Table 'ci4.estimasi_detail1' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = :noestimasi:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasipartModel.php(22): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Estimasi.php(793): App\Models\EstimasipartModel->getnoestimasi('ES20230200002')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-17 15:52:16 --> mysqli_sql_exception: Table 'ci4.estimasi_detail1' doesn't exist in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasipartModel.php(22): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Estimasi.php(831): App\Models\EstimasipartModel->getnoestimasi('ES20230200002')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-17 15:52:16 --> Table 'ci4.estimasi_detail1' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = \'ES20230200002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail1`
+WHERE `noestimasi` = :noestimasi:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasipartModel.php(22): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Estimasi.php(831): App\Models\EstimasipartModel->getnoestimasi('ES20230200002')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:52:39 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\tbl_estimasi_part.php on line 21.
+ 1 APPPATH\Views\estimasi\tbl_estimasi_part.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\tbl_estimasi_part.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tbl_estimasi_part.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tbl_estimasi_part', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(796): view('estimasi/tbl_estimasi_part', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:52:40 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\summary.php on line 3.
+ 1 APPPATH\Views\estimasi\summary.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\summary.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:53:30 --> Undefined variable $ftotal_part
+in APPPATH\Views\estimasi\summary.php on line 11.
+ 1 APPPATH\Views\estimasi\summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ftotal_part', 'APPPATH\\Views\\estimasi\\summary.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:53:55 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\tbl_estimasi_part.php on line 21.
+ 1 APPPATH\Views\estimasi\tbl_estimasi_part.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\tbl_estimasi_part.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tbl_estimasi_part.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tbl_estimasi_part', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(796): view('estimasi/tbl_estimasi_part', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:53:56 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\summary.php on line 3.
+ 1 APPPATH\Views\estimasi\summary.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\summary.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:54:22 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\tbl_estimasi_part.php on line 21.
+ 1 APPPATH\Views\estimasi\tbl_estimasi_part.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\tbl_estimasi_part.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tbl_estimasi_part.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tbl_estimasi_part', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(796): view('estimasi/tbl_estimasi_part', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:54:23 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\estimasi\summary.php on line 3.
+ 1 APPPATH\Views\estimasi\summary.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\estimasi\\summary.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:55:31 --> Undefined variable $ftotal_part
+in APPPATH\Views\estimasi\summary.php on line 11.
+ 1 APPPATH\Views\estimasi\summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ftotal_part', 'APPPATH\\Views\\estimasi\\summary.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:57:40 --> Undefined variable $ftotal_part
+in APPPATH\Views\estimasi\summary.php on line 11.
+ 1 APPPATH\Views\estimasi\summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ftotal_part', 'APPPATH\\Views\\estimasi\\summary.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 15:58:39 --> Undefined variable $ftotal_part
+in APPPATH\Views\estimasi\summary.php on line 11.
+ 1 APPPATH\Views\estimasi\summary.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ftotal_part', 'APPPATH\\Views\\estimasi\\summary.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/summary', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(834): view('estimasi/summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->summary()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:03:41 --> Call to a member function findAll() on null
+in APPPATH\Models\EstimasipartModel.php on line 41.
+ 1 APPPATH\Controllers\Estimasi.php(747): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'AA')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:03:57 --> Call to a member function first() on null
+in APPPATH\Models\EstimasipartModel.php on line 41.
+ 1 APPPATH\Controllers\Estimasi.php(747): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'AA')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:04:20 --> Call to undefined method App\Models\EstimasipartModel::finAll
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\EstimasipartModel.php(41): CodeIgniter\Model->__call('finAll', [])
+ 2 APPPATH\Controllers\Estimasi.php(747): App\Models\EstimasipartModel->getdoublebarang('ES20230200001', 'AA')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:31:42 --> Undefined variable $estimasi_part
+in APPPATH\Views\estimasi\tbl_estimasi_bahan.php on line 21.
+ 1 APPPATH\Views\estimasi\tbl_estimasi_bahan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi_part', 'APPPATH\\Views\\estimasi\\tbl_estimasi_bahan.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tbl_estimasi_bahan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tbl_estimasi_bahan', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(837): view('estimasi/tbl_estimasi_bahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_bahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:39:05 --> Undefined array key "kode"
+in APPPATH\Controllers\Estimasi.php on line 805.
+ 1 APPPATH\Controllers\Estimasi.php(805): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Estimasi.php', 805)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->replpart()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-17 16:43:47 --> mysqli_sql_exception: Unknown column 'kode' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasipartModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200002', 'AD')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-17 16:43:47 --> Unknown column 'kode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = :noestimasi:
+AND `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasipartModel.php(41): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200002', 'AD')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-17 16:44:25 --> mysqli_sql_exception: Unknown column 'kode' in 'where clause' in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\bp\app\Models\EstimasipartModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\bp\app\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200002', 'AD')
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-02-17 16:44:25 --> Unknown column 'kode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = \'ES20230200002\'
+AND `kode` = \'AD\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estimasi_detail`
+WHERE `noestimasi` = :noestimasi:
+AND `kode` = :kode:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EstimasipartModel.php(41): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Estimasi.php(749): App\Models\EstimasipartModel->getdoublebarang('ES20230200002', 'AD')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->simpanestimasid()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 16:45:36 --> Undefined array key "kodepart"
+in APPPATH\Views\estimasi\tbl_estimasi_part.php on line 33.
+ 1 APPPATH\Views\estimasi\tbl_estimasi_part.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepart"', 'APPPATH\\Views\\estimasi\\tbl_estimasi_part.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\tbl_estimasi_part.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/tbl_estimasi_part', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(799): view('estimasi/tbl_estimasi_part', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->table_estimasi_part()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 17:02:43 --> Undefined property: App\Controllers\Estimasi::$tbbahanModel
+in APPPATH\Controllers\Estimasi.php on line 721.
+ 1 APPPATH\Controllers\Estimasi.php(721): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Estimasi::$tbbahanModel', 'APPPATH\\Controllers\\Estimasi.php', 721)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatabahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 17:03:44 --> Undefined variable $tbbahan
+in APPPATH\Views\estimasi\modalcaribahan.php on line 25.
+ 1 APPPATH\Views\estimasi\modalcaribahan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbahan', 'APPPATH\\Views\\estimasi\\modalcaribahan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcaribahan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcaribahan', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(726): view('estimasi/modalcaribahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatabahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 17:04:00 --> Undefined variable $tbbahan
+in APPPATH\Views\estimasi\modalcaribahan.php on line 25.
+ 1 APPPATH\Views\estimasi\modalcaribahan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbahan', 'APPPATH\\Views\\estimasi\\modalcaribahan.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi\\modalcaribahan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi/modalcaribahan', [], true)
+ 5 APPPATH\Controllers\Estimasi.php(726): view('estimasi/modalcaribahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi->caridatabahan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

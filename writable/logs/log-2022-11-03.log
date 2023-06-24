@@ -1,0 +1,2182 @@
+CRITICAL - 2022-11-03 09:14:34 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:21:16 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:21:46 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:21:53 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:22:40 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:22:40 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:22:40 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:22:41 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:22 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:22 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:22 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:23 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:23 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:23:23 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:05 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:05 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:05 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:05 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:06 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:06 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:24:50 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:25:12 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:25:40 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:26:39 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:27:09 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:27:37 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:30 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:30 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:30 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:30 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:31 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:31 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:35:31 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 49.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:36:53 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:38:03 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:49:40 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:50:17 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:50:29 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:08 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:09 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:09 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:09 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:09 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:10 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:10 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:10 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:10 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:11 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:11 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:54:11 --> Cannot access offset of type string on string
+in APPPATH\Models\TbmodelModel.php on line 48.
+ 1 APPPATH\Controllers\Tbmobil.php(263): App\Models\TbmodelModel->getmerek('01')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:49 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:50 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:51 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:56:53 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:57:31 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:20 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:21 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:22 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:23 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:58:24 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Tbmobil.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 09:59:05 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:01:58 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:56 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:56 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:57 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:57 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:57 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:57 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:58 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:58 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:58 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:59 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:59 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:03:59 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:00 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:00 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:00 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:01 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:01 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:04:01 --> Array to string conversion
+in APPPATH\Controllers\Tbmobil.php on line 273.
+ 1 APPPATH\Controllers\Tbmobil.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbmobil.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:06:09 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:02 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:04 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:04 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:04 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:05 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:05 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:05 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:06 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:06 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:06 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:07 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:07 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:07 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:07 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:08 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:10:08 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:25 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:29 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:29 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:29 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:31 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:11:32 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:38 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:39 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:39 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:39 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:39 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:40 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:40 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:40 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:42 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:12:45 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:51 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:53 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:53 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:53 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:54 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:54 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:54 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:55 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:55 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:55 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:56 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:56 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:56 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:57 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:13:58 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:15:27 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:15:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:17:28 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:17:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:17:28 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:18:29 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:18:29 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 APPPATH\Controllers\Tbmobil.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Tbmobil.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:18:29 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 APPPATH\Controllers\Tbmobil.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Tbmobil.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:18:29 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Tbmobil.php on line 268.
+ 1 APPPATH\Controllers\Tbmobil.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Tbmobil.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:20:20 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:20:20 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:21:18 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:21:18 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:21:19 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Tbmobil.php on line 269.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:27:11 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:27:24 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:27:58 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:28:27 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:29:14 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 10:30:42 --> Undefined array key "id"
+in APPPATH\Controllers\Tbmobil.php on line 260.
+ 1 APPPATH\Controllers\Tbmobil.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Tbmobil.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:47:39 --> Undefined variable $tbwarna
+in APPPATH\Views\tbmobil\modaltambah.php on line 56.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(103): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:48:16 --> Undefined variable $tbwarna
+in APPPATH\Views\tbmobil\modaltambah.php on line 56.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(105): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:48:57 --> Undefined variable $tbwarna
+in APPPATH\Views\tbmobil\modaltambah.php on line 56.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(105): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 11:49:04 --> Undefined variable $tbwarna
+in APPPATH\Views\tbmobil\modaltambah.php on line 56.
+ 1 APPPATH\Views\tbmobil\modaltambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbwarna', 'APPPATH\\Views\\tbmobil\\modaltambah.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(105): view('tbmobil/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 00:34:43 --> Constant expression contains invalid operations
+in APPPATH\Models\TbmobilModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-11-03 12:35:27 --> mysqli_sql_exception: Column 'nomesin' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:35:27 --> Column 'nomesin' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:27\', \'2022-11-03 12:35:27\', \'2022-11-03 12:35:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:27\', \'2022-11-03 12:35:27\', \'2022-11-03 12:35:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:27\', \'2022-11-03 12:35:27\', \'2022-11-03 12:35:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 12:35:29 --> mysqli_sql_exception: Column 'nomesin' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:35:29 --> Column 'nomesin' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:29\', \'2022-11-03 12:35:29\', \'2022-11-03 12:35:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:29\', \'2022-11-03 12:35:29\', \'2022-11-03 12:35:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:35:29\', \'2022-11-03 12:35:29\', \'2022-11-03 12:35:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 12:36:15 --> mysqli_sql_exception: Column 'nomesin' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:36:15 --> Column 'nomesin' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:36:15\', \'2022-11-03 12:36:15\', \'2022-11-03 12:36:15\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:36:15\', \'2022-11-03 12:36:15\', \'2022-11-03 12:36:15\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asa11111\', \'212121212\', NULL, \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:36:15\', \'2022-11-03 12:36:15\', \'2022-11-03 12:36:15\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 12:37:00 --> mysqli_sql_exception: Column 'kdjenis' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:37:00 --> Column 'kdjenis' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:00\', \'2022-11-03 12:37:00\', \'2022-11-03 12:37:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:00\', \'2022-11-03 12:37:00\', \'2022-11-03 12:37:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:00\', \'2022-11-03 12:37:00\', \'2022-11-03 12:37:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 12:37:11 --> mysqli_sql_exception: Column 'kdjenis' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:37:11 --> Column 'kdjenis' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:11\', \'2022-11-03 12:37:11\', \'2022-11-03 12:37:11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:11\', \'2022-11-03 12:37:11\', \'2022-11-03 12:37:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:11\', \'2022-11-03 12:37:11\', \'2022-11-03 12:37:11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-03 12:37:36 --> mysqli_sql_exception: Column 'kdjenis' cannot be null in D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\bp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tb...', 0)
+#1 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tb...')
+#2 D:\xampp\htdocs\bp\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tb...')
+#3 D:\xampp\htdocs\bp\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tb...', Array, false)
+#4 D:\xampp\htdocs\bp\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\bp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\bp\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\bp\app\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\bp\system\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+#9 D:\xampp\htdocs\bp\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+#10 D:\xampp\htdocs\bp\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\bp\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-11-03 12:37:36 --> Column 'kdjenis' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:36\', \'2022-11-03 12:37:36\', \'2022-11-03 12:37:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:36\', \'2022-11-03 12:37:36\', \'2022-11-03 12:37:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (\'asas\', \'aaaaaaaaaa\', \'\', \'\', \'\', \'\', \'MPV\', NULL, \'\', \'\', \'\', \'Edit-Murod-03-11-2022 12:37:36\', \'2022-11-03 12:37:36\', \'2022-11-03 12:37:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Tbmobil` (`nopolisi`, `norangka`, `nomesin`, `kdmerek`, `kdmodel`, `kdtipe`, `kdwarna`, `kdjenis`, `nostnk`, `tglstnk`, `bahanbakar`, `user`, `created_at`, `updated_at`) VALUES (:nopolisi:, :norangka:, :nomesin:, :kdmerek:, :kdmodel:, :kdtipe:, :kdwarna:, :kdjenis:, :nostnk:, :tglstnk:, :bahanbakar:, :user:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Tbmobil.php(160): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 12:39:10 --> Undefined variable $tbmodel
+in APPPATH\Views\tbmobil\modaledit.php on line 11.
+ 1 APPPATH\Views\tbmobil\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmodel', 'APPPATH\\Views\\tbmobil\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(186): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:13:35 --> Undefined variable $tbmodel
+in APPPATH\Views\tbmobil\modaledit.php on line 11.
+ 1 APPPATH\Views\tbmobil\modaledit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmodel', 'APPPATH\\Views\\tbmobil\\modaledit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(186): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:14:42 --> Undefined array key "kode"
+in APPPATH\Views\tbmobil\modaledit.php on line 12.
+ 1 APPPATH\Views\tbmobil\modaledit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:15:33 --> Undefined array key "kode"
+in APPPATH\Views\tbmobil\modaledit.php on line 12.
+ 1 APPPATH\Views\tbmobil\modaledit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:15:48 --> Undefined array key "kode"
+in APPPATH\Views\tbmobil\modaledit.php on line 12.
+ 1 APPPATH\Views\tbmobil\modaledit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:15:59 --> Undefined array key "kode"
+in APPPATH\Views\tbmobil\modaledit.php on line 12.
+ 1 APPPATH\Views\tbmobil\modaledit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbmobil\\modaledit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaledit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:45 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:46 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:45:47 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:00 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:00 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:00 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:00 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:00 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:01 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:01 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:01 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:46:01 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 13:55:14 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:04:37 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:04:44 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:05:07 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:05:49 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 295.
+ 1 APPPATH\Controllers\Tbmobil.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:07:35 --> Attempt to read property "kode" on array
+in APPPATH\Controllers\Tbmobil.php on line 299.
+ 1 APPPATH\Controllers\Tbmobil.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Controllers\\Tbmobil.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->filter_merek()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:12:41 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmobil\modaltambah.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 4 APPPATH\Controllers\Tbmobil.php(109): view('tbmobil/modaltambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:13:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmobil\modaltambah.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 4 APPPATH\Controllers\Tbmobil.php(109): view('tbmobil/modaltambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:14:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmobil\modaltambah.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaltambah', [], true)
+ 4 APPPATH\Controllers\Tbmobil.php(109): view('tbmobil/modaltambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formtambah()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:17:24 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmobil\modaledit.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:17:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\tbmobil\modaledit.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaledit', [], true)
+ 4 APPPATH\Controllers\Tbmobil.php(191): view('tbmobil/modaledit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formedit()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:27:24 --> Undefined variable $tbmodel
+in APPPATH\Views\tbmobil\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbmobil\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmodel', 'APPPATH\\Views\\tbmobil\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(47): view('tbmobil/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:29:43 --> Undefined array key "id"
+in APPPATH\Views\tbmobil\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbmobil\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\tbmobil\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(52): view('tbmobil/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:29:46 --> Undefined array key "id"
+in APPPATH\Views\tbmobil\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbmobil\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\tbmobil\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(52): view('tbmobil/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 14:29:54 --> Undefined array key "id"
+in APPPATH\Views\tbmobil\modaldetail.php on line 10.
+ 1 APPPATH\Views\tbmobil\modaldetail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\tbmobil\\modaldetail.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbmobil\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbmobil/modaldetail', [], true)
+ 5 APPPATH\Controllers\Tbmobil.php(52): view('tbmobil/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\tbmobil->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tbmobil))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 15:31:54 --> Array to string conversion
+in APPPATH\Controllers\Tbcustomer.php on line 94.
+ 1 APPPATH\Controllers\Tbcustomer.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Tbcustomer.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formtambah()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 15:46:41 --> Attempt to read property "kode" on array
+in APPPATH\Views\tbcustomer\modaltambah.php on line 25.
+ 1 APPPATH\Views\tbcustomer\modaltambah.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Views\\tbcustomer\\modaltambah.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(99): view('tbcustomer/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 15:47:29 --> Undefined array key "kode"
+in APPPATH\Views\tbcustomer\modaltambah.php on line 25.
+ 1 APPPATH\Views\tbcustomer\modaltambah.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\tbcustomer\\modaltambah.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(99): view('tbcustomer/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-03 15:48:40 --> Attempt to read property "kode" on array
+in APPPATH\Views\tbcustomer\modaltambah.php on line 25.
+ 1 APPPATH\Views\tbcustomer\modaltambah.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode" on array', 'APPPATH\\Views\\tbcustomer\\modaltambah.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\tbcustomer\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('tbcustomer/modaltambah', [], true)
+ 5 APPPATH\Controllers\Tbcustomer.php(99): view('tbcustomer/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tbcustomer->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tbcustomer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

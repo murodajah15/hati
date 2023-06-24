@@ -1,0 +1,306 @@
+CRITICAL - 2023-04-17 09:43:09 --> Invalid file: mohfaktur/cetakmohfaktur.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mohfaktur/cetakmohfaktur.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 3 APPPATH\Controllers\Mohfaktur.php(729): view('mohfaktur/cetakmohfaktur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 10:56:13 --> Undefined variable $tbagama
+in APPPATH\Views\mohfaktur\cetakmohfaktur.php on line 429.
+ 1 APPPATH\Views\mohfaktur\cetakmohfaktur.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbagama', 'APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php', 429)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mohfaktur\\cetakmohfaktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mohfaktur/cetakmohfaktur', [], true)
+ 5 APPPATH\Controllers\Mohfaktur.php(728): view('mohfaktur/cetakmohfaktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->cetakmohfaktur('26')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-17 15:33:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4 in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\app\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', Array)
+#6 D:\xampp\htdocs\hati\app\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '-1')
+#7 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-17 15:33:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '-1')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-17 15:33:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4 in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\app\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', Array)
+#6 D:\xampp\htdocs\hati\app\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '-1')
+#7 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-17 15:33:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '-1')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-17 15:34:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4 in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\app\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', Array)
+#6 D:\xampp\htdocs\hati\app\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '-1')
+#7 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-17 15:34:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '-1')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-04-17 15:35:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4 in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\app\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', Array)
+#6 D:\xampp\htdocs\hati\app\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), '', '0', '-1')
+#7 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-17 15:35:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mohfaktur`
+ORDER BY `nomor` DESC, `tanggal`
+ LIMIT -1', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MohfakturModel.php(59): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '-1')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:35:20 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #2 ($offset) must be of type ?int, string given, called in D:\xampp\htdocs\hati\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->limit(0, 'NaN')
+ 2 APPPATH\Models\MohfakturModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', 'NaN', '0')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:35:25 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #2 ($offset) must be of type ?int, string given, called in D:\xampp\htdocs\hati\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->limit(50, 'NaN')
+ 2 APPPATH\Models\MohfakturModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', 'NaN', '50')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:35:28 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #2 ($offset) must be of type ?int, string given, called in D:\xampp\htdocs\hati\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->limit(5, 'NaN')
+ 2 APPPATH\Models\MohfakturModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', 'NaN', '5')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:36:40 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in D:\xampp\htdocs\hati\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->limit('100000000000000000000', '0')
+ 2 APPPATH\Models\MohfakturModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '100000000000000000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:36:48 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in D:\xampp\htdocs\hati\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->limit('10000000000000000000', '0')
+ 2 APPPATH\Models\MohfakturModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Mohfaktur.php(47): App\Models\MohfakturModel->tampilData(Object(CodeIgniter\HTTP\IncomingRequest), 'ROOTPATH\\public', '0', '10000000000000000000')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->ajaxLoadData()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:52:57 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(882): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->proses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:53:20 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(912): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->unproses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:53:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(882): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->proses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:54:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(912): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->unproses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:55:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(882): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->proses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:56:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(913): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->unproses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-04-17 15:56:09 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Mohfaktur.php(883): CodeIgniter\Model->update('54', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\mohfaktur->proses('42')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mohfaktur))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

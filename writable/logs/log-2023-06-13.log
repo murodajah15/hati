@@ -1,0 +1,136 @@
+CRITICAL - 2023-06-13 15:57:15 --> Undefined array key "total_estimasi"
+in APPPATH\Views\estimasi_bp\tabel_wo_bp.php on line 59.
+ 1 APPPATH\Views\estimasi_bp\tabel_wo_bp.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_estimasi"', 'APPPATH\\Views\\estimasi_bp\\tabel_wo_bp.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\tabel_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/tabel_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(621): view('estimasi_bp/tabel_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->table_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:04:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Estimasi_bp.php on line 279.
+ 1 APPPATH\Controllers\Estimasi_bp.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Estimasi_bp.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:05:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Estimasi_bp.php on line 279.
+ 1 APPPATH\Controllers\Estimasi_bp.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Estimasi_bp.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:07:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Estimasi_bp.php on line 279.
+ 1 APPPATH\Controllers\Estimasi_bp.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Estimasi_bp.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:07:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Estimasi_bp.php on line 279.
+ 1 APPPATH\Controllers\Estimasi_bp.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Estimasi_bp.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:10:19 --> Undefined array key "kdpaket"
+in APPPATH\Controllers\Estimasi_bp.php on line 281.
+ 1 APPPATH\Controllers\Estimasi_bp.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdpaket"', 'APPPATH\\Controllers\\Estimasi_bp.php', 281)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:10:43 --> Undefined array key "kdpaket"
+in APPPATH\Controllers\Estimasi_bp.php on line 281.
+ 1 APPPATH\Controllers\Estimasi_bp.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdpaket"', 'APPPATH\\Controllers\\Estimasi_bp.php', 281)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:12:26 --> Undefined variable $estimasi_bp
+in APPPATH\Views\estimasi_bp\edit_wo_bp.php on line 27.
+ 1 APPPATH\Views\estimasi_bp\edit_wo_bp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi_bp', 'APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/edit_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/edit_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:14:05 --> Undefined array key "nama_polis"
+in APPPATH\Views\estimasi_bp\edit_wo_bp.php on line 195.
+ 1 APPPATH\Views\estimasi_bp\edit_wo_bp.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_polis"', 'APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/edit_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/edit_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:14:14 --> Undefined array key "nama_polis"
+in APPPATH\Views\estimasi_bp\edit_wo_bp.php on line 195.
+ 1 APPPATH\Views\estimasi_bp\edit_wo_bp.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_polis"', 'APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/edit_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/edit_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:19:34 --> Undefined array key "pr_ppn"
+in APPPATH\Views\estimasi_bp\edit_wo_bp.php on line 238.
+ 1 APPPATH\Views\estimasi_bp\edit_wo_bp.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pr_ppn"', 'APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/edit_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/edit_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:20:47 --> Undefined array key "npwp"
+in APPPATH\Views\estimasi_bp\edit_wo_bp.php on line 240.
+ 1 APPPATH\Views\estimasi_bp\edit_wo_bp.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "npwp"', 'APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php', 240)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estimasi_bp\\edit_wo_bp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('estimasi_bp/edit_wo_bp', [], true)
+ 5 APPPATH\Controllers\Estimasi_bp.php(305): view('estimasi_bp/edit_wo_bp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->edit_wo_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:48:05 --> Undefined array key "tanggal"
+in APPPATH\Controllers\Estimasi_bp.php on line 1854.
+ 1 APPPATH\Controllers\Estimasi_bp.php(1854): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Controllers\\Estimasi_bp.php', 1854)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpankewo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-13 16:48:49 --> Undefined array key "alamat_asuransi"
+in APPPATH\Controllers\Estimasi_bp.php on line 1876.
+ 1 APPPATH\Controllers\Estimasi_bp.php(1876): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat_asuransi"', 'APPPATH\\Controllers\\Estimasi_bp.php', 1876)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Estimasi_bp->simpankewo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estimasi_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

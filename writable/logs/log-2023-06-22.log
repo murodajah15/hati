@@ -1,0 +1,837 @@
+CRITICAL - 2023-06-22 10:08:17 --> Invalid file: close_faktur_bp/modaltambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/modaltambah.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(360): view('close_faktur_bp/modaltambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:10:00 --> Undefined variable $tbmobil
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 43.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmobil', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(360): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:10:10 --> Undefined variable $tbmobil
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 43.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmobil', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(360): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:10:35 --> Undefined variable $tbmobil
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 43.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbmobil', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(360): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:13:58 --> Call to undefined method App\Models\Wo_bpModel::getnama
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(353): CodeIgniter\Model->__call('getnama', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:30:27 --> Undefined array key "pemilik"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 35.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pemilik"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(535): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:30:36 --> Undefined array key "pemilik"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 35.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pemilik"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(535): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 10:31:05 --> Undefined array key "alamat"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 37.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(535): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:02:03 --> Undefined array key "klaim"
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 103.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "klaim"', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(356): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:03:28 --> Undefined array key "klaim"
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 103.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "klaim"', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(178): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:03:35 --> Undefined array key "klaim"
+in APPPATH\Views\close_faktur_bp\modaltambah.php on line 103.
+ 1 APPPATH\Views\close_faktur_bp\modaltambah.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "klaim"', 'APPPATH\\Views\\close_faktur_bp\\modaltambah.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaltambah', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(178): view('close_faktur_bp/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:12:43 --> Call to a member function buatnoestimasi() on null
+in APPPATH\Controllers\Close_faktur_bp.php on line 218.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->simpanclose_faktur_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:15:31 --> Call to a member function buatnofaktur() on null
+in APPPATH\Controllers\Close_faktur_bp.php on line 218.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->simpanclose_faktur_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:16:41 --> Call to undefined method App\Models\Faktur_bpModel::buatnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(218): CodeIgniter\Model->__call('buatnofaktur', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->simpanclose_faktur_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:18:26 --> Call to a member function insert() on null
+in APPPATH\Controllers\Close_faktur_bp.php on line 266.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->simpanclose_faktur_bp()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:44:37 --> Invalid file: close_faktur_bp/detail_faktur_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/detail_faktur_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/detail_faktur_bp', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(126): view('close_faktur_bp/detail_faktur_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->detail_faktur_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:48:16 --> Invalid file: close_faktur_bp/detail_faktur_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/detail_faktur_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/detail_faktur_bp', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(126): view('close_faktur_bp/detail_faktur_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->detail_faktur_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:48:20 --> Invalid file: close_faktur_bp/detail_faktur_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/detail_faktur_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/detail_faktur_bp', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(126): view('close_faktur_bp/detail_faktur_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->detail_faktur_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:49:32 --> Invalid file: close_faktur_bp/detail_faktur_bp.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/detail_faktur_bp.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/detail_faktur_bp', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(126): view('close_faktur_bp/detail_faktur_bp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->detail_faktur_bp()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:49:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Close_faktur_bp.php on line 138.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Close_faktur_bp.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formdetail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:54:15 --> Undefined variable $estimasi_bp
+in APPPATH\Views\close_faktur_bp\modaldetail.php on line 40.
+ 1 APPPATH\Views\close_faktur_bp\modaldetail.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi_bp', 'APPPATH\\Views\\close_faktur_bp\\modaldetail.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(151): view('close_faktur_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 11:54:21 --> Undefined variable $estimasi_bp
+in APPPATH\Views\close_faktur_bp\modaldetail.php on line 40.
+ 1 APPPATH\Views\close_faktur_bp\modaldetail.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $estimasi_bp', 'APPPATH\\Views\\close_faktur_bp\\modaldetail.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modaldetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modaldetail', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(151): view('close_faktur_bp/modaldetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->formdetail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:29:54 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 432.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(432): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 432)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:29:54 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 371.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:29:55 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 383.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 383)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:29:55 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 420.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:30:48 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 445.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(445): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 445)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:30:49 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 432.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(432): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 432)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:30:49 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 371.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:30:49 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 383.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 383)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:30:49 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 420.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:10 --> Undefined property: App\Controllers\Close_faktur_bp::$fakturjasa_bpModel
+in APPPATH\Controllers\Close_faktur_bp.php on line 457.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Close_faktur_bp::$fakturjasa_bpModel', 'APPPATH\\Controllers\\Close_faktur_bp.php', 457)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:10 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 432.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(432): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 432)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:11 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 371.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:11 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 383.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 383)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:11 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 420.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:37:25 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 371.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 371)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-22 13:46:46 --> mysqli_sql_exception: Unknown column 'nowo' in 'where clause' in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subt...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subt...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subt...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subt...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Close_faktur_bp.php(467): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-22 13:46:46 --> Unknown column 'nowo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = :nowo:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Close_faktur_bp.php(467): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:47:35 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 381.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 381)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:55:30 --> Undefined array key "nowo"
+in APPPATH\Controllers\Close_faktur_bp.php on line 381.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(381): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nowo"', 'APPPATH\\Controllers\\Close_faktur_bp.php', 381)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-22 13:59:43 --> mysqli_sql_exception: Unknown column 'nowo' in 'where clause' in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subt...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subt...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subt...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subt...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-22 13:59:43 --> Unknown column 'nowo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = :nowo:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:59:43 --> Call to undefined method App\Models\Wojasa_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(422): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:59:43 --> Call to undefined method App\Models\Wopart_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(385): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:59:44 --> Call to undefined method App\Models\Wobahan_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(397): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 13:59:44 --> Call to undefined method App\Models\Woopl_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(409): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-22 14:01:07 --> mysqli_sql_exception: Unknown column 'nowo' in 'where clause' in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subt...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subt...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subt...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subt...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-22 14:01:07 --> Unknown column 'nowo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = :nowo:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:01:08 --> Invalid file: close_faktur_bp/tbl_wo_jasa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/tbl_wo_jasa.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_wo_jasa', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(425): view('close_faktur_bp/tbl_wo_jasa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:01:08 --> Call to undefined method App\Models\Wopart_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(385): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:01:08 --> Call to undefined method App\Models\Wobahan_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(397): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:01:08 --> Call to undefined method App\Models\Woopl_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(409): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-22 14:02:35 --> mysqli_sql_exception: Unknown column 'nowo' in 'where clause' in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subt...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subt...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subt...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subt...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-22 14:02:35 --> Unknown column 'nowo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = \'FB20230600001\'
+AND `jenis` = \'JASA\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(subtotal) as jumjasa
+FROM `faktur_bp_detail`
+WHERE `nowo` = :nowo:
+AND `jenis` = :jenis:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Fakturjasa_bpModel.php(74): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Close_faktur_bp.php(442): App\Models\Fakturjasa_bpModel->jumjasa('FB20230600001')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:02:36 --> Invalid file: close_faktur_bp/tbl_wo_jasa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/tbl_wo_jasa.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_wo_jasa', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(425): view('close_faktur_bp/tbl_wo_jasa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:02:36 --> Call to undefined method App\Models\Wopart_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(385): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:02:36 --> Call to undefined method App\Models\Wobahan_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(397): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:02:36 --> Call to undefined method App\Models\Woopl_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(409): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:18:41 --> Invalid file: close_faktur_bp/tbl_wo_jasa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('close_faktur_bp/tbl_wo_jasa.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_wo_jasa', [], true)
+ 3 APPPATH\Controllers\Close_faktur_bp.php(425): view('close_faktur_bp/tbl_wo_jasa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:18:41 --> Undefined variable $wo_bp
+in APPPATH\Views\close_faktur_bp\summary_faktur.php on line 10.
+ 1 APPPATH\Views\close_faktur_bp\summary_faktur.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_bp', 'APPPATH\\Views\\close_faktur_bp\\summary_faktur.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\summary_faktur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/summary_faktur', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(484): view('close_faktur_bp/summary_faktur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->summary_faktur_bp()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:18:41 --> Call to undefined method App\Models\Wopart_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(385): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:18:41 --> Call to undefined method App\Models\Wobahan_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(397): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:18:41 --> Call to undefined method App\Models\Woopl_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(409): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:22:19 --> Undefined variable $wo_jasa
+in APPPATH\Views\close_faktur_bp\tbl_faktur_jasa.php on line 28.
+ 1 APPPATH\Views\close_faktur_bp\tbl_faktur_jasa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_jasa', 'APPPATH\\Views\\close_faktur_bp\\tbl_faktur_jasa.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\tbl_faktur_jasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_faktur_jasa', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(425): view('close_faktur_bp/tbl_faktur_jasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:22:19 --> Call to undefined method App\Models\Wopart_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(385): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:22:20 --> Call to undefined method App\Models\Wobahan_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(397): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_bahan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:22:20 --> Call to undefined method App\Models\Woopl_bpModel::getnofaktur
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Close_faktur_bp.php(409): CodeIgniter\Model->__call('getnofaktur', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:23:47 --> Undefined array key "qty"
+in APPPATH\Views\close_faktur_bp\tbl_faktur_jasa.php on line 30.
+ 1 APPPATH\Views\close_faktur_bp\tbl_faktur_jasa.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'APPPATH\\Views\\close_faktur_bp\\tbl_faktur_jasa.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\tbl_faktur_jasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_faktur_jasa', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(425): view('close_faktur_bp/tbl_faktur_jasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_jasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:23:48 --> Undefined variable $wo_part
+in APPPATH\Views\close_faktur_bp\tbl_faktur_part.php on line 27.
+ 1 APPPATH\Views\close_faktur_bp\tbl_faktur_part.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_part', 'APPPATH\\Views\\close_faktur_bp\\tbl_faktur_part.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\tbl_faktur_part.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_faktur_part', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(388): view('close_faktur_bp/tbl_faktur_part', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_part()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:23:48 --> Undefined variable $wo_opl
+in APPPATH\Views\close_faktur_bp\tbl_faktur_opl.php on line 28.
+ 1 APPPATH\Views\close_faktur_bp\tbl_faktur_opl.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_opl', 'APPPATH\\Views\\close_faktur_bp\\tbl_faktur_opl.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\tbl_faktur_opl.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_faktur_opl', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(412): view('close_faktur_bp/tbl_faktur_opl', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 14:26:03 --> Undefined variable $wo_opl
+in APPPATH\Views\close_faktur_bp\tbl_faktur_opl.php on line 28.
+ 1 APPPATH\Views\close_faktur_bp\tbl_faktur_opl.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wo_opl', 'APPPATH\\Views\\close_faktur_bp\\tbl_faktur_opl.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\tbl_faktur_opl.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/tbl_faktur_opl', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(412): view('close_faktur_bp/tbl_faktur_opl', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->table_faktur_bp_opl()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 15:04:05 --> Undefined array key "jam"
+in APPPATH\Views\close_wo_bp\tbl_wo_jasa.php on line 43.
+ 1 APPPATH\Views\close_wo_bp\tbl_wo_jasa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jam"', 'APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_wo_bp/tbl_wo_jasa', [], true)
+ 5 APPPATH\Controllers\Close_wo_bp.php(638): view('close_wo_bp/tbl_wo_jasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->table_wo_bp_jasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 15:04:17 --> Undefined array key "jam"
+in APPPATH\Views\close_wo_bp\tbl_wo_jasa.php on line 43.
+ 1 APPPATH\Views\close_wo_bp\tbl_wo_jasa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jam"', 'APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_wo_bp/tbl_wo_jasa', [], true)
+ 5 APPPATH\Controllers\Close_wo_bp.php(638): view('close_wo_bp/tbl_wo_jasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->table_wo_bp_jasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 15:05:21 --> Undefined array key "frt"
+in APPPATH\Views\close_wo_bp\tbl_wo_jasa.php on line 43.
+ 1 APPPATH\Views\close_wo_bp\tbl_wo_jasa.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "frt"', 'APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_wo_bp\\tbl_wo_jasa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_wo_bp/tbl_wo_jasa', [], true)
+ 5 APPPATH\Controllers\Close_wo_bp.php(638): view('close_wo_bp/tbl_wo_jasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_wo_bp->table_wo_bp_jasa()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_wo_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 16:17:02 --> Undefined array key "nmsa"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 71.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmsa"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(444): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 16:17:12 --> Undefined array key "nmsa"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 71.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nmsa"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(444): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-22 16:18:27 --> Undefined array key "kdasuransi"
+in APPPATH\Views\close_faktur_bp\modalcariwo.php on line 75.
+ 1 APPPATH\Views\close_faktur_bp\modalcariwo.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kdasuransi"', 'APPPATH\\Views\\close_faktur_bp\\modalcariwo.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\close_faktur_bp\\modalcariwo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('close_faktur_bp/modalcariwo', [], true)
+ 5 APPPATH\Controllers\Close_faktur_bp.php(444): view('close_faktur_bp/modalcariwo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Close_faktur_bp->caridatawo()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Close_faktur_bp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

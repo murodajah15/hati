@@ -1,0 +1,572 @@
+CRITICAL - 2022-10-17 13:53:41 --> Invalid file: rwtkeluarga/formtambah1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rwtkeluarga/formtambah1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/formtambah1', [], true)
+ 3 APPPATH\Controllers\Rwtkeluarga.php(128): view('rwtkeluarga/formtambah1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 13:53:43 --> Invalid file: rwtkeluarga/formtambah1.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rwtkeluarga/formtambah1.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('rwtkeluarga/formtambah1', [], true)
+ 3 APPPATH\Controllers\Rwtkeluarga.php(128): view('rwtkeluarga/formtambah1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->formtambah()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:30:27 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 459.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 459)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:30:48 --> Undefined array key "id"
+in APPPATH\Controllers\Rwtkeluarga.php on line 459.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 459)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:31:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 464.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 464)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:35:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:36:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:36:30 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:38:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:41:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:42:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:46:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 465.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 465)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:48:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:52:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:53:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:55:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:56:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 14:57:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:04:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:05:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:05:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:07:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 464.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(464): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:08:47 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Rwtkeluarga.php on line 464.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(464): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:13:48 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:13:59 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:14:03 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:14:04 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:14:05 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:14:10 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:17:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:50:26 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 15:50:29 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:12:58 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:14:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:15:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:15:49 --> Undefined variable $data
+in APPPATH\Controllers\Rwtkeluarga.php on line 478.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Rwtkeluarga.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:30:48 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:31:27 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:36:53 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:36:55 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:36:56 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:36:57 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:37:00 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:37:01 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:37:02 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:37:06 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:37:12 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:17 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:19 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:21 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:22 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:22 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:23 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:24 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:50 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:52 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:54 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:38:59 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:39:04 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:39:19 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:39:24 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:39:58 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:40:01 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:41:14 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:41:22 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 467.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(467): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 467)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:42:20 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:45:05 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:46:28 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:47:56 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:48:02 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 16:48:31 --> Undefined array key "kode"
+in APPPATH\Controllers\Rwtkeluarga.php on line 466.
+ 1 APPPATH\Controllers\Rwtkeluarga.php(466): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Rwtkeluarga.php', 466)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rwtkeluarga->repl_divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rwtkeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
