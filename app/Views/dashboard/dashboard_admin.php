@@ -1,8 +1,7 @@
-<h1>Test GIT 1</h1>
 <div class="container-fluid px-3">
   <!-- <h1 class="mt-0">Dashboard Admin</h1> -->
   <ol class="breadcrumb mb-2">
-    <li class="breadcrumb-item active">Dashboard Administrator</li>
+    <li class="breadcrumb-item active">Dashboard Administrator Test GIT</li>
   </ol>
   <div class="row">
     <div class="col-xl-3 col-md-6">
