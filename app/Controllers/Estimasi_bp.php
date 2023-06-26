@@ -2902,4 +2902,56 @@ class Estimasi_bp extends BaseController
       echo json_encode($msg);
     };
   }
+
+  public function cetakwo_bp($id)
+  {
+    $dompdf = new Dompdf();
+    $row = $this->wo_bpModel->find($id);
+    $nowo = $row['nowo'];
+    $nopolisi = $row['nopolisi'];
+    $kdpemilik = $row['kdpemilik'];
+    $kdsa = $row['kdsa'];
+    if (!isset($kdsa)) {
+      $kdsa = "";
+    }
+    $rowmobil = $this->tbmobilModel->getnopolisi($nopolisi);
+    $kdmerek = $rowmobil['kdmerek'];
+    $kdmodel = $rowmobil['kdmodel'];
+    $kdtipe = $rowmobil['kdtipe'];
+    $kdwarna = $rowmobil['kdwarna'];
+    $kdjenis = $rowmobil['kdjenis'];
+
+
+    $data = [
+      'title' => 'Cetak WO',
+      'wo_bp' => $this->wo_bpModel->find($id),
+      'tbmobil' => $this->tbmobilModel->getnopolisi($nopolisi),
+      'tbmerek' => $this->tbmerekModel->getkode($kdmerek),
+      'tbmodel' => $this->tbmodelModel->getkode($kdmodel),
+      'tbtipe' => $this->tbtipeModel->getkode($kdtipe),
+      'tbwarna' => $this->tbwarnaModel->getkode($kdwarna),
+      'tbjenis' => $this->tbjenisModel->getkode($kdjenis),
+      'tbcustomer' => $this->tbcustomerModel->getkdcustomer($kdpemilik),
+      'tbsa' => ($kdsa ? $this->tbsaModel->getkode($kdsa) : ''),
+      'jasa' => $this->wojasa_bpModel->getnowo($nowo),
+      'part' => $this->wopart_bpModel->getnowo($nowo),
+      'bahan' => $this->wobahan_bpModel->getnowo($nowo),
+      'opl' => $this->woopl_bpModel->getnowo($nowo),
+    ];
+    // var_dump($data);
+    // $msg = [
+    //   'sukses' => view('wo_bp/cetakwo_bp', $data)
+    // ];
+    $html =  view('estimasi_bp/cetakwo_bp', $data);
+    $dompdf->loadHtml($html);
+    $dompdf->setPaper('A4', 'Potrait');
+    $dompdf->render();
+    // $dompdf->stream(); //langsung download
+    $dompdf->stream('wo ' . $nowo . '.pdf', array("Attachment" => false));
+    // var_dump($msg);
+    // echo json_encode($msg);
+    // } else {
+    //   exit('Maaf tidak dapat diproses');
+    // }
+  }
 }

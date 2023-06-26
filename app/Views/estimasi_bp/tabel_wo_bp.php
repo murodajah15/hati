@@ -506,4 +506,36 @@ $cetak = session()->get('cetak');
         }
       });
   }
+
+  function cetakwo_bp($id) {
+    swal({
+        title: "Yakin akan cetak ?",
+        text: "",
+        icon: "info",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willcetak) => {
+        if (willcetak) {
+          var w = window.open('estimasi_bp/cetakwo_bp/' + $id);
+          $.ajax({
+            url: "", //<?php echo site_url('estimasi_bp/cetakestimasi_bp') ?>",
+            type: "POST",
+            data: {
+              id: $id
+            },
+            success: function(response) {
+              $(w.document).open();
+              // $(w.document.body).html(response.sukses);
+              // $(w.document).close();
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
 </script>

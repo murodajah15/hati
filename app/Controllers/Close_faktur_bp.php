@@ -725,4 +725,56 @@ class Close_faktur_bp extends BaseController
       echo json_encode($msg);
     };
   }
+
+  public function cetakfaktur_bp($id)
+  {
+    $dompdf = new Dompdf();
+    $row = $this->faktur_bpModel->find($id);
+    $nofaktur = $row['nofaktur'];
+    $nopolisi = $row['nopolisi'];
+    $kdpemilik = $row['kdpemilik'];
+    $kdsa = $row['kdsa'];
+    if (!isset($kdsa)) {
+      $kdsa = "";
+    }
+    $rowmobil = $this->tbmobilModel->getnopolisi($nopolisi);
+    $kdmerek = $rowmobil['kdmerek'];
+    $kdmodel = $rowmobil['kdmodel'];
+    $kdtipe = $rowmobil['kdtipe'];
+    $kdwarna = $rowmobil['kdwarna'];
+    $kdjenis = $rowmobil['kdjenis'];
+
+
+    $data = [
+      'title' => 'Cetak faktur',
+      'faktur_bp' => $this->faktur_bpModel->find($id),
+      'tbmobil' => $this->tbmobilModel->getnopolisi($nopolisi),
+      'tbmerek' => $this->tbmerekModel->getkode($kdmerek),
+      'tbmodel' => $this->tbmodelModel->getkode($kdmodel),
+      'tbtipe' => $this->tbtipeModel->getkode($kdtipe),
+      'tbwarna' => $this->tbwarnaModel->getkode($kdwarna),
+      'tbjenis' => $this->tbjenisModel->getkode($kdjenis),
+      'tbcustomer' => $this->tbcustomerModel->getkdcustomer($kdpemilik),
+      'tbsa' => ($kdsa ? $this->tbsaModel->getkode($kdsa) : ''),
+      'jasa' => $this->fakturjasa_bpModel->getnofaktur($nofaktur),
+      'part' => $this->fakturpart_bpModel->getnofaktur($nofaktur),
+      'bahan' => $this->fakturbahan_bpModel->getnofaktur($nofaktur),
+      'opl' => $this->fakturopl_bpModel->getnofaktur($nofaktur),
+    ];
+    // var_dump($data);
+    // $msg = [
+    //   'sukses' => view('faktur_bp/cetakfaktur_bp', $data)
+    // ];
+    $html =  view('close_faktur_bp/cetakfaktur_bp', $data);
+    $dompdf->loadHtml($html);
+    $dompdf->setPaper('A4', 'Potrait');
+    $dompdf->render();
+    // $dompdf->stream(); //langsung download
+    $dompdf->stream('faktur ' . $nofaktur . '.pdf', array("Attachment" => false));
+    // var_dump($msg);
+    // echo json_encode($msg);
+    // } else {
+    //   exit('Maaf tidak dapat diproses');
+    // }
+  }
 }
