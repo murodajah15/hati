@@ -726,7 +726,7 @@ class Close_faktur_bp extends BaseController
     };
   }
 
-  public function cetakfaktur_bp($id)
+  public function cetakfaktur_bp_testkedua($id)
   {
     $dompdf = new Dompdf();
     $row = $this->faktur_bpModel->find($id);
