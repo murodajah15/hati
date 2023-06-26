@@ -633,6 +633,7 @@ $routes->post('estimasi_bp/tampildetailjasawo/(:num)', 'Estimasi_bp::tampildetai
 $routes->post('estimasi_bp/tampildetailpartwo/(:num)', 'Estimasi_bp::tampildetailpartwo/$1');
 $routes->post('estimasi_bp/tampildetailbahanwo/(:num)', 'Estimasi_bp::tampildetailbahanwo/$1');
 $routes->post('estimasi_bp/tampildetailoplwo/(:num)', 'Estimasi_bp::tampildetailoplwo/$1');
+$routes->get('estimasi_bp/cetakwo_bp/(:num)', 'Estimasi_bp::cetakwo_bp/$1');
 
 $routes->get('/part_bp', 'Part_bp::index');
 $routes->post('/part_bp/ajax-load-data', 'Part_bp::ajaxLoadData');
@@ -672,6 +673,7 @@ $routes->post('/close_wo_bp/close_wo_bp', 'Close_wo_bp::close_wo_bp');
 $routes->post('/close_wo_bp/unclose_wo_bp', 'Close_wo_bp::unclose_wo_bp');
 
 $routes->get('/close_faktur_bp', 'Close_faktur_bp::index');
+// $routes->post('/close_faktur_bp', 'Close_faktur_bp::index');
 $routes->post('/close_faktur_bp/ajax-load-data', 'Close_faktur_bp::ajaxLoadData');
 $routes->get('/close_faktur_bp/table_faktur_bp', 'Close_faktur_bp::table_faktur_bp');
 $routes->post('/close_faktur_bp/formdetail', 'Close_faktur_bp::formdetail');
@@ -689,6 +691,7 @@ $routes->post('/close_faktur_bp/table_faktur_bp_opl', 'Close_faktur_bp::table_fa
 $routes->post('/close_faktur_bp/summary_faktur_bp', 'Close_faktur_bp::summary_faktur_bp');
 $routes->post('/close_faktur_bp/close_faktur_bp', 'Close_faktur_bp::close_faktur_bp');
 $routes->post('/close_faktur_bp/unclose_faktur_bp', 'Close_faktur_bp::unclose_faktur_bp');
+$routes->get('close_faktur_bp/cetakfaktur_bp/(:num)', 'Close_faktur_bp::cetakfaktur_bp/$1');
 
 $routes->get('/estimasi', 'Estimasi::index');
 $routes->post('/estimasi', 'Estimasi::index');

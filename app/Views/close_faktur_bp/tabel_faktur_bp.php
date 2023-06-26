@@ -375,4 +375,36 @@ $cetak = session()->get('cetak');
       }
     })
   }
+
+  function cetak_faktur_bp($id) {
+    swal({
+        title: "Yakin akan cetak ?",
+        text: "",
+        icon: "info",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willcetak) => {
+        if (willcetak) {
+          var w = window.open('close_faktur_bp/cetakfaktur_bp/' + $id);
+          $.ajax({
+            url: "", //<?php echo site_url('estimasi_bp/cetakestimasi_bp') ?>",
+            type: "get",
+            data: {
+              id: $id
+            },
+            success: function(response) {
+              $(w.document).open();
+              // $(w.document.body).html(response.sukses);
+              // $(w.document).close();
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
 </script>
