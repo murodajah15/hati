@@ -9,6 +9,8 @@ $unproses = session()->get('unproses');
 $cetak = session()->get('cetak');
 ?>
 
+<?= 'test' ?>
+
 <script src="<?= base_url('/js/autoNumeric.js') ?>" crossorigin="anonymous"></script>
 
 <div class="modal fade" id="modaledit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
