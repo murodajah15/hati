@@ -6,6 +6,8 @@ $nmform = [
 $session->set($nmform);
 ?>
 
+<?= 'test'; ?>
+
 <script src="<?= base_url('/js/autoNumeric.js') ?>" crossorigin="anonymous"></script>
 
 <!-- Modal -->
