@@ -19,6 +19,7 @@ class tbleasing extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbleasing',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Leasing',
       'tbleasing' => $this->tbleasingModel->orderBy('kode')->findAll() //$tbleasing
     ];

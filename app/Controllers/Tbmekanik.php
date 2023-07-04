@@ -17,6 +17,7 @@ class Tbmekanik extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbmekanik',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel mekanik',
       'tbmekanik' => $this->tbmekanikModel->orderBy('kode')->findAll() //$tbmekanik
     ];

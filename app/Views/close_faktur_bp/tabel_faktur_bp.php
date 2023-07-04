@@ -149,7 +149,7 @@ $cetak = session()->get('cetak');
               <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                 <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="close_faktur_bp(${row.id})" href="#" readonly><i class='fa fa-arrow-right'"></i> Close Faktur</a></li>
                 <li><a class="dropdown-item disabled" onclick="unclose_faktur_bp(${row.id})" href="#" readonly><i class='fa fa-arrow-left'"></i> Unclose Faktur</a></li>
-                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="cancel_faktur_bpd(${row.id})" href="#" readonly><i class='fa fa-ban'"></i> Cancel Faktur</a></li>
+                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="cancel_faktur_bp(${row.id})" href="#" readonly><i class='fa fa-ban'"></i> Cancel Faktur</a></li>
               </ul>
             </div>`;
               }
@@ -397,6 +397,58 @@ $cetak = session()->get('cetak');
               $(w.document).open();
               // $(w.document.body).html(response.sukses);
               // $(w.document).close();
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+              alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+            }
+          });
+        } else {
+          // swal("Batal Hapus!");
+        }
+      });
+  }
+
+  function cancel_faktur_bp($id) {
+    swal({
+        title: "Yakin akan Cancel ?",
+        text: "",
+        icon: "info",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willcetak) => {
+        if (willcetak) {
+          $.ajax({
+            url: "<?= site_url('close_faktur_bp/cancel_faktur_bp') ?>",
+            type: "POST",
+            data: {
+              id: $id
+            },
+            success: function(response) {
+              if (response.error) {
+                swal({
+                  title: "Data gagal di close ",
+                  text: "",
+                  icon: "error"
+                })
+              } else {
+                let data_response = JSON.parse(response);
+                if (data_response['sukses'] == 'Data berhasil disimpan') {
+                  swal({
+                    title: "Data berhasil di close ",
+                    text: "",
+                    icon: "success"
+                  })
+                  reload_table_faktur_bp();
+                } else {
+                  swal({
+                    title: "Data gagal di close (WO masih Open) ! ",
+                    text: "",
+                    icon: "error"
+                  })
+                  reload_table_faktur_bp();
+                }
+              }
             },
             error: function(xhr, ajaxOptions, thrownError) {
               alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);

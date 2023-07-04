@@ -1,5 +1,5 @@
 <div class="modal fade" role="dialog" id="modalcariasuransi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog" style="max-width: 50%;">
+  <div class="modal-dialog" style="max-width: 70%;">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel"><?= $title; ?></h5>
@@ -8,14 +8,14 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-lg-12 margin-tb">
-            <table id="example" class="table table-bordered table-striped" style="width:100%">
+            <table id="datatableasuransi" class="table table-bordered table-striped" style="width:100%">
               <thead>
                 <tr>
                 <tr>
                   <th width="5">No</th>
                   <th width="50">Kode</th>
                   <th width="200">Nama</th>
-                  <th hidden>Alamat</th>
+                  <th width="300">Alamat</th>
                 </tr>
               </thead>
               <tbody id="isi_data" class="isi_data">
@@ -26,7 +26,7 @@
                     <td><?= $no; ?></td>
                     <td id="td" data-bs-dismiss="modal" onclick="post_data_tbasuransi();"><?= $row['kode']; ?></td>
                     <td id="td" data-bs-dismiss="modal" onclick="post_data_tbasuransi();"><?= $row['nama']; ?></td>
-                    <td hidden id="td" data-bs-dismiss="modal" onclick="post_data_tbasuransi();"><?= $row['alamat'] . ' ' . $row['kota']; ?></td>
+                    <td id="td" data-bs-dismiss="modal" onclick="post_data_tbasuransi();"><?= $row['alamat'] . ' ' . $row['kota']; ?></td>
                   </tr>
                 <?php $no++;
                 endforeach; ?>
@@ -44,7 +44,7 @@
 
   <script>
     $(document).ready(function() {
-      $('#example').dataTable({
+      $('#datatableasuransi').dataTable({
         destroy: true,
         "aLengthMenu": [
           [5, 50, 100, -1],
@@ -55,7 +55,7 @@
     });
 
     function post_data_tbasuransi() {
-      var table = document.getElementById("example");
+      var table = document.getElementById("datatableasuransi");
       var tbody = table.getElementsByTagName("tbody")[0];
       tbody.onclick = function(e) {
         e = e || window.event;

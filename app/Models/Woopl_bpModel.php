@@ -59,4 +59,12 @@ class Woopl_bpModel extends Model
     $this->where('jenis', 'OPL');
     return $this->findAll();
   }
+
+  public function jumopl_close($nowo = false)
+  {
+    $this->where('nowo', $nowo)->select('sum(subtotal) as jumopl');
+    $this->where('jenis', 'OPL');
+    $this->where('close_opl', 1);
+    return $this->findAll();
+  }
 }

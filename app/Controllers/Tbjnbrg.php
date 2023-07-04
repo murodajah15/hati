@@ -19,6 +19,7 @@ class Tbjnbrg extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbjnbrg',
+      'submenu1' => 'ref_part',
       'title' => 'Tabel Jenis Barang',
       'tbjnbrg' => $this->tbjnbrgModel->orderBy('kode')->findAll() //$tbjnbrg
     ];

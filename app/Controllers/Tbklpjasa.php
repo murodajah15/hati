@@ -17,6 +17,7 @@ class Tbklpjasa extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbklpjasa',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel Kelompok Jasa',
       'tbklpjasa' => $this->tbklpjasaModel->orderBy('kode')->findAll() //$tbklpjasa
     ];

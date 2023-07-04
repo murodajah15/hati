@@ -83,6 +83,7 @@ class Estimasi_bp extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'estimasi_bp',
+      'submenu1' => 'body_repair',
       'title' => 'Estimasi Work Order Body Repair',
       'estimasi_bp' => $this->estimasi_bpModel->orderBy('noestimasi')->findAll() //$wo
     ];

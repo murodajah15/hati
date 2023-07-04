@@ -59,4 +59,12 @@ class Wobahan_bpModel extends Model
     $this->where('jenis', 'BAHAN');
     return $this->findAll();
   }
+
+  public function jumbahan_close($nowo = false)
+  {
+    $this->where('nowo', $nowo)->select('sum(subtotal) as jumbahan');
+    $this->where('jenis', 'BAHAN');
+    $this->where('close_bahan', 1);
+    return $this->findAll();
+  }
 }

@@ -19,6 +19,7 @@ class Tbnegara extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbnegara',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Negara',
       'tbnegara' => $this->tbnegaraModel->orderBy('kode')->findAll() //$tbnegara
     ];

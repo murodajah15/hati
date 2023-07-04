@@ -22,6 +22,7 @@ class Tbopl extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbopl',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel opl',
       'tbopl' => $this->tboplModel->orderBy('kode', 'desc')->findAll() //$tbopl
     ];

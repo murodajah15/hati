@@ -8,7 +8,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-lg-12 margin-tb">
-            <table id="example" class="table table-bordered table-striped" style="width:100%">
+            <table id="datatablepemakai" class="table table-bordered table-striped" style="width:100%">
               <thead>
                 <tr>
                 <tr>
@@ -16,6 +16,9 @@
                   <th width="50">Kode</th>
                   <th width="200">Nama</th>
                   <th width="300">Alamat</th>
+                  <th hidden width="100">npwp</th>
+                  <th hidden width="100">contact_person</th>
+                  <th hidden width="100">no_contact_person</th>
                 </tr>
               </thead>
               <tbody id="isi_data" class="isi_data">
@@ -23,10 +26,10 @@
                 $no = 1;
                 foreach ($tbcustomer as $row) : ?>
                   <tr id="tr" style="cursor: pointer; ">
-                    <td><?= $no; ?></td>
-                    <td id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['kode']; ?></td>
-                    <td id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['nama']; ?></td>
-                    <td id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['alamat']; ?></td>
+                    <td style="text-align:right;" width="5"><?= $no; ?></td>
+                    <td width="50" id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['kode']; ?></td>
+                    <td width="200" id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['nama']; ?></td>
+                    <td width="300" id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['alamat']; ?></td>
                     <td hidden id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['npwp']; ?></td>
                     <td hidden id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['contact_person']; ?></td>
                     <td hidden id="td" data-bs-dismiss="modal" onclick="post_data_pemakai();"><?= $row['no_contact_person']; ?></td>
@@ -47,7 +50,7 @@
 
   <script>
     $(document).ready(function() {
-      $('#example').dataTable({
+      $('#datatablepemakai').dataTable({
         destroy: true,
         "aLengthMenu": [
           [5, 50, 100, -1],
@@ -58,7 +61,7 @@
     });
 
     function post_data_pemakai() {
-      var table = document.getElementById("example");
+      var table = document.getElementById("datatablepemakai");
       var tbody = table.getElementsByTagName("tbody")[0];
       tbody.onclick = function(e) {
         e = e || window.event;

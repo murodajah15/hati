@@ -17,6 +17,7 @@ class Tbdivisi extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbdivisi',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Divisi',
       'tbdivisi' => $this->tbdivisiModel->orderBy('kode')->findAll() //$tbdivisi
     ];

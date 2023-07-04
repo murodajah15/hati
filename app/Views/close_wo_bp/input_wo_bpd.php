@@ -144,16 +144,28 @@ $session->set($nmform);
               <?= form_close() ?>
             </div>
             <div class="tab-pane fade" id="sparepart">
+              <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_part'] == 1 ? 'Spare Part Closed' : 'Spare Part Unclosed' ?></font>
+              </label>
               <div class="row mb-2">
                 <div id="tbl_wo_part"></div>
               </div>
             </div>
             <div class="tab-pane fade " id="bahan">
+              <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_bahan'] == 1 ? 'Bahan Closed' : 'Bahan Unclosed' ?></font>
+              </label>
               <div class="row mt-2 mb-2">
                 <div id="tbl_wo_bahan"></div>
               </div>
             </div>
             <div class="tab-pane fade " id="opl">
+              <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_opl'] == 1 ? 'OPL Closed' : 'OPL Unclosed' ?></font>
+              </label>
               <div class="row mt-2 mb-2">
                 <div id="tbl_wo_opl"></div>
               </div>
@@ -1212,7 +1224,7 @@ $session->set($nmform);
       });
   }
 
-  function reload_table_wo_bp() {
+  function reload_table_wo_bp1() {
     $nopolisi = document.getElementById('nopolisi').value;
     // alert($nopolisi);
     <?php
@@ -1230,9 +1242,9 @@ $session->set($nmform);
     <?php
     }
     ?>
-    $(document).ready(function() {
-      $('#tbl-wo_bp').DataTable();
-    });
+    // $(document).ready(function() {
+    //   $('#tbl-wo_bp').DataTable();
+    // });
 
     $.ajax({
       type: "post",
@@ -1258,8 +1270,8 @@ $session->set($nmform);
 
   $("#input_wo_bpd").on('hide.bs.modal', function() {
     // alert('The modal is about to be hidden.');
-    reload_table_estimasi_bp()
-    reload_table_wo_bp()
+    // reload_table_estimasi_bp()
+    reload_table_wo_bp() //ada di tabel_wo_bp.php
   });
 
   $("#input_wo_bpd").on('show.bs.modal', function() {

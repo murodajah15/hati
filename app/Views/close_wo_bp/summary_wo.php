@@ -9,21 +9,39 @@ $total_opl = 0;
 $ftotal_opl = '';
 foreach ($wo_bp as $r) {
   $pr_ppn = $r['pr_ppn'];
-}
-foreach ($summary_part as $r) {
-  $total_part = $total_part + $r['subtotal'];
-  $ftotal_part = number_format($total_part, 0, ".", ".");
+  $close_part = $r['close_part'];
+  $close_bahan = $r['close_bahan'];
+  $close_opl = $r['close_opl'];
 }
 foreach ($summary_jasa as $r) {
   $total_jasa = $total_jasa + $r['subtotal'];
   $ftotal_jasa = number_format($total_jasa, 0, ".", ".");
 }
-foreach ($summary_bahan as $r) {
-  $total_bahan = $total_bahan + $r['subtotal'];
+if ($close_part == 1) {
+  foreach ($summary_part as $r) {
+    $total_part = $total_part + $r['subtotal'];
+    $ftotal_part = number_format($total_part, 0, ".", ".");
+  }
+} else {
+  $total_part = 0;
+  $ftotal_part = number_format($total_part, 0, ".", ".");
+}
+if ($close_bahan == 1) {
+  foreach ($summary_bahan as $r) {
+    $total_bahan = $total_bahan + $r['subtotal'];
+    $ftotal_bahan = number_format($total_bahan, 0, ".", ".");
+  }
+} else {
+  $total_bahan = 0;
   $ftotal_bahan = number_format($total_bahan, 0, ".", ".");
 }
-foreach ($summary_opl as $r) {
-  $total_opl = $total_opl + $r['subtotal'];
+if ($close_opl == 1) {
+  foreach ($summary_opl as $r) {
+    $total_opl = $total_opl + $r['subtotal'];
+    $ftotal_opl = number_format($total_opl, 0, ".", ".");
+  }
+} else {
+  $total_opl = 0;
   $ftotal_opl = number_format($total_opl, 0, ".", ".");
 }
 $grandtotal = $total_part + $total_jasa + $total_bahan + $total_opl;

@@ -19,6 +19,7 @@ class tbasuransi extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbasuransi',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel asuransi',
       'tbasuransi' => $this->tbasuransiModel->orderBy('kode')->findAll() //$tbasuransi
     ];

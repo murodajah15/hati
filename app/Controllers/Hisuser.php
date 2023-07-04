@@ -18,6 +18,7 @@ class Hisuser extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'hisuser',
+      'submenu1' => 'ref_umum',
       'title' => 'History User',
       'hisuser' => $this->hisuserModel->findAll() //$wo
     ];

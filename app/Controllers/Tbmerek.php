@@ -19,6 +19,7 @@ class tbmerek extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbmerek',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Merek Kendaraan',
       'tbmerek' => $this->tbmerekModel->orderBy('kode')->findAll() //$tbmerek
     ];

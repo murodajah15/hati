@@ -29,6 +29,7 @@ class Tbbarang extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbbarang',
+      'submenu1' => 'ref_part',
       'title' => 'Tabel Barang',
       'tbbarang' => $this->tbbarangModel->orderBy('kode', 'desc')->findAll() //$tbbarang
     ];

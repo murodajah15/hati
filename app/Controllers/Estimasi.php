@@ -69,6 +69,7 @@ class Estimasi extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'estimasi',
+      'submenu1' => 'general_repair',
       'title' => 'Estimasi Work Order',
       'estimasi' => $this->estimasiModel->orderBy('noestimasi')->findAll() //$wo
     ];

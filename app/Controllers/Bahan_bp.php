@@ -33,6 +33,7 @@ class Bahan_bp extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'bahan_bp',
+      'submenu1' => 'body_repair',
       'title' => 'Pembebanan Bahan Body Repair',
       'wo_bp' => $this->wo_bpModel->orderBy('nowo')->findAll() //$wo
     ];
@@ -160,13 +161,7 @@ class Bahan_bp extends BaseController
       $session = session();
       $id = $_POST['id'];
       $row = $this->wo_bpModel->find($id);
-      $close_bahan = $row['close_bahan'];
-      if ($close_bahan == 1) {
-        $msg = [
-          'sukses' => 'Data gagal disimpan'
-        ];
-        session()->setFlashdata('pesan', 'Data gagal diupdate');
-      } else {
+      if ($row['close'] < 1) {
         $user = "Unproses-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
         $simpandata = [
           'close_bahan' => 0,
@@ -177,6 +172,11 @@ class Bahan_bp extends BaseController
           'sukses' => 'Data berhasil disimpan'
         ];
         session()->setFlashdata('pesan', 'Data berhasil diupdate');
+      } else {
+        $msg = [
+          'sukses' => 'Data gagal disimpan'
+        ];
+        session()->setFlashdata('pesan', 'Data gagal diupdate');
       }
       echo json_encode($msg);
     };

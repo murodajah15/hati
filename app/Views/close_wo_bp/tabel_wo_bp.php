@@ -154,48 +154,12 @@ $cetak = session()->get('cetak');
         // <a href="#${row.id}" onclick="detailmobil(${row.id})"><button class='btn btn-sm btn-info' href='javascript:void(0)'><i class='fa fa-car')></i></button></a>
       ],
     })
-
-    // $nopolisi = ""; //document.getElementById('nopolisi').value;
-    // <?php
-        // $session = session();
-        // // if ($session->get('nama') == "") {
-        // if (!$session->has('nama')) {
-        // 
-        ?>
-    //   vexpired();
-
-    //   function vexpired() {
-    //     $(document).ready(function() {
-    //       $('#expired').modal('show');
-    //     });
-    //   }
-    // <?php
-        // }
-        // 
-        ?>
-    // $.ajax({
-    //   type: "post",
-    //   data: {
-    //     nopolisi: $nopolisi
-    //   },
-    //   url: "<?= site_url('estimasi_bp/table_wo_bp'); ?>",
-    //   beforeSend: function(f) {
-    //     $('.btnreload').attr('disable', 'disabled')
-    //     $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
-    //     $('#tbl-wo-bp').html('<center>Loading Table ...</center>');
-    //   },
-    //   success: function(data) {
-    //     $('#tbl-wo-bp').html(data);
-    //     $('.btnreload').removeAttr('disable')
-    //     $('.btnreload').html('<i class="fa fa-spinner">')
-    //   }
-    // })
   }
 
   function detail_wo_bp($id) {
     $.ajax({
       type: "post",
-      url: "<?= site_url('estimasi_bp/detail_wo_bp') ?>",
+      url: "<?= site_url('close_wo_bp/detail_wo_bp') ?>",
       dataType: "json",
       data: {
         id: $id
@@ -256,12 +220,12 @@ $cetak = session()->get('cetak');
                   icon: "error"
                 })
               } else {
+                reload_table_wo_bp();
                 swal({
                   title: "Data berhasil di close ",
                   text: "",
                   icon: "success"
                 })
-                reload_table_wo_bp();
               }
             },
             error: function(xhr, ajaxOptions, thrownError) {

@@ -25,6 +25,7 @@ class Tbtipe extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbtipe',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Tipe',
       'tbtipe' => $this->tbtipeModel->getid(),
       'userdtl' => $this->userdtlModel->getuserakses('tbtipe', $username),

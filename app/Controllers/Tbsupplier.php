@@ -19,6 +19,7 @@ class Tbsupplier extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbsupplier',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Supplier',
       'tbsupplier' => $this->tbsupplierModel->orderBy('kode')->findAll() //$tbsupplier
     ];

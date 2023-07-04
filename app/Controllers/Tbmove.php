@@ -19,6 +19,7 @@ class Tbmove extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbmove',
+      'submenu1' => 'ref_part',
       'title' => 'Tabel Move',
       'tbmove' => $this->tbmoveModel->orderBy('kode')->findAll() //$tbmove
     ];

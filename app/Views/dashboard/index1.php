@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>BP</title>
+  <title>HATI</title>
   <!-- <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" /> -->
   <!-- <link href="<?= base_url('/css/simple-datatables.style.css') ?>" rel="stylesheet" /> -->
 
@@ -28,6 +28,9 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
 
+  <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css" rel="stylesheet">
+
 </head>
 
 <body class="sb-nav-fixed">
@@ -43,6 +46,10 @@
 
     .bg-birutua {
       background-color: #191970;
+    }
+
+    .bg-coklat {
+      background-color: darkcyan;
     }
 
     .div {
@@ -75,12 +82,9 @@
   $bil = date('d');
   $hasil = $bil % 2;
   ?>
-  <nav class="sb-topnav navbar navbar-expand navbar-dark <?php if ($hasil == 1) {
-                                                            echo "bg-birutua bg-gradient";
-                                                          } else {
-                                                            echo "bg-dark bg-gradient";
-                                                          }
-                                                          ?>">
+
+  <nav class="sb-topnav navbar navbar-expand navbar-dark <?= $hasil == 1 ? "bg-coklat bg-gradient" : "bg-dark bg-gradient" ?>">
+
     <!-- Navbar Brand-->
     <a class="navbar-brand ps-3" href="dashboard">HATI <i class="fa fa-car"></i></a>
     <!-- Sidebar Toggle-->
@@ -101,8 +105,11 @@
           <?php
           $session = session();
           $photo = $session->get('photo');
+          $img = base_url("/img/" . $photo);
+          //   echo $img;
           ?>
-          <img src="/img/<?= $photo ?>" class="rounded" width='25' height='30'>
+          <!--<img src=<?= base_url("/img/") ?><?= $photo ?>" class="rounded" width='25' height='30'>-->
+          <img src=<?= $img ?> class="rounded" width='25' height='30'>
           <?= $session->get('nama_lengkap'); ?>
         </a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -124,7 +131,7 @@
   <div id="layoutSidenav">
     <div id="layoutSidenav_nav">
       <nav id="sidenavAccordion" class="sb-sidenav accordion sidebar-collapse collapse-left sb-sidenav-dark <?php if ($hasil == 1) {
-                                                                                                              echo "bg-birutua text-white";
+                                                                                                              echo "bg-coklat text-white";
                                                                                                             } else {
                                                                                                               echo "bg-dark";
                                                                                                             }
@@ -235,7 +242,7 @@
                   $nurut = $row['nurut'];
                   if ($row['cmainmenu'] == 'Y' and ($row['nlevel'] > 1)) {
                     $nparent++;
-                    $cparent = $row['cparent'];
+                    $cparent = $row['cmodule'];
                     if ($nparent > 0) {
                   ?>
                 </nav>
@@ -255,13 +262,18 @@
               <?php
                   }
                   if ($row['cmainmenu'] == 'N') {
+                    // if ($cparent != $row['cparent']) {
+                    //   echo '</div>';
+                    //   $cparent = $row['cmodule'];
+                    // }
               ?>
-                <li class="nav-item">
-                  <a class="nav-item px-0 py-1 nav-link<?= $submenu === $row['cmenu'] ?  ' active' : '' ?>" href="<?= base_url($row['cmenu']); ?>">
-                    <i class="fa fa-angle-right"></i>
-                    &nbsp;<?= $row['cmodule'] ?>
-                  </a>
-                </li>
+
+                <!-- <li class="nav-item"> -->
+                <a class="nav-item px-0 py-1 nav-link<?= $submenu === $row['cmenu'] ?  ' active' : '' ?>" href="<?= base_url($row['cmenu']); ?>">
+                  <i class="fa fa-angle-right"></i>
+                  &nbsp;<?= $row['cmodule'] ?>
+                </a>
+                <!-- </li> -->
             <?php
 
                   }
@@ -293,6 +305,10 @@
                   <i class="fa fa-angle-right"></i>
                   &nbsp;Tabel Module
                 </a>
+                <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbklpuser' ?  'active' : '' ?>" href="<?= base_url('tbklpuser'); ?>">
+                  <i class="fa fa-angle-right"></i>
+                  &nbsp;Tabel Kelompok User
+                </a>
                 <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbuser' ?  'active' : '' ?>" href="<?= base_url('tbuser'); ?>">
                   <i class="fa fa-angle-right"></i>
                   &nbsp;Manajemen User
@@ -309,20 +325,19 @@
             </div>
 
 
-            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutil2" aria-expanded="false" aria-controls="collapseLayoutsutil2">
+            <!-- <a class="nav-link collapse" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx2" aria-expanded="true" aria-controls="collapseLayoutsutilx2">
               <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
               Test
               <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
             </a>
 
-            <div class="collapse <?= $menu == 'test' ?  'show' : '' ?>" id="collapseLayoutsutil2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutil3" aria-expanded="false" aria-controls="collapseLayoutsutil3">
+            <div class="collapse <?= ($menu == 'file' or $menu == 'utility') ?  'show' : '' ?>" id="collapseLayoutsutilx2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx3" aria-expanded="<?= $submenu === 'tbjnbrg' ?  'true' : '' ?>" aria-controls=" collapseLayoutsutilx3">
                 <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
                 Tabel Referensi Spare Part
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
               </a>
-              <div class="collapse <?= $menu == 'utility' ?  '' : '' ?>" id="collapseLayoutsutil3" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
-                <!-- <nav class="sb-sidenav-menu-nested nav"> -->
+              <div class="collapse <?= $menu == 'file' ?  'show' : '' ?>" id="collapseLayoutsutilx3" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
                 <nav class="sb-sidenav-menu-nested nav">
                   <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbjnbrg' ?  'active' : '' ?>" href="<?= base_url('tbjnbrg'); ?>">
                     <i class="fa fa-angle-right"></i>
@@ -336,19 +351,32 @@
                   </a>
                 </nav>
               </div>
+              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx4" aria-expanded="<?= $submenu === 'tbjnbrg' ?  'true' : '' ?>" aria-controls=" collapseLayoutsutilx4">
+                <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
+                Tabel Referensi Spare Bengkel
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+              </a>
+              <div class="collapse <?= $menu == 'file' ?  'show' : '' ?>" id="collapseLayoutsutilx4" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbmekanik' ?  'active' : '' ?>" href="<?= base_url('tbmekanik'); ?>">
+                    <i class="fa fa-angle-right"></i>
+                    &nbsp;Tabel Mekanik
+                  </a>
+                </nav>
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbsa' ?  'active' : '' ?>" href="<?= base_url('tbsa'); ?>">
+                    <i class="fa fa-angle-right"></i>
+                    &nbsp;Tabel SA
+                  </a>
+                </nav>
+              </div>
               <nav class="sb-sidenav-menu-nested nav">
                 <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'saplikasi' ?  'active' : '' ?>" href="<?= base_url('saplikasi'); ?>">
                   <i class="fa fa-angle-right"></i>
-                  &nbsp;Tabel Jenis Barang
+                  &nbsp;Setup Aplikasi
                 </a>
               </nav>
-              <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'saplikasi' ?  'active' : '' ?>" href="<?= base_url('saplikasi'); ?>">
-                  <i class="fa fa-angle-right"></i>
-                  &nbsp;Tabel Jenis Barang 1
-                </a>
-              </nav>
-            </div>
+            </div> -->
           <?php
               }
           ?>
@@ -502,6 +530,36 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
 
+
+    <script src="<?= base_url('/js/jquery.dataTables1-13-4.min.js') ?>"></script>
+    <script src="<?= base_url('/js/dataTables.buttons.min.js') ?>"></script>
+    <script src="<?= base_url('/js/jszip.min.js') ?>"></script>
+    <script src="<?= base_url('/js/pdfmake.min.js') ?>"></script>
+    <script src="<?= base_url('/js/vfs_fonts.js') ?>"></script>
+    <script src="<?= base_url('/js/buttons.html5.min.js') ?>"></script>
+    <script src="<?= base_url('/js/buttons.print.min.js') ?>"></script>
+
+
+
+    <!-- https://code.jquery.com/jquery-3.5.1.js
+    https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js
+    https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js
+    https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js
+    https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js -->
+
+    <!-- <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script> -->
+
+
+
     <script>
       function previewImg() {
         const photo = document.querySelector('#photo');
@@ -520,6 +578,7 @@
         document.getElementById('kelurahan_ktp').value = document.getElementById('kelurahan').value
         document.getElementById('kecamatan_ktp').value = document.getElementById('kecamatan').value
         document.getElementById('kota_ktp').value = document.getElementById('kota').value
+        document.getElementById('provinsi_ktp').value = document.getElementById('provinsi').value
         document.getElementById('kodepos_ktp').value = document.getElementById('kodepos').value
       }
 
@@ -528,6 +587,7 @@
         document.getElementById('kelurahan_ktr').value = document.getElementById('kelurahan').value
         document.getElementById('kecamatan_ktr').value = document.getElementById('kecamatan').value
         document.getElementById('kota_ktr').value = document.getElementById('kota').value
+        document.getElementById('provinsi_ktr').value = document.getElementById('provinsi').value
         document.getElementById('kodepos_ktr').value = document.getElementById('kodepos').value
       }
 
@@ -536,7 +596,9 @@
         document.getElementById('alamat_npwp').value = document.getElementById('alamat').value + ' ' +
           document.getElementById('kelurahan').value + ' ' +
           document.getElementById('kecamatan').value + ' ' +
-          document.getElementById('kota').value + ' ' + document.getElementById('kodepos').value
+          document.getElementById('kota').value + ' ' +
+          document.getElementById('provinsi').value + ' ' +
+          document.getElementById('kodepos').value
       }
 
       function validAngka(a) {

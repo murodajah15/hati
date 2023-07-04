@@ -17,6 +17,7 @@ class Tbbank extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbbank',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Bank',
       'tbbank' => $this->tbbankModel->orderBy('kode')->findAll() //$tbbank
     ];

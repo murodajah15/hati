@@ -45,6 +45,7 @@ class Memombr extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'memombr',
+      'submenu1' => 'mobil_baru',
       'title' => 'Memo Mobil Baru',
       'memombr' => $this->memombrModel->orderBy('nomemo', 'desc')->findAll() //$wo
     ];

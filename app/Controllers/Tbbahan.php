@@ -29,6 +29,7 @@ class Tbbahan extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbbahan',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel Bahan',
       'tbbahan' => $this->tbbahanModel->orderBy('kode', 'desc')->findAll() //$tbbahan
     ];

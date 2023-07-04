@@ -79,6 +79,7 @@ class Close_faktur_bp extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'close_faktur_bp',
+      'submenu1' => 'body_repair',
       'title' => 'Close Faktur Body Repair',
       'faktur_bp' => $this->faktur_bpModel->orderBy('nowo')->findAll() //$wo
     ];
@@ -286,54 +287,55 @@ class Close_faktur_bp extends BaseController
           $this->fakturjasa_bpModel->insert($simpandata);
         }
         $row = $this->wopart_bpModel->getnowo($nowo);
-        foreach ($row as $k) {
+        foreach ($row as $kpart) {
           $simpandata = [
-            'kode' => $k['kode'],
-            'nama' => $k['nama'],
-            'kerusakan' => $k['kerusakan'],
-            'jenis' => $k['jenis'],
-            'qty' => $k['qty'],
-            'harga' => $k['harga'],
-            'pr_discount' => $k['pr_discount'],
-            'subtotal' => $k['subtotal'],
-            'kdmekanik' => $k['kdmekanik'],
-            'nmmekanik' => $k['nmmekanik'],
+            'kode' => $kpart['kode'],
+            'nama' => $kpart['nama'],
+            'kerusakan' => $kpart['kerusakan'],
+            'jenis' => $kpart['jenis'],
+            'qty' => $kpart['qty'],
+            'harga' => $kpart['harga'],
+            'pr_discount' => $kpart['pr_discount'],
+            'subtotal' => $kpart['subtotal'],
+            'kdmekanik' => $kpart['kdmekanik'],
+            'nmmekanik' => $kpart['nmmekanik'],
             'nofaktur' => $nofaktur,
             'user' => $user,
           ];
           $this->fakturpart_bpModel->insert($simpandata);
         }
         $row = $this->wobahan_bpModel->getnowo($nowo);
-        foreach ($row as $k) {
+        foreach ($row as $kbahan) {
           $simpandata = [
-            'kode' => $k['kode'],
-            'nama' => $k['nama'],
-            'kerusakan' => $k['kerusakan'],
-            'jenis' => $k['jenis'],
-            'qty' => $k['qty'],
-            'harga' => $k['harga'],
-            'pr_discount' => $k['pr_discount'],
-            'subtotal' => $k['subtotal'],
-            'kdmekanik' => $k['kdmekanik'],
-            'nmmekanik' => $k['nmmekanik'],
+            'kode' => $kbahan['kode'],
+            'nama' => $kbahan['nama'],
+            'kerusakan' => $kbahan['kerusakan'],
+            'jenis' => $kbahan['jenis'],
+            'qty' => $kbahan['qty'],
+            'harga' => $kbahan['harga'],
+            'pr_discount' => $kbahan['pr_discount'],
+            'subtotal' => $kbahan['subtotal'],
+            'kdmekanik' => $kbahan['kdmekanik'],
+            'nmmekanik' => $kbahan['nmmekanik'],
             'nofaktur' => $nofaktur,
             'user' => $user,
           ];
           $this->fakturbahan_bpModel->insert($simpandata);
         }
         $row = $this->woopl_bpModel->getnowo($nowo);
-        foreach ($row as $k) {
+        // var_dump($row);
+        foreach ($row as $kopl) {
           $simpandata = [
-            'kode' => $k['kode'],
-            'nama' => $k['nama'],
-            'kerusakan' => $k['kerusakan'],
-            'jenis' => $k['jenis'],
-            'qty' => $k['qty'],
-            'harga' => $k['harga'],
-            'pr_discount' => $k['pr_discount'],
-            'subtotal' => $k['subtotal'],
-            'kdmekanik' => $k['kdmekanik'],
-            'nmmekanik' => $k['nmmekanik'],
+            'kode' => $kopl['kode'],
+            'nama' => $kopl['nama'],
+            'kerusakan' => $kopl['kerusakan'],
+            'jenis' => $kopl['jenis'],
+            'qty' => $kopl['qty'],
+            'harga' => $kopl['harga'],
+            'pr_discount' => $kopl['pr_discount'],
+            'subtotal' => $kopl['subtotal'],
+            'kdmekanik' => $kopl['kdmekanik'],
+            'nmmekanik' => $kopl['nmmekanik'],
             'nofaktur' => $nofaktur,
             'user' => $user,
           ];
@@ -696,6 +698,7 @@ class Close_faktur_bp extends BaseController
       echo json_encode($msg);
     };
   }
+
   public function unclose_faktur_bp()
   {
     if ($this->request->isAjax()) {
@@ -726,7 +729,7 @@ class Close_faktur_bp extends BaseController
     };
   }
 
-  public function cetakfaktur_bp_testkedua($id)
+  public function cetakfaktur_bp($id)
   {
     $dompdf = new Dompdf();
     $row = $this->faktur_bpModel->find($id);
@@ -776,5 +779,51 @@ class Close_faktur_bp extends BaseController
     // } else {
     //   exit('Maaf tidak dapat diproses');
     // }
+  }
+
+  public function cancel_faktur_bp()
+  {
+    if ($this->request->isAjax()) {
+      $session = session();
+      $id = $_POST['id'];
+      $row = $this->faktur_bpModel->find($id);
+      $close = $row['close'];
+      $nowo = $row['nowo'];
+      if (!isset($close)) {
+        $close = 0;
+      }
+      $row = $this->wo_bpModel->getnowo($nowo);
+      foreach ($row as $data) {
+        $close_wo = $data['close'];
+      }
+      if ($close_wo == 1) {
+        $user = "Proses-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
+        $simpandata = [
+          'close' => 1,
+          'user_close' => $user,
+        ];
+        // var_dump($simpandata);
+        $this->faktur_bpModel->update($id, $simpandata);
+        $rowwo = $this->wo_bpModel->getnowo($nowo);
+        foreach ($rowwo as $data) {
+          $idwo = $data['id'];
+        };
+        $simpandata = [
+          'close_faktur' => 1,
+        ];
+        // var_dump($idwo);
+        $this->wo_bpModel->update($idwo, $simpandata);
+        $msg = [
+          'sukses' => 'Data berhasil disimpan'
+        ];
+        session()->setFlashdata('pesan', 'Data berhasil diupdate');
+      } else {
+        $msg = [
+          'sukses' => 'Data gagal disimpan'
+        ];
+        session()->setFlashdata('pesan', 'Data berhasil diupdate');
+      }
+      echo json_encode($msg);
+    };
   }
 }

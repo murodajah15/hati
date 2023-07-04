@@ -225,10 +225,10 @@ $session->set($nmform);
               <a href="#summary_wo" class="nav-link active" data-bs-toggle="tab" id="tabsummary">Summary</a>
             </li>
             <li class="nav-item">
-              <a href="#sparepart_wo" class="nav-link" data-bs-toggle="tab" id="tabsparepart">Spare Part</a>
+              <a href="#jasa_wo" class="nav-link" data-bs-toggle="tab" id="tabjasa">Jasa</a>
             </li>
             <li class="nav-item">
-              <a href="#jasa_wo" class="nav-link" data-bs-toggle="tab" id="tabjasa">Jasa</a>
+              <a href="#sparepart_wo" class="nav-link" data-bs-toggle="tab" id="tabsparepart">Spare Part</a>
             </li>
             <li class="nav-item">
               <a href="#bahan_wo" class="nav-link" data-bs-toggle="tab" id="tabbahan">Bahan</a>
@@ -241,27 +241,36 @@ $session->set($nmform);
             <div class="tab-pane fade show active" id="summary_wo">
               <br>
             </div>
-            <div class="tab-pane fade" id="sparepart_wo">
-              <br>
-              <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $wo_bp['nowo'] ?>" name="nowo" id="nowo" readonly style="width: 5%">
-              <div class="row mb-2">
-                <div id="tbl_wo_part"></div>
-              </div>
-            </div>
             <div class="tab-pane fade" id="jasa_wo">
               <br>
               <div class="row mb-2">
                 <div id="tbl_wo_jasa"></div>
               </div>
             </div>
+            <div class="tab-pane fade" id="sparepart_wo">
+              <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_part'] == 1 ? 'Spare Part Closed' : 'Spare Part Unclosed' ?></font>
+              </label>
+              <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $wo_bp['nowo'] ?>" name="nowo" id="nowo" readonly style="width: 5%">
+              <div class="row mb-2">
+                <div id="tbl_wo_part"></div>
+              </div>
+            </div>
             <div class="tab-pane fade " id="bahan_wo">
               <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_bahan'] == 1 ? 'Bahan Closed' : 'Bahan Unclosed' ?></font>
+              </label>
               <div class="row mb-2">
                 <div id="tbl_wo_bahan"></div>
               </div>
             </div>
             <div class="tab-pane fade " id="opl_wo">
               <br>
+              <label for="nama" class="form-label mb-1">
+                <font color=red><?= $wo_bp['close_opl'] == 1 ? 'OPL Closed' : 'OPL Unclosed' ?></font>
+              </label>
               <div class="row mb-2">
                 <div id="tbl_wo_opl"></div>
               </div>

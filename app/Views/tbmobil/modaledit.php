@@ -395,7 +395,7 @@
   $('#cariasuransi').click(function(e) {
     e.preventDefault();
     $.ajax({
-      url: "<?= site_url('estimasi/caridataasuransi') ?>",
+      url: "<?= site_url('tbmobil/cari_data_asuransi') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodalcariasuransi').html(response.data).show();
@@ -410,20 +410,22 @@
     let cari = $(this).val()
     if (cari !== "") {
       $.ajax({
-        url: "<?= site_url('estimasi/replasuransi') ?>",
+        url: "<?= site_url('tbmobil/repl_asuransi') ?>",
         type: 'post',
         data: {
-          'kode_asuransi': cari
+          'kode': cari
         },
         success: function(data) {
           let data_response = JSON.parse(data);
           if (data_response['kode'] == '') {
             $('#kode_asuransi').val('');
             $('#nama_asuransi').val('');
+            $('#alamat_asuransi').val('');
             return;
           } else {
             $('#kode_asuransi').val(data_response['kode']);
             $('#nama_asuransi').val(data_response['nama']);
+            $('#alamat_asuransi').val(data_response['alamat']);
           }
         },
         error: function() {

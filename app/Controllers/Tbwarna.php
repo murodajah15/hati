@@ -23,6 +23,7 @@ class Tbwarna extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbwarna',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Warna Kendaraan',
       'tbwarna' => $this->tbwarnaModel->getid(),
       'userdtl' => $this->userdtlModel->getuserakses('tbwarna', $username),

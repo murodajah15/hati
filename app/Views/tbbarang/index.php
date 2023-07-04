@@ -34,7 +34,7 @@ $ses_data = [
   'hapus'    => $hapus,
   'proses'    => $proses,
   'unproses'    => $unproses,
-  'cetak'    => $cetak
+  'cetak'    => $cetak,
 ];
 $session->set($ses_data);
 ?>

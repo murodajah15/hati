@@ -38,6 +38,7 @@ class Wo extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'wo',
+      'submenu1' => 'general_repair',
       'title' => 'Work Order',
       'wo' => $this->woModel->orderBy('noestimasi')->findAll() //$wo
     ];

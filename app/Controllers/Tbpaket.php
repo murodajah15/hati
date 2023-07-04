@@ -40,6 +40,7 @@ class Tbpaket extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbpaket',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel Paket',
       'tbpaket' => $this->tbpaketModel->orderBy('kode', 'desc')->findAll() //$tbpaket
     ];

@@ -82,6 +82,7 @@ class Part_bp extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'part_bp',
+      'submenu1' => 'body_repair',
       'title' => 'Pembebanan Spare Part Body Repair',
       'wo_bp' => $this->wo_bpModel->orderBy('nowo')->findAll() //$wo
     ];
@@ -208,16 +209,24 @@ class Part_bp extends BaseController
     if ($this->request->isAjax()) {
       $session = session();
       $id = $_POST['id'];
-      $user = "Unproses-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
-      $simpandata = [
-        'close_part' => 0,
-        'user_close_part' => $user,
-      ];
-      $this->wo_bpModel->update($id, $simpandata);
-      $msg = [
-        'sukses' => 'Data berhasil disimpan'
-      ];
-      session()->setFlashdata('pesan', 'Data berhasil diupdate');
+      $row = $this->wo_bpModel->find($id);
+      if ($row['close'] < 1) {
+        $user = "Unproses-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
+        $simpandata = [
+          'close_part' => 0,
+          'user_close_part' => $user,
+        ];
+        $this->wo_bpModel->update($id, $simpandata);
+        $msg = [
+          'sukses' => 'Data berhasil disimpan'
+        ];
+        session()->setFlashdata('pesan', 'Data berhasil diupdate');
+      } else {
+        $msg = [
+          'sukses' => 'Data gagal diunclose (sudah close WO) !'
+        ];
+        session()->setFlashdata('pesan', 'Data gagal diunclose (sudah close WO) !');
+      }
       echo json_encode($msg);
     };
   }

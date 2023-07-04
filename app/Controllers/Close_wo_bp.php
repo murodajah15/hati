@@ -79,6 +79,7 @@ class Close_wo_bp extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'close_wo_bp',
+      'submenu1' => 'body_repair',
       'title' => 'Close Work Order Body Repair',
       'wo_bp' => $this->wo_bpModel->orderBy('nowo')->findAll() //$wo
     ];
@@ -104,7 +105,7 @@ class Close_wo_bp extends BaseController
     echo json_encode($output);
   }
 
-  public function detail_wo_bp1()
+  public function detail_wo_bp()
   {
     $id = $this->request->getVar('id');
     $row = $this->wo_bpModel->find($id);
@@ -673,6 +674,9 @@ class Close_wo_bp extends BaseController
       $nowo = $k['nowo'];
       $idwo = $k['id'];
       $pr_ppn = $k['pr_ppn'];
+      $close_part = $k['close_part'];
+      $close_bahan = $k['close_bahan'];
+      $close_opl = $k['close_opl'];
     }
     $jumpart = 0;
     $jumbahan = 0;
@@ -685,14 +689,26 @@ class Close_wo_bp extends BaseController
     foreach ($jumjasa as $j) {
       $jumjasa = $j['jumjasa'];
     }
-    foreach ($jumpart as $j) {
-      $jumpart = $j['jumpart'];
+    if ($close_part == 1) {
+      foreach ($jumpart as $j) {
+        $jumpart = $j['jumpart'];
+      }
+    } else {
+      $jumpart = 0;
     }
-    foreach ($jumbahan as $j) {
-      $jumbahan = $j['jumbahan'];
+    if ($close_bahan == 1) {
+      foreach ($jumbahan as $j) {
+        $jumbahan = $j['jumbahan'];
+      }
+    } else {
+      $jumbahan = 0;
     }
-    foreach ($jumopl as $j) {
-      $jumopl = $j['jumopl'];
+    if ($close_opl == 1) {
+      foreach ($jumopl as $j) {
+        $jumopl = $j['jumopl'];
+      }
+    } else {
+      $jumopl = 0;
     }
     $total = $jumpart + $jumjasa + $jumbahan + $jumopl;
     $ppn = $total * ($pr_ppn / 100);
@@ -753,8 +769,7 @@ class Close_wo_bp extends BaseController
       $session = session();
       $id = $_POST['id'];
       $row = $this->wo_bpModel->find($id);
-      $close_faktur = $row['close_faktur'];
-      if ($close_faktur < 1) {
+      if ($row['close_faktur'] < 1) {
         $user = "Unproses-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
         $simpandata = [
           'close' => 0,

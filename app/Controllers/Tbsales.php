@@ -21,6 +21,7 @@ class Tbsales extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbsales',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Sales',
       'tbsales' => $this->tbsalesModel->orderBy('kode', 'desc')->findAll() //$tbsa
     ];

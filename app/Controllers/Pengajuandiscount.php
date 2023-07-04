@@ -22,6 +22,7 @@ class Pengajuandiscount extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'pengajuandiscount',
+      'submenu1' => 'mobil_baru',
       'title' => 'Pengajuan Discount Mobil Baru',
       'pengajuandiscount' => $this->pengajuandiscountModel->orderBy('nomemo', 'desc')->findAll() //$wo
     ];

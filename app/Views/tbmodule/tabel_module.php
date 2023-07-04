@@ -37,7 +37,7 @@
           <tr>
             <!-- <th class="text-center" scope="row"><?= $n++; ?></th> -->
             <td><?= $k['nurut']; ?></td>
-            <td><?= $k['cmodule']; ?></td>
+            <td><?= $k['cmainmenu'] == 'Y' ? '<b>' . $k['cmodule'] . '</b>' : $k['cmodule'] ?></td>
             <td><?= $k['cmenu']; ?></td>
             <td><?= $k['cparent']; ?></td>
             <td><?= $k['cmainmenu']; ?></td>

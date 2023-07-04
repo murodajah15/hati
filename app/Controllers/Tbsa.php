@@ -21,6 +21,7 @@ class Tbsa extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbsa',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel SA',
       'tbsa' => $this->tbsaModel->orderBy('kdsa', 'desc')->findAll() //$tbsa
     ];

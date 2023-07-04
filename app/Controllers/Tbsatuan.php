@@ -19,6 +19,7 @@ class Tbsatuan extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbsatuan',
+      'submenu1' => 'ref_part',
       'title' => 'Tabel Satuan',
       'tbsatuan' => $this->tbsatuanModel->orderBy('kode')->findAll() //$tbsatuan
     ];

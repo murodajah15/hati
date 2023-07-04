@@ -66,4 +66,12 @@ class Wopart_bpModel extends Model
     $this->where('jenis', 'PART');
     return $this->findAll();
   }
+
+  public function jumpart_close($nowo = false)
+  {
+    $this->where('nowo', $nowo)->select('sum(subtotal) as jumpart');
+    $this->where('jenis', 'PART');
+    $this->where('close_part', 1);
+    return $this->findAll();
+  }
 }

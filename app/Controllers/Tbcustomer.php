@@ -21,6 +21,7 @@ class Tbcustomer extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbcustomer',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Customer',
       'tbcustomer' => $this->tbcustomerModel->orderBy('kode')->findAll() //$tbcustomer
     ];

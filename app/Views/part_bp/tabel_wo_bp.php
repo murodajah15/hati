@@ -239,7 +239,7 @@ $cetak = session()->get('cetak');
 
   function unclose_part_bp($id) {
     swal({
-        title: "Yakin akan Unclose ?",
+        title: "Yakin akan Unclose ??",
         text: "",
         icon: "info",
         buttons: true,
@@ -261,12 +261,22 @@ $cetak = session()->get('cetak');
                   icon: "error"
                 })
               } else {
-                swal({
-                  title: "Data berhasil di unclose ",
-                  text: "",
-                  icon: "success"
-                })
-                reload_table_wo_bp();
+                let data_response = JSON.parse(response);
+                if (data_response['sukses'] == 'Data berhasil disimpan') {
+                  swal({
+                    title: "Data berhasil di unclose ",
+                    text: "",
+                    icon: "success"
+                  })
+                  reload_table_wo_bp();
+                } else {
+                  swal({
+                    title: "Data gagal di unclose (sudah close WO) ! ",
+                    text: "",
+                    icon: "error"
+                  })
+                  reload_table_wo_bp();
+                }
               }
             },
             error: function(xhr, ajaxOptions, thrownError) {

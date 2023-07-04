@@ -82,12 +82,7 @@
   $bil = date('d');
   $hasil = $bil % 2;
   ?>
-  <nav class="sb-topnav navbar navbar-expand navbar-dark <?php if ($hasil == 1) {
-                                                            echo "bg-coklat bg-gradient";
-                                                          } else {
-                                                            echo "bg-dark bg-gradient";
-                                                          }
-                                                          ?>">
+  <nav class="sb-topnav navbar navbar-expand navbar-dark <?= $hasil == 1 ? "bg-coklat bg-gradient" : "bg-dark bg-gradient" ?>">
     <!-- Navbar Brand-->
     <a class="navbar-brand ps-3" href="dashboard">HATI <i class="fa fa-car"></i></a>
     <!-- Sidebar Toggle-->
@@ -133,18 +128,19 @@
 
   <div id="layoutSidenav">
     <div id="layoutSidenav_nav">
-      <nav id="sidenavAccordion" class="sb-sidenav accordion sidebar-collapse collapse-left sb-sidenav-dark <?php if ($hasil == 1) {
-                                                                                                              echo "bg-coklat text-white";
-                                                                                                            } else {
-                                                                                                              echo "bg-dark";
-                                                                                                            }
-                                                                                                            ?>">
+      <nav id="sidenavAccordion" class="sb-sidenav accordion sidebar-collapse collapse-left sb-sidenav-dark 
+        <?= $hasil == 1 ? "bg-coklat text-white" : "bg-dark" ?>">
         <div class="sb-sidenav-menu">
           <?php
           $uri = new \CodeIgniter\HTTP\URI();
           if (!isset($menu)) {
             $menu = "";
             $submenu = "";
+            $submenu1 = "";
+          } else {
+            if (!isset($submenu1)) {
+              $submenu1 = "";
+            }
           }
           ?>
           <div class="nav">
@@ -195,7 +191,9 @@
                   if ($nmainmenu == 1) {
                   ?>
                     <div class="sb-nav-link-icon"><i class="fas fa-th"></i></div>
-                    <?= $row['cmodule'] ?>
+                    <font color='white'>
+                      <font color='white'><?= $row['cmodule'] ?></font>
+                    </font>
                     <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                     </li>
                 </a>
@@ -206,7 +204,7 @@
                 if ($nmainmenu == 2) {
               ?>
                 <div class="sb-nav-link-icon"><i class="fas fa-edit"></i></div>
-                <?= $row['cmodule'] ?>
+                <font color='white'><?= $row['cmodule'] ?></font>
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </li>
                 </a>
@@ -217,7 +215,7 @@
                 if ($nmainmenu == 3) {
               ?>
                 <div class="sb-nav-link-icon"><i class="fas fa-cog"></i></div>
-                <?= $row['cmodule'] ?>
+                <font color='white'><?= $row['cmodule'] ?></font>
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </li>
                 </a>
@@ -228,7 +226,7 @@
                 if ($nmainmenu == 4) {
               ?>
                 <div class="sb-nav-link-icon"><i class="fas fa-file"></i></div>
-                <?= $row['cmodule'] ?>
+                <font color='white'><?= $row['cmodule'] ?></font>
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </li>
                 </a>
@@ -241,9 +239,9 @@
               } else {
                 ?>
                   <?php
-                  $lcmainmenu = $row['cmodule'];
+                  $lcmainmenu = strtoupper($row['cmodule']);
                   $nurut = $row['nurut'];
-                  if ($row['cmainmenu'] == 'Y' and ($row['nlevel'] > 1)) {
+                  if ($row['cmainmenu'] == 'Y' and ($row['nlevel'] >  1)) {
                     $nparent++;
                     $cparent = $row['cmodule'];
                     if ($nparent > 0) {
@@ -253,14 +251,14 @@
             <?php
                     }
             ?>
-            <div class="collapse <?= $row['cparent'] == $lcmainmenu ?  'show' : '' ?>" id="collapseLayouts<?= $nmainmenu ?>" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
-              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts<?= $nurut ?>" aria-expanded="false" aria-controls="collapseLayouts<?= $nurut ?>">
-                <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
+            <div class="collapse <?= strtoupper($row['cparent']) == strtoupper($menu) ?  'show' : '' ?>" id="collapseLayouts<?= $nmainmenu ?>" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
+              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsx<?= $nurut ?>" aria-expanded="false" aria-controls="collapseLayoutsx<?= $nurut ?>">
+                <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
                 &nbsp;<?= $row['cmodule'] ?>
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
               </a>
             </div>
-            <div class="collapse <?= $row['cparent'] == $lcmainmenu ?  'show' : '' ?>" id="collapseLayouts<?= $nurut ?>" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
+            <div class="collapse <?= strtoupper($row['cmenu']) == strtoupper($submenu1) ?  'show' : '' ?>" id="collapseLayoutsx<?= $nurut ?>" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
               <nav class="sb-sidenav-menu-nested nav">
               <?php
                   }
@@ -295,7 +293,7 @@
 
             <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutil" aria-expanded="false" aria-controls="collapseLayoutsutil">
               <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
-              Utility
+              <font color='white'>Utility</font>
               <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
             </a>
             <div class="collapse <?= $menu == 'utility' ?  'show' : '' ?>" id="collapseLayoutsutil" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
@@ -328,19 +326,19 @@
             </div>
 
 
-            <!-- <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutil2" aria-expanded="false" aria-controls="collapseLayoutsutil2">
+            <!-- <a class="nav-link collapse" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx2" aria-expanded="true" aria-controls="collapseLayoutsutilx2">
               <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
               Test
               <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-            </a> -->
+            </a>
 
-            <!-- <div class="collapse <?= $menu == 'test' ?  'show' : '' ?>" id="collapseLayoutsutil2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutil3" aria-expanded="false" aria-controls="collapseLayoutsutil3">
+            <div class="collapse <?= ($menu == 'file' or $menu == 'utility') ?  'show' : '' ?>" id="collapseLayoutsutilx2" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx3" aria-expanded="<?= $submenu === 'tbjnbrg' ?  'true' : '' ?>" aria-controls=" collapseLayoutsutilx3">
                 <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
                 Tabel Referensi Spare Part
                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
               </a>
-              <div class="collapse <?= $menu == 'utility' ?  '' : '' ?>" id="collapseLayoutsutil3" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
+              <div class="collapse <?= $menu == 'file' ?  'show' : '' ?>" id="collapseLayoutsutilx3" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
                 <nav class="sb-sidenav-menu-nested nav">
                   <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbjnbrg' ?  'active' : '' ?>" href="<?= base_url('tbjnbrg'); ?>">
                     <i class="fa fa-angle-right"></i>
@@ -354,16 +352,29 @@
                   </a>
                 </nav>
               </div>
+              <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsutilx4" aria-expanded="<?= $submenu === 'tbjnbrg' ?  'true' : '' ?>" aria-controls=" collapseLayoutsutilx4">
+                <div class="sb-nav-link-icon"><i class="fas fa-wrench"></i></div>
+                Tabel Referensi Spare Bengkel
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+              </a>
+              <div class="collapse <?= $menu == 'file' ?  'show' : '' ?>" id="collapseLayoutsutilx4" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion1">
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbmekanik' ?  'active' : '' ?>" href="<?= base_url('tbmekanik'); ?>">
+                    <i class="fa fa-angle-right"></i>
+                    &nbsp;Tabel Mekanik
+                  </a>
+                </nav>
+                <nav class="sb-sidenav-menu-nested nav">
+                  <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'tbsa' ?  'active' : '' ?>" href="<?= base_url('tbsa'); ?>">
+                    <i class="fa fa-angle-right"></i>
+                    &nbsp;Tabel SA
+                  </a>
+                </nav>
+              </div>
               <nav class="sb-sidenav-menu-nested nav">
                 <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'saplikasi' ?  'active' : '' ?>" href="<?= base_url('saplikasi'); ?>">
                   <i class="fa fa-angle-right"></i>
-                  &nbsp;Tabel Jenis Barang
-                </a>
-              </nav>
-              <nav class="sb-sidenav-menu-nested nav">
-                <a class="nav-item px-0 py-1 nav-link <?= $submenu === 'saplikasi' ?  'active' : '' ?>" href="<?= base_url('saplikasi'); ?>">
-                  <i class="fa fa-angle-right"></i>
-                  &nbsp;Tabel Jenis Barang 1
+                  &nbsp;Setup Aplikasi
                 </a>
               </nav>
             </div> -->

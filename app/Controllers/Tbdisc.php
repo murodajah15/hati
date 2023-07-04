@@ -19,6 +19,7 @@ class Tbdisc extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbdisc',
+      'submenu1' => 'ref_part',
       'title' => 'Tabel Discount',
       'tbdisc' => $this->tbdiscModel->orderBy('kode')->findAll() //$tbdisc
     ];

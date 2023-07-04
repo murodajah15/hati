@@ -21,6 +21,7 @@ class Tbmodel extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbmodel',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Model Kendaraan',
       // 'tbmodel' => $this->tbmodelModel->findAll(),
       'tbmodel' => $this->tbmodelModel->getid(),

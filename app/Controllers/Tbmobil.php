@@ -36,6 +36,7 @@ class tbmobil extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbmobil',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Kendaraan',
       'tbmobil' => $this->tbmobilModel->orderBy('nopolisi')->findAll() //$tbmobil
     ];
@@ -436,6 +437,48 @@ class tbmobil extends BaseController
           'title' => 'Detail data',
           'kode' => '',
           'nama' => '',
+        ];
+      }
+      echo json_encode($data);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function cari_data_asuransi()
+  {
+    if ($this->request->isAjax()) {
+      $data = [
+        'title' => 'Cari Data Asuransi',
+        'tbasuransi' => $this->tbasuransiModel->orderBy('kode', 'asc')->findAll(),
+      ];
+      $msg = [
+        'data' => view('tbmobil/modalcariasuransi', $data),
+      ];
+      echo json_encode($msg);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function repl_asuransi()
+  {
+    if ($this->request->isAjax()) {
+      $kode = $_POST['kode'];
+      $row = $this->tbasuransiModel->getkode($kode);
+      if (isset($row)) {
+        $data = [
+          'title' => 'Detail data',
+          'kode' => $row['kode'],
+          'nama' => $row['nama'],
+          'alamat' => $row['alamat'] . ' ' . $row['kota'],
+        ];
+      } else {
+        $data = [
+          'title' => 'Detail data',
+          'kode' => '',
+          'nama' => '',
+          'alamat' => '',
         ];
       }
       echo json_encode($data);

@@ -17,6 +17,7 @@ class Tbcabang extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbcabang',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Cabang',
       'tbcabang' => $this->tbcabangModel->orderBy('kode')->findAll() //$tbcabang
     ];

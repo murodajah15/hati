@@ -21,6 +21,7 @@ class Tbjasa extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbjasa',
+      'submenu1' => 'ref_bengkel',
       'title' => 'Tabel jasa',
       'tbjasa' => $this->tbjasaModel->orderBy('kode', 'desc')->findAll() //$tbjasa
     ];

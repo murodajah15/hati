@@ -19,6 +19,7 @@ class Tbagama extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbagama',
+      'submenu1' => 'ref_umum',
       'title' => 'Tabel Agama',
       'tbagama' => $this->tbagamaModel->orderBy('kode', 'desc')->findAll() //$tbagama
     ];

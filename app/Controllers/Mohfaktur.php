@@ -32,6 +32,7 @@ class mohfaktur extends BaseController
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'mohfaktur',
+      'submenu1' => 'mobil_baru',
       'title' => 'Permohonan Faktur Mobil Baru',
       'mohfaktur' => $this->mohfakturModel->orderBy('nomor', 'desc')->findAll() //$wo
     ];

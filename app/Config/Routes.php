@@ -521,6 +521,8 @@ $routes->get('/tbmobil/cari_data_pemakai', 'Tbmobil::cari_data_pemakai');
 $routes->post('/tbmobil/repl_pemakai', 'Tbmobil::repl_pemakai');
 $routes->get('/tbmobil/cari_data_pemilik', 'Tbmobil::cari_data_pemilik');
 $routes->post('/tbmobil/repl_pemilik', 'Tbmobil::repl_pemilik');
+$routes->get('/tbmobil/cari_data_asuransi', 'Tbmobil::cari_data_asuransi');
+$routes->post('/tbmobil/repl_asuransi', 'Tbmobil::repl_asuransi');
 
 $routes->get('/tbcustomer', 'Tbcustomer::index');
 $routes->get('/tbcustomer/table_customer', 'Tbcustomer::table_customer');
@@ -662,6 +664,8 @@ $routes->post('/opl_bp/unclose_opl_bp', 'Opl_bp::unclose_opl_bp');
 $routes->get('/close_wo_bp', 'Close_wo_bp::index');
 $routes->post('/close_wo_bp/ajax-load-data', 'Close_wo_bp::ajaxLoadData');
 $routes->get('/close_wo_bp/table_wo_bp', 'Close_wo_bp::table_wo_bp');
+$routes->post('/close_wo_bp/table_wo_bp', 'Close_wo_bp::table_wo_bp');
+$routes->post('/close_wo_bp/detail_wo_bp', 'Close_wo_bp::detail_wo_bp');
 $routes->post('close_wo_bp/input_wo_bpd', 'Close_wo_bp::input_wo_bpd');
 $routes->post('/close_wo_bp/table_wo_bp_jasa', 'Close_wo_bp::table_wo_bp_jasa');
 // $routes->post('close_wo_bp/caridatatasklist', 'Close_wo_bp::caridatatasklist');
@@ -692,6 +696,7 @@ $routes->post('/close_faktur_bp/summary_faktur_bp', 'Close_faktur_bp::summary_fa
 $routes->post('/close_faktur_bp/close_faktur_bp', 'Close_faktur_bp::close_faktur_bp');
 $routes->post('/close_faktur_bp/unclose_faktur_bp', 'Close_faktur_bp::unclose_faktur_bp');
 $routes->get('close_faktur_bp/cetakfaktur_bp/(:num)', 'Close_faktur_bp::cetakfaktur_bp/$1');
+$routes->post('close_faktur_bp/cancel_faktur_bp', 'Close_faktur_bp::cancel_faktur_bp');
 
 $routes->get('/estimasi', 'Estimasi::index');
 $routes->post('/estimasi', 'Estimasi::index');
@@ -735,7 +740,6 @@ $routes->post('estimasi/hapusdetailestimasi/(:num)', 'Estimasi::hapusdetailestim
 $routes->post('/estimasi/prosesestimasi', 'Estimasi::prosesestimasi');
 $routes->post('/estimasi/unprosesestimasi', 'Estimasi::unprosesestimasi');
 $routes->get('estimasi/cetakestimasi/(:num)', 'Estimasi::cetakestimasi/$1');
-
 $routes->post('/estimasi/hapusestimasi/(:num)', 'Estimasi::hapusestimasi/$1');
 
 $routes->get('/wo', 'Wo::index');
@@ -776,6 +780,24 @@ $routes->get('/wo/tambah_wo_part', 'Wo::tambah_wo_part');
 $routes->post('/wo/hapus_wo_part', 'Wo::hapus_wo_part');
 // $routes->post('/wo/hapus_wo_part/(:num)', 'Wo::hapus_wo_part/$1');
 $routes->post('/wo/hitung_wo_part', 'Wo::hitung_wo_part');
+
+
+$routes->get('/po_part', 'Po_part::index');
+$routes->post('/po_part/ajax-load-data', 'Po_part::ajaxLoadData');
+$routes->get('/po_part/table_po_part', 'Po_part::table_po_part');
+$routes->post('/po_part/formdetail', 'Po_part::formdetail');
+$routes->get('/po_part/formtambah', 'Po_part::formtambah');
+$routes->get('/po_part/caridatasupplier', 'Po_part::caridatasupplier');
+$routes->post('/po_part/replsupplier', 'Po_part::replsupplier');
+$routes->post('/po_part/simpanpo_part', 'Po_part::simpanpo_part');
+$routes->post('/po_part/formedit', 'Po_part::formedit');
+$routes->post('/po_part/update_po_part', 'Po_part::update_po_part');
+$routes->post('/po_part/hapus_po_part', 'Po_part::hapus_po_part');
+$routes->post('po/input_po_partd', 'Po_part::input_po_partd');
+$routes->post('/po_part/close_po_part', 'Po_part::close_po_part');
+$routes->post('/po_part/unclose_po_part', 'Po_part::unclose_po_part');
+$routes->get('po_part/cetakpo_part/(:num)', 'Po_part::cetakpo_part/$1');
+$routes->post('po_part/cancel_po_part', 'Po_part::cancel_po_part');
 
 $routes->get('/tbsales', 'Tbsales::index');
 $routes->get('/tbsales/table_sales', 'Tbsales::table_sales');

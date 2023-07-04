@@ -17,6 +17,7 @@ class tbjenis extends BaseController
     $data = [
       'menu' => 'file',
       'submenu' => 'tbjenis',
+      'submenu1' => 'ref_kendaraan',
       'title' => 'Tabel Jenis Kendaraan',
       'tbjenis' => $this->tbjenisModel->orderBy('kode')->findAll() //$tbjenis
     ];
