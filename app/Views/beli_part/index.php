@@ -62,12 +62,14 @@ $session->set($ses_data);
       <div class="card-body">
         <button class="btn btn-flat btn-info btn-sm mb-2 btn-float-right btnreload" onclick="reload_table()" type="button"><i class="fa fa-spinner"></i></button>
         <button class="btn btn-flat btn-primary btn-sm mb-2 tomboltambah" type="button" <?= $tambah != 1 ? 'disabled' : '' ?>><i class="fa fa-plus"></i> Tambah</button>
-        <div id="tabel_po_part"></div>
+        <div id="tabel_beli_part"></div>
       </div>
     </div>
 </main>
 
 <div class="viewmodal" style="display: none;"></div>
+<div class="viewmodaltambah" style="display: none;"></div>
+<div class="viewmodaledit" style="display: none;"></div>
 <div class="viewmodalinputdetail" style="display: none;"></div>
 <div class="viewmodaldetail" style="display: none;"></div>
 <div class="viewmodalcari" style="display: none;"></div>
@@ -93,20 +95,20 @@ $session->set($ses_data);
     }
     ?>
     // $(document).ready(function() {
-    //   $('#tbl_po_part').DataTable();
+    //   $('#tbl_beli_part').DataTable();
     // });
 
     $.ajax({
-      url: "<?= site_url('po_part/table_po_part'); ?>",
+      url: "<?= site_url('beli_part/table_beli_part'); ?>",
       beforeSend: function(f) {
         $('.btnreload').attr('disable', 'disabled')
         $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
         // alert('1');
-        $('#tabel_po_part').html('<center>Loading Table ...</center>');
+        $('#tabel_beli_part').html('<center>Loading Table ...</center>');
       },
       success: function(data) {
         // alert(data);
-        $('#tabel_po_part').html(data);
+        $('#tabel_beli_part').html(data);
         $('.btnreload').removeAttr('disable')
         $('.btnreload').html('<i class="fa fa-spinner">')
       }
@@ -116,7 +118,7 @@ $session->set($ses_data);
   $('.tomboltambah').click(function(e) {
     e.preventDefault();
     $.ajax({
-      url: "<?= site_url('po_part/formtambah') ?>",
+      url: "<?= site_url('beli_part/formtambah') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodal').html(response.data).show();

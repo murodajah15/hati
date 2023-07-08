@@ -1,0 +1,239 @@
+CRITICAL - 2023-07-05 11:48:36 --> A non-numeric value encountered
+in APPPATH\Controllers\Po_part.php on line 169.
+ 1 APPPATH\Controllers\Po_part.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Po_part.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->simpanpo_part()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 11:52:40 --> Undefined variable $tgl
+in APPPATH\Views\po_part\modaltambah.php on line 40.
+ 1 APPPATH\Views\po_part\modaltambah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgl', 'APPPATH\\Views\\po_part\\modaltambah.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\modaltambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/modaltambah', [], true)
+ 5 APPPATH\Controllers\Po_part.php(116): view('po_part/modaltambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->formtambah()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:05:27 --> Undefined array key "kode_asuransi"
+in APPPATH\Views\po_part\input_po_partd.php on line 37.
+ 1 APPPATH\Views\po_part\input_po_partd.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_asuransi"', 'APPPATH\\Views\\po_part\\input_po_partd.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\input_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/input_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(298): view('po_part/input_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->input_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:05:37 --> Undefined array key "kode_asuransi"
+in APPPATH\Views\po_part\input_po_partd.php on line 37.
+ 1 APPPATH\Views\po_part\input_po_partd.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_asuransi"', 'APPPATH\\Views\\po_part\\input_po_partd.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\input_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/input_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(298): view('po_part/input_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->input_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:14:52 --> Invalid file: po_part/tbl_po_partd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('po_part/tbl_po_partd.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tbl_po_partd', [], true)
+ 3 APPPATH\Controllers\Po_part.php(445): view('po_part/tbl_po_partd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:20:26 --> Invalid file: po_part/tbl_po_partd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('po_part/tbl_po_partd.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tbl_po_partd', [], true)
+ 3 APPPATH\Controllers\Po_part.php(445): view('po_part/tbl_po_partd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:21:20 --> Invalid file: po_part/tbl_po_partd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('po_part/tbl_po_partd.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tbl_po_partd', [], true)
+ 3 APPPATH\Controllers\Po_part.php(445): view('po_part/tbl_po_partd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:22:44 --> Invalid file: po_part/tbl_po_partd.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('po_part/tbl_po_partd.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tbl_po_partd', [], true)
+ 3 APPPATH\Controllers\Po_part.php(445): view('po_part/tbl_po_partd', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:24:38 --> Undefined array key "qty"
+in APPPATH\Views\po_part\tabel_po_partd.php on line 28.
+ 1 APPPATH\Views\po_part\tabel_po_partd.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'APPPATH\\Views\\po_part\\tabel_po_partd.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\tabel_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tabel_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(445): view('po_part/tabel_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-07-05 15:29:34 --> mysqli_sql_exception: Unknown column 'nopo' in 'where clause' in D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\hati\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\hati\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\hati\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\hati\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\hati\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\hati\app\Models\Po_partdModel.php(66): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\hati\app\Controllers\Po_part.php(443): App\Models\Po_partdModel->getnopo('PO20230700005')
+#8 D:\xampp\htdocs\hati\system\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+#9 D:\xampp\htdocs\hati\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+#10 D:\xampp\htdocs\hati\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\hati\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\hati\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-05 15:29:34 --> Unknown column 'nopo' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `po_partd`
+WHERE `nopo` = \'PO20230700005\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_partd`
+WHERE `nopo` = \'PO20230700005\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_partd`
+WHERE `nopo` = \'PO20230700005\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_partd`
+WHERE `nopo` = :nopo:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\Po_partdModel.php(66): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Po_part.php(443): App\Models\Po_partdModel->getnopo('PO20230700005')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:43:12 --> Undefined variable $tbbarang
+in APPPATH\Views\po_part\modalcaripart.php on line 25.
+ 1 APPPATH\Views\po_part\modalcaripart.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbarang', 'APPPATH\\Views\\po_part\\modalcaripart.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\modalcaripart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/modalcaripart', [], true)
+ 5 APPPATH\Controllers\Po_part.php(481): view('po_part/modalcaripart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->caridatapart()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:43:34 --> Undefined variable $tbbarang
+in APPPATH\Views\po_part\modalcaripart.php on line 25.
+ 1 APPPATH\Views\po_part\modalcaripart.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbbarang', 'APPPATH\\Views\\po_part\\modalcaripart.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\modalcaripart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/modalcaripart', [], true)
+ 5 APPPATH\Controllers\Po_part.php(481): view('po_part/modalcaripart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->caridatapart()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:46:59 --> Undefined array key "satuan"
+in APPPATH\Views\po_part\modalcaripart.php on line 31.
+ 1 APPPATH\Views\po_part\modalcaripart.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan"', 'APPPATH\\Views\\po_part\\modalcaripart.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\modalcaripart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/modalcaripart', [], true)
+ 5 APPPATH\Controllers\Po_part.php(481): view('po_part/modalcaripart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->caridatapart()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:48:46 --> Undefined array key "kode"
+in APPPATH\Controllers\Po_part.php on line 492.
+ 1 APPPATH\Controllers\Po_part.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Po_part.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->replpart()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:49:29 --> Undefined array key "kode"
+in APPPATH\Controllers\Po_part.php on line 492.
+ 1 APPPATH\Controllers\Po_part.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Po_part.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->replpart()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 15:50:02 --> Undefined array key "kode"
+in APPPATH\Controllers\Po_part.php on line 492.
+ 1 APPPATH\Controllers\Po_part.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Controllers\\Po_part.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->replpart()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 16:26:47 --> Undefined array key "pr_discount"
+in APPPATH\Views\po_part\tabel_po_partd.php on line 30.
+ 1 APPPATH\Views\po_part\tabel_po_partd.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pr_discount"', 'APPPATH\\Views\\po_part\\tabel_po_partd.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\tabel_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tabel_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(548): view('po_part/tabel_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 16:29:27 --> Undefined array key "pr_discount"
+in APPPATH\Views\po_part\tabel_po_partd.php on line 30.
+ 1 APPPATH\Views\po_part\tabel_po_partd.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pr_discount"', 'APPPATH\\Views\\po_part\\tabel_po_partd.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\tabel_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tabel_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(548): view('po_part/tabel_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 16:30:04 --> Undefined array key "kode"
+in APPPATH\Views\po_part\tabel_po_partd.php on line 37.
+ 1 APPPATH\Views\po_part\tabel_po_partd.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode"', 'APPPATH\\Views\\po_part\\tabel_po_partd.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\po_part\\tabel_po_partd.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('po_part/tabel_po_partd', [], true)
+ 5 APPPATH\Controllers\Po_part.php(548): view('po_part/tabel_po_partd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->table_po_partd()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-05 16:45:53 --> Call to undefined method App\Models\Po_partdModel::jumpart
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Po_part.php(398): CodeIgniter\Model->__call('jumpart', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Po_part->hitung_summary_po()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Po_part))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

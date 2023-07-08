@@ -9,6 +9,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <?= form_open('penerimaankasir/simpandata', ['class' => 'formpenerimaankasir']) ?>
+      <?= csrf_field(); ?>
       <?php
       $nomemo = "MF" . uniqid();
       ?>

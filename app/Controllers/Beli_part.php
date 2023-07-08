@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\Beli_partModel;
+use App\Models\Beli_partdModel;
 use App\Models\Po_partModel;
 use App\Models\Po_partdModel;
 use App\Models\TbsupplierModel;
@@ -9,12 +11,14 @@ use App\Models\TbbarangModel;
 
 use \Dompdf\Dompdf;
 
-class Po_part extends BaseController
+class Beli_part extends BaseController
 {
-  protected $po_partModel, $po_partdModel, $tbsupplierModel, $tbbarangModel;
+  protected $beli_partModel, $beli_partdModel, $po_partModel, $po_partdModel, $tbsupplierModel, $tbbarangModel;
 
   public function __construct()
   {
+    $this->beli_partModel = new Beli_partModel();
+    $this->beli_partdModel = new Beli_partdModel();
     $this->po_partModel = new Po_partModel();
     $this->po_partdModel = new Po_partdModel();
     $this->tbsupplierModel = new TbsupplierModel();
@@ -25,12 +29,12 @@ class Po_part extends BaseController
   {
     $data = [
       'menu' => 'transaksi',
-      'submenu' => 'po_part',
+      'submenu' => 'beli_part',
       'submenu1' => 'spare_part',
-      'title' => 'Purchase Order Part',
-      'po_part' => $this->po_partModel->orderBy('nopo')->findAll() //$wo
+      'title' => 'Pembelian Spare Part',
+      'beli_part' => $this->beli_partModel->orderBy('nobeli')->findAll() //$wo
     ];
-    echo view('po_part/index', $data);
+    echo view('beli_part/index', $data);
   }
 
   public function ajaxLoadData()
@@ -40,8 +44,8 @@ class Po_part extends BaseController
     $katakunci = isset($_REQUEST['search']['value']) ? $_REQUEST['search']['value'] : '';
     $start = isset($_REQUEST['start']) ? $_REQUEST['start'] : '';
     $length = isset($_REQUEST['length']) ? $_REQUEST['length'] : '';
-    $data = $this->po_partModel->tampilData($request, $katakunci, $start, $length);
-    $jumlahData = $this->po_partModel->tampilData($request, $katakunci);
+    $data = $this->beli_partModel->tampilData($request, $katakunci, $start, $length);
+    $jumlahData = $this->beli_partModel->tampilData($request, $katakunci);
     $output = array(
       "draw" => intval($param['draw']),
       "recordsTotal" => count($jumlahData),
@@ -51,55 +55,29 @@ class Po_part extends BaseController
     echo json_encode($output);
   }
 
-  public function table_po_part()
+  public function table_beli_part()
   {
-    $model = new po_partModel();
-    $data['title'] = 'Purchase Order Part';
-    $data['po_part'] = $model->findAll();
-    // var_dump($data['po_part']);
-    echo view('po_part/tabel_po_part', $data);
+    $model = new beli_partModel();
+    $data['title'] = 'Pembelian Spare Part';
+    $data['beli_part'] = $model->findAll();
+    // var_dump($data['beli_part']);
+    echo view('beli_part/tabel_beli_part', $data);
   }
-
-  // public function detail_po_part()
-  // {
-  //   $id = $this->request->getVar('id');
-  //   $row = $this->po_partModel->find($id);
-  //   $nopolisi = $row['nopolisi'];
-  //   $kdpemilik = $row['kdpemilik'];
-  //   $kdsa = $row['kdsa'];
-  //   $data = [
-  //     'title' => 'Detail WO',
-  //     'po_part' => $this->po_partModel->find($id),
-  //     'tbmobil' => $this->tbmobilModel->getnopolisi($nopolisi),
-  //     'tbmerek' => $this->tbmerekModel->getNama(),
-  //     'tbmodel' => $this->tbmodelModel->getMerek(),
-  //     'tbtipe' => $this->tbtipeModel->getModel(),
-  //     'tbwarna' => $this->tbwarnaModel->getNama(),
-  //     'tbjenis' => $this->tbjenisModel->getNama(),
-  //     'tbsa' => $this->tbsaModel->getkode($kdsa),
-  //     'tbcustomer' => $this->tbcustomerModel->getkdcustomer($kdpemilik),
-  //   ];
-  //   var_dump($data);
-  //   $msg = [
-  //     'sukses' => view('po_part/detail_po_part', $data)
-  //   ];
-  //   echo json_encode($msg);
-  // }
 
   public function formdetail()
   {
     if ($this->request->isAjax()) {
       $id = $this->request->getVar('id');
-      $row = $this->po_partModel->find($id);
+      $row = $this->beli_partModel->find($id);
       $kdsupplier = $row['kdsupplier'];
       $data = [
-        'title' => 'Detail Purchase Order (PO)',
-        'po_part' => $this->po_partModel->find($id),
+        'title' => 'Detail Pembelian Spare Part',
+        'beli_part' => $this->beli_partModel->find($id),
         'tbsupplier' => $this->tbsupplierModel->getkode($kdsupplier),
       ];
       // var_dump($data);
       $msg = [
-        'sukses' => view('po_part/modaldetail', $data)
+        'sukses' => view('beli_part/modaldetail', $data)
       ];
       echo json_encode($msg);
     }
@@ -109,11 +87,11 @@ class Po_part extends BaseController
   {
     if ($this->request->isAjax()) {
       $data = [
-        'title' => 'Tambah Data Purchase Order (PO)',
-        'po_part' => $this->po_partModel->findAll(),
+        'title' => 'Tambah Data Pembelian Spare Part',
+        'beli_part' => $this->beli_partModel->findAll(),
       ];
       $msg = [
-        'data' => view('po_part/modaltambah', $data),
+        'data' => view('beli_part/modaltambah', $data),
       ];
       echo json_encode($msg);
     } else {
@@ -121,7 +99,7 @@ class Po_part extends BaseController
     }
   }
 
-  public function simpanpo_part()
+  public function simpanbeli_part()
   {
     if ($this->request->isAjax()) {
       $validation = \Config\Services::validation();
@@ -152,20 +130,22 @@ class Po_part extends BaseController
         echo json_encode($msg);
       } else {
         date_default_timezone_set('Asia/Jakarta');
-        $nopo = 'PO' . date('Y') . date('m') . sprintf("%05s", intval(substr('00000', -5)) + 1);
-        $po = $this->po_partModel->buatnopo();
-        if (isset($po)) {
-          foreach ($po as $row) {
-            if ($row->nopo != NULL) {
-              $nopo = 'PO' . date('Y') . date('m') . sprintf("%05s", intval(substr($row->nopo, -5)) + 1);
+        $nobeli = 'BL' . date('Y') . date('m') . sprintf("%05s", intval(substr('00000', -5)) + 1);
+        $beli = $this->beli_partModel->buatnobeli();
+        if (isset($beli)) {
+          foreach ($beli as $row) {
+            if ($row->nobeli != NULL) {
+              $nobeli = 'BL' . date('Y') . date('m') . sprintf("%05s", intval(substr($row->nobeli, -5)) + 1);
             }
           }
         }
         $session = session();
         $user = "Tambah-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
         $simpandata = [
-          'nopo' => $nopo, //$this->request->getVar('nopo'),
+          'nobeli' => $nobeli, //$this->request->getVar('nopo'),
           'tanggal' => $this->request->getVar('tanggal'),
+          'nopo' => $this->request->getVar('nopo'),
+          'tglpo' => $this->request->getVar('tglpo'),
           'kdsupplier' => $this->request->getVar('kdsupplier'),
           'nmsupplier' => $this->request->getVar('nmsupplier'),
           'jnsorder' => $this->request->getVar('jnsorder'),
@@ -187,7 +167,25 @@ class Po_part extends BaseController
           'user' => $user,
         ];
         // var_dump($simpandata);
-        $this->po_partModel->insert($simpandata);
+        $this->beli_partModel->insert($simpandata);
+        $nopo = $this->request->getVar('nopo');
+        $rowpod = $this->po_partdModel->getnopo($nopo);
+        var_dump($rowpod);
+        if ($rowpod) {
+          foreach ($rowpod as $pod) {
+            $simpandata = [
+              'nobeli' => $nobeli,
+              'kodepart' => $pod['kodepart'],
+              'namapart' => $pod['namapart'],
+              'qty' => $pod['qty'],
+              'hrgbeli' => $pod['hrgbeli'],
+              'discount' => $pod['discount'],
+              'rp_discount' => $pod['rp_discount'],
+              'subtotal' => $pod['subtotal'],
+            ];
+            $this->beli_partdModel->insert($simpandata);
+          }
+        }
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];
@@ -204,11 +202,11 @@ class Po_part extends BaseController
     if ($this->request->isAjax()) {
       $id = $this->request->getVar('id');
       $data = [
-        'title' => 'Edit Data Purchase Order (PO)',
-        'po_part' => $this->po_partModel->find($id),
+        'title' => 'Edit Data Pembelian Spare Part',
+        'beli_part' => $this->beli_partModel->find($id),
       ];
       $msg = [
-        'sukses' => view('po_part/modaledit', $data),
+        'sukses' => view('beli_part/modaledit', $data),
       ];
       echo json_encode($msg);
     } else {
@@ -216,7 +214,7 @@ class Po_part extends BaseController
     }
   }
 
-  public function update_po_part()
+  public function update_beli_part()
   {
     if ($this->request->isAjax()) {
       $id = $this->request->getVar('id');
@@ -273,7 +271,7 @@ class Po_part extends BaseController
           'user' => $user,
         ];
         // var_dump($simpandata);
-        $this->po_partModel->update($id, $simpandata);
+        $this->beli_partModel->update($id, $simpandata);
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];
@@ -285,22 +283,22 @@ class Po_part extends BaseController
     }
   }
 
-  public function input_po_partd()
+  public function input_beli_partd()
   {
     $id = $this->request->getVar('id');
-    $row = $this->po_partModel->find($id);
+    $row = $this->beli_partModel->find($id);
     $data = [
       'title' => 'Update Detail PO Spare Part',
-      'po_part' => $this->po_partModel->find($id),
+      'beli_part' => $this->beli_partModel->find($id),
     ];
     // var_dump($data);
     $msg = [
-      'sukses' => view('po_part/input_po_partd', $data)
+      'sukses' => view('beli_part/input_beli_partd', $data)
     ];
     echo json_encode($msg);
   }
 
-  public function simpan_po_partd()
+  public function simpan_beli_partd()
   {
     if ($this->request->isAjax()) {
       $validation = \Config\Services::validation();
@@ -332,10 +330,12 @@ class Po_part extends BaseController
       } else {
         date_default_timezone_set('Asia/Jakarta');
         $session = session();
-        $nopo = $this->request->getVar('nopo');
-        $row = $this->po_partModel->getnopo($nopo);
-        $close = $row['close'];
-        $batal = $row['batal'];
+        $nobeli = $this->request->getVar('nobeli');
+        $rowclose = $this->beli_partModel->getnobeli($nobeli);
+        foreach ($rowclose as $row) {
+          $close = $row['close'];
+          $batal = $row['batal'];
+        }
         if ($close == 1 or $batal == 1) {
           $msg = [
             'sukses' => 'Data gagal disimpan'
@@ -345,14 +345,14 @@ class Po_part extends BaseController
           exit();
         }
         $kode = $this->request->getVar('kodepart');
-        $data = $this->po_partdModel->getdoublebarang($nopo, $kode);
+        $data = $this->beli_partdModel->getdoublebarang($nobeli, $kode);
         if ($data) {
           foreach ($data as $row) {
             $id = $row['id'];
           }
           $user = "Edit-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
           $simpandata = [
-            'nopo' => $this->request->getVar('nopo'),
+            'nobeli' => $this->request->getVar('nobeli'),
             'kodepart' => $this->request->getVar('kodepart'),
             'namapart' => $this->request->getVar('namapart'),
             'qty' => str_replace(",", "", $this->request->getVar('qty')),
@@ -363,14 +363,14 @@ class Po_part extends BaseController
             'subtotal' => preg_replace("/[^a-zA-Z0-9]/", "", $this->request->getVar('subtotal')),
             'user' => $user,
           ];
-          $this->po_partdModel->update($id, $simpandata);
+          $this->beli_partdModel->update($id, $simpandata);
           $msg = [
             'sukses' => 'Data berhasil disimpan'
           ];
         } else {
           $user = "Tambah-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
           $simpandata = [
-            'nopo' => $this->request->getVar('nopo'),
+            'nobeli' => $this->request->getVar('nobeli'),
             'kodepart' => $this->request->getVar('kodepart'),
             'namapart' => $this->request->getVar('namapart'),
             'qty' => str_replace(",", "", $this->request->getVar('qty')),
@@ -382,7 +382,7 @@ class Po_part extends BaseController
             'user' => $user,
           ];
           // var_dump($simpandata);
-          $this->po_partdModel->insert($simpandata);
+          $this->beli_partdModel->insert($simpandata);
           $msg = [
             'sukses' => 'Data berhasil disimpan'
           ];
@@ -395,10 +395,10 @@ class Po_part extends BaseController
     }
   }
 
-  public function tampil_detail_po_partd($id)
+  public function tampil_detail_beli_partd($id)
   {
     $id = $_POST['id'];
-    $row = $this->po_partdModel->find($id);
+    $row = $this->beli_partdModel->find($id);
     if (isset($row)) {
       $data = [
         'kodepart' => $row['kodepart'],
@@ -423,19 +423,19 @@ class Po_part extends BaseController
     echo json_encode($data);
   }
 
-  public function update_po_partd()
+  public function update_beli_partd()
   {
     if ($this->request->isAjax()) {
       $id = $this->request->getVar('id');
-      $row = $this->po_partdModel->find($id);
+      $row = $this->beli_partdModel->find($id);
       $data = [
-        'title' => 'Edit Data Purchase Order (PO)',
-        'po_partd' => $this->po_partdModel->find($id),
+        'title' => 'Edit Data Pembelian Spare Part',
+        'beli_partd' => $this->beli_partdModel->find($id),
         'tbbarang' => $this->tbbarangModel->where('aktif', 'Y')->orderBy('kode', 'asc')->findAll()
       ];
       // var_dump($data);
       $msg = [
-        'sukses' => view('po_part/editpo_partd', $data)
+        'sukses' => view('beli_part/editbeli_partd', $data)
       ];
       echo json_encode($msg);
     } else {
@@ -443,17 +443,20 @@ class Po_part extends BaseController
     }
   }
 
-  public function hitung_summary_po()
+  public function hitung_summary_beli()
   {
-    $nopo = $_POST['nopo'];
-    $row = $this->po_partModel->getnopo($nopo);
-    $nopo = $row['nopo'];
-    $idpo = $row['id'];
-    $ppn = $row['ppn'];
-    $total_biaya = $row['total_biaya'];
-    $materai = $row['materai'];
+    $nobeli = $_POST['nobeli'];
+    $row = $this->beli_partModel->getnobeli($nobeli);
+    // var_dump($nobeli);
+    foreach ($row as $k) {
+      $nobeli = $k['nobeli'];
+      $idpo = $k['id'];
+      $ppn = $k['ppn'];
+      $total_biaya = $k['total_biaya'];
+      $materai = $k['materai'];
+    }
     $jumpart = 0;
-    $jumpartrec = $this->po_partdModel->jumpart($nopo);
+    $jumpartrec = $this->beli_partdModel->jumpart($nobeli);
     foreach ($jumpartrec as $j) {
       $jumpart = $j['jumpart'];
     }
@@ -469,7 +472,7 @@ class Po_part extends BaseController
       'total' => $total,
     ];
     // var_dump($dataupdate);
-    $this->po_partModel->update($idpo, $dataupdate);
+    $this->beli_partModel->update($idpo, $dataupdate);
   }
 
   public function simpan_batal_faktur()
@@ -506,13 +509,92 @@ class Po_part extends BaseController
         ];
         // var_dump($simpandata);
         $id = $this->request->getVar('id');
-        $this->po_partModel->update($id, $simpandata);
+        $this->beli_partModel->update($id, $simpandata);
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];
         session()->setFlashdata('pesan', 'Data berhasil disimpan');
         echo json_encode($msg);
       }
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function caridatapo()
+  {
+    if ($this->request->isAjax()) {
+      $data = [
+        'title' => 'Cari Data po',
+        'po_part' => $this->po_partModel->where('close', '1')->orderBy('nopo', 'desc')->findAll() //$rwtkeluarga
+      ];
+      // var_dump($data);
+      $msg = [
+        'data' => view('beli_part/modalcaripo', $data),
+      ];
+      echo json_encode($msg);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function replpo()
+  {
+    if ($this->request->isAjax()) {
+      $nopo = $_POST['nopo'];
+      $row = $this->po_partModel->getnopo($nopo);
+      if (isset($row)) {
+        $data = [
+          'title' => 'Detail data po',
+          'nopo' => $row['nopo'],
+          'tglpo' => $row['tanggal'],
+          'kdsupplier' => $row['kdsupplier'],
+          'nmsupplier' => $row['nmsupplier'],
+          'jnsorder' => $row['jnsorder'],
+          'reference' => $row['reference'],
+          'biaya1' => $row['biaya1'],
+          'nbiaya1' => $row['nbiaya1'],
+          'biaya2' => $row['biaya2'],
+          'nbiaya2' => $row['nbiaya2'],
+          'total_biaya' => $row['total_biaya'],
+          'catatan' => $row['catatan'],
+          'subtotal' => $row['subtotal'],
+          'ppn' => $row['ppn'],
+          'rp_ppn' => $row['rp_ppn'],
+          'materai' => $row['materai'],
+          'cara_bayar' => $row['cara_bayar'],
+          'tempo' => $row['tempo'],
+          'tgljttempo' => $row['tgljttempo'],
+          'total' => $row['total'],
+          'partshop' => $row['partshop'],
+        ];
+      } else {
+        $data = [
+          'title' => 'Detail data po',
+          'nopo' => '',
+          'tglpo' => '',
+          'kdsupplier' => '',
+          'nmsupplier' => '',
+          'jnsorder' => '',
+          'reference' => '',
+          'biaya1' => '',
+          'nbiaya1' => 0,
+          'biaya2' => '',
+          'nbiaya2' => 0,
+          'total_biaya' => 0,
+          'catatan' => '',
+          'subtotal' => 0,
+          'ppn' => 0,
+          'rp_ppn' => 0,
+          'materai' => 0,
+          'cara_bayar' => '',
+          'tempo' => 0,
+          'tgljttempo' => '',
+          'total' => 0,
+          'partshop' => 0,
+        ];
+      }
+      echo json_encode($data);
     } else {
       exit('Maaf tidak dapat diproses');
     }
@@ -527,7 +609,7 @@ class Po_part extends BaseController
       ];
       // var_dump($data);
       $msg = [
-        'data' => view('po_part/modalcarisupplier', $data),
+        'data' => view('beli_part/modalcarisupplier', $data),
       ];
       echo json_encode($msg);
     } else {
@@ -568,7 +650,7 @@ class Po_part extends BaseController
       ];
       // var_dump($data);
       $msg = [
-        'data' => view('po_part/modalcaripart', $data),
+        'data' => view('beli_part/modalcaripart', $data),
       ];
       echo json_encode($msg);
     } else {
@@ -604,14 +686,13 @@ class Po_part extends BaseController
     }
   }
 
-  public function hapus_po_part()
+  public function hapus_beli_part()
   {
     if ($this->request->isAjax()) {
       $id = $_POST['id'];
       $row = $this->po_partModel->find($id);
       $close = $row['close'];
       $batal = $row['batal'];
-      $nopo = $row['nopo'];
       if ($close == 1 or $batal == 1) {
         $msg = [
           'sukses' => 'Data gagal disimpan'
@@ -620,8 +701,7 @@ class Po_part extends BaseController
         echo json_encode($msg);
         exit();
       } else {
-        $this->po_partModel->delete_by_id($id);
-        $this->po_partdModel->delete_po($nopo);
+        $this->beli_partModel->delete_by_id($id);
         $msg = [
           'sukses' => 'Data berhasil dihapus'
         ];
@@ -631,51 +711,60 @@ class Po_part extends BaseController
     };
   }
 
-  public function hapus_po_partd()
+  public function hapus_beli_partd()
   {
     if ($this->request->isAjax()) {
       $id = $_POST['id'];
-      $row = $this->po_partdModel->find($id);
+      $row = $this->beli_partdModel->find($id);
       $proses = $row['proses'];
-      // $nopo = $row['nopo'];
-      // $rowpo = $this->po_partModel->getnopo($nopo);
-      $close = $row['close'];
-      $batal = $row['batal'];
-      if ($close == 1 or $batal == 1 or $proses == 1) {
+      $nobeli = $row['nobeli'];
+      $nobeli = $this->request->getVar('nobeli');
+      $rowclose = $this->beli_partModel->getnobeli($nobeli);
+      foreach ($rowclose as $row) {
+        $close = $row['close'];
+        $batal = $row['batal'];
+      }
+      if ($close == 1 or $batal == 1) {
         $msg = [
           'sukses' => 'Data gagal disimpan'
         ];
         session()->setFlashdata('pesan', 'Data gagal ditambah');
         echo json_encode($msg);
         exit();
-      } else {
-        $this->po_partdModel->delete_by_id($id);
+      }
+      if ($proses == 0) {
+        $this->beli_partdModel->delete_by_id($id);
         $msg = [
           'sukses' => 'Data berhasil dihapus'
         ];
         session()->setFlashdata('pesan', 'Data berhasil dihapus');
+      } else {
+        $msg = [
+          'sukses' => 'Data gagal dihapus'
+        ];
+        session()->setFlashdata('pesan', 'Data gagal dihapus');
       }
       echo json_encode($msg);
     };
   }
 
-  public function table_po_partd()
+  public function table_beli_partd()
   {
-    $nopo = $_POST['nopo'];
+    $nobeli = $_POST['nobeli'];
     $data = [
-      'nopo' => $nopo,
-      'title' => 'Purchase Order Part',
-      'po_partd' => $this->po_partdModel->getnopo($nopo)
+      'nobeli' => $nobeli,
+      'title' => 'Pembelian Spare Part',
+      'beli_partd' => $this->beli_partdModel->getnobeli($nobeli)
     ];
-    echo view('po_part/tabel_po_partd', $data);
+    echo view('beli_part/tabel_beli_partd', $data);
   }
 
-  public function close_po_part()
+  public function close_beli_part()
   {
     if ($this->request->isAjax()) {
       $session = session();
       $id = $_POST['id'];
-      $row = $this->po_partModel->find($id);
+      $row = $this->beli_partModel->find($id);
       $close = $row['close'];
       if ($close == 0) {
         $user = "Close-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
@@ -683,7 +772,7 @@ class Po_part extends BaseController
           'close' => 1,
           'user' => $user,
         ];
-        $this->po_partModel->update($id, $simpandata);
+        $this->beli_partModel->update($id, $simpandata);
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];
@@ -697,12 +786,12 @@ class Po_part extends BaseController
     };
   }
 
-  public function unclose_po_part()
+  public function unclose_beli_part()
   {
     if ($this->request->isAjax()) {
       $session = session();
       $id = $_POST['id'];
-      $row = $this->po_partModel->find($id);
+      $row = $this->beli_partModel->find($id);
       $close = $row['close'];
       if ($close == 1) {
         $user = "Unclose-" . $session->get('nama') . "-" . date('d-m-Y H:i:s');
@@ -710,7 +799,7 @@ class Po_part extends BaseController
           'close' => 0,
           'user' => $user,
         ];
-        $this->po_partModel->update($id, $simpandata);
+        $this->beli_partModel->update($id, $simpandata);
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];
@@ -724,25 +813,25 @@ class Po_part extends BaseController
     };
   }
 
-  public function cetakpo_part($id)
+  public function cetakbeli_part($id)
   {
     $dompdf = new Dompdf();
-    $row = $this->po_partModel->find($id);
-    $nopo = $row['nopo'];
+    $row = $this->beli_partModel->find($id);
+    $nobeli = $row['nobeli'];
     $data = [
-      'title' => 'Cetak faktur',
-      'po_part' => $this->po_partModel->find($id),
+      'title' => 'Cetak Pembelian Spare Part',
+      'beli_part' => $this->beli_partModel->find($id),
     ];
     // var_dump($data);
     // $msg = [
-    //   'sukses' => view('po_part/cetakpo_part', $data)
+    //   'sukses' => view('beli_part/cetakbeli_part', $data)
     // ];
-    $html =  view('po_part/cetakpo_part', $data);
+    $html =  view('beli_part/cetakbeli_part', $data);
     $dompdf->loadHtml($html);
     $dompdf->setPaper('A4', 'Potrait');
     $dompdf->render();
     // $dompdf->stream(); //langsung download
-    $dompdf->stream('faktur ' . $nopo . '.pdf', array("Attachment" => false));
+    $dompdf->stream('pembelian ' . $nobeli . '.pdf', array("Attachment" => false));
     // var_dump($msg);
     // echo json_encode($msg);
     // } else {
@@ -750,18 +839,18 @@ class Po_part extends BaseController
     // }
   }
 
-  public function cancel_po_part()
+  public function cancel_beli_part()
   {
     if ($this->request->isAjax()) {
       $session = session();
       $id = $_POST['id'];
-      $row = $this->po_partModel->find($id);
+      $row = $this->beli_partModel->find($id);
       $close = $row['close'];
       // $nopo = $row['nopo'];
       // if (!isset($close)) {
       //   $close = 0;
       // }
-      // $row = $this->po_partModel->getnopo($nopo);
+      // $row = $this->beli_partModel->getnopo($nopo);
       // foreach ($row as $data) {
       //   $close_wo = $data['close'];
       // }
@@ -771,7 +860,7 @@ class Po_part extends BaseController
           'batal' => 1,
           'user_batal' => $user,
         ];
-        $this->po_partModel->update($id, $simpandata);
+        $this->beli_partModel->update($id, $simpandata);
         $msg = [
           'sukses' => 'Data berhasil disimpan'
         ];

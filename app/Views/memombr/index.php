@@ -152,46 +152,6 @@ $session->set($ses_data);
     })
   }
 
-  function detailmemombr($id) {
-    $.ajax({
-      type: "get",
-      url: "<?= site_url('wo/detailmemombr') ?>",
-      dataType: "json",
-      data: {
-        id: $id
-      },
-      success: function(response) {
-        if (response.sukses) {
-          $('.viewmodal').html(response.sukses).show();
-          $('#modaldetail_memombr').modal('show');
-        }
-      },
-      error: function(xhr, ajaxOptions, thrownError) {
-        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
-      }
-    })
-  }
-
-  // function edit($id) {
-  //   $.ajax({
-  //     type: "post",
-  //     url: "<?= site_url('wo/formedit') ?>",
-  //     dataType: "json",
-  //     data: {
-  //       id: $id
-  //     },
-  //     success: function(response) {
-  //       if (response.sukses) {
-  //         $('.viewmodal').html(response.sukses).show();
-  //         $('#modaledit').modal('show');
-  //       }
-  //     },
-  //     error: function(xhr, ajaxOptions, thrownError) {
-  //       alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
-  //     }
-  //   })
-  // }
-
   function hapus_memombr($id, $kode) {
     swal({
         title: "Yakin akan hapus ?",

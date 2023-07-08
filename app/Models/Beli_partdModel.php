@@ -4,30 +4,29 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Po_partModel extends Model
+class Beli_partdModel extends Model
 {
-  protected $table      = 'po_part';
+  protected $table      = 'beli_partd';
   // protected $primaryKey = 'id';
   protected $useTimestamps = true;
   protected $allowedFields = [
-    'nopo', 'tanggal', 'kdsupplier', 'nmsupplier', 'jnsorder', 'reference', 'biaya1', 'nbiaya1', 'biaya2', 'nbiaya2', 'biaya3',
-    'total_biaya', 'catatan', 'subtotal', 'totalsmt', 'ppn', 'rp_ppn', 'materai', 'total',  'user', 'close', 'user_close',
-    'batal', 'user_batal', 'part_shop', 'tempo', 'tgljttempo', 'cara_bayar'
+    'nobeli', 'kodepart', 'namapart', 'kdjnbrg', 'nmjnbrg', 'kdmove', 'nmmove', 'satuan', 'qty', 'hrgbeli', 'discount', 'rp_discount', 'subtotal', 'proses',
+    'hpp',
   ];
 
   public function tampilData($request, $katakunci = null, $start = 0, $length = 0)
   {
-    $builder = $this->table('po_part');
+    $builder = $this->table('beli_partd');
     if ($katakunci) {
       $arr = explode(" ", $katakunci);
       for ($i = 0; $i < count($arr); $i++) {
-        $builder = $builder->orlike('nopo', $arr[$i]);
-        $builder = $builder->orlike('tanggal', $arr[$i]);
-        $builder = $builder->orlike('kdsupplier', $arr[$i]);
-        $builder = $builder->orlike('nmsupplier', $arr[$i]);
-        $builder = $builder->orlike('total', $arr[$i]);
+        $builder = $builder->orlike('kodepart', $arr[$i]);
+        $builder = $builder->orlike('namapart', $arr[$i]);
+        $builder = $builder->orlike('qty', $arr[$i]);
+        $builder = $builder->orlike('hrgbeli', $arr[$i]);
+        $builder = $builder->orlike('subtotal', $arr[$i]);
       }
-      $builder = $builder->orderBy('nopo', 'asc');
+      $builder = $builder->orderBy('nobeli', 'asc');
     }
     if ($start != 0 or $length != 0) {
       // $builder = $builder->orderBy('kode', 'desc');
@@ -36,17 +35,15 @@ class Po_partModel extends Model
     $order = $request->getPost('order[0][column]');
     $order_dir = $request->getPost('order[0][dir]');
     if ($order == 0) {
-      $builder = $builder->orderBy('nopo', 'desc');
+      $builder = $builder->orderBy('kodepart', 'desc');
     } else if ($order == 1) {
-      $builder->orderBy('nopo', $order_dir);
+      $builder->orderBy('namapart', $order_dir);
     } else if ($order == 2) {
-      $builder->orderBy('tanggal', $order_dir);
+      $builder->orderBy('qty', $order_dir);
     } else if ($order == 3) {
-      $builder->orderBy('kdsupplier', $order_dir);
+      $builder->orderBy('hrgbeli', $order_dir);
     } else if ($order == 4) {
-      $builder->orderBy('nmsupplier', $order_dir);
-    } else if ($order == 5) {
-      $builder->orderBy('total', $order_dir);
+      $builder->orderBy('subtotal', $order_dir);
     }
     // return $builder->orderBy('kode', 'asc')->get()->getResult();
     return $builder->get()->getResult();
@@ -61,12 +58,12 @@ class Po_partModel extends Model
     // return $this->where('id', $id)->first();
   }
 
-  public function getnopo($nopo = false)
+  public function getnobeli($nobeli = false)
   {
-    if ($nopo == false) {
+    if ($nobeli == false) {
       return $this->findAll();
     }
-    return $this->where('nopo', $nopo)->first();
+    return $this->where('nobeli', $nobeli)->findAll();
   }
 
   public function getkdsupplier($kdcustomer = false)
@@ -84,10 +81,19 @@ class Po_partModel extends Model
     $this->delete();
   }
 
-  public function buatnopo()
+  public function jumpart($nobeli = false)
   {
-    $builder = $this->db->table("po_part");
-    $builder->selectMax('nopo');
-    return $builder->get()->getResult();
+    $this->where('nobeli', $nobeli)->select('sum(subtotal) as jumpart');
+    return $this->findAll();
+  }
+
+  public function getdoublebarang($nobeli = false, $kode = false)
+  {
+    if ($nobeli == false or $kode == false) {
+      return $this->findAll();
+    }
+    $this->where('nobeli', $nobeli);
+    $this->where('kodepart', $kode);
+    return $this->findAll();
   }
 }

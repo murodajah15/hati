@@ -46,6 +46,7 @@ class Login extends BaseController
           'logged_in'     => TRUE,
           'nama_perusahaan' => $saplikasi['nm_perusahaan'],
           'alamat_perusahaan' => $saplikasi['alamat'],
+          'ppn' => $saplikasi['ppn'],
         ];
         if ($data['aktif'] == 'Y') {
           $session->set($ses_data);

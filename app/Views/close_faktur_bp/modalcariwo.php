@@ -11,7 +11,6 @@
             <table id="example" class="table table-bordered table-striped" style="width:100%">
               <thead>
                 <tr>
-                <tr>
                   <th width="5">No</th>
                   <th width="40">No. WO</th>
                   <th width="150">Tanggal</th>

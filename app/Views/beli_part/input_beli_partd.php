@@ -15,7 +15,7 @@ $session->set($nmform);
 
 <script src="<?= base_url('/js/autoNumeric.js') ?>" crossorigin="anonymous"></script>
 
-<div class="modal fade" id="input_po_partd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="input_beli_partd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog" style="max-width: 100%;">
     <div class="modal-content">
       <div class="modal-header">
@@ -29,31 +29,38 @@ $session->set($nmform);
           }
         ?>
           <div class="row mb-2 mt-2">
-            <div class="col-12 col-sm-4">
-              <?php
-              date_default_timezone_set('Asia/Jakarta');
-              $tglwo = date('Y-m-d H:i:s');
-              ?>
+            <?php
+            date_default_timezone_set('Asia/Jakarta');
+            $tglwo = date('Y-m-d H:i:s');
+            ?>
+            <div class="col-12 col-sm-3">
+              <label for="nama" class="form-label mb-1">No. Pembelian / Tanggal (M-D-Y)</label>
+              <div class="input-group mb-1">
+                <input type='text' class='form-control form-control-sm mb-2' value="<?= $beli_part['nobeli'] ?>" name="nobeli" id="nobeli" readonly style="width: 12%">
+                <input type="datetime-local" class='form-control form-control-sm mb-2' name='tanggal' id='tanggal' value="<?= $beli_part['tanggal'] ?>" style="width: 34%" readonly>
+              </div>
+            </div>
+            <div class="col-12 col-sm-3">
               <label for="nama" class="form-label mb-1">No. PO / Tanggal (M-D-Y)</label>
               <div class="input-group mb-1">
-                <input type='text' class='form-control form-control-sm mb-2' value="<?= $po_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 5%">
-                <input type="datetime-local" class='form-control form-control-sm mb-2' name='tanggal' id='tanggal' value="<?= $po_part['tanggal'] ?>" style="width: 40%" readonly>
+                <input type='text' class='form-control form-control-sm mb-2' value="<?= $beli_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 12%">
+                <input type="datetime-local" class='form-control form-control-sm mb-2' name='tglpo' id='tglpo' value="<?= $beli_part['tglpo'] ?>" style="width: 34%" readonly>
               </div>
             </div>
             <div class="col-12 col-sm-4">
               <label for="nama" class="form-label mb-1">Supplier</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm" placeholder="Kode. Supplier" name="kdsupplier" id="kdsupplier" value="<?= $po_part['kdsupplier'] ?>" readonly>
-                <input type="text" style="width: 40%" class="form-control form-control-sm" name="nmsupplier" id="nmsupplier" value="<?= $po_part['nmsupplier'] ?>" readonly>
+                <input type="text" class="form-control form-control-sm" placeholder="Kode. Supplier" name="kdsupplier" id="kdsupplier" value="<?= $beli_part['kdsupplier'] ?>" readonly>
+                <input type="text" style="width: 40%" class="form-control form-control-sm" name="nmsupplier" id="nmsupplier" value="<?= $beli_part['nmsupplier'] ?>" readonly>
               </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-2">
               <label for="nama" class="form-label mb-1">Jenis Order</label>
-              <input type="text" class="form-control form-control-sm mb-2" name="jnsorder" id="jnsorder" readonly value="<?= $po_part['jnsorder'] ?>">
+              <input type="text" class="form-control form-control-sm mb-2" name="jnsorder" id="jnsorder" readonly value="<?= $beli_part['jnsorder'] ?>">
             </div>
           </div>
-          <?= form_open('po_part/simpanestimasidxxx', ['class' => 'forminputpo_partd']) ?>
-          <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $po_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 5%">
+          <?= form_open('beli_part/simpanestimasidxxx', ['class' => 'forminputbeli_partd']) ?>
+          <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $beli_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 5%">
           <?= csrf_field(); ?>
           <div class="row mb-2">
             <table class="table table-striped" style="width:100%">
@@ -73,7 +80,7 @@ $session->set($nmform);
               </thead>
               <tbody">
                 <input type="hidden" name="id" id="id">
-                <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $po_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 5%">
+                <input type='hidden' class='form-control form-control-sm mb-2' value="<?= $beli_part['nopo'] ?>" name="nopo" id="nopo" readonly style="width: 5%">
                 <td>
                   <div class="input-group mb-0">
                     <input type="text" class="form-control form-control-sm" placeholder="Kode Part" name="kodepart" id="kodepart" onblur="hit_subtotal_part()">
@@ -100,7 +107,7 @@ $session->set($nmform);
             </table>
           </div>
           <div class="row mb-2">
-            <div id="tabel_po_partd"></div>
+            <div id="tabel_beli_partd"></div>
           </div>
           <?= form_close() ?>
         <?php
@@ -153,14 +160,30 @@ $session->set($nmform);
         aDec: '.',
         mDec: '2'
       })
-      reload_table_po_partd();
+      reload_table_beli_partd();
 
-      $('.forminputpo_partd').submit(function() {
+
+      $('#caripart').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+          url: "<?= site_url('beli_part/caridatapart') ?>",
+          dataType: "json",
+          success: function(response) {
+            $('.viewmodalcari').html(response.data).show();
+            $('#modalcari').modal('show');
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+          }
+        })
+      })
+
+      $('.forminputbeli_partd').submit(function() {
         // alert('1')
         $.ajax({
           type: "post",
           // url: $(this).attr('action'),
-          url: "<?= site_url('po_part/simpan_po_partd') ?>",
+          url: "<?= site_url('beli_part/simpan_beli_partd') ?>",
           data: $(this).serialize(),
           dataType: "json",
           beforeSend: function() {
@@ -190,7 +213,7 @@ $session->set($nmform);
                 $('#qty').removeClass('is-invalid');
                 $('#qty').addClass('is-valid');
               }
-              // reload_table_po_part();
+              // reload_table_beli_part();
             } else {
               $('.errorKodepart').fadeOut();
               $('#kodepart').removeClass('is-invalid');
@@ -198,7 +221,7 @@ $session->set($nmform);
               $('.errorqty').fadeOut();
               $('#qty').removeClass('is-invalid');
               $('#qty').addClass('is-valid');
-              reload_table_po_partd();
+              reload_table_beli_partd();
               hitung_summary_po()
               if (response.sukses == "Data gagal disimpan") {
                 swal({
@@ -242,26 +265,11 @@ $session->set($nmform);
         hit_subtotal_part();
       })
 
-      $('#caripart').click(function(e) {
-        e.preventDefault();
-        $.ajax({
-          url: "<?= site_url('po_part/caridatapart') ?>",
-          dataType: "json",
-          success: function(response) {
-            $('.viewmodalcari').html(response.data).show();
-            $('#modalcari').modal('show');
-          },
-          error: function(xhr, ajaxOptions, thrownError) {
-            alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
-          }
-        })
-      })
-
       $('#kodepart').on('blur', function(e) {
         let cari = $(this).val()
         if (cari !== "") {
           $.ajax({
-            url: "<?= site_url('po_part/replpart') ?>",
+            url: "<?= site_url('beli_part/replpart') ?>",
             type: 'post',
             data: {
               'kode': cari
@@ -286,6 +294,7 @@ $session->set($nmform);
                 if ($('#qty').val() == "0") {
                   $('#qty').val(1);
                 }
+
                 $('#hrgbeli').val(data_response['hrgbeli']);
                 hit_subtotal_part();
               }
@@ -301,9 +310,9 @@ $session->set($nmform);
       })
     });
 
-    function reload_table_po_partd() {
-      $nopo = document.getElementById('nopo').value;
-      // alert($nopo);
+    function reload_table_beli_partd() {
+      $nobeli = document.getElementById('nobeli').value;
+      // alert($nobeli);
       <?php
       $session = session();
       // if ($session->get('nama') == "") {
@@ -322,18 +331,18 @@ $session->set($nmform);
       $.ajax({
         type: "post",
         data: {
-          nopo: $("#nopo").val()
+          nobeli: $("#nobeli").val()
         },
         // dataType: "json",
-        url: "<?= site_url('po_part/table_po_partd'); ?>",
+        url: "<?= site_url('beli_part/table_beli_partd'); ?>",
         beforeSend: function(f) {
           $('.btnreload').attr('disable', 'disabled')
           $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
           // alert('1');
-          $('#tabel_po_partd').html('<center>Loading Table ...</center>');
+          $('#tabel_beli_partd').html('<center>Loading Table ...</center>');
         },
         success: function(data) {
-          $('#tabel_po_partd').html(data);
+          $('#tabel_beli_partd').html(data);
           $('.btnreload').removeAttr('disable')
           $('.btnreload').html('<i class="fa fa-spinner">')
         },
@@ -349,15 +358,15 @@ $session->set($nmform);
       let textqty = document.getElementById("qty").value
       let qty = textqty.replace(/,/g, "");
       let total_sementara = harga * qty;
-      let rp_discount = (document.getElementById("discount").value / 100) * total_sementara;
-      let subtotal = total_sementara - rp_discount;
-      document.getElementById("rp_discount").value = rp_discount.toLocaleString('en-US');
+      let $rp_discount = (document.getElementById("discount").value / 100) * total_sementara;
+      let subtotal = total_sementara - $rp_discount;
+      document.getElementById("rp_discount").value = $rp_discount.toLocaleString('en-US');
       document.getElementById("subtotal").value = subtotal.toLocaleString('en-US');
     }
 
-    function editdetailpo_part($id) {
+    function editdetailbeli_part($id) {
       $.ajax({
-        url: "<?php echo site_url('po_part/editdetailpo_part') ?>/" + $id,
+        url: "<?php echo site_url('beli_part/editdetailbeli_part') ?>/" + $id,
         type: "POST",
         data: {
           id: $id
@@ -381,7 +390,7 @@ $session->set($nmform);
       });
     }
 
-    function hapus_po_partd($id) {
+    function hapus_beli_partd($id) {
       swal({
           title: "Yakin akan hapus ?",
           text: "Once deleted, you will not be able to recover this data!",
@@ -392,7 +401,7 @@ $session->set($nmform);
         .then((willDelete) => {
           if (willDelete) {
             $.ajax({
-              url: "<?php echo site_url('po_part/hapus_po_partd') ?>", //" + $id,
+              url: "<?php echo site_url('beli_part/hapus_beli_partd') ?>", //" + $id,
               type: "POST",
               data: {
                 id: $id
@@ -414,7 +423,7 @@ $session->set($nmform);
                     icon: "info"
                   })
                 }
-                reload_table_po_partd();
+                reload_table_beli_partd();
                 hitung_summary_po()
                 // .then(function() {
                 //   window.location.href = '/wo';
@@ -431,8 +440,8 @@ $session->set($nmform);
     }
 
     function hitung_summary_po() {
-      $nopo = document.getElementById('nopo').value;
-      // alert($nopo);
+      $nobeli = document.getElementById('nobeli').value;
+      // alert($nobeli);
       <?php
       $session = session();
       // if ($session->get('nama') == "") {
@@ -451,18 +460,18 @@ $session->set($nmform);
       $.ajax({
         type: "post",
         data: {
-          nopo: $("#nopo").val()
+          nobeli: $("#nobeli").val()
         },
         // dataType: "json",
-        url: "<?= site_url('po_part/hitung_summary_po'); ?>",
+        url: "<?= site_url('beli_part/hitung_summary_po'); ?>",
         beforeSend: function(f) {
           $('.btnreload').attr('disable', 'disabled')
           $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
           // alert('1');
-          // $('#tabel_po_partd').html('<center>Loading Table ...</center>');
+          // $('#tabel_beli_partd').html('<center>Loading Table ...</center>');
         },
         success: function(data) {
-          // $('#tabel_po_partd').html(data);
+          // $('#tabel_beli_partd').html(data);
           $('.btnreload').removeAttr('disable')
           $('.btnreload').html('<i class="fa fa-spinner">')
         },
@@ -472,18 +481,18 @@ $session->set($nmform);
       })
     }
 
-    $("#input_po_partd").on('hide.bs.modal', function() {
+    $("#input_beli_partd").on('hide.bs.modal', function() {
       // alert('The modal is about to be hidden.');
       reload_table()
     });
 
-    $("#input_po_partd").on('show.bs.modal', function() {
+    $("#input_beli_partd").on('show.bs.modal', function() {
       // alert('The modal is about to be show.');
-      // reload_table_po_part()
+      // reload_table_beli_part()
     });
 
     // $(document).ready(function() {
-    $("#nopo").dblclick(function() {
+    $("#nobeli").dblclick(function() {
       alert("The paragraph was double-clicked.");
     });
     // });

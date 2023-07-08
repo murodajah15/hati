@@ -23,53 +23,58 @@ $ppn = session()->get('ppn');
       <div class="modal-body">
         <?php if ($tambah == 1) {
         ?>
-          <?= form_open('po_part/simpanpo_part', ['class' => 'formtambahpo_part']) ?>
+          <?= form_open('beli_part/simpanbeli_part', ['class' => 'formtambahbeli_part']) ?>
           <?= csrf_field(); ?>
           <div class="row mb-1 mt-1">
             <div class="col-12 col-sm-6">
               <?php
               // date_default_timezone_set('Asia/Jakarta');
               $tanggal = date('Y-m-d H:i:s');
-              $tgl = date('Y-m-d');
               ?>
-              <label for="nama" class="form-label mb-1">No. PO / Tanggal (M-D-Y)</label>
+              <label for="nama" class="form-label mb-1">No. Pembelian / Tanggal (M-D-Y)</label>
               <div class="input-group mb-1">
                 <input type='text' class='form-control form-control-sm mb-0' value="AUTO GENERATE" id="nopojadi" name="nopojadi" readonly style="width: 5%">
                 <input type="datetime-local" class='form-control form-control-sm mb-0' name='tanggal' id='tanggal' value="<?= $tanggal ?>" style="width: 40%" readonly>
               </div>
-              <input type="hidden" class='form-control form-control-sm mb-0' name='tgl' id='tgl' value="<?= $tgl ?>" style="width: 40%" readonly>
+              <label for="nama" class="form-label mb-0">No. PO</label>
+              <div class="input-group mb-1">
+                <input type="text" style="width:10%;" name="nopo" id="nopo" class="form-control form-control-sm mb-0" placeholder="">
+                <input type="text" style="width:40%;" name="tglpo" id="tglpo" class="form-control form-control-sm mb-0" readonly>
+                <button class="btn btn-outline-secondary btn-sm" type="button" id="caripo"><i class="fa fa-search"></i></button>
+              </div>
               <label for="nama" class="form-label mb-0">Supplier</label>
               <div class="input-group mb-1">
-                <input type="text" style="width:10%;" name="kdsupplier" id="kdsupplier" class="form-control form-control-sm mb-0" placeholder="">
+                <input type="text" style="width:10%;" name="kdsupplier" id="kdsupplier" class="form-control form-control-sm mb-0" placeholder="" readonly>
                 <input type="text" style="width:40%;" name="nmsupplier" id="nmsupplier" class="form-control form-control-sm mb-0" readonly>
-                <button class="btn btn-outline-secondary btn-sm" type="button" id="carisupplier"><i class="fa fa-search"></i></button>
+                <button class="btn btn-outline-secondary btn-sm" type="button" id="carisupplier" disabled><i class="fa fa-search"></i></button>
                 <div class="invalid-feedback errorKdsupplier">
                 </div>
               </div>
               <label for="nama" class="form-label mb-0">Jenis Order</label>
-              <select class="form-select form-select-sm mb-1 " name="jnsorder" id="jnsorder">
+              <input type="text" class="form-control form-control-sm mb-1" name="jnsorder" id="jnsorder" readonly>
+              <!-- <select class="form-select form-select-sm mb-1 " name="jnsorder" id="jnsorder">
                 <option value="">[Pilih Jenis Order]</option>
                 <?php
-                $arr = array("NORMAL", "URGENT", "HOTLINE", "LAIN-LAIN");
-                $jml_kata = count($arr);
-                for ($c = 0; $c < $jml_kata; $c += 1) {
-                  echo "<option value='$arr[$c]'> $arr[$c] </option>";
-                }
+                // $arr = array("NORMAL", "URGENT", "HOTLINE", "LAIN-LAIN");
+                // $jml_kata = count($arr);
+                // for ($c = 0; $c < $jml_kata; $c += 1) {
+                //   echo "<option value='$arr[$c]'> $arr[$c] </option>";
+                // }
                 ?>
-              </select>
+              </select> -->
               <div class="invalid-feedback errorJnsorder">
               </div>
               <label for="nama" class="form-label mb-0">Reference</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="reference" id="reference">
+              <input type="text" class="form-control form-control-sm mb-1" name="reference" id="reference" readonly>
               <label for="nama" class="form-label mb-0">Biaya 1 / Jumlah</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="biaya1" id="biaya1">
-                <input type="text" class="form-control form-control-sm mb-0" value=0 name="nbiaya1" id="nbiaya1" placeholder="biaya1" style="text-align:right;">
+                <input type="text" class="form-control form-control-sm mb-0" name="biaya1" id="biaya1" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" value=0 name="nbiaya1" id="nbiaya1" placeholder="biaya1" style="text-align:right;" readonly>
               </div>
               <label for="nama" class="form-label mb-0">Biaya 2 / Jumlah</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="biaya2" id="biaya2">
-                <input type="text" class="form-control form-control-sm mb-0" value=0 name="nbiaya2" id="nbiaya2" placeholder="nbiaya2" style="text-align:right;">
+                <input type="text" class="form-control form-control-sm mb-0" name="biaya2" id="biaya2" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" value=0 name="nbiaya2" id="nbiaya2" placeholder="nbiaya2" style="text-align:right;" readonly>
               </div>
               <label for="nama" class="form-label mb-0">Catatan</label>
               <textarea class="form-control" name="catatan" id="catatan" rows="2"></textarea>
@@ -83,35 +88,36 @@ $ppn = session()->get('ppn');
               <input type="text" class="form-control form-control-sm mb-1" name="totalsmt" id="totalsmt" value=0 style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-0">PPN % / PPN (Rp.)</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="ppn" id="ppn" value="<?= $ppn ?>" style="width: 5%; text-align:right;">
+                <input type="text" class="form-control form-control-sm mb-0" name="ppn" id="ppn" value="<?= $ppn ?>" style="width: 5%; text-align:right;" readonly>
                 <input type="text" class="form-control form-control-sm mb-0" name="rp_ppn" id="rp_ppn" value=0 placeholder="rp_ppn" style="width: 50%; text-align:right;" readonly>
               </div>
               <label for="keluhan" class="form-label mb-0">Materai</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="materai" id="materai" value=0 style="text-align:right;">
+              <input type="text" class="form-control form-control-sm mb-1" name="materai" id="materai" value=0 style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-0">Total</label>
               <input type="text" class="form-control form-control-sm mb-1" name="total" id="total" value=0 style="text-align:right;" readonly>
             </div>
             <div class="col-12 col-sm-3">
               <label for="nama" class="form-label mb-0">Cara Bayar</label>
-              <select class="form-select form-select-sm mb-1" name="cara_bayar" id="cara_bayar">
+              <input type="text" class="form-control form-control-sm mb-1" name="cara_bayar" id="cara_bayar" readonly>
+              <!-- <select class="form-select form-select-sm mb-1" name="cara_bayar" id="cara_bayar">
                 <option value="">[Pilih Cara Bayar]</option>
                 <?php
-                $arr = array("Tunai", "Transfer", "Kartu Debit", "Cek/BG", "Kartu Kredit", "Marketplace");
-                $jml_kata = count($arr);
-                for ($c = 0; $c < $jml_kata; $c += 1) {
-                  echo "<option value='$arr[$c]'> $arr[$c] </option>";
-                }
+                // $arr = array("Tunai", "Transfer", "Kartu Debit", "Cek/BG", "Kartu Kredit", "Marketplace");
+                // $jml_kata = count($arr);
+                // for ($c = 0; $c < $jml_kata; $c += 1) {
+                //   echo "<option value='$arr[$c]'> $arr[$c] </option>";
+                // }
                 ?>
-              </select>
+              </select> -->
               <label for="keluhan" class="form-label mb-0">Jatuh Tempo (Hari)</label>
-              <input type="number" class="form-control form-control-sm mb-1" name="tempo" id="tempo" value=0>
+              <input type="number" class="form-control form-control-sm mb-1" name="tempo" id="tempo" value=0 readonly>
               <label for="keluhan" class="form-label mb-0">Tanggal Jatuh Tempo</label>
               <input type="date" class="form-control form-control-sm mb-1" name="tgljttempo" id="tgljttempo" readonly>
               <!-- value=@Model.EndDate.ToString("MM-dd-yyyy") -->
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-flat btn-primary btnsimpanpo_part" id="btnsimpanpo_part"><i class="fa fa-file"></i> Simpan</button>
+            <button type="submit" class="btn btn-flat btn-primary btnsimpanbeli_part" id="btnsimpanbeli_part"><i class="fa fa-file"></i> Simpan</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
           </div>
           <?= form_close() ?>
@@ -248,7 +254,7 @@ $ppn = session()->get('ppn');
     let y = ed.getFullYear();
     // console.log(y + '-' + (m <= 9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d));
     document.getElementById('tgljttempo').value = (y + '-' + (m <= 9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d));
-    // select date(po_part.tanggal) as tanggal from po_part where date(po_part.tanggal) = '2023-07-05'
+    // select date(beli_part.tanggal) as tanggal from beli_part where date(beli_part.tanggal) = '2023-07-05'
   }
 
   function hit_total() {
@@ -289,23 +295,23 @@ $ppn = session()->get('ppn');
     document.getElementById("total").value = total.toLocaleString('en-US');
   }
 
-  $('.formtambahpo_part').submit(function(e) {
+  $('.formtambahbeli_part').submit(function(e) {
     e.preventDefault();
     $.ajax({
       url: $(this).attr('action'),
-      // url: "<?= site_url('po_part/simpanpo_part') ?>",
+      // url: "<?= site_url('beli_part/simpanbeli_part') ?>",
       type: "post",
       data: $(this).serialize(),
       dataType: "json",
       beforeSend: function() {
-        $('.btnsimpanpo_part').attr('disable', 'disabled')
-        $('.btnsimpanpo_part').prop('disable', true)
-        $('.btnsimpanpo_part').html('<i class="fa fa-spin fa-spinner"></i>')
+        $('.btnsimpanbeli_part').attr('disable', 'disabled')
+        $('.btnsimpanbeli_part').prop('disable', true)
+        $('.btnsimpanbeli_part').html('<i class="fa fa-spin fa-spinner"></i>')
       },
       complete: function() {
-        $('.btnsimpanpo_part').removeAttr('disable')
-        $('.btnsimpanpo_part').html('<i class="fa fa-file"></i> Simpan')
-        $('.btnsimpanpo_part').prop('disabled', false)
+        $('.btnsimpanbeli_part').removeAttr('disable')
+        $('.btnsimpanbeli_part').html('<i class="fa fa-file"></i> Simpan')
+        $('.btnsimpanbeli_part').prop('disabled', false)
       },
       success: function(response) {
         if (response.error) {
@@ -344,7 +350,142 @@ $ppn = session()->get('ppn');
     });
   });
 
-  $('#kdsuppliar').on('keypress', function(e) {
+  $('#nopo').on('keypress', function(e) {
+    if (e.which == 13) {
+      var keyPressed = event.keyCode || event.which;
+      if (keyPressed === 13) {
+        alert("Press tab to continue!");
+        event.preventDefault();
+        return false;
+      }
+    }
+  });
+  $('#caripo').click(function(e) {
+    e.preventDefault();
+    $.ajax({
+      url: "<?= site_url('beli_part/caridatapo') ?>",
+      dataType: "json",
+      success: function(response) {
+        $('.viewmodalcari').html(response.data).show();
+        $('#modalcari').modal('show');
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+      }
+    })
+  })
+  $('#nopo').on('blur', function(e) {
+    let cari = $(this).val()
+    alert(cari);
+    if (cari !== "") {
+      $.ajax({
+        url: "<?= site_url('beli_part/replpo') ?>",
+        type: 'post',
+        data: {
+          'nopo': cari
+        },
+        success: function(data) {
+          let data_response = JSON.parse(data);
+          if (data_response['nopo'] == '') {
+            $('#nopo').val('');
+            $('#tglpo').val('');
+            $('#kdsupplier').val('');
+            $('#nmsupplier').val('');
+            $('#jnsorder').val('');
+            $('#reference').val('');
+            $('#biaya1').val('');
+            $('#vnbiaya1').val('');
+            $('#biaya2').val('');
+            $('#nbiaya2').val('');
+            $('#total_biaya').val('');
+            $('#catatan').val('');
+            $('#subtotal').val('');
+            $('#ppn').val('');
+            $('#rp_ppn').val('');
+            $('#materai').val('');
+            $('#cara_bayar').val('');
+            $('#tempo').val('');
+            $('#tgljttempo').val('');
+            $('#total').val('');
+            $('#partshop').val('');
+            return;
+          } else {
+            $('#nopo').val(data_response['nopo']);
+            $('#tglpo').val(data_response['tglpo']);
+            $('#kdsupplier').val(data_response['kdsupplier']);
+            $('#nmsupplier').val(data_response['nmsupplier']);
+            $('#jnsorder').val(data_response['jnsorder']);
+            $('#reference').val(data_response['reference']);
+            $('#biaya1').val(data_response['biaya1']);
+            $('#vnbiaya1').val(data_response['nbiaya1']);
+            $('#biaya2').val(data_response['biaya2']);
+            $('#nbiaya2').val(data_response['nbiaya2']);
+            $('#total_biaya').val(data_response['total_biaya']);
+            $('#catatan').val(data_response['catatan']);
+            $('#subtotal').val(data_response['subtotal']);
+            $('#ppn').val(data_response['ppn']);
+            $('#rp_ppn').val(data_response['rp_ppn']);
+            $('#materai').val(data_response['materai']);
+            $('#cara_bayar').val(data_response['cara_bayar']);
+            $('#tempo').val(data_response['tempo']);
+            $('#tgljttempo').val(data_response['tgljttempo']);
+            $('#total').val(data_response['total']);
+            $('#partshop').val(data_response['partshop']);
+          }
+        },
+        error: function() {
+          $('#nopo').val('');
+          $('#tglpo').val('');
+          $('#kdsupplier').val('');
+          $('#nmsupplier').val('');
+          $('#jnsorder').val('');
+          $('#reference').val('');
+          $('#biaya1').val('');
+          $('#vnbiaya1').val('');
+          $('#biaya2').val('');
+          $('#nbiaya2').val('');
+          $('#total_biaya').val('');
+          $('#catatan').val('');
+          $('#subtotal').val('');
+          $('#ppn').val('');
+          $('#rp_ppn').val('');
+          $('#materai').val('');
+          $('#cara_bayar').val('');
+          $('#tempo').val('');
+          $('#tgljttempo').val('');
+          $('#total').val('');
+          $('#partshop').val('');
+          return;
+          // console.log('file not fount');
+        }
+      })
+      // console.log(cari);
+    } else {
+      $('#nopo').val('');
+      $('#tglpo').val('');
+      $('#kdsupplier').val('');
+      $('#nmsupplier').val('');
+      $('#jnsorder').val('');
+      $('#reference').val('');
+      $('#biaya1').val('');
+      $('#vnbiaya1').val('');
+      $('#biaya2').val('');
+      $('#nbiaya2').val('');
+      $('#total_biaya').val('');
+      $('#catatan').val('');
+      $('#subtotal').val('');
+      $('#ppn').val('');
+      $('#rp_ppn').val('');
+      $('#materai').val('');
+      $('#cara_bayar').val('');
+      $('#tempo').val('');
+      $('#tgljttempo').val('');
+      $('#total').val('');
+      $('#partshop').val('');
+    }
+  })
+
+  $('#kdsupplier').on('keypress', function(e) {
     if (e.which == 13) {
       var keyPressed = event.keyCode || event.which;
       if (keyPressed === 13) {
@@ -357,7 +498,7 @@ $ppn = session()->get('ppn');
   $('#carisupplier').click(function(e) {
     e.preventDefault();
     $.ajax({
-      url: "<?= site_url('po_part/caridatasupplier') ?>",
+      url: "<?= site_url('beli_part/caridatasupplier') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodalcari').html(response.data).show();
@@ -372,7 +513,7 @@ $ppn = session()->get('ppn');
     let cari = $(this).val()
     if (cari !== "") {
       $.ajax({
-        url: "<?= site_url('po_part/replsupplier') ?>",
+        url: "<?= site_url('beli_part/replsupplier') ?>",
         type: 'post',
         data: {
           'kode': cari

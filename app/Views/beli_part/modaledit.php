@@ -23,7 +23,7 @@ $ppn = session()->get('ppn');
       <div class="modal-body">
         <?php if ($edit == 1) {
         ?>
-          <?= form_open('po_part/update_po_part', ['class' => 'form_update_po_part']) ?>
+          <?= form_open('beli_part/update_beli_part', ['class' => 'form_update_beli_part']) ?>
           <?= csrf_field(); ?>
           <div class="row mb-1 mt-1">
             <div class="col-12 col-sm-6">
@@ -31,94 +31,96 @@ $ppn = session()->get('ppn');
               date_default_timezone_set('Asia/Jakarta');
               $tanggal = date('Y-m-d H:i:s');
               ?>
-              <input type="hidden" class="form-control" name="id" id="id" value="<?= $po_part['id'] ?>">
+              <input type="hidden" class="form-control" name="id" id="id" value="<?= $beli_part['id'] ?>">
               <label for="nama" class="form-label mb-1">No. PO / Tanggal (M-D-Y)</label>
               <div class="input-group mb-1">
-                <input type='text' class='form-control form-control-sm mb-1' value="<?= $po_part['nopo'] ?>" id="nopojadi" name="nopojadi" readonly style="width: 5%">
-                <input type="datetime-local" class='form-control form-control-sm mb-1' name='tanggal' id='tanggal' value="<?= $po_part['tanggal'] ?>" style="width: 40%" readonly>
+                <input type='text' class='form-control form-control-sm mb-1' value="<?= $beli_part['nopo'] ?>" id="nopojadi" name="nopojadi" readonly style="width: 5%">
+                <input type="datetime-local" class='form-control form-control-sm mb-1' name='tanggal' id='tanggal' value="<?= $beli_part['tanggal'] ?>" style="width: 40%" readonly>
               </div>
               <label for="nama" class="form-label mb-0">Supplier</label>
               <div class="input-group mb-1">
-                <input type="text" style="width:10%;" name="kdsupplier" id="kdsupplier" value="<?= $po_part['kdsupplier'] ?>" class="form-control form-control-sm mb-0" placeholder="">
-                <input type="text" style="width:40%;" name="nmsupplier" id="nmsupplier" value="<?= $po_part['nmsupplier'] ?>" class="form-control form-control-sm mb-0" readonly>
-                <button class="btn btn-outline-secondary btn-sm" type="button" id="carisupplier"><i class="fa fa-search"></i></button>
+                <input type="text" style="width:10%;" name="kdsupplier" id="kdsupplier" value="<?= $beli_part['kdsupplier'] ?>" class="form-control form-control-sm mb-0" placeholder="" readonly>
+                <input type="text" style="width:40%;" name="nmsupplier" id="nmsupplier" value="<?= $beli_part['nmsupplier'] ?>" class="form-control form-control-sm mb-0" readonly>
+                <button class="btn btn-outline-secondary btn-sm" type="button" id="carisupplier" disabled><i class="fa fa-search"></i></button>
                 <div class="invalid-feedback errorKdsupplier">
                 </div>
               </div>
               <label for="nama" class="form-label mb-0">Jenis Order</label>
-              <select class="form-select mb-1" name="jnsorder" id="jnsorder">
-                <option value="">[Pilih Jenis Order]</option>
+              <input type="text" class="form-control form-control-sm mb-1" name="jnsorder" id="jnsorder" readonly>
+              <!-- <select class="form-select mb-1" name="jnsorder" id="jnsorder"> -->
+              <!-- <option value="">[Pilih Jenis Order]</option>
                 <?php
-                $arr = array("NORMAL", "URGENT", "HOTLINE", "LAIN-LAIN");
-                $jml_kata = count($arr);
-                for ($c = 0; $c < $jml_kata; $c += 1) {
-                  if ($arr[$c] == $po_part['jnsorder']) {
-                    echo "<option value='$arr[$c]' selected>$arr[$c] </option>";
-                  } else {
-                    echo "<option value='$arr[$c]'> $arr[$c] </option>";
-                  }
-                }
-                ?>"
+                // $arr = array("NORMAL", "URGENT", "HOTLINE", "LAIN-LAIN");
+                // $jml_kata = count($arr);
+                // for ($c = 0; $c < $jml_kata; $c += 1) {
+                //   if ($arr[$c] == $beli_part['jnsorder']) {
+                //     echo "<option value='$arr[$c]' selected>$arr[$c] </option>";
+                //   } else {
+                //     echo "<option value='$arr[$c]'> $arr[$c] </option>";
+                //   }
+                // }
+                ?>" -->
               </select>
               <div class="invalid-feedback errorJnsorder">
               </div>
               <label for="nama" class="form-label mb-1">Reference</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="reference" id="reference" value="<?= $po_part['reference'] ?>">
+              <input type="text" class="form-control form-control-sm mb-1" name="reference" id="reference" value="<?= $beli_part['reference'] ?>" readonly>
               <label for="nama" class="form-label mb-1">Biaya 1 / Jumlah</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="biaya1" id="biaya1" value="<?= $po_part['biaya1'] ?>">
-                <input type="text" class="form-control form-control-sm mb-0" name="nbiaya1" id="nbiaya1" value="<?= $po_part['nbiaya1'] ?>" placeholder="nbiaya1" style="text-align:right;">
+                <input type="text" class="form-control form-control-sm mb-0" name="biaya1" id="biaya1" value="<?= $beli_part['biaya1'] ?>" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" name="nbiaya1" id="nbiaya1" value="<?= $beli_part['nbiaya1'] ?>" placeholder="nbiaya1" style="text-align:right;" readonly>
               </div>
               <label for="nama" class="form-label mb-1">Biaya 2 / Jumlah</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="biaya2" id="biaya2" value="<?= $po_part['biaya2'] ?>">
-                <input type="text" class="form-control form-control-sm mb-0" name="nbiaya2" id="nbiaya2" value="<?= $po_part['nbiaya2'] ?>" placeholder="nbiaya2" style="text-align:right;">
+                <input type="text" class="form-control form-control-sm mb-0" name="biaya2" id="biaya2" value="<?= $beli_part['biaya2'] ?>" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" name="nbiaya2" id="nbiaya2" value="<?= $beli_part['nbiaya2'] ?>" placeholder="nbiaya2" style="text-align:right;" readonly>
               </div>
               <label for="nama" class="form-label mb-1">Catatan</label>
               <textarea class="form-control" name="catatan" id="catatan" rows="2"></textarea>
             </div>
             <div class="col-12 col-sm-3">
               <label for="nama" class="form-label mb-1">Total Biaya 1+2</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="total_biaya" id="total_biaya" value="<?= $po_part['total_biaya'] ?>" placeholder="total_biaya" style="text-align:right;" readonly>
+              <input type="text" class="form-control form-control-sm mb-1" name="total_biaya" id="total_biaya" value="<?= $beli_part['total_biaya'] ?>" placeholder="total_biaya" style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-1">Subtotal</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="subtotalh" id="subtotalh" value="<?= $po_part['subtotal'] ?>" style="text-align:right;" readonly>
+              <input type="text" class="form-control form-control-sm mb-1" name="subtotalh" id="subtotalh" value="<?= $beli_part['subtotal'] ?>" style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-1">Total Sementara</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="totalsmt" id="totalsmt" value="<?= $po_part['totalsmt'] ?>" style="text-align:right;" readonly>
+              <input type="text" class="form-control form-control-sm mb-1" name="totalsmt" id="totalsmt" value="<?= $beli_part['totalsmt'] ?>" style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-1">PPN % / PPN (Rp.)</label>
               <div class="input-group mb-1">
-                <input type="text" class="form-control form-control-sm mb-0" name="ppn" id="ppn" value="<?= $po_part['ppn'] ?>" style="width: 5%; text-align:right;">
-                <input type="text" class="form-control form-control-sm mb-0" name="rp_ppn" id="rp_ppn" value="<?= $po_part['rp_ppn'] ?>" placeholder="rp_ppn" style="width: 50%; text-align:right;" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" name="ppn" id="ppn" value="<?= $beli_part['ppn'] ?>" style="width: 5%; text-align:right;" readonly>
+                <input type="text" class="form-control form-control-sm mb-0" name="rp_ppn" id="rp_ppn" value="<?= $beli_part['rp_ppn'] ?>" placeholder="rp_ppn" style="width: 50%; text-align:right;" readonly>
               </div>
               <label for="keluhan" class="form-label mb-1">Materai</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="materai" id="materai" value="<?= $po_part['materai'] ?>" style="text-align:right;">
+              <input type="text" class="form-control form-control-sm mb-1" name="materai" id="materai" value="<?= $beli_part['materai'] ?>" style="text-align:right;" readonly>
               <label for="keluhan" class="form-label mb-1">Total</label>
-              <input type="text" class="form-control form-control-sm mb-1" name="total" id="total" value="<?= $po_part['total'] ?>" style="text-align:right;" readonly>
+              <input type="text" class="form-control form-control-sm mb-1" name="total" id="total" value="<?= $beli_part['total'] ?>" style="text-align:right;" readonly>
             </div>
             <div class="col-12 col-sm-3">
               <label for="nama" class="form-label mb-0">Cara Bayar</label>
-              <select class="form-select form-select-sm mb-1" name="cara_bayar" id="cara_bayar">
-                <option value="">[Pilih Cara Bayar]</option>
+              <!-- <select class="form-select form-select-sm mb-1" name="cara_bayar" id="cara_bayar"> -->
+              <input type="text" class="form-control form-control-sm mb-1" name="cara_bayar" id="cara_bayar" readonly>
+              <!-- <option value="">[Pilih Cara Bayar]</option>
                 <?php
-                $arr = array("Tunai", "Transfer", "Kartu Debit", "Cek/BG", "Kartu Kredit", "Marketplace");
-                $jml_kata = count($arr);
-                for ($c = 0; $c < $jml_kata; $c += 1) {
-                  if ($arr[$c] == $po_part['cara_bayar']) {
-                    echo "<option value='$arr[$c]' selected>$arr[$c] </option>";
-                  } else {
-                    echo "<option value='$arr[$c]'> $arr[$c] </option>";
-                  }
-                }
-                ?>
+                // $arr = array("Tunai", "Transfer", "Kartu Debit", "Cek/BG", "Kartu Kredit", "Marketplace");
+                // $jml_kata = count($arr);
+                // for ($c = 0; $c < $jml_kata; $c += 1) {
+                //   if ($arr[$c] == $beli_part['cara_bayar']) {
+                //     echo "<option value='$arr[$c]' selected>$arr[$c] </option>";
+                //   } else {
+                //     echo "<option value='$arr[$c]'> $arr[$c] </option>";
+                //   }
+                // }
+                ?> -->
               </select>
               <label for="keluhan" class="form-label mb-0">Jatuh Tempo (Hari)</label>
-              <input type="number" class="form-control form-control-sm mb-1" name="tempo" id="tempo" value="<?= $po_part['tempo'] ?>">
+              <input type="number" class="form-control form-control-sm mb-1" name="tempo" id="tempo" value="<?= $beli_part['tempo'] ?>" readonly>
               <label for="keluhan" class="form-label mb-0">Tanggal Jatuh Tempo</label>
-              <input type="date" class="form-control form-control-sm mb-1" name="tgljttempo" id="tgljttempo" value="<?= $po_part['tgljttempo'] ?>" readonly>
+              <input type="date" class="form-control form-control-sm mb-1" name="tgljttempo" id="tgljttempo" value="<?= $beli_part['tgljttempo'] ?>" readonly>
               <!-- value=@Model.EndDate.ToString("MM-dd-yyyy") -->
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" value="close_faktur" class="btn btn-flat btn-primary btnupdatepo_part" id="btnupdatepo_part"><i class="fa fa-file"></i> Simpan</button>
+            <button type="submit" value="close_faktur" class="btn btn-flat btn-primary btnupdatebeli_part" id="btnupdatebeli_part"><i class="fa fa-file"></i> Simpan</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
           </div>
       </div>
@@ -171,7 +173,7 @@ $ppn = session()->get('ppn');
       aDec: '.',
       mDec: '0'
     })
-    $('#subtotalh').autoNumeric('init', {
+    $('#subtotal').autoNumeric('init', {
       aSep: ',',
       aDec: '.',
       mDec: '0'
@@ -254,7 +256,7 @@ $ppn = session()->get('ppn');
     let y = ed.getFullYear();
     // console.log(y + '-' + (m <= 9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d));
     document.getElementById('tgljttempo').value = (y + '-' + (m <= 9 ? '0' + m : m) + '-' + (d <= 9 ? '0' + d : d));
-    // select date(po_part.tanggal) as tanggal from po_part where date(po_part.tanggal) = '2023-07-05'
+    // select date(beli_part.tanggal) as tanggal from beli_part where date(beli_part.tanggal) = '2023-07-05'
   }
 
   function hit_total() {
@@ -295,24 +297,24 @@ $ppn = session()->get('ppn');
     document.getElementById("total").value = total.toLocaleString('en-US');
   }
 
-  $('.form_update_po_part').on('click', '.btnupdatepo_part', function(e) {
-    $('.form_update_po_part').submit(function(e) {
+  $('.form_update_beli_part').on('click', '.btnupdatebeli_part', function(e) {
+    $('.form_update_beli_part').submit(function(e) {
       e.preventDefault();
       $.ajax({
         url: $(this).attr('action'),
-        // url: "<?= site_url('po_part/update_po_part') ?>",
+        // url: "<?= site_url('beli_part/update_beli_part') ?>",
         type: "post",
         data: $(this).serialize(),
         dataType: "json",
         beforeSend: function() {
-          $('.btnupdatepo_part').attr('disable', 'disabled')
-          $('.btnupdatepo_part').prop('disable', true)
-          $('.btnupdatepo_part').html('<i class="fa fa-spin fa-spinner"></i>')
+          $('.btnupdatebeli_part').attr('disable', 'disabled')
+          $('.btnupdatebeli_part').prop('disable', true)
+          $('.btnupdatebeli_part').html('<i class="fa fa-spin fa-spinner"></i>')
         },
         complete: function() {
-          $('.btnupdatepo_part').removeAttr('disable')
-          $('.btnupdatepo_part').html('<i class="fa fa-file"></i> Simpan')
-          $('.btnupdatepo_part').prop('disabled', false)
+          $('.btnupdatebeli_part').removeAttr('disable')
+          $('.btnupdatebeli_part').html('<i class="fa fa-file"></i> Simpan')
+          $('.btnupdatebeli_part').prop('disabled', false)
         },
         success: function(response) {
           if (response.error) {
@@ -365,7 +367,7 @@ $ppn = session()->get('ppn');
   $('#carisupplier').click(function(e) {
     e.preventDefault();
     $.ajax({
-      url: "<?= site_url('po_part/caridatasupplier') ?>",
+      url: "<?= site_url('beli_part/caridatasupplier') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodalcari').html(response.data).show();
@@ -380,7 +382,7 @@ $ppn = session()->get('ppn');
     let cari = $(this).val()
     if (cari !== "") {
       $.ajax({
-        url: "<?= site_url('po_part/replsupplier') ?>",
+        url: "<?= site_url('beli_part/replsupplier') ?>",
         type: 'post',
         data: {
           'kode': cari
@@ -410,14 +412,14 @@ $ppn = session()->get('ppn');
     }
   })
 
-  function po_part() {
+  function beli_part() {
     let $nopo = document.getElementById("nopo").value;
     $.ajax({
       method: "GET",
       data: {
         nopo: $nopo,
       },
-      url: "<?= site_url('po_part/table_po_part'); ?>",
+      url: "<?= site_url('beli_part/table_beli_part'); ?>",
       beforeSend: function(f) {
         $('.btnreload').attr('disable', 'disabled')
         $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')

@@ -23,12 +23,12 @@ $cetak = session()->get('cetak');
     ?>
 
     <!-- <table class="table table-bordered table-striped" id="tbl-customer-data"> -->
-    <table id="tbl_po_part" class="table table-bordered table-striped" style="width:100%">
+    <table id="tbl_beli_part" class="table table-bordered table-striped" style="width:100%">
       <!-- <table class="table"> -->
       <thead>
         <tr>
           <th width="20">#</th>
-          <th width="80">No. PO</th>
+          <th width="80">No. Pembelian</th>
           <th width="130">Tanggal</th>
           <th width="50">Kd.Supplier</th>
           <th width="200">Supplier</th>
@@ -46,12 +46,12 @@ $cetak = session()->get('cetak');
 
 <script>
   $(document).ready(function() {
-    // $('#tbl_po_part').DataTable();
-    reload_table_po_parth();
+    // $('#tbl_beli_part').DataTable();
+    reload_table_beli_parth();
   });
 
-  function reload_table_po_parth() {
-    $('#tbl_po_part').DataTable({
+  function reload_table_beli_parth() {
+    $('#tbl_beli_part').DataTable({
       destroy: true,
       processing: true,
       serverSide: true,
@@ -76,7 +76,7 @@ $cetak = session()->get('cetak');
         [0, 'asc'],
       ],
       ajax: {
-        url: '<?= site_url('/po_part/ajax-load-data') ?>',
+        url: '<?= site_url('/beli_part/ajax-load-data') ?>',
         type: 'POST',
       },
       columns: [{
@@ -90,7 +90,7 @@ $cetak = session()->get('cetak');
           // name: 'kode'
           data: null,
           render: function(data, type, row, meta) {
-            return `<a href="#" onclick="detail_po_part(${row.id})">${row.nopo}</a>`;
+            return `<a href="#" onclick="detail_beli_part(${row.id})">${row.nobeli}</a>`;
           }
         },
         {
@@ -128,8 +128,8 @@ $cetak = session()->get('cetak');
                 Pilih Aksi
               </button>
               <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <li><a class="dropdown-item <?= $unproses == 1 ?  '' : 'disabled' ?>"" onclick="unclose_po_part(${row.id})" href="#" readonly><i class='fa fa-arrow-left'"></i> Unclose PO</a></li>
-                <li><a class="dropdown-item <?= $cetak == 1 ?  '' : 'disabled' ?>"" onclick="cetak_po_part(${row.id})" href="#" readonly><i class='fa fa-arrow-left'"></i> Cetak PO</a></li>
+                <li><a class="dropdown-item <?= $unproses == 1 ?  '' : 'disabled' ?>"" onclick="unclose_beli_part(${row.id})" href="#" readonly><i class='fa fa-arrow-left'"></i> Unclose Pembelian</a></li>
+                <li><a class="dropdown-item <?= $cetak == 1 ?  '' : 'disabled' ?>"" onclick="cetak_beli_part(${row.id})" href="#" readonly><i class='fa fa-arrow-left'"></i> Cetak Pembelian</a></li>
               </ul>
             </div>`;
               } else {
@@ -138,27 +138,27 @@ $cetak = session()->get('cetak');
                 Pilih Aksi
               </button>
               <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <li><a class="dropdown-item <?= $edit == 1 ?  '' : 'disabled' ?>" onclick="edit_po_part(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Edit PO</a></li>
-                <li><a class="dropdown-item <?= $edit == 1 ?  '' : 'disabled' ?>" onclick="input_po_partd(${row.id})" href="#" readonly><i class='fa fa-book'"></i> Edit Detail PO</a></li>
-                <li><a class="dropdown-item <?= $hapus == 1 ?  '' : 'disabled' ?>" onclick="hapus_po_part(${row.id})" href="#" readonly><i class='fa fa-trash'"></i> Hapus PO</a></li>
-                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="close_po_part(${row.id})" href="#" readonly><i class='fa fa-arrow-right'"></i> Close PO</a></li>
-                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="cancel_po_part(${row.id})" href="#" readonly><i class='fa fa-ban'"></i> Cancel PO</a></li>
+                <li><a class="dropdown-item <?= $edit == 1 ?  '' : 'disabled' ?>" onclick="edit_beli_part(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Edit Pembelian</a></li>
+                <li><a class="dropdown-item <?= $edit == 1 ?  '' : 'disabled' ?>" onclick="input_beli_partd(${row.id})" href="#" readonly><i class='fa fa-book'"></i> Edit Detail Pembelian</a></li>
+                <li><a class="dropdown-item <?= $hapus == 1 ?  '' : 'disabled' ?>" onclick="hapus_beli_part(${row.id})" href="#" readonly><i class='fa fa-trash'"></i> Hapus Pembelian</a></li>
+                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="close_beli_part(${row.id})" href="#" readonly><i class='fa fa-arrow-right'"></i> Close Pembelian</a></li>
+                <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="cancel_beli_part(${row.id})" href="#" readonly><i class='fa fa-ban'"></i> Cancel Pembelian</a></li>
               </ul>
             </div>`;
               }
             }
           }
         },
-        // <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="input_po_partd(${row.id})" href="#" readonly><i class='fa fa-book'"></i> Edit Detail</a></li>
+        // <li><a class="dropdown-item <?= $proses == 1 ?  '' : 'disabled' ?>" onclick="input_beli_partd(${row.id})" href="#" readonly><i class='fa fa-book'"></i> Edit Detail</a></li>
         // <a href="#${row.id}" onclick="detailmobil(${row.id})"><button class='btn btn-sm btn-info' href='javascript:void(0)'><i class='fa fa-car')></i></button></a>
       ],
     })
   }
 
-  function edit_po_part($id) {
+  function edit_beli_part($id) {
     $.ajax({
       type: "post",
-      url: "<?= site_url('po_part/formedit') ?>",
+      url: "<?= site_url('beli_part/formedit') ?>",
       dataType: "json",
       data: {
         id: $id
@@ -175,17 +175,17 @@ $cetak = session()->get('cetak');
     })
   }
 
-  function detail_po_part($id) {
+  function detail_beli_part($id) {
     $.ajax({
       type: "post",
-      url: "<?= site_url('po_part/formdetail') ?>",
+      url: "<?= site_url('beli_part/formdetail') ?>",
       dataType: "json",
       data: {
         id: $id
       },
       success: function(response) {
         if (response.sukses) {
-          $('.viewmodaldetail').html(response.sukses).show();
+          $('.viewmodal').html(response.sukses).show();
           $('#modaldetail').modal('show');
         }
       },
@@ -197,7 +197,7 @@ $cetak = session()->get('cetak');
 
   function cari_supplier() {
     $.ajax({
-      url: "<?= site_url('po_part/cari_supplier') ?>",
+      url: "<?= site_url('beli_part/cari_supplier') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodalcari').html(response.data).show();
@@ -211,7 +211,7 @@ $cetak = session()->get('cetak');
 
   $(document).on('click', '.carisupplier', function(e) {
     $.ajax({
-      url: "<?= site_url('po_part/cari_supplier') ?>",
+      url: "<?= site_url('beli_part/cari_supplier') ?>",
       dataType: "json",
       success: function(response) {
         $('.viewmodalcari').html(response.data).show();
@@ -223,18 +223,18 @@ $cetak = session()->get('cetak');
     })
   })
 
-  function input_po_partd($id) {
+  function input_beli_partd($id) {
     $.ajax({
       type: "post",
-      url: "<?= site_url('po_part/input_po_partd') ?>",
+      url: "<?= site_url('beli_part/input_beli_partd') ?>",
       dataType: "json",
       data: {
         id: $id
       },
       success: function(response) {
         if (response.sukses) {
-          $('.viewmodalinputdetail').html(response.sukses).show();
-          $('#input_po_partd').modal('show');
+          $('.viewmodaldetail').html(response.sukses).show();
+          $('#input_beli_partd').modal('show');
         }
       },
       error: function(xhr, ajaxOptions, thrownError) {
@@ -243,7 +243,7 @@ $cetak = session()->get('cetak');
     })
   }
 
-  function close_po_part($id) {
+  function close_beli_part($id) {
     swal({
         title: "Yakin akan Close ?",
         text: "",
@@ -254,7 +254,7 @@ $cetak = session()->get('cetak');
       .then((willcetak) => {
         if (willcetak) {
           $.ajax({
-            url: "<?= site_url('po_part/close_po_part') ?>",
+            url: "<?= site_url('beli_part/close_beli_part') ?>",
             type: "POST",
             data: {
               id: $id
@@ -285,7 +285,7 @@ $cetak = session()->get('cetak');
       });
   }
 
-  function unclose_po_part($id) {
+  function unclose_beli_part($id) {
     swal({
         title: "Yakin akan Unclose ?",
         text: "",
@@ -296,7 +296,7 @@ $cetak = session()->get('cetak');
       .then((willcetak) => {
         if (willcetak) {
           $.ajax({
-            url: "<?= site_url('po_part/unclose_po_part') ?>",
+            url: "<?= site_url('beli_part/unclose_beli_part') ?>",
             type: "POST",
             data: {
               id: $id
@@ -327,7 +327,7 @@ $cetak = session()->get('cetak');
       });
   }
 
-  function cetak_po_part($id) {
+  function cetak_beli_part($id) {
     swal({
         title: "Yakin akan cetak ?",
         text: "",
@@ -337,7 +337,7 @@ $cetak = session()->get('cetak');
       })
       .then((willcetak) => {
         if (willcetak) {
-          var w = window.open('po_part/cetakpo_part/' + $id);
+          var w = window.open('beli_part/cetakbeli_part/' + $id);
           $.ajax({
             url: "", //<?php echo site_url('estimasi_bp/cetakestimasi_bp') ?>",
             type: "get",
@@ -359,7 +359,7 @@ $cetak = session()->get('cetak');
       });
   }
 
-  function cancel_po_part($id) {
+  function cancel_beli_part($id) {
     swal({
         title: "Yakin akan Cancel ?",
         text: "",
@@ -370,7 +370,7 @@ $cetak = session()->get('cetak');
       .then((willcetak) => {
         if (willcetak) {
           $.ajax({
-            url: "<?= site_url('po_part/cancel_po_part') ?>",
+            url: "<?= site_url('beli_part/cancel_beli_part') ?>",
             type: "POST",
             data: {
               id: $id
@@ -411,7 +411,7 @@ $cetak = session()->get('cetak');
       });
   }
 
-  function hapus_po_part($id) {
+  function hapus_beli_part($id) {
     swal({
         title: "Yakin akan Hapus ?",
         text: "",
@@ -422,7 +422,7 @@ $cetak = session()->get('cetak');
       .then((willcetak) => {
         if (willcetak) {
           $.ajax({
-            url: "<?= site_url('po_part/hapus_po_part') ?>",
+            url: "<?= site_url('beli_part/hapus_beli_part') ?>",
             type: "POST",
             data: {
               id: $id
@@ -462,51 +462,4 @@ $cetak = session()->get('cetak');
         }
       });
   }
-
-
-  // function reload_table_po_part() {
-  //   $nopo = document.getElementById('nopo').value;
-  //   // alert($nopo);
-  //   <?php
-        //   $session = session();
-        //   // if ($session->get('nama') == "") {
-        //   if (!$session->has('nama')) {
-        //   
-        ?>
-  //     vexpired();
-
-  //     function vexpired() {
-  //       $(document).ready(function() {
-  //         $('#expired').modal('show');
-  //       });
-  //     }
-  //   <?php
-        //   }
-        //   
-        ?>
-  //   $(document).ready(function() {
-  //     $('#tbl-po_part').DataTable();
-  //   });
-
-  //   $.ajax({
-  //     type: "post",
-  //     data: {
-  //       nopo: $nopo
-  //     },
-  //     // dataType: "json",
-  //     url: "<?= site_url('po_part/table_po_part/'); ?>",
-  //     beforeSend: function(f) {
-  //       $('.btnreload').attr('disable', 'disabled')
-  //       $('.btnreload').html('<i class="fa fa-spin fa-spinner"></i>')
-  //       // alert('1');
-  //       $('#tabel_po_part').html('<center>Loading Table ...</center>');
-  //     },
-  //     success: function(data) {
-  //       // alert(data);
-  //       $('#tabel_po_part').html(data);
-  //       $('.btnreload').removeAttr('disable')
-  //       $('.btnreload').html('<i class="fa fa-spinner">')
-  //     }
-  //   })
-  // }
 </script>
