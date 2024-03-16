@@ -1,0 +1,36 @@
+initialisasi repository :
+echo "# posv2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/murodajah15/posv2.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/murodajah15/posv2.git
+git branch -M main
+git push -u origin main
+
+update dari local ke git :
+- git remote add origin https://github.com/murodajah15/posv2.git
+- git add .
+- git commit -m "command name"
+- git push origin main
+
+client
+- git branch (nama branch)
+- git checkout (nama branch)
+
+Selanjutnya project manajer check di repository di pull request untuk merge
+
+download dari git (update ke local)
+git fetch
+git pull origin main
+
+Cloning a repository
+To grab a complete copy of another user's repository, use git clone like this:
+$ git clone https://github.com/USERNAME/REPOSITORY.git
+# Clones a repository to your computer
+
+
+
