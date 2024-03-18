@@ -1,5 +1,5 @@
 <?php
-$submenu = 'wo_gr';
+$submenu = 'faktur_gr';
 $kunci_harga_jual = $saplikasi->kunci_harga_jual;
 $session = session();
 // var_dump($vdata);
@@ -21,7 +21,7 @@ $cetak = session('cetak');
     <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-                {{ $vdata['title'] }}{{ ' ' . $wo_gr->nopolisi . ' - ' . $wo_gr->nowo }}
+                {{ $vdata['title'] }}{{ ' ' . $faktur_gr->nopolisi . ' - ' . $faktur_gr->nofaktur }}
                 {{-- @if (isset($vdata))
                     {{ $vdata['title'] }}
                 @endif --}}
@@ -32,41 +32,43 @@ $cetak = session('cetak');
         </div>
         <form action="{{ $action }}" method="post" class="formtambahpart_gr">
             @csrf
-            @if ($wo_grd->id)
+            @if ($faktur_grd->id)
                 @method('put')
             @endif
             <div class="modal-body">
                 <input type="hidden" class="form-control-sm" name="username" id="username"
                     value="{{ $session->get('username') }}">
-                <input type="hidden" class="form-control-sm" name="nowo" id="nowo" value="{{ $wo_gr->nowo }}">
+                <input type="hidden" class="form-control-sm" name="nofaktur" id="nofaktur"
+                    value="{{ $faktur_gr->nofaktur }}">
                 <input type="hidden" class='form-control form-control-sm' id='id' name='id' size='50'
-                    autocomplete='off' readonly value="{{ $wo_grd->id }}">
+                    autocomplete='off' readonly value="{{ $faktur_grd->id }}">
                 <div class="row">
                     <div class='col-md-12'>
                         <table style=font-size:12px; class='table table-borderless table-sm table-hover'>
-                            <tr>
+                            {{-- <tr>
                                 <td>Asuransi</td>
                                 <td>
                                     <div class="input-group mb-1">
                                         <input type="hidden" class="form-control form-control-sm" name="jenis"
                                             id="jenis" value="PART">
                                         <input type="text" class="form-control form-control-sm" name="kdasuransi"
-                                            id="kdasuransi" value="{{ $wo_gr->kdasuransi }}"
+                                            id="kdasuransi" value="{{ $faktur_gr->kdasuransi }}"
                                             {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }} readonly>
                                         <input type="text" style="width: 40%" class="form-control form-control-sm"
-                                            name="nmasuransi" id="nmasuransi" value="{{ $wo_gr->nmasuransi }}" readonly>
+                                            name="nmasuransi" id="nmasuransi" value="{{ $faktur_gr->nmasuransi }}"
+                                            readonly>
                                     </div>
                                 </td>
-                            </tr>
+                            </tr> --}}
                             <tr>
                                 <td>Part</td>
                                 <td>
                                     <div class="input-group mb-1">
                                         <input type="text" class="form-control form-control-sm" name="kode"
-                                            id="kode" value="{{ $wo_grd->kode }}"
+                                            id="kode" value="{{ $faktur_grd->kode }}"
                                             {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>
                                         <input type="text" style="width: 40%" class="form-control form-control-sm"
-                                            name="nama" id="nama" value="{{ $wo_grd->nama }}" readonly>
+                                            name="nama" id="nama" value="{{ $faktur_grd->nama }}" readonly>
                                         <button class="btn btn-outline-secondary btn-sm" type="button" id="caripart"
                                             {{ str_contains($vdata['title'], 'Detail') ? 'disabled' : '' }}><i
                                                 class="fa fa-search"></i></button>
@@ -77,7 +79,7 @@ $cetak = session('cetak');
                                 <td>Qty</td>
                                 <td>
                                     <input type="number" class="form-control form-control-sm" name="qty"
-                                        id="qty" value="{{ $wo_grd->qty }}" style="text-align:right;"
+                                        id="qty" value="{{ $faktur_grd->qty }}" style="text-align:right;"
                                         {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>
                                 </td>
                             </tr>
@@ -86,11 +88,11 @@ $cetak = session('cetak');
                                 <td>
                                     @if ($kunci_harga_jual == 'Y')
                                         <input type="number" class="form-control form-control-sm" name="harga"
-                                            id="harga" value="{{ $wo_grd->harga }}" style="text-align:right;"
+                                            id="harga" value="{{ $faktur_grd->harga }}" style="text-align:right;"
                                             readonly>
                                     @else
                                         <input type="number" class="form-control form-control-sm" name="harga"
-                                            id="harga" value="{{ $wo_grd->harga }}" style="text-align:right;"
+                                            id="harga" value="{{ $faktur_grd->harga }}" style="text-align:right;"
                                             {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>
                                     @endif
                                 </td>
@@ -99,7 +101,8 @@ $cetak = session('cetak');
                                 <td>Discount (%)</td>
                                 <td>
                                     <input type="number" class="form-control form-control-sm" name="pr_discount"
-                                        id="pr_discount" value="{{ $wo_grd->pr_discount }}" style="text-align:right;"
+                                        id="pr_discount" value="{{ $faktur_grd->pr_discount }}"
+                                        style="text-align:right;"
                                         {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>
                                 </td>
                             </tr>
@@ -107,7 +110,7 @@ $cetak = session('cetak');
                                 <td>Subtotal</td>
                                 <td>
                                     <input type="number" class="form-control form-control-sm" name="subtotal"
-                                        id="subtotal" style="text-align:right;" value="{{ $wo_grd->subtotal }}"
+                                        id="subtotal" style="text-align:right;" value="{{ $faktur_grd->subtotal }}"
                                         readonly>
                                 </td>
                             </tr>
@@ -115,7 +118,7 @@ $cetak = session('cetak');
                                 <td>Keterangan</td>
                                 <td>
                                     <textarea type='text' rows='3' class="form-control form-control-sm" name="kerusakan" id="kerusakan"
-                                        {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>{{ $wo_grd->kerusakan }}</textarea>
+                                        {{ str_contains($vdata['title'], 'Detail') ? 'readonly' : '' }}>{{ $faktur_grd->kerusakan }}</textarea>
                                 </td>
                             </tr>
                         </table>
@@ -156,6 +159,9 @@ $cetak = session('cetak');
             hit_subtotal();
         })
         $('#pr_discount').on('blur', function(e) {
+            hit_subtotal();
+        })
+        $('#kode').on('focus', function(e) {
             hit_subtotal();
         })
 
@@ -200,8 +206,8 @@ $cetak = session('cetak');
                     } else {
                         toastr.info('Data berhasil di simpan, silahkan melanjutkan')
                         $('#modaltambahdetail').modal('hide');
-                        reload_table_wo_part();
-                        reload_table_wo_gr()
+                        reload_table_faktur_part();
+                        reload_table_faktur_gr()
                     }
                 },
                 // error: function(xhr, ajaxOptions, thrownError) {

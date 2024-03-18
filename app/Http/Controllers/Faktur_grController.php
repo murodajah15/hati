@@ -81,21 +81,21 @@ class Faktur_grController extends Controller
     public function create(Request $request)
     {
         if ($request->Ajax()) {
-            $wo_gr = Wo_gr::join('tbmobil', 'tbmobil.nopolisi', '=', 'wo_gr.nopolisi')
-                ->select('wo_gr.*', 'tbmobil.*')->where('wo_gr.close', 1)->get();
+            $faktur_gr = Faktur_gr::join('tbmobil', 'tbmobil.nopolisi', '=', 'faktur_gr.nopolisi')
+                ->select('faktur_gr.*', 'tbmobil.*')->where('faktur_gr.close', 1)->get();
             $faktur_gr = Faktur_gr::where('id', $request->id)->first();
             $data = [
                 'menu' => 'transaksi',
                 'submenu' => 'faktur_gr',
                 'submenu1' => 'general_repair',
                 'title' => 'Tambah Data Task List General Repair',
-                // 'faktur_gr' => Wo_gr::all(),
+                // 'faktur_gr' => Faktur_gr::all(),
             ];
             // var_dump($data);
             return response()->json([
                 'body' => view('faktur_gr.modaltambahmaster', [
-                    'wo_gr' => $wo_gr, //Wo_gr::first(),
-                    'faktur_gr' => new faktur_gr(), //Wo_gr::first(),
+                    'faktur_gr' => $faktur_gr, //Faktur_gr::first(),
+                    'faktur_gr' => new faktur_gr(), //Faktur_gr::first(),
                     'tbasuransi' => Tbasuransi::orderBy('nama')->get(),
                     'action' => route('faktur_gr.store'),
                     'vdata' => $data,
@@ -126,7 +126,7 @@ class Faktur_grController extends Controller
                 $campaign = isset($request->campaign)  ? '1' : '0';
                 $booking = isset($request->booking)  ? '1' : '0';
                 $lain_lain = isset($request->lain_lain)  ? '1' : '0';
-                $row_wo_gr = Wo_gr::where('nowo', $request->nowo)->first();
+                $row_wo_gr = Faktur_gr::where('nowo', $request->nowo)->first();
                 $dpp = $row_wo_gr->dpp;
                 $ppn = $dpp * ($request->pr_ppn / 100);
                 $total_wo = $dpp + $ppn;
@@ -185,7 +185,7 @@ class Faktur_grController extends Controller
                     'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
                 ]);
                 $faktur_gr->save($validated);
-                Wo_gr::where('nowo', $request->nowo)->update(['nofaktur' => $nofaktur]);
+                Faktur_gr::where('nowo', $request->nowo)->update(['nofaktur' => $nofaktur]);
                 Faktur_grd::where('nofaktur', $nofaktur)->delete();
                 $row_wo_grd = Wo_grd::where('nowo', $request->nowo)->get();
                 foreach ($row_wo_grd as $row) {
@@ -220,7 +220,7 @@ class Faktur_grController extends Controller
             // dd($request->jenis);
             $data = [
                 'menu' => 'transaksi',
-                'submenu' => 'wo_gr',
+                'submenu' => 'faktur_gr',
                 'submenu1' => 'general_repair',
                 'title' => 'Detail Faktur General Repair',
                 'faktur_gr' => Faktur_gr::findOrFail($id),
@@ -377,7 +377,7 @@ class Faktur_grController extends Controller
     //                 'tbtipe' => Tbtipe::orderBy('nama')->get(),
     //                 'tbwarna' => Tbwarna::orderBy('nama')->get(),
     //                 'tbjenis' => Tbjenis::orderBy('nama')->get(),
-    //                 'estimasi_gr' => Wo_gr::where('nopolisi', $nopolisi)->get(),
+    //                 'estimasi_gr' => Faktur_gr::where('nopolisi', $nopolisi)->get(),
     //                 'action' => '',
     //                 'vdata' => $data,
     //             ])->render(),
@@ -453,7 +453,7 @@ class Faktur_grController extends Controller
     // public function destroy(estimasi_gr $estimasi_gr, Request $request)
     // {
     //     if ($request->Ajax()) {
-    //         Wo_gr::where('id', $request->id)->delete();
+    //         Faktur_gr::where('id', $request->id)->delete();
     //         return response()->json([
     //             'sukses' => true,
     //         ]);
@@ -465,7 +465,7 @@ class Faktur_grController extends Controller
     public function destroy(Request $request)
     {
         if ($request->Ajax()) {
-            Wo_gr::where('id', $request->id)->update(['batal' => 1]);
+            Faktur_gr::where('id', $request->id)->update(['batal' => 1]);
             return response()->json([
                 'sukses' => true,
             ]);
@@ -480,7 +480,7 @@ class Faktur_grController extends Controller
             $data = Faktur_gr::where('id', $request->id)->first();
             $userclose = session('username') . ', ' . date('d-m-Y h:i:s');
             Faktur_gr::where('id', $request->id)->update(['close' => 1, 'sudahbayar' => $data->total_wo, 'user_close' => $userclose]);
-            Wo_gr::where('nowo', $data->nowo)->update(['nofaktur' => $data->nofaktur]);
+            Faktur_gr::where('nowo', $data->nowo)->update(['nofaktur' => $data->nofaktur]);
             //Create History
             $tanggal = date('Y-m-d');
             $datetime = date('Y-m-d H:i:s');
@@ -531,8 +531,8 @@ class Faktur_grController extends Controller
                 'close' => 0, 'user' => 'Unproses-' . $request->username . ', ' . date('d-m-Y h:i:s'),
                 'ket_proses' => $request->catatan . ' (' . date('d-m-Y h:i:s') . '}'
             ]);
-            $data = Faktur_gr::where('id', $request->id)->first();
-            Wo_gr::where('nowo', $data->nowo)->update(['nofaktur' => '']);
+            // $data = Faktur_gr::where('id', $request->id)->first();
+            // Faktur_gr::where('nowo', $data->nowo)->update(['nofaktur' => '']);
             //Create History
             $tanggal = date('Y-m-d');
             $datetime = date('Y-m-d H:i:s');
@@ -558,7 +558,7 @@ class Faktur_grController extends Controller
             $userbatal = session('username') . ', ' . date('d-m-Y h:i:s');
             Faktur_gr::where('id', $request->id)->update(['batal' => 1, 'ket_batal' => $ket_batal, 'user_batal' => $userbatal, 'tgl_batal' => date('Y-m-d')]);
             $data = Faktur_gr::where('id', $request->id)->first();
-            Wo_gr::where('nowo', $data->nowo)->update(['nofaktur' => '']);
+            Faktur_gr::where('nowo', $data->nowo)->update(['nofaktur' => '']);
             //Create History
             $tanggal = date('Y-m-d');
             $datetime = date('Y-m-d H:i:s');
@@ -579,43 +579,54 @@ class Faktur_grController extends Controller
     public function faktur_grambil(Request $request)
     {
         if ($request->Ajax()) {
-            Faktur_gr::where('id', $request->id)->update(['batal' => 0]);
-            $data = Faktur_gr::where('id', $request->id)->first();
-            //Create History
-            $tanggal = date('Y-m-d');
-            $datetime = date('Y-m-d H:i:s');
-            $dokumen = $data->nofaktur;
-            $form = 'Faktur General Repair';
-            $status = 'Ambil';
-            $catatan = isset($request->catatan) ? $request->catatan : '';
-            $username = session('username');
-            Hisuser::insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
-            return response()->json([
-                'sukses' => true,
-            ]);
+            $datafaktur = Faktur_gr::where('id', $request->id)->first();
+            $nofaktur = $datafaktur->nofaktur;
+            $nowo = $datafaktur->nowo;
+            $datawo = Faktur_gr::where('nowo', $nowo)->first();
+            if ($datawo->nofaktur != $nofaktur) {
+                return response()->json([
+                    'sukses' => false,
+                ]);
+            } else {
+                Faktur_gr::where('nowo', $nowo)->update(['nofaktur' => $nofaktur]);
+                Faktur_gr::where('id', $request->id)->update(['batal' => 0]);
+                $datafaktur = Faktur_gr::where('id', $request->id)->first();
+                //Create History
+                $tanggal = date('Y-m-d');
+                $datetime = date('Y-m-d H:i:s');
+                $dokumen = $datafaktur->nofaktur;
+                $form = 'Faktur General Repair';
+                $status = 'Ambil';
+                $catatan = isset($request->catatan) ? $request->catatan : '';
+                $username = session('username');
+                Hisuser::insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+                return response()->json([
+                    'sukses' => true,
+                ]);
+            }
         } else {
             exit('Maaf tidak dapat diproses');
         }
     }
 
-    public function detailwo_gr(wo_gr $wo_gr, Request $request)
+    public function detailwo_gr(wo_gr $faktur_gr, Request $request)
     {
         if ($request->Ajax()) {
             $data = [
                 'menu' => 'transaksi',
-                'submenu' => 'wo_gr',
+                'submenu' => 'faktur_gr',
                 'submenu1' => 'general_repair',
                 'title' => 'Detail WO General Repair',
             ];
             $id = $request->id;
-            $wo_gr = Wo_gr::where('id', $id)->first();
-            $wo_grd = Wo_grd::where('nowo', $wo_gr->nowo)->get();
+            $faktur_gr = Faktur_gr::where('id', $id)->first();
+            $faktur_grd = Wo_grd::where('nowo', $faktur_gr->nowo)->get();
             return response()->json([
-                'body' => view('wo_gr.modaldetailwo', [
-                    'submenu' => 'wo_gr',
-                    'tbmobil' => Tbmobil::where('nopolisi', $wo_gr->nopolisi)->first(),
-                    'wo_gr' => $wo_gr,
-                    'wo_grd' => $wo_grd,
+                'body' => view('faktur_gr.modaldetailwo', [
+                    'submenu' => 'faktur_gr',
+                    'tbmobil' => Tbmobil::where('nopolisi', $faktur_gr->nopolisi)->first(),
+                    'faktur_gr' => $faktur_gr,
+                    'faktur_grd' => $faktur_grd,
                     'action' => '', //route('estimasi_grd.store', $estimasi_gr->id),
                     'vdata' => $data,
                 ])->render(),
@@ -741,7 +752,7 @@ class Faktur_grController extends Controller
     {
         if ($request->Ajax()) {
             $idwo = $request->idwo;
-            $row_wo_gr = Wo_gr::where('id', $idwo)->first();
+            $row_wo_gr = Faktur_gr::where('id', $idwo)->first();
             // $validated = $request->validated();
             // if ($validated) {
             $nofaktur = 'BF' . date('Y') . date('m') . sprintf("%05s", intval(substr('00000', -5)) + 1);
@@ -806,9 +817,9 @@ class Faktur_grController extends Controller
                 'total_wo' => $row_wo_gr->total_wo,
                 'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
             ]);
-            // $wo_gr->save($validated);
+            // $faktur_gr->save($validated);
             $faktur_gr->save();
-            Wo_gr::where('nofaktur', $row_wo_gr->nofaktur)->update(['nofaktur' => $nofaktur]);
+            Faktur_gr::where('nofaktur', $row_wo_gr->nofaktur)->update(['nofaktur' => $nofaktur]);
             $row_wo_grd = Wo_grd::where('nowo', $row_wo_gr->nowo)->get();
             Faktur_grd::where('nowo', $row_wo_gr->nowo)->delete();
             foreach ($row_wo_grd as $row) {
@@ -836,11 +847,11 @@ class Faktur_grController extends Controller
     {
         if ($request->ajax()) {
             $nowo = $request->nowo;
-            $wo_gr = Wo_gr::where('nowo', $nowo)->first(); //->orderBy('kode', 'asc');
+            $faktur_gr = Faktur_gr::where('nowo', $nowo)->first(); //->orderBy('kode', 'asc');
             $data = [
-                'wo_gr' => $wo_gr,
+                'faktur_gr' => $faktur_gr,
             ];
-            echo view('wo_gr.summary', $data);
+            echo view('faktur_gr.summary', $data);
         }
     }
 }

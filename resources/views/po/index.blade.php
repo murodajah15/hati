@@ -82,8 +82,6 @@
         </div>
         <!-- /.content-header -->
     </div>
-    </div>
-
 
     <div class="viewmodal" style="display: none;"></div>
 
@@ -93,12 +91,6 @@
     <div class="modal fade" id="modaltambahmaster" data-backdrop="static" data-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
     </div>
-    {{-- <div class="modal fade" id="modaltambah" data-backdrop="static" data-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    </div> --}}
-    {{-- <div class="modal fade" id="modaltambahtbl" data-backdrop="static" data-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    </div> --}}
     <div class="modal fade" id="modalcarisupplier" data-backdrop="static" data-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
     </div>
@@ -171,6 +163,11 @@
                             className: 'dt-body-center',
                             targets: [7],
                         },
+                        {
+                            // targets: [2],
+                            // render: DataTable.render.moment('YYYY/MM/DD'),
+                            // render: DataTable.render.moment('Do MMM YYYY'),
+                        },
                     ],
                     order: [
                         [1, 'desc']
@@ -200,7 +197,14 @@
                         },
                         {
                             data: 'tglpo',
-                            name: 'tglpo'
+                            name: 'tglpo',
+                            // render: function(data, type, row, meta) {
+                            //     // return setDate(row.tglpo, 'Y-m-d')
+                            //     return format('MM/DD/YYYY');
+                            // }
+                            // render: function(data, type, row, meta) {
+                            //     return meta.settings.date('d-m-Y', strtotime(row.tglpo))
+                            // }
                         },
                         {
                             data: 'nmsupplier',
@@ -212,18 +216,10 @@
                                 return meta.settings.fnFormatNumber(row.total);
                             }
                         },
-                        // {
-                        //     data: 'proses',
-                        //     name: 'proses'
-                        // },
-                        // {
-                        //     data: 'batal',
-                        //     name: 'batal'
-                        // },
                         {
                             orderable: true,
-                            // data: 'aktif',
-                            // name: 'aktif'
+                            data: 'proses',
+                            name: 'proses',
                             'render': function(data, type, row) {
                                 if (row.proses == 'Y') {
                                     return `<input type="checkbox" checked disabled>`;
@@ -234,8 +230,8 @@
                         },
                         {
                             orderable: true,
-                            // data: 'aktif',
-                            // name: 'aktif'
+                            data: 'batal',
+                            name: 'batal',
                             'render': function(data, type, row) {
                                 if (row.batal == 'Y') {
                                     return `<input type="checkbox" checked disabled>`;
@@ -244,34 +240,9 @@
                                 }
                             }
                         },
-                        // {
-                        //     data: null,
-                        //     render: function(data, type, row, meta) {
-                        //         return `<a href="#${row.id}"><button onclick="detail(${row.id})" class='btn btn-sm btn-info' href='javascript:void(0)' <?= $pakai == 1 ? '' : 'disabled' ?>><i class='fa fa-eye'></i></button></a>
-                    //         <a href="#${row.id}"><button onclick="edit(${row.id})" class='btn btn-sm btn-warning' href='javascript:void(0)' <?= $edit == 1 ? '' : 'disabled' ?>><i class='fa fa-edit'></i></button></a>
-                    //         <a href="#${row.id},${row.kode}"><button onclick="hapus(${row.id})" class='btn btn-sm btn-danger' href='javascript:void(0)' <?= $hapus == 1 ? '' : 'disabled' ?>><i class='fa fa-trash'></i></button></a>`;
-
-                        //     }
-                        // },
                         {
                             data: null,
                             render: function(data, type, row, meta) {
-                                // if (row.batal == 'Y') {
-                                //     return `Canceled`;
-                                // } else {
-                                //     if (row.proses == 'Y') {
-                                //         return `<div class="btn-group" role="group">
-                            //         <button type="button" class="btn bt n-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            //         Dropdown
-                            //         </button>
-                            //         <div class="dropdown-menu">
-                            //             <a class="dropdown-item" href="#">Dropdown link</a>
-                            //             <a class="dropdown-item" href="#">Dropdown link</a>
-                            //         </div>
-                            //     </div>`
-                                //     }
-                                // }
-
                                 if (row.batal == 'Y') {
                                     return `<div class="btn-group" role="group">
                                                 <button id="btnGroupDrop1" type="button" class="btn btn-warning btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">

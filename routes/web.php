@@ -103,6 +103,15 @@ use App\Http\Controllers\ProsesController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\symlink;
 
+use App\Http\Controllers\So_bahanController;
+use App\Http\Controllers\Sod_bahanController;
+use App\Http\Controllers\Jual_bahanController;
+use App\Http\Controllers\Juald_bahanController;
+// use App\Http\Controllers\Po_bahandController;
+// use App\Http\Controllers\Pod_bahanController;
+// use App\Http\Controllers\Beli_bahandController;
+// use App\Http\Controllers\Belid_bahanController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -608,6 +617,7 @@ Route::middleware('auth')->group(function () {
   // Route::get('sorepltbbarang', [SoController::class, 'sorepltbbarang'])->name('sorepltbbarang');
   // Route::get('socaritbmultiprc', [SoController::class, 'socaritbmultiprc'])->name('socaritbmultiprc');
   // Route::get('sorepltbmultiprc', [SoController::class, 'sorepltbmultiprc'])->name('sorepltbmultiprc');
+
   //Sales Order
   Route::resource('/so', \App\Http\Controllers\SoController::class);
   Route::get('soajax', [SoController::class, 'soajax'])->name('soajax');
@@ -748,6 +758,148 @@ Route::middleware('auth')->group(function () {
   Route::get('opnamecetak', [OpnameController::class, 'opnameCetak'])->name('opnamecetak');
   Route::get('opnamebatalproses', [OpnameController::class, 'opnamebatalproses'])->name('opnamebatalproses');
   Route::get('opnamebatalprosesok', [OpnameController::class, 'opnamebatalprosesok'])->name('opnamebatalprosesok');
+
+  //Sales Order Bahan
+  Route::resource('/so_bahan', \App\Http\Controllers\So_bahanController::class);
+  Route::get('so_bahanajax', [So_bahanController::class, 'so_bahanajax'])->name('so_bahanajax');
+  Route::get('so_bahanupdate', [So_bahanController::class, 'update'])->name('update');
+  Route::post('so_bahanproses/{so_bahanproses}', [So_bahanController::class, 'so_bahanproses'])->name('so_bahanproses');
+  Route::post('so_bahanunproses', [So_bahanController::class, 'so_bahanunproses'])->name('so_bahanunproses');
+  Route::post('so_bahancancel', [So_bahanController::class, 'so_bahancancel'])->name('so_bahancancel');
+  Route::post('so_bahanambil', [So_bahanController::class, 'so_bahanambil'])->name('so_bahanambil');
+  Route::resource('/so_bahand', \App\Http\Controllers\Sod_bahanController::class);
+  Route::get('so_bahandajax', [So_bahanController::class, 'so_bahandajax'])->name('so_bahandajax');
+  Route::get('so_bahantambahdetail', [So_bahanController::class, 'so_bahantambahdetail'])->name('so_bahantambahdetail');
+  Route::get('so_bahantotaldetail', [So_bahanController::class, 'so_bahantotaldetail'])->name('so_bahantotaldetail');
+  Route::get('so_bahaninputso_bahand', [So_bahanController::class, 'so_bahaninputso_bahand'])->name('so_bahaninputso_bahand');
+  Route::get('so_bahandstore', [Sod_bahanController::class, 'store'])->name('so_bahandstore');
+  Route::get('so_bahandupdate', [Sod_bahanController::class, 'update'])->name('update');
+  Route::get('so_bahancetak', [So_bahanController::class, 'so_bahancetak'])->name('so_bahancetak');
+  Route::get('so_bahanbatalproses', [So_bahanController::class, 'so_bahanbatalproses'])->name('so_bahanbatalproses');
+  Route::get('so_bahanbatalproseso_bahank', [So_bahanController::class, 'so_bahanbatalproseso_bahank'])->name('so_bahanbatalprosesok');
+  //Penjualan Bahan
+  Route::resource('/jual', \App\Http\Controllers\JualController::class);
+  Route::get('jualajax', [JualController::class, 'jualajax'])->name('jualajax');
+  Route::get('jualupdate', [JualController::class, 'update'])->name('update');
+  Route::post('jualproses/{jualproses}', [JualController::class, 'jualproses'])->name('jualproses');
+  Route::post('jualunproses', [JualController::class, 'jualunproses'])->name('jualunproses');
+  Route::post('Jualcancel', [JualController::class, 'Jualcancel'])->name('Jualcancel');
+  Route::post('jualambil', [JualController::class, 'jualambil'])->name('jualambil');
+  Route::resource('/juald', \App\Http\Controllers\JualdController::class);
+  Route::get('jualdajax', [JualController::class, 'jualdajax'])->name('jualdajax');
+  Route::get('cariso', [JualController::class, 'cariso'])->name('cariso');
+  Route::get('replso', [JualController::class, 'replso'])->name('replso');
+  Route::get('prosessalinso', [JualController::class, 'prosessalinso'])->name('prosessalinso');
+  Route::get('jualtambahdetail', [JualController::class, 'jualtambahdetail'])->name('jualtambahdetail');
+  Route::get('jualtotaldetail', [JualController::class, 'jualtotaldetail'])->name('jualtotaldetail');
+  Route::get('jualinputjuald', [JualController::class, 'jualinputjuald'])->name('jualinputjuald');
+  Route::get('jualdstore', [JualdController::class, 'store'])->name('jualdstore');
+  Route::get('jualdupdate', [JualdController::class, 'update'])->name('update');
+  Route::get('jualcetakfp', [JualController::class, 'jualcetakfp'])->name('jualcetakfp');
+  Route::get('jualcetaksj', [JualController::class, 'jualcetaksj'])->name('jualcetaksj');
+  Route::get('jualbatalproses', [JualController::class, 'jualbatalproses'])->name('jualbatalproses');
+  Route::get('jualbatalprosesok', [JualController::class, 'jualbatalprosesok'])->name('jualbatalprosesok');
+  //Purchase Order Bahan
+  Route::resource('/po', \App\Http\Controllers\PoController::class);
+  Route::get('poajax', [PoController::class, 'poajax'])->name('poajax');
+  Route::get('poupdate', [PoController::class, 'update'])->name('update');
+  Route::post('poproses/{poproses}', [PoController::class, 'poproses'])->name('poproses');
+  Route::post('pounproses', [PoController::class, 'pounproses'])->name('pounproses');
+  Route::post('pocancel', [PoController::class, 'pocancel'])->name('pocancel');
+  Route::post('poambil', [PoController::class, 'poambil'])->name('poambil');
+  Route::resource('/pod', \App\Http\Controllers\PodController::class);
+  Route::get('podajax', [PoController::class, 'podajax'])->name('podajax');
+  Route::get('potambahdetail', [PoController::class, 'potambahdetail'])->name('potambahdetail');
+  Route::get('pototaldetail', [PoController::class, 'pototaldetail'])->name('pototaldetail');
+  Route::get('poinputpod', [PoController::class, 'poinputpod'])->name('poinputpod');
+  Route::get('podstore', [PodController::class, 'store'])->name('podstore');
+  Route::get('podupdate', [PodController::class, 'update'])->name('update');
+  Route::get('pocetak', [PoController::class, 'pocetak'])->name('pocetak');
+  Route::get('pobatalproses', [PoController::class, 'pobatalproses'])->name('pobatalproses');
+  Route::get('pobatalprosesok', [PoController::class, 'pobatalprosesok'])->name('pobatalprosesok');
+  //Pembelian Bahan
+  Route::resource('/beli', \App\Http\Controllers\BeliController::class);
+  Route::get('beliajax', [BeliController::class, 'beliajax'])->name('beliajax');
+  Route::get('beliupdate', [BeliController::class, 'update'])->name('update');
+  Route::post('beliproses/{beliproses}', [BeliController::class, 'beliproses'])->name('beliproses');
+  Route::post('beliunproses', [BeliController::class, 'beliunproses'])->name('beliunproses');
+  Route::post('belicancel', [BeliController::class, 'belicancel'])->name('belicancel');
+  Route::post('beliambil', [BeliController::class, 'beliambil'])->name('beliambil');
+  Route::resource('/belid', \App\Http\Controllers\BelidController::class);
+  Route::get('belidajax', [BeliController::class, 'belidajax'])->name('belidajax');
+  Route::get('carigudang', [BeliController::class, 'carigudang'])->name('carigudang');
+  Route::get('replgudang', [BeliController::class, 'replgudang'])->name('replgudang');
+  Route::get('caripo', [BeliController::class, 'caripo'])->name('caripo');
+  Route::get('replpo', [BeliController::class, 'replpo'])->name('replpo');
+  Route::get('prosessalinpo', [BeliController::class, 'prosessalinpo'])->name('prosessalinpo');
+  Route::get('belitambahdetail', [BeliController::class, 'belitambahdetail'])->name('belitambahdetail');
+  Route::get('belitotaldetail', [BeliController::class, 'belitotaldetail'])->name('belitotaldetail');
+  Route::get('beliinputbelid', [BeliController::class, 'beliinputbelid'])->name('beliinputbelid');
+  Route::get('belidstore', [BelidController::class, 'store'])->name('belidstore');
+  Route::get('belidupdate', [BelidController::class, 'update'])->name('update');
+  Route::get('belicetak', [BeliController::class, 'belicetak'])->name('belicetak');
+  Route::get('belibatalproses', [BeliController::class, 'belibatalproses'])->name('belibatalproses');
+  Route::get('belibatalprosesok', [BeliController::class, 'belibatalprosesok'])->name('belibatalprosesok');
+  //Penerimaan Bahan
+  Route::resource('/terima', \App\Http\Controllers\TerimaController::class);
+  Route::get('terimaajax', [TerimaController::class, 'terimaajax'])->name('terimaajax');
+  Route::get('ambildatatbjntranst', [TerimaController::class, 'ambildatatbjntranst'])->name('ambildatatbjntranst');
+  Route::get('carikdjntrans', [TerimaController::class, 'carikdjntrans'])->name('carikdjntrans');
+  Route::get('terimaupdate', [TerimaController::class, 'update'])->name('update');
+  Route::post('terimaproses/{terimaproses}', [TerimaController::class, 'terimaproses'])->name('terimaproses');
+  Route::post('terimaunproses', [TerimaController::class, 'terimaunproses'])->name('terimaunproses');
+  Route::post('terimacancel', [TerimaController::class, 'terimacancel'])->name('terimacancel');
+  Route::post('terimaambil', [TerimaController::class, 'terimaambil'])->name('terimaambil');
+  Route::resource('/terimad', \App\Http\Controllers\TerimadController::class);
+  Route::get('terimadajax', [TerimaController::class, 'terimadajax'])->name('terimadajax');
+  Route::get('terimatambahdetail', [TerimaController::class, 'terimatambahdetail'])->name('terimatambahdetail');
+  Route::get('terimatotaldetail', [TerimaController::class, 'terimatotaldetail'])->name('terimatotaldetail');
+  Route::get('terimainputterimad', [TerimaController::class, 'terimainputterimad'])->name('terimainputterimad');
+  Route::get('terimadstore', [TerimadController::class, 'store'])->name('terimadstore');
+  Route::get('terimadupdate', [TerimadController::class, 'update'])->name('update');
+  Route::get('terimacetak', [TerimaController::class, 'terimacetak'])->name('terimacetak');
+  Route::get('terimabatalproses', [TerimaController::class, 'terimabatalproses'])->name('terimabatalproses');
+  Route::get('terimabatalprosesok', [TerimaController::class, 'terimabatalprosesok'])->name('terimabatalprosesok');
+  //Pengeluaran Bahan
+  Route::resource('/keluar', \App\Http\Controllers\KeluarController::class);
+  Route::get('keluarajax', [KeluarController::class, 'keluarajax'])->name('keluarajax');
+  Route::get('ambildatatbjntransk', [KeluarController::class, 'ambildatatbjntransk'])->name('ambildatatbjntransk');
+  Route::get('carikdjntrans', [KeluarController::class, 'carikdjntrans'])->name('carikdjntrans');
+  Route::get('keluarupdate', [KeluarController::class, 'update'])->name('update');
+  Route::post('keluarproses/{keluarproses}', [KeluarController::class, 'keluarproses'])->name('keluarproses');
+  Route::post('keluarunproses', [KeluarController::class, 'keluarunproses'])->name('keluarunproses');
+  Route::post('keluarcancel', [KeluarController::class, 'keluarcancel'])->name('keluarcancel');
+  Route::post('keluarambil', [KeluarController::class, 'keluarambil'])->name('keluarambil');
+  Route::resource('/keluard', \App\Http\Controllers\KeluardController::class);
+  Route::get('keluardajax', [KeluarController::class, 'keluardajax'])->name('keluardajax');
+  Route::get('keluartambahdetail', [KeluarController::class, 'keluartambahdetail'])->name('keluartambahdetail');
+  Route::get('keluartotaldetail', [KeluarController::class, 'keluartotaldetail'])->name('keluartotaldetail');
+  Route::get('keluarinputkeluard', [KeluarController::class, 'keluarinputkeluard'])->name('keluarinputkeluard');
+  Route::get('keluardstore', [KeluardController::class, 'store'])->name('keluardstore');
+  Route::get('keluardupdate', [KeluardController::class, 'update'])->name('update');
+  Route::get('keluarcetak', [KeluarController::class, 'keluarCetak'])->name('keluarcetak');
+  Route::get('keluarbatalproses', [KeluarController::class, 'keluarbatalproses'])->name('keluarbatalproses');
+  Route::get('keluarbatalprosesok', [KeluarController::class, 'keluarbatalprosesok'])->name('keluarbatalprosesok');
+  //Stock Opname Bahan
+  Route::resource('/opname', \App\Http\Controllers\OpnameController::class);
+  Route::get('opnameajax', [OpnameController::class, 'opnameajax'])->name('opnameajax');
+  Route::get('opnameupdate', [OpnameController::class, 'update'])->name('update');
+  Route::post('opnamesalinbarang/{opnamesalinbarang}', [OpnameController::class, 'opnamesalinbarang'])->name('opnamesalinbarang');
+  Route::post('opnameproses/{opnameproses}', [OpnameController::class, 'opnameproses'])->name('opnameproses');
+  Route::post('opnameunproses', [OpnameController::class, 'opnameunproses'])->name('opnameunproses');
+  Route::post('opnamecancel', [OpnameController::class, 'opnamecancel'])->name('opnamecancel');
+  Route::post('opnameambil', [OpnameController::class, 'opnameambil'])->name('opnameambil');
+  Route::resource('/opnamed', \App\Http\Controllers\OpnamedController::class);
+  Route::get('opnamedajax', [OpnameController::class, 'opnamedajax'])->name('opnamedajax');
+  Route::get('opnametambahdetail', [OpnameController::class, 'opnametambahdetail'])->name('opnametambahdetail');
+  Route::get('opnametotaldetail', [OpnameController::class, 'opnametotaldetail'])->name('opnametotaldetail');
+  Route::get('opnameinputopnamed', [OpnameController::class, 'opnameinputopnamed'])->name('opnameinputopnamed');
+  Route::get('opnamedstore', [OpnamedController::class, 'store'])->name('opnamedstore');
+  Route::get('opnamedupdate', [OpnamedController::class, 'update'])->name('update');
+  Route::get('opnamecetak', [OpnameController::class, 'opnameCetak'])->name('opnamecetak');
+  Route::get('opnamebatalproses', [OpnameController::class, 'opnamebatalproses'])->name('opnamebatalproses');
+  Route::get('opnamebatalprosesok', [OpnameController::class, 'opnamebatalprosesok'])->name('opnamebatalprosesok');
+
   //Approv batas piutang
   Route::resource('/approv_batas_piutang', \App\Http\Controllers\Approv_batas_piutangController::class);
   Route::get('approv_batas_piutangajax', [Approv_batas_piutangController::class, 'approv_batas_piutangajax'])->name('approv_batas_piutangajax');

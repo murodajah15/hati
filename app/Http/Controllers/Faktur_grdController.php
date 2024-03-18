@@ -25,9 +25,9 @@ class Faktur_grdController extends Controller
         $row_faktur_grd = Faktur_grd::where('nofaktur', $row_faktur_gr->nofaktur)->first();
         $data = [
             'menu' => 'transaksi',
-            'submenu' => 'wo_gr',
-            'submenu1' => 'body_repair',
-            'title' => 'Detail Faktur Body Repair',
+            'submenu' => 'faktur_gr',
+            'submenu1' => 'general_repair',
+            'title' => 'Detail Faktur General Repair',
         ];
         return response()->json([
             'body' => view('faktur_gr.modaldetailfaktur', [
@@ -57,12 +57,12 @@ class Faktur_grdController extends Controller
         }
     }
 
-    public function tbljasa_wo_grajax(Request $request) //: View
+    public function tbljasa_faktur_grajax(Request $request) //: View
     {
         if ($request->ajax()) {
-            $nowo = $request->nowo;
-            $data = Faktur_grd::where('nowo', $nowo)->where('jenis', 'JASA'); //->orderBy('kode', 'asc');
-            // $data = Faktur_gr::select('wo_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'wo_gr.kdasuransi'); //->orderBy('kode', 'asc');
+            $nofaktur = $request->nofaktur;
+            $data = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'JASA'); //->orderBy('kode', 'asc');
+            // $data = Faktur_gr::select('faktur_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'faktur_gr.kdasuransi'); //->orderBy('kode', 'asc');
             return Datatables::of($data)
                 ->addIndexColumn()
                 ->addColumn('kode1', function ($row) {
@@ -78,16 +78,16 @@ class Faktur_grdController extends Controller
                 // })
                 // ->rawColumns(['action'])
                 ->make(true);
-            return view('tbl_wo_jasa');
+            return view('tbl_faktur_jasa');
         }
     }
 
-    public function tblpart_wo_grajax(Request $request) //: View
+    public function tblpart_faktur_grajax(Request $request) //: View
     {
         if ($request->ajax()) {
-            $nowo = $request->nowo;
-            $data = Faktur_grd::where('nowo', $nowo)->where('jenis', 'PART'); //->orderBy('kode', 'asc');
-            // $data = Faktur_gr::select('wo_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'wo_gr.kdasuransi'); //->orderBy('kode', 'asc');
+            $nofaktur = $request->nofaktur;
+            $data = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'PART'); //->orderBy('kode', 'asc');
+            // $data = Faktur_gr::select('faktur_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'faktur_gr.kdasuransi'); //->orderBy('kode', 'asc');
             return Datatables::of($data)
                 ->addIndexColumn()
                 ->addColumn('kode1', function ($row) {
@@ -103,16 +103,16 @@ class Faktur_grdController extends Controller
                 // })
                 // ->rawColumns(['action'])
                 ->make(true);
-            return view('tbl_wo_part');
+            return view('tbl_faktur_part');
         }
     }
 
-    public function tblbahan_wo_grajax(Request $request) //: View
+    public function tblbahan_faktur_grajax(Request $request) //: View
     {
         if ($request->ajax()) {
-            $nowo = $request->nowo;
-            $data = Faktur_grd::where('nowo', $nowo)->where('jenis', 'BAHAN'); //->orderBy('kode', 'asc');
-            // $data = Faktur_gr::select('wo_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'wo_gr.kdasuransi'); //->orderBy('kode', 'asc');
+            $nofaktur = $request->nofaktur;
+            $data = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'BAHAN'); //->orderBy('kode', 'asc');
+            // $data = Faktur_gr::select('faktur_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'faktur_gr.kdasuransi'); //->orderBy('kode', 'asc');
             return Datatables::of($data)
                 ->addIndexColumn()
                 ->addColumn('kode1', function ($row) {
@@ -128,16 +128,16 @@ class Faktur_grdController extends Controller
                 // })
                 // ->rawColumns(['action'])
                 ->make(true);
-            return view('tbl_wo_bahan');
+            return view('tbl_faktur_bahan');
         }
     }
 
-    public function tblopl_wo_grajax(Request $request) //: View
+    public function tblopl_faktur_grajax(Request $request) //: View
     {
         if ($request->ajax()) {
-            $nowo = $request->nowo;
-            $data = Faktur_grd::where('nowo', $nowo)->where('jenis', 'OPL'); //->orderBy('kode', 'asc');
-            // $data = Faktur_gr::select('wo_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'wo_gr.kdasuransi'); //->orderBy('kode', 'asc');
+            $nofaktur = $request->nofaktur;
+            $data = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'OPL'); //->orderBy('kode', 'asc');
+            // $data = Faktur_gr::select('faktur_gr.*', 'tbasuransi.nama as nmasuransi')->join('tbasuransi', 'tbasuransi.kode', '=', 'faktur_gr.kdasuransi'); //->orderBy('kode', 'asc');
             return Datatables::of($data)
                 ->addIndexColumn()
                 ->addColumn('kode1', function ($row) {
@@ -153,7 +153,7 @@ class Faktur_grdController extends Controller
                 // })
                 // ->rawColumns(['action'])
                 ->make(true);
-            return view('tbl_wo_opl');
+            return view('tbl_faktur_opl');
         }
     }
 
@@ -161,31 +161,31 @@ class Faktur_grdController extends Controller
     {
         if ($request->Ajax()) {
             if ($request->jenis == 'JASA' or $request->jenis == 'jasa') {
-                $title = 'Tambah data jasa wo body repair';
-                $view = 'wo_gr.modaltambahjasa';
+                $title = 'Tambah data jasa faktur general repair';
+                $view = 'faktur_gr.modaltambahjasa';
             }
             if ($request->jenis == 'PART' or $request->jenis == 'part') {
-                $title = 'Tambah data part wo body repair';
-                $view = 'wo_gr.modaltambahpart';
+                $title = 'Tambah data part faktur general repair';
+                $view = 'faktur_gr.modaltambahpart';
             }
             if ($request->jenis == 'BAHAN' or $request->jenis == 'bahan') {
-                $title = 'Tambah data bahan wo body repair';
-                $view = 'wo_gr.modaltambahbahan';
+                $title = 'Tambah data bahan faktur general repair';
+                $view = 'faktur_gr.modaltambahbahan';
             }
             if ($request->jenis == 'OPL' or $request->jenis == 'opl') {
-                $title = 'Tambah data opl wo body repair';
-                $view = 'wo_gr.modaltambahopl';
+                $title = 'Tambah data opl faktur general repair';
+                $view = 'faktur_gr.modaltambahopl';
             }
             $data = [
                 'menu' => 'transaksi',
-                'submenu' => 'wo_gr',
-                'submenu1' => 'body_repair',
+                'submenu' => 'faktur_gr',
+                'submenu1' => 'general_repair',
                 'title' => $title,
             ];
             return response()->json([
                 'body' => view($view, [
                     'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-                    'wo_gr' => Faktur_gr::where('nowo', $request->nowo)->first(),
+                    'faktur_gr' => Faktur_gr::where('nofaktur', $request->nofaktur)->first(),
                     'faktur_grd' => new faktur_grd(), //Faktur_gr::first(),
                     // 'tasklisttipe_grd' => Tasklisttipe_grd::where('kdasuransi', $kdasuransi)->orderBy('nama')->get(),
                     'action' => route('faktur_grd.store'),
@@ -205,7 +205,7 @@ class Faktur_grdController extends Controller
             $validated = $request->validated();
             if ($validated) {
                 $faktur_grd->fill([
-                    'nowo' => isset($request->nowo) ? $request->nowo : '',
+                    'nofaktur' => isset($request->nofaktur) ? $request->nofaktur : '',
                     'jenis' => isset($request->jenis) ? $request->jenis : '',
                     'kode' => isset($request->kode) ? $request->kode : '',
                     'nama' => isset($request->nama) ? $request->nama : '',
@@ -217,23 +217,22 @@ class Faktur_grdController extends Controller
                     'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
                 ]);
                 $faktur_grd->save($validated);
-                $faktur_grd->save($validated);
-                $jumjasa = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'JASA')->sum('subtotal');
-                $jumpart = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'PART')->sum('subtotal');
-                $jumbahan = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'BAHAN')->sum('subtotal');
-                $jumopl = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'OPL')->sum('subtotal');
-                $wo_gr = Faktur_gr::where('nowo', $request->nowo)->first();
+                $jumjasa = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'JASA')->sum('subtotal');
+                $jumpart = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'PART')->sum('subtotal');
+                $jumbahan = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'BAHAN')->sum('subtotal');
+                $jumopl = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'OPL')->sum('subtotal');
+                $faktur_gr = Faktur_gr::where('nofaktur', $request->nofaktur)->first();
                 $total = $jumjasa + $jumpart + $jumbahan + $jumopl;
-                $pr_ppn = $wo_gr->pr_ppn;
+                $pr_ppn = $faktur_gr->pr_ppn;
                 $ppn = $total * ($pr_ppn / 100);
-                $total_wo = $total + $ppn;
-                Faktur_gr::where('nowo', $request->nowo)->update([
+                $total_faktur = $total + $ppn;
+                Faktur_gr::where('nofaktur', $request->nofaktur)->update([
                     'total_jasa' => $jumjasa, 'total_part' => $jumpart,
                     'total_bahan' => $jumbahan, 'total_opl' => $jumopl,
-                    'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_wo' => $total_wo
+                    'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_faktur' => $total_faktur
                 ]);
                 $msg = [
-                    'sukses' => 'Data berhasil di tambah', //view('wo_gr.tabel_paket')
+                    'sukses' => 'Data berhasil di tambah', //view('faktur_gr.tabel_paket')
                 ];
             }
             echo json_encode($msg);
@@ -247,31 +246,31 @@ class Faktur_grdController extends Controller
     {
         if ($request->Ajax()) {
             if ($request->jenis == 'JASA' or $request->jenis == 'jasa') {
-                $title = 'Edit data jasa wo body repair';
-                $view = 'wo_gr.modaltambahjasa';
+                $title = 'Edit data jasa faktur general repair';
+                $view = 'faktur_gr.modaltambahjasa';
             }
             if ($request->jenis == 'PART' or $request->jenis == 'part') {
-                $title = 'Edit data part wo body repair';
-                $view = 'wo_gr.modaltambahpart';
+                $title = 'Edit data part faktur general repair';
+                $view = 'faktur_gr.modaltambahpart';
             }
             if ($request->jenis == 'BAHAN' or $request->jenis == 'bahan') {
-                $title = 'Edit data bahan wo body repair';
-                $view = 'wo_gr.modaltambahbahan';
+                $title = 'Edit data bahan faktur general repair';
+                $view = 'faktur_gr.modaltambahbahan';
             }
             if ($request->jenis == 'OPL' or $request->jenis == 'opl') {
-                $title = 'Edit data opl wo body repair';
-                $view = 'wo_gr.modaltambahopl';
+                $title = 'Edit data opl faktur general repair';
+                $view = 'faktur_gr.modaltambahopl';
             }
             $data = [
                 'menu' => 'transaksi',
-                'submenu' => 'wo_gr',
-                'submenu1' => 'body_repair',
+                'submenu' => 'faktur_gr',
+                'submenu1' => 'general_repair',
                 'title' => $title,
             ];
             return response()->json([
                 'body' => view($view, [
                     'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-                    'wo_gr' => Faktur_gr::where('nowo', $faktur_grd->nowo)->first(),
+                    'faktur_gr' => Faktur_gr::where('nofaktur', $faktur_grd->nofaktur)->first(),
                     'faktur_grd' => $faktur_grd,
                     'action' => route('faktur_grd.update', $faktur_grd->id),
                     'vdata' => $data,
@@ -289,7 +288,7 @@ class Faktur_grdController extends Controller
             $validated = $request->validated();
             if ($validated) {
                 $faktur_grd->fill([
-                    'nowo' => isset($request->nowo) ? $request->nowo : '',
+                    'nofaktur' => isset($request->nofaktur) ? $request->nofaktur : '',
                     'jenis' => isset($request->jenis) ? $request->jenis : '',
                     'kode' => isset($request->kode) ? $request->kode : '',
                     'nama' => isset($request->nama) ? $request->nama : '',
@@ -301,26 +300,26 @@ class Faktur_grdController extends Controller
                     'user' => 'Update-' . $request->username . ', ' . date('d-m-Y h:i:s'),
                 ]);
                 $faktur_grd->save($validated);
-                $jumjasa = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'JASA')->sum('subtotal');
-                $jumpart = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'PART')->sum('subtotal');
-                $jumbahan = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'BAHAN')->sum('subtotal');
-                $jumopl = Faktur_grd::where('nowo', $request->nowo)->where('jenis', 'OPL')->sum('subtotal');
-                $wo_gr = Faktur_gr::where('nowo', $request->nowo)->first();
+                $jumjasa = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'JASA')->sum('subtotal');
+                $jumpart = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'PART')->sum('subtotal');
+                $jumbahan = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'BAHAN')->sum('subtotal');
+                $jumopl = Faktur_grd::where('nofaktur', $request->nofaktur)->where('jenis', 'OPL')->sum('subtotal');
+                $faktur_gr = Faktur_gr::where('nofaktur', $request->nofaktur)->first();
                 $total = $jumjasa + $jumpart + $jumbahan + $jumopl;
-                $pr_ppn = $wo_gr->pr_ppn;
+                $pr_ppn = $faktur_gr->pr_ppn;
                 $ppn = $total * ($pr_ppn / 100);
-                $total_wo = $total + $ppn;
-                Faktur_gr::where('nowo', $request->nowo)->update([
+                $total_faktur = $total + $ppn;
+                Faktur_gr::where('nofaktur', $request->nofaktur)->update([
                     'total_jasa' => $jumjasa, 'total_part' => $jumpart,
                     'total_bahan' => $jumbahan, 'total_opl' => $jumopl,
-                    'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_wo' => $total_wo
+                    'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_faktur' => $total_faktur
                 ]);
                 $msg = [
-                    'sukses' => 'Data berhasil di update', //view('wo_gr.tabel_paket')
+                    'sukses' => 'Data berhasil di update', //view('faktur_gr.tabel_paket')
                 ];
             } else {
                 $msg = [
-                    'sukses' => 'Data gagal di update', //view('wo_gr.tabel_paket')
+                    'sukses' => 'Data gagal di update', //view('faktur_gr.tabel_paket')
                 ];
             }
             echo json_encode($msg);
@@ -391,17 +390,17 @@ class Faktur_grdController extends Controller
             $username = session('username');
             $data = [
                 'menu' => 'file',
-                'submenu' => 'wo_gr',
+                'submenu' => 'faktur_gr',
                 'submenu1' => 'ref_bengkel',
-                'title' => 'Detail WO',
-                // 'wo_gr' => Faktur_grd::findOrFail($id),
-                'userdtl' => Userdtl::where('cmodule', 'WO Body Repair')->where('username', $username)->first(),
+                'title' => 'Detail Faktur General Repair',
+                // 'faktur_gr' => Faktur_grd::findOrFail($id),
+                'userdtl' => Userdtl::where('cmodule', 'Faktur General Repair')->where('username', $username)->first(),
             ];
             $faktur_grd = Faktur_grd::where('id', $id)->first();
             // dd($faktur_grd);
             return response()->json([
-                'body' => view('wo_gr.modaldetailwo', [
-                    'wo_gr' => Faktur_gr::where('id', $id)->first(),
+                'body' => view('faktur_gr.modaldetailfaktur', [
+                    'faktur_gr' => Faktur_gr::where('id', $id)->first(),
                     // 'faktur_grd' => Faktur_grd::findOrFail($id),
                     'action' => route('faktur_grd.store'),
                     'vdata' => $data,
@@ -420,12 +419,12 @@ class Faktur_grdController extends Controller
             $faktur_grd = Faktur_grd::where('id', $request->id)->first();
             $data = [
                 'menu' => 'file',
-                'submenu' => 'wo_gr',
+                'submenu' => 'faktur_gr',
                 'submenu1' => 'ref_bengkel',
                 'title' => 'Edit Data Task List Tipe',
             ];
             return response()->json([
-                'body' => view('wo_gr.modaleditdetail', [
+                'body' => view('faktur_gr.modaleditdetail', [
                     'faktur_grd' => $faktur_grd,
                     // 'action' => route('faktur_grd.update', $faktur_grd->id),
                     'vdata' => $data,
@@ -502,21 +501,21 @@ class Faktur_grdController extends Controller
     {
         if ($request->Ajax()) {
             $row_faktur_grd = Faktur_grd::where('id', $request->id)->first();
-            $nowo = $row_faktur_grd->nowo;
+            $nofaktur = $row_faktur_grd->nofaktur;
             $faktur_grd->delete();
-            $jumjasa = Faktur_grd::where('nowo', $nowo)->where('jenis', 'JASA')->sum('subtotal');
-            $jumpart = Faktur_grd::where('nowo', $nowo)->where('jenis', 'PART')->sum('subtotal');
-            $jumbahan = Faktur_grd::where('nowo', $nowo)->where('jenis', 'BAHAN')->sum('subtotal');
-            $jumopl = Faktur_grd::where('nowo', $nowo)->where('jenis', 'OPL')->sum('subtotal');
-            $wo_gr = Faktur_gr::where('nowo', $nowo)->first();
+            $jumjasa = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'JASA')->sum('subtotal');
+            $jumpart = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'PART')->sum('subtotal');
+            $jumbahan = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'BAHAN')->sum('subtotal');
+            $jumopl = Faktur_grd::where('nofaktur', $nofaktur)->where('jenis', 'OPL')->sum('subtotal');
+            $faktur_gr = Faktur_gr::where('nofaktur', $nofaktur)->first();
             $total = $jumjasa + $jumpart + $jumbahan + $jumopl;
-            $pr_ppn = $wo_gr->pr_ppn;
+            $pr_ppn = $faktur_gr->pr_ppn;
             $ppn = $total * ($pr_ppn / 100);
-            $total_wo = $total + $ppn;
-            Faktur_gr::where('nowo', $nowo)->update([
+            $total_faktur = $total + $ppn;
+            Faktur_gr::where('nofaktur', $nofaktur)->update([
                 'total_jasa' => $jumjasa, 'total_part' => $jumpart,
                 'total_bahan' => $jumbahan, 'total_opl' => $jumopl,
-                'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_wo' => $total_wo
+                'total' => $total, 'dpp' => $total, 'ppn' => $ppn, 'total_faktur' => $total_faktur
             ]);
             return response()->json([
                 'sukses' => 'Data berhasil di hapus',

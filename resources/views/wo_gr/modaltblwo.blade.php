@@ -39,10 +39,11 @@ $cetak = session('cetak');
                         <th width="140">TANGGAL</th>
                         {{-- <th width="160">NO.RANGKA</th> --}}
                         <th>JENIS</th>
-                        <th width="60">KM</th>
-                        <th width="90">TOTAL</th>
-                        <th width="30">CLOSE</th>
+                        <th width="40">KM</th>
+                        <th width="80">TOTAL</th>
+                        <th width="20">CLOSE</th>
                         <th width="100">NO.ESTIMASI</th>
+                        <th width="100">NO.FAKTUR</th>
                         <th>AKSI</th>
                     </tr>
                 </thead>
@@ -102,7 +103,7 @@ $cetak = session('cetak');
                     {
                         orderable: false,
                         className: 'dt-body-center',
-                        targets: [6, 8],
+                        targets: [6, 9],
                     },
                 ],
                 order: [
@@ -170,12 +171,16 @@ $cetak = session('cetak');
                         name: 'noestimasi'
                     },
                     {
+                        data: 'nofaktur',
+                        name: 'nofaktur'
+                    },
+                    {
                         data: null,
                         render: function(data, type, row, meta) {
                             if (row.batal == 1) {
                                 return `<div class="btn-group" role="group">
                                         <button id="btnGroupDrop1" type="button" class="btn btn-danger btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                            Pilih Aksi
+                                            Pilih
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item <?= $pakai == 1 ? '' : 'disabled' ?>" onclick="view_detailwo(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Detail</a></li>
@@ -187,7 +192,7 @@ $cetak = session('cetak');
                                     if (row.nofaktur == "") {
                                         return `<div class="btn-group" role="group">
                                             <button id="btnGroupDrop1" type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                Pilih Aksi
+                                                Pilih
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                                 <li><a class="dropdown-item <?= $pakai == 1 ? '' : 'disabled' ?>" onclick="view_detailwo(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Edit Detail</a></li>
@@ -198,7 +203,7 @@ $cetak = session('cetak');
                                     } else {
                                         return `<div class="btn-group" role="group">
                                             <button id="btnGroupDrop1" type="button" class="btn btn-warning btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                Pilih Aksi
+                                                Pilih
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                                 <li><a class="dropdown-item <?= $pakai == 1 ? '' : 'disabled' ?>" onclick="view_detailwo(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Detail</a></li>
@@ -208,7 +213,7 @@ $cetak = session('cetak');
                                 } else {
                                     return `<div class="btn-group" role="group">
                                         <button id="btnGroupDrop1" type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                            Pilih Aksi
+                                            Pilih
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                             <li><a class="dropdown-item <?= $edit == 1 ? '' : 'disabled' ?>" onclick="editwo(${row.id})" href="#" readonly><i class='fa fa-edit'"></i> Edit</a></li>

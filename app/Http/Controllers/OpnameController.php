@@ -28,7 +28,7 @@ class OpnameController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'opname',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Stock Opname',
       // 'opnameh' => Opnameh::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
@@ -61,7 +61,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Stock Opname',
       ];
       return response()->json([
@@ -151,7 +151,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Stock Opname',
         // 'userdtl' => Userdtl::where('cmodule', 'Stock Opname')->where('username', $username)->first(),
       ];
@@ -177,7 +177,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Stock Opname',
       ];
       // var_dump($data);
@@ -369,7 +369,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Batal Proses Stock Opname',
       ];
       // var_dump($data);
@@ -521,7 +521,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Stock Opname',
       ];
       // var_dump($data);
@@ -618,7 +618,7 @@ class OpnameController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Stock Opname',
       ];
       // var_dump($data);

@@ -1,5 +1,5 @@
 <?php
-$submenu = 'wo_gr';
+$submenu = 'faktur_gr';
 $session = session();
 // var_dump($vdata);
 ?>
@@ -21,7 +21,7 @@ $cetak = session('cetak');
             <h5 class="modal-title" id="staticBackdropLabel">
                 {{ $vdata['title'] . ' : ' . $tbmobil['nopolisi'] . '-' . $tbmobil['norangka'] }}
                 <button style="display:inline" class="btn btn-outline-info btn-sm mb-2 btnreload"
-                    onclick="reload_table_wo_gr()" type="button"><i class="fa fa-spinner"></i></button>
+                    onclick="reload_table_faktur_gr()" type="button"><i class="fa fa-spinner"></i></button>
                 {{-- @if (isset($vdata))
                     {{ $vdata['title'] }}
                 @endif --}}
@@ -31,7 +31,7 @@ $cetak = session('cetak');
             </button>
         </div>
         <div class="modal-body">
-            <table id="tbl-wo_gr" class="table table-bordered table-hover table-sm tbl-wo_gr">
+            <table id="tbl-faktur_gr" class="table table-bordered table-hover table-sm tbl-faktur_gr">
                 <thead>
                     <tr>
                         <th width="30">#</th>
@@ -59,14 +59,14 @@ $cetak = session('cetak');
 
 <script>
     $(document).ready(function() {
-        reload_table_wo_gr()
+        reload_table_faktur_gr()
     })
 
-    function reload_table_wo_gr() {
+    function reload_table_faktur_gr() {
         var vnopolisi = $("#nopolisi").val();
         $(function() {
-            var table = $('.tbl-wo_gr').DataTable({
-                ajax: "{{ url('vwo_grajax') }}?nopolisi=" + vnopolisi,
+            var table = $('.tbl-faktur_gr').DataTable({
+                ajax: "{{ url('vfaktur_grajax') }}?nopolisi=" + vnopolisi,
                 type: "GET",
                 // beforeSend: function(jqXHR) {
                 //     jqXHR.overrideMimeType("application/json");
@@ -233,7 +233,7 @@ $cetak = session('cetak');
     function editwo(id) {
         $.ajax({
             type: "get",
-            url: `{{ url('wo_gr') }}/${id}/edit`,
+            url: `{{ url('faktur_gr') }}/${id}/edit`,
             data: {
                 id: id,
                 _method: "get",
@@ -257,8 +257,8 @@ $cetak = session('cetak');
     function detail_wo(id) {
         $.ajax({
             type: "get",
-            // url: `wo_grd`,
-            url: `{{ url('wo_gr') }}/${id}`,
+            // url: `faktur_grd`,
+            url: `{{ url('faktur_gr') }}/${id}`,
             data: {
                 id: id,
                 _method: "get",
@@ -282,8 +282,8 @@ $cetak = session('cetak');
     function view_detailwo(id) {
         $.ajax({
             type: "get",
-            // url: `wo_grd`,
-            url: `{{ url('wo_grd') }}/${id}`,
+            // url: `faktur_grd`,
+            url: `{{ url('faktur_grd') }}/${id}`,
             data: {
                 id: id,
                 _method: "get",
@@ -315,7 +315,7 @@ $cetak = session('cetak');
             .then((willDelete) => {
                 if (willDelete) {
                     $.ajax({
-                        url: 'wo_grproses',
+                        url: 'faktur_grproses',
                         type: "POST",
                         data: {
                             id: id,
@@ -337,7 +337,7 @@ $cetak = session('cetak');
                                 //     text: "",
                                 //     icon: "success"
                                 // })
-                                reload_table_wo_gr();
+                                reload_table_faktur_gr();
                                 toastr.info('Data berhasil di close, silahkan melanjutkan')
                                 // .then(function() {
                                 //     window.location.href = '/mobil_gr';
@@ -388,7 +388,7 @@ $cetak = session('cetak');
                 if (willDelete) {
                     $.ajax({
                         type: "get",
-                        url: 'wo_grunproses',
+                        url: 'faktur_grunproses',
                         data: {
                             id: id,
                             _method: "POST",
@@ -422,7 +422,7 @@ $cetak = session('cetak');
             .then((willDelete) => {
                 if (willDelete) {
                     $.ajax({
-                        url: 'wo_grcancel',
+                        url: 'faktur_grcancel',
                         type: "POST",
                         data: {
                             id: id,
@@ -444,7 +444,7 @@ $cetak = session('cetak');
                                 //     text: "",
                                 //     icon: "success"
                                 // })
-                                reload_table_wo_gr();
+                                reload_table_faktur_gr();
                                 toastr.info('Data berhasil di cancel, silahkan melanjutkan')
                                 // .then(function() {
                                 //     window.location.href = '/mobil_gr';
@@ -494,7 +494,7 @@ $cetak = session('cetak');
             .then((willDelete) => {
                 if (willDelete) {
                     $.ajax({
-                        url: 'wo_grambil',
+                        url: 'faktur_grambil',
                         type: "POST",
                         data: {
                             id: id,
@@ -516,7 +516,7 @@ $cetak = session('cetak');
                                 //     text: "",
                                 //     icon: "success"
                                 // })
-                                reload_table_wo_gr();
+                                reload_table_faktur_gr();
                                 toastr.info('Data berhasil di ambil, silahkan melanjutkan')
                                 // .then(function() {
                                 //     window.location.href = '/mobil_gr';
@@ -556,7 +556,7 @@ $cetak = session('cetak');
     }
 
     function cetakwo(id) {
-        $url = "{{ url('cetak_wo_gr') }}?id=" + id,
+        $url = "{{ url('cetak_faktur_gr') }}?id=" + id,
             // data: {
             //     id: id,
             //     _method: "POST",

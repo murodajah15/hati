@@ -13,7 +13,7 @@ use Yajra\DataTables\Facades\DataTables;
 use Illuminate\Support\Facades\DB;
 use App\Models\Soh;
 use App\Models\Sod;
-use App\Models\Tbsales;
+// use App\Models\Tbsales;
 use App\Models\Tbbarang;
 use App\Models\Tbmultiprc;
 use App\Models\Userdtl;
@@ -30,14 +30,18 @@ class SoController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'so',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Sales Order',
       // 'tbbarang' => Tbbarang::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
       'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
     ];
-    // var_dump($data);
-    return view('so.index')->with($data);
+    $userdtl = Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first();
+    if ($userdtl->pakai == '1') {
+      return view('so.index')->with($data);
+    } else {
+      return redirect('home');
+    }
   }
   public function soajax(Request $request) //: View
   {
@@ -63,7 +67,7 @@ class SoController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'so',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Sales Order',
       ];
       return response()->json([
@@ -74,7 +78,7 @@ class SoController extends Controller
           'tambahtbmove' => Userdtl::where('cmodule', 'Tabel Perputaran Barang')->where('username', $username)->first(),
           'tambahtbdisc' => Userdtl::where('cmodule', 'Tabel Discount')->where('username', $username)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::orderBy('nama')->get(),
+          // 'tbsales' => Tbsales::orderBy('nama')->get(),
           'so' => new Soh(),
           'action' => route('so.store'),
           'vdata' => $data,
@@ -101,22 +105,22 @@ class SoController extends Controller
         $sort_num = $aplikasi->noso;
         $tahun = $aplikasi->tahun;
         $bulan = $aplikasi->bulan;
-        DB::table('saplikasi')->where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+        Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
       } else {
         while ($ketemu == $record) { //0=0
           $aplikasi = Saplikasi::where('aktif', 'Y')->first();
           $sort_num = $aplikasi->noso;
           $tahun = $aplikasi->tahun;
           $bulan = $aplikasi->bulan;
-          DB::table('saplikasi')->where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+          Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
           $new_code = 'SO' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
           $rec = Soh::where('noso', $new_code)->first();
           if ($rec == null) {
             $record = 0;
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
             break;
           } else {
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
           }
         }
       }
@@ -183,14 +187,14 @@ class SoController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'so',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Sales Order',
         // 'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
       ];
       return response()->json([
         'body' => view('so.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
+          // 'tbsales' => Tbsales::get(),
           'so' => Soh::where('id', $id)->first(),
           'action' => route('tbbarang.store'),
           'vdata' => $data,
@@ -210,7 +214,7 @@ class SoController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'so',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Sales Order',
       ];
       // var_dump($data);
@@ -221,7 +225,7 @@ class SoController extends Controller
       return response()->json([
         'body' => view('so.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
+          // 'tbsales' => Tbsales::get(),
           'so' => Soh::where('id', $id)->first(),
           // 'action' => route('so.update', $soh->id),
           'action' => 'soupdate',
@@ -383,7 +387,7 @@ class SoController extends Controller
         $data = [
           'menu' => 'transaksi',
           'submenu' => 'so',
-          'submenu1' => 'ref_umum',
+          'submenu1' => 'spare_part',
           'title' => 'Batal Proses Sales Order',
         ];
         // var_dump($data);
@@ -525,7 +529,7 @@ class SoController extends Controller
       $data = [
         // 'menu' => 'transaksi',
         // 'submenu' => 'tbcustomer',
-        // 'submenu1' => 'ref_umum',
+        // 'submenu1' => 'spare_part',
         'title' => 'Cari Tabel barang',
       ];
       // var_dump($data);
@@ -576,7 +580,7 @@ class SoController extends Controller
       $data = [
         // 'menu' => 'transaksi',
         // 'submenu' => 'tbcustomer',
-        // 'submenu1' => 'ref_umum',
+        // 'submenu1' => 'spare_part',
         'title' => 'Cari Tabel Multi Price',
       ];
       // var_dump($data);
@@ -630,7 +634,7 @@ class SoController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'so',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Sales Order',
       ];
       // var_dump($data);
@@ -643,7 +647,7 @@ class SoController extends Controller
           'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
           'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
+          // 'tbsales' => Tbsales::get(),
           'so' => Soh::where('id', $id)->first(),
           'sod' => Sod::where('noso', $noso)->get(),
           // 'action' => route('so.update', $soh->id),
@@ -661,7 +665,10 @@ class SoController extends Controller
   {
     $noso = $request->noso;
     if ($request->ajax()) {
-      $data = Sod::where('noso', $noso); //->orderBy('kode', 'asc');
+      // $data = Sod::where('noso', $noso); //->orderBy('kode', 'asc');
+      $data = Sod::leftjoin('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
+        ->select('sod.*', 'tbsatuan.nama as nmsatuan')
+        ->where('noso', $noso); //->orderBy('kode', 'asc');      
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -742,7 +749,7 @@ class SoController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'Sales Order',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Sales Order',
       ];
       // var_dump($data);
@@ -848,5 +855,94 @@ class SoController extends Controller
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
     $mpdf->Output($namafile, 'I');
+  }
+
+  public function socetakpl(Request $request)
+  {
+    //Create History
+    $rowsoh = soh::join('tbcustomer', 'soh.kdcustomer', '=', 'tbcustomer.kode')->where('soh.id', $request->id)->first();
+    $noso = $rowsoh->noso;
+    $rowsod = Soh::join('sod', 'sod.noso', '=', 'soh.noso')
+      ->join('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
+      ->select('soh.*', 'sod.*', 'tbsatuan.nama as nmsatuan')
+      ->where('soh.noso', $noso)->get();
+    $data = [
+      'soh' => $rowsoh,
+      'sod' => $rowsod,
+    ];
+    // return view('so.cetak', $data);
+
+    $rowd = Sod::where('noso', $noso)->get();
+    $rowd = $rowd->count();
+
+    if ($rowd > 10) {
+      //create PDF
+      $mpdf = new Mpdf([
+        'format' => 'Letter',
+        'margin_left' => 10,
+        'margin_right' => 10,
+        'margin_top' => 8,
+        'margin_bottom' => 5,
+        'margin_header' => 5,
+        'margin_footer' => 5,
+      ]);
+    } else {
+      //create PDF
+      $mpdf = new Mpdf([
+        // 'format' => [150, 210], //gagal jadi ke landscape
+        'format' => [60, 60], //gagal jadi ke landscape
+        // 'format' => 'Letter-P',
+        'orientation' => 'P',
+        'margin_left' => 4,
+        'margin_right' => 4,
+        'margin_top' => 2,
+        'margin_bottom' => 2,
+        'margin_header' => 2,
+        'margin_footer' => 2,
+      ]);
+    }
+
+    //Create History
+    $soh = Soh::where('id', $request->id)->first();
+    $tanggal = date('Y-m-d');
+    $datetime = date('Y-m-d H:i:s');
+    $dokumen = $soh->noso;
+    $form = 'Sales Order';
+    $status = 'Cetak';
+    $catatan = isset($request->catatan) ? $request->catatan : '';
+    $username = session('username');
+    DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+
+    $header = trim($request->get('header', ''));
+    $footer = trim($request->get('footer', ''));
+
+    if (strlen($header)) {
+      $mpdf->SetHTMLHeader($header);
+    }
+
+    if (strlen($footer)) {
+      $mpdf->SetHTMLFooter($footer);
+    }
+
+    if ($request->get('show_toc')) {
+      $mpdf->h2toc = array(
+        'H1' => 0,
+        'H2' => 1,
+        'H3' => 2,
+        'H4' => 3,
+        'H5' => 4,
+        'H6' => 5
+      );
+      $mpdf->TOCpagebreak();
+    }
+
+    //write content
+    // $mpdf->WriteHTML($request->get('content'));
+    $mpdf->WriteHTML(view('so.cetakpl', $data));
+    $namafile = $noso . ' - ' . date('dmY H:i:s') . '.pdf';
+    //return the PDF for download
+    // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
+    $mpdf->Output($namafile, 'I');
+    exit;
   }
 }

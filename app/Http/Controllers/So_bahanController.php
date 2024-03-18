@@ -4,16 +4,16 @@ namespace App\Http\Controllers;
 
 use Mpdf\Mpdf;
 use Mpdf\Output\Destination;
-use App\Http\Requests\PohRequest;
+use App\Http\Requests\SohRequest;
+use App\Http\Requests\SodRequest;
 use Illuminate\Http\Request;
 use Session;
 // use Yajra\DataTables\Contracts\DataTables;
 use Yajra\DataTables\Facades\DataTables;
 use Illuminate\Support\Facades\DB;
-use App\Models\Poh;
-use App\Models\Pod;
-use App\Models\Tbsupplier;
-use App\Models\Tbsales;
+use App\Models\Soh;
+use App\Models\Sod;
+// use App\Models\Tbsales;
 use App\Models\Tbbarang;
 use App\Models\Tbmultiprc;
 use App\Models\Userdtl;
@@ -22,28 +22,31 @@ use App\Models\Saplikasi;
 // //return type View
 // use Illuminate\View\View;
 
-class PoController extends Controller
+class So_bahanController extends Controller
 {
   public function index(Request $request) //: View
   {
     $username = session('username');
     $data = [
       'menu' => 'transaksi',
-      'submenu' => 'po',
-      'submenu1' => 'spare_part',
-      'title' => 'Purchase Order',
+      'submenu' => 'so_bahan',
+      'submenu1' => 'bahan',
+      'title' => 'Sales Order',
       // 'tbbarang' => Tbbarang::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
-      'userdtl' => Userdtl::where('cmodule', 'Purchase Order')->where('username', $username)->first(),
+      'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
     ];
-    // var_dump($data);
-    return view('po.index')->with($data);
+    $userdtl = Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first();
+    if ($userdtl->pakai == '1') {
+      return view('so.index')->with($data);
+    } else {
+      return redirect('home');
+    }
   }
-  public function poajax(Request $request) //: View
+  public function soajax(Request $request) //: View
   {
     if ($request->ajax()) {
-      // $data = Poh::select('*'); //->orderBy('kode', 'asc');
-      $data = Poh::select('id', DB::raw("DATE_FORMAT(poh.tglpo, '%Y-%m-%d') as tglpo"), 'nopo', 'nmsupplier', 'total', 'proses', 'batal'); //->orderBy('kode', 'asc');
+      $data = Soh::select('*'); //->orderBy('kode', 'asc');
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -53,7 +56,7 @@ class PoController extends Controller
         })
         ->rawColumns(['kode1'])
         ->make(true);
-      return view('po');
+      return view('so');
     }
   }
 
@@ -63,16 +66,21 @@ class PoController extends Controller
       $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'po',
-        'submenu1' => 'ref_umum',
-        'title' => 'Tambah Data Purchase Order',
+        'submenu' => 'so',
+        'submenu1' => 'bahan',
+        'title' => 'Tambah Data Sales Order',
       ];
       return response()->json([
-        'body' => view('po.modaltambahmaster', [
+        'body' => view('so.modaltambahmaster', [
+          'tambahtbnegara' => Userdtl::where('cmodule', 'Tabel Negara')->where('username', $username)->first(),
+          'tambahtbjnbrg' => Userdtl::where('cmodule', 'Tabel Jenis Barang')->where('username', $username)->first(),
+          'tambahtbsatuan' => Userdtl::where('cmodule', 'Tabel Satuan')->where('username', $username)->first(),
+          'tambahtbmove' => Userdtl::where('cmodule', 'Tabel Perputaran Barang')->where('username', $username)->first(),
+          'tambahtbdisc' => Userdtl::where('cmodule', 'Tabel Discount')->where('username', $username)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::orderBy('nama')->get(),
-          'po' => new Poh(),
-          'action' => route('po.store'),
+          // 'tbsales' => Tbsales::orderBy('nama')->get(),
+          'so' => new Soh(),
+          'action' => route('so.store'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -83,36 +91,36 @@ class PoController extends Controller
     }
   }
 
-  public function store(PohRequest $request, Poh $poh)
-  // public function store(Request $request, Poh $poh)
+  public function store(SohRequest $request, Soh $soh)
+  // public function store(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
       $sort_num = 0;
-      $new_code = $request->nopo;
+      $new_code = $request->noso;
       $ketemu = 0;
       $record = 0;
-      $rec = Poh::where('nopo', $new_code)->first();
+      $rec = Soh::where('noso', $new_code)->first();
       if ($rec == null) {
         $aplikasi = Saplikasi::where('aktif', 'Y')->first();
-        $sort_num = $aplikasi->nopo;
+        $sort_num = $aplikasi->noso;
         $tahun = $aplikasi->tahun;
         $bulan = $aplikasi->bulan;
-        DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
+        Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
       } else {
         while ($ketemu == $record) { //0=0
           $aplikasi = Saplikasi::where('aktif', 'Y')->first();
-          $sort_num = $aplikasi->nopo;
+          $sort_num = $aplikasi->noso;
           $tahun = $aplikasi->tahun;
           $bulan = $aplikasi->bulan;
-          DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
-          $new_code = 'po' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
-          $rec = Poh::where('nopo', $new_code)->first();
+          Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+          $new_code = 'SO' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
+          $rec = Soh::where('noso', $new_code)->first();
           if ($rec == null) {
             $record = 0;
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
             break;
           } else {
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
           }
         }
       }
@@ -124,11 +132,16 @@ class PoController extends Controller
         $ppn = isset($request->ppn) ? $request->ppn : '0';
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        $poh->fill([
-          'nopo' => isset($request->nopo) ? $new_code : '',
-          'tglpo' => isset($request->tglpo) ? $request->tglpo : '',
-          'kdsupplier' => isset($request->kdsupplier) ? $request->kdsupplier : '',
-          'nmsupplier' => isset($request->nmsupplier) ? $request->nmsupplier : '',
+        $soh->fill([
+          'noso' => isset($request->noso) ? $new_code : '',
+          'tglso' => isset($request->tglso) ? $request->tglso : '',
+          'noreferensi' => isset($request->noreferensi) ? $request->noreferensi : '',
+          'nopo_customer' => isset($request->nopo_customer) ? $request->nopo_customer : '',
+          'tglpo_customer' => isset($request->tglpo_customer) ? $request->tglpo_customer : '',
+          'kdcustomer' => isset($request->kdcustomer) ? $request->kdcustomer : '',
+          'nmcustomer' => isset($request->nmcustomer) ? $request->nmcustomer : '',
+          'kdsales' => isset($request->kdsales) ? $request->kdsales : '',
+          'nmsales' => isset($request->nmsales) ? $request->nmsales : '',
           'tglkirim' => isset($request->tglkirim) ? $request->tglkirim : '',
           'jenis_order' => isset($request->jenis_order) ? $request->jenis_order : '',
           'carabayar' => isset($request->carabayar) ? $request->carabayar : '',
@@ -144,12 +157,12 @@ class PoController extends Controller
           'keterangan' => isset($request->keterangan) ? $request->keterangan : '',
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $poh->save($validated);
+        $soh->save($validated);
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
         $dokumen = $new_code;
-        $form = 'Purchase Order';
+        $form = 'Sales Order';
         $status = 'Tambah';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
@@ -173,16 +186,16 @@ class PoController extends Controller
     if ($request->Ajax()) {
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'po',
-        'submenu1' => 'ref_umum',
-        'title' => 'Detail Purchase Order',
-        // 'userdtl' => Userdtl::where('cmodule', 'Purchase Order')->where('username', $username)->first(),
+        'submenu' => 'so',
+        'submenu1' => 'bahan',
+        'title' => 'Detail Sales Order',
+        // 'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
       ];
       return response()->json([
-        'body' => view('po.modaltambahmaster', [
+        'body' => view('so.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
-          'po' => Poh::where('id', $id)->first(),
+          // 'tbsales' => Tbsales::get(),
+          'so' => Soh::where('id', $id)->first(),
           'action' => route('tbbarang.store'),
           'vdata' => $data,
         ])->render(),
@@ -193,16 +206,16 @@ class PoController extends Controller
     }
   }
 
-  public function edit(Poh $poh, Request $request)
+  public function edit(Soh $soh, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
       $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'po',
-        'submenu1' => 'ref_umum',
-        'title' => 'Edit Data Purchase Order',
+        'submenu' => 'so',
+        'submenu1' => 'bahan',
+        'title' => 'Edit Data Sales Order',
       ];
       // var_dump($data);
 
@@ -210,12 +223,12 @@ class PoController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('po.modaltambahmaster', [
+        'body' => view('so.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
-          'po' => Poh::where('id', $id)->first(),
-          // 'action' => route('po.update', $poh->id),
-          'action' => 'poupdate',
+          // 'tbsales' => Tbsales::get(),
+          'so' => Soh::where('id', $id)->first(),
+          // 'action' => route('so.update', $soh->id),
+          'action' => 'soupdate',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -225,51 +238,52 @@ class PoController extends Controller
     }
   }
 
-  public function update(Request $request, Poh $poh)
+  public function update(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      if ($request->nopo === $request->nopolama) {
+      if ($request->noso === $request->nosolama) {
         $validate = $request->validate(
           [
-            'nopo' => 'required',
-            'tglpo' => 'required',
-            'kdsupplier' => 'required',
+            'noso' => 'required',
+            'tglso' => 'required',
           ],
           [
-            'nopo.required' => 'No. SO harus di isi',
-            'tglpo.required' => 'Tanggal SO harus di isi',
-            'kdsupplier.required' => 'Supplier harus di isi',
+            'noso.required' => 'No. SO harus di isi',
+            'tglso.required' => 'Tanggal SO harus di isi',
           ],
         );
       } else {
         $validate = $request->validate(
           [
-            'nopo' => 'required|unique:Poh|max:255',
-            'tglpo' => 'required',
-            'kdsupplier' => 'required',
+            'noso' => 'required|unique:soh|max:255',
+            'tglso' => 'required',
           ],
           [
-            'nopo.required' => 'No. SO harus di isi',
-            'tglpo.required' => 'Tanggal SO harus di isi',
-            'kdsupplier.required' => 'Supplier harus di isi',
+            'noso.required' => 'No. SO harus di isi',
+            'tglso.required' => 'Tanggal SO harus di isi',
           ],
         );
       }
-      $poh = Poh::find($id);
+      $soh = soh::find($id);
       if ($validate) {
-        $nopo = $request->nopo;
-        $subtotal = DB::table('pod')->where('nopo', $nopo)->sum('subtotal');
+        $noso = $request->noso;
+        $subtotal = DB::table('sod')->where('noso', $noso)->sum('subtotal');
         $biaya_lain = isset($request->biaya_lain) ? $request->biaya_lain : '0';
         $materai = isset($request->materai) ? $request->materai : '0';
         $ppn = isset($request->ppn) ? $request->ppn : '0';
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        $poh->fill([
-          'nopo' => isset($request->nopo) ? $request->nopo : '',
-          'tglpo' => isset($request->tglpo) ? $request->tglpo : '',
-          'kdsupplier' => isset($request->kdsupplier) ? $request->kdsupplier : '',
-          'nmsupplier' => isset($request->nmsupplier) ? $request->nmsupplier : '',
+        $soh->fill([
+          'noso' => isset($request->noso) ? $request->noso : '',
+          'tglso' => isset($request->tglso) ? $request->tglso : '',
+          'noreferensi' => isset($request->noreferensi) ? $request->noreferensi : '',
+          'nopo_customer' => isset($request->nopo_customer) ? $request->nopo_customer : '',
+          'tglpo_customer' => isset($request->tglpo_customer) ? $request->tglpo_customer : '',
+          'kdcustomer' => isset($request->kdcustomer) ? $request->kdcustomer : '',
+          'nmcustomer' => isset($request->nmcustomer) ? $request->nmcustomer : '',
+          'kdsales' => isset($request->kdsales) ? $request->kdsales : '',
+          'nmsales' => isset($request->nmsales) ? $request->nmsales : '',
           'tglkirim' => isset($request->tglkirim) ? $request->tglkirim : '',
           'jenis_order' => isset($request->jenis_order) ? $request->jenis_order : '',
           'carabayar' => isset($request->carabayar) ? $request->carabayar : '',
@@ -285,12 +299,12 @@ class PoController extends Controller
           'keterangan' => isset($request->keterangan) ? $request->keterangan : '',
           'user' => 'Update-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $poh->save($validate);
+        $soh->save($validate);
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
-        $dokumen = $nopo;
-        $form = 'Purchase Order';
+        $dokumen = $noso;
+        $form = 'Sales Order';
         $status = 'Update';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
@@ -310,42 +324,41 @@ class PoController extends Controller
     }
   }
 
-  public function poproses(Request $request, Poh $poproses)
+  public function soproses(Request $request, Soh $soproses)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $poh = Poh::where('id', $id)->first();
-      $nopo = $poh->nopo;
-      // $poproses->load('poDetail');
-      // $subtotal = $poproses->soDetail->sum('subtotal');
-      $subtotal = Pod::where('nopo', $nopo)->sum('subtotal');
-      $total_sementara = $poproses->biaya_lain + $subtotal;
-      // $poproses->proses = 'Y';
-      // $poproses->subtotal = $subtotal;
-      // $poproses->total_sementara = $total_sementara;
-      // $poproses->total = $total_sementara + ($total_sementara * ($poproses->ppn / 100));
-      // $poproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      // $poproses->save();
-      $poh = Poh::find($id);
-      $poh->fill([
+      $soh = Soh::where('id', $id)->first();
+      $noso = $soh->noso;
+      $soproses->load('soDetail');
+      $subtotal = $soproses->soDetail->sum('subtotal');
+      $total_sementara = $soproses->biaya_lain + $subtotal;
+      // $soproses->proses = 'Y';
+      // $soproses->subtotal = $subtotal;
+      // $soproses->total_sementara = $total_sementara;
+      // $soproses->total = $total_sementara + ($total_sementara * ($soproses->ppn / 100));
+      // $soproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
+      // $soproses->save();
+      $soh = Soh::find($id);
+      $soh->fill([
         'proses' => 'Y',
         'subtotal' => $subtotal,
         'total_sementara' => $total_sementara,
-        'total' => $total_sementara + ($total_sementara * ($poh->ppn / 100)),
+        'total' => $total_sementara + ($total_sementara * ($soh->ppn / 100)),
         'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
       ]);
-      $poh->save();
-      $pod = Pod::where('nopo', $nopo)->get();
-      foreach ($pod as $row) {
+      $soh->save();
+      $sod = Sod::where('noso', $noso)->get();
+      foreach ($sod as $row) {
         $idd = $row->id;
         $qty = $row->qty;
-        DB::table('pod')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
+        DB::table('sod')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
       }
       //Create History
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $nopo;
-      $form = 'Purchase Order';
+      $dokumen = $noso;
+      $form = 'Sales Order';
       $status = 'Proses';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
@@ -359,13 +372,13 @@ class PoController extends Controller
     }
   }
 
-  public function pobatalproses(Poh $poh, Request $request)
+  public function sobatalproses(Soh $soh, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
-      $poh = Poh::where('id', $id)->first();
-      $pod = Pod::where('nopo', $poh->nopo)->where('terima', '>', '0')->first();
-      if (isset($pod->nopo)) {
+      $soh = Soh::where('id', $id)->first();
+      $sod = Sod::where('noso', $soh->noso)->where('terima', '>', '0')->first();
+      if (isset($sod->noso)) {
         $msg = [
           'sukses' => 'Data gagal di cancel', //view('tbbarang.tabel_barang')
         ];
@@ -373,9 +386,9 @@ class PoController extends Controller
       } else {
         $data = [
           'menu' => 'transaksi',
-          'submenu' => 'po',
-          'submenu1' => 'ref_umum',
-          'title' => 'Batal Proses Purchase Order',
+          'submenu' => 'so',
+          'submenu1' => 'bahan',
+          'title' => 'Batal Proses Sales Order',
         ];
         // var_dump($data);
 
@@ -383,10 +396,10 @@ class PoController extends Controller
         //     'data' => $data,
         // ]);
         return response()->json([
-          'body' => view('po.modalbatalproses', [
-            'po' => Poh::where('id', $id)->first(),
-            // 'action' => route('po.update', $poh->id),
-            'action' => 'pobatalprosesok',
+          'body' => view('so.modalbatalproses', [
+            'so' => Soh::where('id', $id)->first(),
+            // 'action' => route('so.update', $soh->id),
+            'action' => 'sobatalprosesok',
             'vdata' => $data,
           ])->render(),
           'data' => $data,
@@ -397,19 +410,19 @@ class PoController extends Controller
     }
   }
 
-  public function pobatalprosesok(Request $request, Poh $poh)
+  public function sobatalprosesok(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('poh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      DB::table('soh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
       //Create History
-      $poh = Poh::where('id', $id)->first();
-      $nopo = $poh->nopo;
+      $soh = Soh::where('id', $id)->first();
+      $noso = $soh->noso;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $nopo;
-      $form = 'Purchase Order';
+      $dokumen = $noso;
+      $form = 'Sales Order';
       $status = 'Batal Proses';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
@@ -424,19 +437,19 @@ class PoController extends Controller
     }
   }
 
-  public function pocancel(Request $request, Poh $poh)
+  public function socancel(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
       $id = $_POST['id'];
       $user = 'Cancel-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('poh')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      DB::table('soh')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
       //Create History
-      $poh = Poh::where('id', $id)->first();
-      $nopo = $poh->nopo;
+      $soh = Soh::where('id', $id)->first();
+      $noso = $soh->noso;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $nopo;
-      $form = 'Purchase Order';
+      $dokumen = $noso;
+      $form = 'Sales Order';
       $status = 'Cancel';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
@@ -451,19 +464,19 @@ class PoController extends Controller
     }
   }
 
-  public function poambil(Request $request, Poh $poh)
+  public function soambil(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
       $id = $_POST['id'];
       $user = 'Ambil-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('poh')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      DB::table('soh')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
       //Create History
-      $row = Poh::where('id', $request->id)->first();
-      $nopo = $row->nopo;
+      $row = Soh::where('id', $request->id)->first();
+      $noso = $row->noso;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $nopo;
-      $form = 'Purchase Order';
+      $dokumen = $noso;
+      $form = 'Sales Order';
       $status = 'Ambil';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
@@ -478,20 +491,20 @@ class PoController extends Controller
     }
   }
 
-  public function destroy(Poh $poh, Request $request)
+  public function destroy(Soh $soh, Request $request)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $row = Poh::where('id', $request->id)->first();
-      $deleted = DB::table('poh')->where('id', $id)->delete();
+      $soh = Soh::where('id', $request->id)->first();
+      $deleted = DB::table('soh')->where('id', $id)->delete();
       if ($deleted) {
-        DB::table('pod')->where('nopo', $row->nopo)->delete();
+        DB::table('sod')->where('noso', $soh->noso)->delete();
         //Create History
-        $nopo = $row->nopo;
+        $noso = $soh->noso;
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
-        $dokumen = $nopo;
-        $form = 'Purchase Order';
+        $dokumen = $noso;
+        $form = 'Sales Order';
         $status = 'Hapus';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
@@ -510,18 +523,18 @@ class PoController extends Controller
     }
   }
 
-  public function pocaritbbarang(Request $request)
+  public function socaritbbarang(Request $request)
   {
     if ($request->Ajax()) {
       $data = [
         // 'menu' => 'transaksi',
-        // 'submenu' => 'tbsupplier',
-        // 'submenu1' => 'ref_umum',
-        'title' => 'Cari tabel barang',
+        // 'submenu' => 'tbcustomer',
+        // 'submenu1' => 'bahan',
+        'title' => 'Cari Tabel barang',
       ];
       // var_dump($data);
       return response()->json([
-        'body' => view('so.modalcaritbbarang', [
+        'body' => view('modalcari.modalcaritbbarang', [
           'tbbarang' => Tbbarang::all(),
           'vdata' => $data,
         ])->render(),
@@ -532,7 +545,7 @@ class PoController extends Controller
     }
   }
 
-  public function porepltbbarang(Request $request)
+  public function sorepltbbarang(Request $request)
   {
     if ($request->Ajax()) {
       $kode = $request->kode_barang; //$_GET['kode_barang'];
@@ -558,23 +571,23 @@ class PoController extends Controller
     }
   }
 
-  public function pocaritbmultiprc(Request $request)
+  public function socaritbmultiprc(Request $request)
   {
     if ($request->Ajax()) {
-      $kdsupplier = $request->kode_supplier;
-      // $kdsupplier = $_GET['kode_supplier'];
-      // dd($kdsupplier);
+      $kdcustomer = $request->kode_customer;
+      // $kdcustomer = $_GET['kode_customer'];
+      // dd($kdcustomer);
       $data = [
         // 'menu' => 'transaksi',
-        // 'submenu' => 'tbsupplier',
-        // 'submenu1' => 'ref_umum',
+        // 'submenu' => 'tbcustomer',
+        // 'submenu1' => 'bahan',
         'title' => 'Cari Tabel Multi Price',
       ];
       // var_dump($data);
       return response()->json([
-        'body' => view('so.modalcaritbmultiprc', [
+        'body' => view('modalcari.modalcaritbmultiprc', [
           // 'tbmultiprc' => Tbmultiprc::all(),
-          'tbmultiprc' => Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdsupplier', $kdsupplier)->get(),
+          'tbmultiprc' => Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdcustomer', $kdcustomer)->get(),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -584,12 +597,12 @@ class PoController extends Controller
     }
   }
 
-  public function porepltbmultiprc(Request $request)
+  public function sorepltbmultiprc(Request $request)
   {
     if ($request->Ajax()) {
       // $kode = $request->kode_barang; //$_GET['kode_multiprc'];
       // $row = DB::table('select tbmultiprc.kode,tbmultiprc.nama,tbmultiprc.kdsatuan,tbsatuan.nama as nmsatuan')->join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdbarang', $kode)->first();
-      $row = Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdsupplier', $request->kode_supplier)->where('kdbarang', $request->kode_barang)->first();
+      $row = Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdcustomer', $request->kode_customer)->where('kdbarang', $request->kode_barang)->first();
       if (isset($row)) {
         $data = [
           'kdbarang' => $row['kdbarang'],
@@ -611,18 +624,18 @@ class PoController extends Controller
     }
   }
 
-  public function poinputpod(Poh $poh, Request $request)
+  public function soinputsod(Soh $soh, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
       $username = session('username');
-      $poh = Poh::where('id', $id)->first();
-      $nopo = $poh->nopo;
+      $soh = Soh::where('id', $id)->first();
+      $noso = $soh->noso;
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'po',
-        'submenu1' => 'ref_umum',
-        'title' => 'Detail Data Purchase Order',
+        'submenu' => 'so',
+        'submenu1' => 'bahan',
+        'title' => 'Detail Data Sales Order',
       ];
       // var_dump($data);
 
@@ -630,15 +643,15 @@ class PoController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('po.modaldetail', [
+        'body' => view('so.modaldetail', [
           'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
-          'userdtl' => Userdtl::where('cmodule', 'Purchase Order')->where('username', $username)->first(),
+          'userdtl' => Userdtl::where('cmodule', 'Sales Order')->where('username', $username)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'tbsales' => Tbsales::get(),
-          'po' => Poh::where('id', $id)->first(),
-          'pod' => Pod::where('nopo', $nopo)->get(),
-          // 'action' => route('po.update', $poh->id),
-          'action' => 'potambahdetail',
+          // 'tbsales' => Tbsales::get(),
+          'so' => Soh::where('id', $id)->first(),
+          'sod' => Sod::where('noso', $noso)->get(),
+          // 'action' => route('so.update', $soh->id),
+          'action' => 'sotambahdetail',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -648,11 +661,14 @@ class PoController extends Controller
     }
   }
 
-  public function podajax(Request $request) //: View
+  public function sodajax(Request $request) //: View
   {
-    $nopo = $request->nopo;
+    $noso = $request->noso;
     if ($request->ajax()) {
-      $data = Pod::where('nopo', $nopo); //->orderBy('kode', 'asc');
+      // $data = Sod::where('noso', $noso); //->orderBy('kode', 'asc');
+      $data = Sod::leftjoin('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
+        ->select('sod.*', 'tbsatuan.nama as nmsatuan')
+        ->where('noso', $noso); //->orderBy('kode', 'asc');      
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -666,7 +682,7 @@ class PoController extends Controller
     }
   }
 
-  public function potambahdetail(Request $request, Pod $pod)
+  public function sotambahdetail(Request $request, SodRequest $sodrequest, Sod $sod)
   {
     if ($request->Ajax()) {
       $id = $request->id;
@@ -679,14 +695,14 @@ class PoController extends Controller
         ],
       );
       if ($validate) {
-        // $recsod = Pod::where('nopo', $request->nopod)->where('kdbarang', $request->kdbarang)->first();
-        // if (isset($recsod->nopo)) {
+        // $recsod = Sod::where('noso', $request->nosod)->where('kdbarang', $request->kdbarang)->first();
+        // if (isset($recsod->noso)) {
         //   $msg = [
         //     'sukses' => 'Data gagal di tambah',
         //   ];
         // } else {
-        $pod->fill([
-          'nopo' => isset($request->nopod) ? $request->nopod : '',
+        $sod->fill([
+          'noso' => isset($request->nosod) ? $request->nosod : '',
           'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
           'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
           'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -697,15 +713,15 @@ class PoController extends Controller
           'total' => isset($request->total) ? $request->total : '',
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $pod->save($validate);
-        $poh = Poh::where('nopo', $request->nopod)->first();
-        $biaya_lain = $poh->biaya_lain;
-        $materai = $poh->materai;
-        $ppn = $poh->ppn;
-        $subtotal = DB::table('pod')->where('nopo', $request->nopod)->sum('subtotal');
+        $sod->save($validate);
+        $soh = Soh::where('noso', $request->nosod)->first();
+        $biaya_lain = $soh->biaya_lain;
+        $materai = $soh->materai;
+        $ppn = $soh->ppn;
+        $subtotal = DB::table('sod')->where('noso', $request->nosod)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        DB::table('poh')->where('nopo', $request->nopod)->update([
+        DB::table('soh')->where('noso', $request->nosod)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);
@@ -725,16 +741,16 @@ class PoController extends Controller
     }
   }
 
-  public function pototaldetail(Poh $poh, Request $request)
+  public function sototaldetail(Soh $soh, Request $request)
   {
     if ($request->Ajax()) {
-      $nopo = $request->nopo;
-      $poh = Poh::where('nopo', $nopo)->first();
+      $noso = $request->noso;
+      $soh = Soh::where('noso', $noso)->first();
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'Purchase Order',
-        'submenu1' => 'ref_umum',
-        'title' => 'Detail Data Purchase Order',
+        'submenu' => 'Sales Order',
+        'submenu1' => 'bahan',
+        'title' => 'Detail Data Sales Order',
       ];
       // var_dump($data);
 
@@ -742,9 +758,9 @@ class PoController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('po.totaldetail', [
-          'subtotalpod' => Pod::where('nopo', $nopo)->sum('subtotal'),
-          'qtypod' => Pod::where('nopo', $nopo)->sum('qty'),
+        'body' => view('so.totaldetail', [
+          'subtotalsod' => Sod::where('noso', $noso)->sum('subtotal'),
+          'qtysod' => Sod::where('noso', $noso)->sum('qty'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -754,19 +770,22 @@ class PoController extends Controller
     }
   }
 
-  public function pocetak(Request $request)
+  public function socetak(Request $request)
   {
     //Create History
-    $rowpoh = Poh::join('tbsupplier', 'poh.kdsupplier', '=', 'tbsupplier.kode')->where('poh.id', $request->id)->first();
-    $nopo = $rowpoh->nopo;
-    $rowpod = Poh::join('pod', 'pod.nopo', '=', 'poh.nopo')->where('poh.nopo', $nopo)->get();
+    $rowsoh = soh::join('tbcustomer', 'soh.kdcustomer', '=', 'tbcustomer.kode')->where('soh.id', $request->id)->first();
+    $noso = $rowsoh->noso;
+    $rowsod = Soh::join('sod', 'sod.noso', '=', 'soh.noso')
+      ->join('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
+      ->select('soh.*', 'sod.*', 'tbsatuan.nama as nmsatuan')
+      ->where('soh.noso', $noso)->get();
     $data = [
-      'poh' => $rowpoh,
-      'pod' => $rowpod,
+      'soh' => $rowsoh,
+      'sod' => $rowsod,
     ];
-    // return view('po.cetak', $data);
+    // return view('so.cetak', $data);
 
-    $rowd = Pod::where('nopo', $nopo)->get();
+    $rowd = Sod::where('noso', $noso)->get();
     $rowd = $rowd->count();
 
     if ($rowd > 10) {
@@ -796,11 +815,11 @@ class PoController extends Controller
     }
 
     //Create History
-    $poh = Poh::where('id', $request->id)->first();
+    $soh = Soh::where('id', $request->id)->first();
     $tanggal = date('Y-m-d');
     $datetime = date('Y-m-d H:i:s');
-    $dokumen = $poh->nopo;
-    $form = 'Purchase Order';
+    $dokumen = $soh->noso;
+    $form = 'Sales Order';
     $status = 'Cetak';
     $catatan = isset($request->catatan) ? $request->catatan : '';
     $username = session('username');
@@ -831,10 +850,99 @@ class PoController extends Controller
 
     //write content
     // $mpdf->WriteHTML($request->get('content'));
-    $mpdf->WriteHTML(view('po.cetak', $data));
-    $namafile = $nopo . ' - ' . date('dmY H:i:s') . '.pdf';
+    $mpdf->WriteHTML(view('so.cetak', $data));
+    $namafile = $noso . ' - ' . date('dmY H:i:s') . '.pdf';
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
     $mpdf->Output($namafile, 'I');
+  }
+
+  public function socetakpl(Request $request)
+  {
+    //Create History
+    $rowsoh = soh::join('tbcustomer', 'soh.kdcustomer', '=', 'tbcustomer.kode')->where('soh.id', $request->id)->first();
+    $noso = $rowsoh->noso;
+    $rowsod = Soh::join('sod', 'sod.noso', '=', 'soh.noso')
+      ->join('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
+      ->select('soh.*', 'sod.*', 'tbsatuan.nama as nmsatuan')
+      ->where('soh.noso', $noso)->get();
+    $data = [
+      'soh' => $rowsoh,
+      'sod' => $rowsod,
+    ];
+    // return view('so.cetak', $data);
+
+    $rowd = Sod::where('noso', $noso)->get();
+    $rowd = $rowd->count();
+
+    if ($rowd > 10) {
+      //create PDF
+      $mpdf = new Mpdf([
+        'format' => 'Letter',
+        'margin_left' => 10,
+        'margin_right' => 10,
+        'margin_top' => 8,
+        'margin_bottom' => 5,
+        'margin_header' => 5,
+        'margin_footer' => 5,
+      ]);
+    } else {
+      //create PDF
+      $mpdf = new Mpdf([
+        // 'format' => [150, 210], //gagal jadi ke landscape
+        'format' => [60, 60], //gagal jadi ke landscape
+        // 'format' => 'Letter-P',
+        'orientation' => 'P',
+        'margin_left' => 4,
+        'margin_right' => 4,
+        'margin_top' => 2,
+        'margin_bottom' => 2,
+        'margin_header' => 2,
+        'margin_footer' => 2,
+      ]);
+    }
+
+    //Create History
+    $soh = Soh::where('id', $request->id)->first();
+    $tanggal = date('Y-m-d');
+    $datetime = date('Y-m-d H:i:s');
+    $dokumen = $soh->noso;
+    $form = 'Sales Order';
+    $status = 'Cetak';
+    $catatan = isset($request->catatan) ? $request->catatan : '';
+    $username = session('username');
+    DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+
+    $header = trim($request->get('header', ''));
+    $footer = trim($request->get('footer', ''));
+
+    if (strlen($header)) {
+      $mpdf->SetHTMLHeader($header);
+    }
+
+    if (strlen($footer)) {
+      $mpdf->SetHTMLFooter($footer);
+    }
+
+    if ($request->get('show_toc')) {
+      $mpdf->h2toc = array(
+        'H1' => 0,
+        'H2' => 1,
+        'H3' => 2,
+        'H4' => 3,
+        'H5' => 4,
+        'H6' => 5
+      );
+      $mpdf->TOCpagebreak();
+    }
+
+    //write content
+    // $mpdf->WriteHTML($request->get('content'));
+    $mpdf->WriteHTML(view('so.cetakpl', $data));
+    $namafile = $noso . ' - ' . date('dmY H:i:s') . '.pdf';
+    //return the PDF for download
+    // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
+    $mpdf->Output($namafile, 'I');
+    exit;
   }
 }

@@ -3,27 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\KeluardRequest;
+use App\Http\Requests\Sod_bahanRequest;
 use Illuminate\Support\Facades\DB;
-use App\Models\Keluard;
-use App\Models\Keluarh;
+use App\Models\Sod_bahan;
+use App\Models\Soh_bahan;
 use App\Models\Saplikasi;
 
-class KeluardController extends Controller
+class Sod_bahanController extends Controller
 {
-  public function destroy(Keluard $keluard, Request $request)
+  public function destroy(Sod_bahan $Sod_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $keluard = Keluard::where('id', $id)->first();
-      $nokeluar = $keluard->nokeluar;
-      $deleted = DB::table('keluard')->where('id', $id)->delete();
+      // $soh->delete('id', $id);
+      $deleted = Sod_bahan::where('id', $id)->delete();
       if ($deleted) {
-        $subtotal = DB::table('keluard')->where('nokeluar', $nokeluar)->sum('subtotal');
-        $keluarh = Keluarh::where('nokeluar', $nokeluar)->first();
-        $biaya_lain = isset($keluarh->biaya_lain) ? $keluarh->biaya_lain : '0';
-        $total = $biaya_lain + $subtotal;
-        DB::table('keluarh')->where('nokeluar', $nokeluar)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total' => $total]);
         return response()->json([
           'sukses' => 'Data berhasil di hapus',
         ]);
@@ -41,13 +35,13 @@ class KeluardController extends Controller
   public function create(Request $request)
   {
     if ($request->Ajax()) {
-      $nokeluar = $request->nokeluar;
+      $noso = $request->noso;
       $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'keluar',
-        'submenu1' => 'spare_part',
-        'title' => 'Tambah Data Penkeluaran',
+        'submenu' => 'so',
+        'submenu1' => 'bahanare_part',
+        'title' => 'Tambah Data Sales Order',
       ];
       // var_dump($data);
 
@@ -55,11 +49,12 @@ class KeluardController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('keluar.modaleditdetail', [
-          'keluar' => Keluarh::where('nokeluar', $nokeluar)->first(),
-          'keluard' => new keluard(),
+        'body' => view('so.modaleditdetail', [
+          'so' => Soh_bahan::where('noso', $noso)->first(),
+          'Sod_bahan' => new Sod_bahan(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'action' => route('keluardstore'),
+          // 'action' => route('so.update', $soh->id),
+          'action' => route('Sod_bahanstore'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -69,10 +64,11 @@ class KeluardController extends Controller
     }
   }
 
-  public function store(Request $request, KeluardRequest $KeluardRequest, Keluard $keluard)
+  public function store(Request $request, Sod_bahanRequest $Sod_bahanrequest, Sod_bahan $Sod_bahan)
+  // public function store(Request $request, Soh $soh)
   {
     if ($request->Ajax()) {
-      $nokeluar = $request->nokeluar;
+      $noso = $request->noso;
       $id = $request->id;
       $validate = $request->validate(
         [
@@ -83,14 +79,15 @@ class KeluardController extends Controller
         ],
       );
       if ($validate) {
-        $reckeluard = Keluard::where('nokeluar', $request->nokeluar)->where('kdbarang', $request->kdbarang)->first();
-        if (isset($reckeluard->nokeluar)) {
+        $recSod_bahan = Sod_bahan::where('noso', $request->noso)->where('kdbarang', $request->kdbarang)->first();
+        if (isset($recSod_bahan->noso)) {
           $msg = [
             'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
           ];
         } else {
-          $keluard->fill([
-            'nokeluar' => isset($request->nokeluar) ? $request->nokeluar : '',
+          $multiprc = isset($request->multiprc) ? 'Y' : 'N';
+          $Sod_bahan->fill([
+            'noso' => isset($request->noso) ? $request->noso : '',
             'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
             'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
             'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -99,16 +96,21 @@ class KeluardController extends Controller
             'discount' => isset($request->discount) ? $request->discount : '',
             'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
             'total' => isset($request->total) ? $request->total : '',
+            'multiprc' => $multiprc,
             'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
           ]);
-          $keluard->save($validate);
-          $keluarh = Keluarh::select('*')->where('nokeluar', $nokeluar)->first();
-          // dd($keluarh);
-          $biaya_lain = $keluarh->biaya_lain;
-          $subtotal = DB::table('keluard')->where('nokeluar', $request->nokeluar)->sum('subtotal');
-          $total = $biaya_lain + $subtotal;
-          DB::table('keluarh')->where('nokeluar', $request->nokeluar)->update([
-            'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'total' => $total
+          $Sod_bahan->save($validate);
+          $soh = Soh_bahan::select('*')->where('noso', $noso)->first();
+          // dd($soh);
+          $biaya_lain = $soh->biaya_lain;
+          $materai = $soh->materai;
+          $ppn = $soh->ppn;
+          $subtotal = Sod_bahan::where('noso', $request->noso)->sum('subtotal');
+          $total_sementara = $biaya_lain + $subtotal + $materai;
+          $total = $total_sementara + ($total_sementara * ($ppn / 100));
+          Soh_bahan::where('noso', $request->noso)->update([
+            'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+            $total_sementara, 'total' => $total
           ]);
           $msg = [
             'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')
@@ -126,18 +128,18 @@ class KeluardController extends Controller
     }
   }
 
-  public function edit(Keluard $keluard, Request $request)
+  public function edit(Sod_bahan $Sod_bahan, Request $request)
   {
     if ($request->Ajax()) {
       // $id = $_GET['id'];
       $id = $request->id;
-      $row = Keluard::where('id', $id)->first();
-      $nokeluar = $row->nokeluar;
+      $row = Sod_bahan::where('id', $id)->first();
+      $noso = $row->noso;
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'Penkeluaran',
-        'submenu1' => 'spare_part',
-        'title' => 'Edit Data Penkeluaran',
+        'submenu' => 'Sales Order',
+        'submenu1' => 'bahanare_part',
+        'title' => 'Edit Data Sales Order',
       ];
       // var_dump($data);
 
@@ -145,12 +147,12 @@ class KeluardController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('keluar.modaleditdetail', [
-          'keluar' => Keluarh::where('nokeluar', $nokeluar)->first(),
-          'keluard' => Keluard::where('id', $id)->first(),
+        'body' => view('so.modaleditdetail', [
+          'so' => Soh_bahan::where('noso', $noso)->first(),
+          'Sod_bahan' => Sod_bahan::where('id', $id)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'action' => route('so.update', $keluarh->id),
-          'action' => 'keluardupdate',
+          // 'action' => route('so.update', $soh->id),
+          'action' => 'Sod_bahanupdate',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -160,7 +162,7 @@ class KeluardController extends Controller
     }
   }
 
-  public function update(Request $request, Keluard $keluard)
+  public function update(Request $request, Sod_bahan $Sod_bahan)
   {
     if ($request->Ajax()) {
       $id = $request->id;
@@ -174,16 +176,17 @@ class KeluardController extends Controller
         ],
       );
 
-      $keluard = Keluard::find($id);
+      $Sod_bahan = Sod_bahan::find($id);
       if ($validate) {
-        // $reckeluard = Keluard::where('nokeluar', $request->nokeluard)->where('kdbarang', $request->kdbarang)->first();
-        // if (isset($reckeluard->nokeluar)) {
+        // $recSod_bahan = Sod_bahan::where('noso', $request->noSod_bahan)->where('kdbarang', $request->kdbarang)->first();
+        // if (isset($recSod_bahan->noso)) {
         //   $msg = [
         //     'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
         //   ];
         // } else {
-        $keluard->fill([
-          'nokeluar' => isset($request->nokeluard) ? $request->nokeluard : '',
+        $multiprc = isset($request->multiprc) ? 'Y' : 'N';
+        $Sod_bahan->fill([
+          'noso' => isset($request->noSod_bahan) ? $request->noSod_bahan : '',
           'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
           'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
           'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -192,15 +195,20 @@ class KeluardController extends Controller
           'discount' => isset($request->discount) ? $request->discount : '',
           'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
           'total' => isset($request->total) ? $request->total : '',
+          'multiprc' => $multiprc,
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $keluard->save($validate);
-        $keluarh = Keluarh::where('nokeluar', $request->nokeluard)->first();
-        $biaya_lain = $keluarh->biaya_lain;
-        $subtotal = DB::table('keluard')->where('nokeluar', $request->nokeluard)->sum('subtotal');
-        $total = $biaya_lain + $subtotal;
-        DB::table('keluarh')->where('nokeluar', $request->nokeluard)->update([
-          'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'total' => $total
+        $Sod_bahan->save($validate);
+        $soh = Soh_bahan::where('noso', $request->noSod_bahan)->first();
+        $biaya_lain = $soh->biaya_lain;
+        $materai = $soh->materai;
+        $ppn = $soh->ppn;
+        $subtotal = Sod_bahan::where('noso', $request->noSod_bahan)->sum('subtotal');
+        $total_sementara = $biaya_lain + $subtotal + $materai;
+        $total = $total_sementara + ($total_sementara * ($ppn / 100));
+        Soh_bahan::where('noso', $request->noSod_bahan)->update([
+          'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+          $total_sementara, 'total' => $total
         ]);
         $msg = [
           'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')

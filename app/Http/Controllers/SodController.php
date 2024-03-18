@@ -16,7 +16,7 @@ class SodController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       // $soh->delete('id', $id);
-      $deleted = DB::table('sod')->where('id', $id)->delete();
+      $deleted = Sod::where('id', $id)->delete();
       if ($deleted) {
         return response()->json([
           'sukses' => 'Data berhasil di hapus',
@@ -40,7 +40,7 @@ class SodController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'so',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Sales Order',
       ];
       // var_dump($data);
@@ -85,6 +85,7 @@ class SodController extends Controller
             'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
           ];
         } else {
+          $multiprc = isset($request->multiprc) ? 'Y' : 'N';
           $sod->fill([
             'noso' => isset($request->noso) ? $request->noso : '',
             'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
@@ -95,6 +96,7 @@ class SodController extends Controller
             'discount' => isset($request->discount) ? $request->discount : '',
             'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
             'total' => isset($request->total) ? $request->total : '',
+            'multiprc' => $multiprc,
             'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
           ]);
           $sod->save($validate);
@@ -103,10 +105,10 @@ class SodController extends Controller
           $biaya_lain = $soh->biaya_lain;
           $materai = $soh->materai;
           $ppn = $soh->ppn;
-          $subtotal = DB::table('sod')->where('noso', $request->noso)->sum('subtotal');
+          $subtotal = Sod::where('noso', $request->noso)->sum('subtotal');
           $total_sementara = $biaya_lain + $subtotal + $materai;
           $total = $total_sementara + ($total_sementara * ($ppn / 100));
-          DB::table('soh')->where('noso', $request->noso)->update([
+          Soh::where('noso', $request->noso)->update([
             'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
             $total_sementara, 'total' => $total
           ]);
@@ -136,7 +138,7 @@ class SodController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'Sales Order',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Sales Order',
       ];
       // var_dump($data);
@@ -182,6 +184,7 @@ class SodController extends Controller
         //     'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
         //   ];
         // } else {
+        $multiprc = isset($request->multiprc) ? 'Y' : 'N';
         $sod->fill([
           'noso' => isset($request->nosod) ? $request->nosod : '',
           'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
@@ -192,6 +195,7 @@ class SodController extends Controller
           'discount' => isset($request->discount) ? $request->discount : '',
           'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
           'total' => isset($request->total) ? $request->total : '',
+          'multiprc' => $multiprc,
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
         $sod->save($validate);
@@ -199,10 +203,10 @@ class SodController extends Controller
         $biaya_lain = $soh->biaya_lain;
         $materai = $soh->materai;
         $ppn = $soh->ppn;
-        $subtotal = DB::table('sod')->where('noso', $request->nosod)->sum('subtotal');
+        $subtotal = Sod::where('noso', $request->nosod)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        DB::table('soh')->where('noso', $request->nosod)->update([
+        Soh::where('noso', $request->nosod)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);

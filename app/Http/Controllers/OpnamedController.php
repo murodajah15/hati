@@ -32,7 +32,7 @@ class OpnamedController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Opname',
       ];
       // var_dump($data);
@@ -118,7 +118,7 @@ class OpnamedController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'opname',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Opname',
       ];
       // var_dump($data);

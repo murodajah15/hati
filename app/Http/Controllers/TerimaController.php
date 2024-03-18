@@ -31,7 +31,7 @@ class TerimaController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'terima',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Penerimaan Barang',
       // 'Terimah' => Terimah::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
@@ -64,7 +64,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Penerimaan',
       ];
       return response()->json([
@@ -173,7 +173,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Penerimaan',
         // 'userdtl' => Userdtl::where('cmodule', 'Penerimaan Barang')->where('username', $username)->first(),
       ];
@@ -199,7 +199,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Penerimaan',
       ];
       // var_dump($data);
@@ -416,7 +416,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Batal Proses Penerimaan',
       ];
       // var_dump($data);
@@ -609,7 +609,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Penerimaan',
       ];
       // var_dump($data);
@@ -721,7 +721,7 @@ class TerimaController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Penerimaan',
       ];
       // var_dump($data);

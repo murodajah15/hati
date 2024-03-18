@@ -21,7 +21,7 @@ class TbgudangController extends Controller
         $data = [
             'menu' => 'file',
             'submenu' => 'tbgudang',
-            'submenu1' => 'ref_umum',
+            'submenu1' => 'ref_part',
             'title' => 'Tabel Gudang',
             // 'tbGudang' => TbGudang::all(),
             'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
@@ -52,7 +52,7 @@ class TbgudangController extends Controller
         $data = [
             'menu' => 'file',
             'submenu' => 'tbgudang',
-            'submenu1' => 'ref_umum',
+            'submenu1' => 'ref_part',
             'title' => 'Tabel Gudang',
             'tbgudang' => Tbgudang::orderBy('kode', 'asc')->get(),
         ];
@@ -66,7 +66,7 @@ class TbgudangController extends Controller
             $data = [
                 'menu' => 'file',
                 'submenu' => 'tbgudang',
-                'submenu1' => 'ref_umum',
+                'submenu1' => 'ref_part',
                 'title' => 'Tambah Data Tabel gudang',
             ];
             return response()->json([
@@ -114,7 +114,7 @@ class TbgudangController extends Controller
             $data = [
                 'menu' => 'file',
                 'submenu' => 'tbgudang',
-                'submenu1' => 'ref_umum',
+                'submenu1' => 'ref_part',
                 'title' => 'Detail Tabel gudang',
                 'tbgudang' => Tbgudang::findOrFail($id),
                 'userdtl' => Userdtl::where('cmodule', 'Tabel gudang')->where('username', $username)->first(),
@@ -139,7 +139,7 @@ class TbgudangController extends Controller
             $data = [
                 'menu' => 'file',
                 'submenu' => 'tbgudang',
-                'submenu1' => 'ref_umum',
+                'submenu1' => 'ref_part',
                 'title' => 'Edit Data Tabel gudang',
             ];
             // var_dump($data);

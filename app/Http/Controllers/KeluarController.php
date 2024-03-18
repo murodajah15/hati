@@ -29,7 +29,7 @@ class KeluarController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'keluar',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Pengeluaran Barang',
       // 'keluarh' => Keluarh::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
@@ -62,7 +62,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Pengeluaran',
       ];
       return response()->json([
@@ -172,7 +172,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Pengeluaran',
         // 'userdtl' => Userdtl::where('cmodule', 'Pengeluaran Barang')->where('username', $username)->first(),
       ];
@@ -198,7 +198,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Pengeluaran',
       ];
       // var_dump($data);
@@ -404,7 +404,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Batal Proses Pengeluaran',
       ];
       // var_dump($data);
@@ -580,7 +580,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Pengeluaran',
       ];
       // var_dump($data);
@@ -692,7 +692,7 @@ class KeluarController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'keluar',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Pengeluaran',
       ];
       // var_dump($data);

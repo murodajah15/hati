@@ -31,14 +31,18 @@ class BeliController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'beli',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Penerimaan Pembelian',
       // 'Belih' => Belih::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
       'userdtl' => Userdtl::where('cmodule', 'Penerimaan Pembelian')->where('username', $username)->first(),
     ];
-    // var_dump($data);
-    return view('beli.index')->with($data);
+    $userdtl = Userdtl::where('cmodule', 'Penerimaan Pembelian')->where('username', $username)->first();
+    if ($userdtl->pakai == '1') {
+      return view('beli.index')->with($data);
+    } else {
+      return redirect('home');
+    }
   }
   public function beliajax(Request $request) //: View
   {
@@ -64,7 +68,7 @@ class BeliController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Pembelian',
       ];
       return response()->json([
@@ -96,22 +100,22 @@ class BeliController extends Controller
         $sort_num = $aplikasi->nobeli;
         $tahun = $aplikasi->tahun;
         $bulan = $aplikasi->bulan;
-        DB::table('saplikasi')->where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
+        Saplikasi::where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
       } else {
         while ($ketemu == $record) { //0=0
           $aplikasi = Saplikasi::where('aktif', 'Y')->first();
           $sort_num = $aplikasi->nobeli;
           $tahun = $aplikasi->tahun;
           $bulan = $aplikasi->bulan;
-          DB::table('saplikasi')->where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
+          Saplikasi::where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
           $new_code = 'BE' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
           $rec = Belih::where('nobeli', $new_code)->first();
           if ($rec == null) {
             $record = 0;
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
             break;
           } else {
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['nobeli' => $sort_num + 1]);
           }
         }
       }
@@ -161,7 +165,7 @@ class BeliController extends Controller
         $username = session('username');
         DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
         $msg = [
-          'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')
+          'sukses' => 'Data berhasil di tambah',
         ];
       }
       echo json_encode($msg);
@@ -180,7 +184,7 @@ class BeliController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Pembelian',
         // 'userdtl' => Userdtl::where('cmodule', 'Penerimaan Pembelian')->where('username', $username)->first(),
       ];
@@ -206,7 +210,7 @@ class BeliController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Pembelian',
       ];
       // var_dump($data);
@@ -259,7 +263,8 @@ class BeliController extends Controller
       $belih = Belih::find($id);
       if ($validate) {
         $nobeli = $request->nobeli;
-        $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
+        // $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
+        $subtotal = Belid::where('nobeli', $nobeli)->sum('subtotal');
         $biaya_lain = isset($request->biaya_lain) ? $request->biaya_lain : '0';
         $materai = isset($request->materai) ? $request->materai : '0';
         $ppn = isset($request->ppn) ? $request->ppn : '0';
@@ -303,11 +308,11 @@ class BeliController extends Controller
         $username = session('username');
         DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
         $msg = [
-          'sukses' => 'Data berhasil di update', //view('tbbarang.tabel_barang')
+          'sukses' => 'Data berhasil di update',
         ];
       } else {
         $msg = [
-          'sukses' => 'Data gagal di update', //view('tbbarang.tabel_barang')
+          'sukses' => 'Data gagal di update',
         ];
       }
       echo json_encode($msg);
@@ -323,94 +328,138 @@ class BeliController extends Controller
       $id = $request->id;
       $belih = Belih::where('id', $id)->first();
       $nobeli = $belih->nobeli;
-      if ($belih->total == 0) {
+
+      // di remark permintaan user, 1 pembelian bisa beberapa PO
+      // //Cek double detail
+      // $belidgroup = Belid::where('nobeli', $belih->nobeli)->groupBy('kdbarang')->get();
+      // // dd($belidgroup);
+      // foreach ($belidgroup as $row) {
+      //   $cekdouble = Belid::where('nobeli', $belih->nobeli)->where('kdbarang', $row->kdbarang)->count();
+      //   if ($cekdouble > 1) {
+      //     return response()->json([
+      //       'sukses' => false,
+      //     ]);
+      //     exit('Double barang');
+      //   }
+      // }
+      $lanjut = true;
+      $tahun = date("Y", strtotime($belih->tglbeli));
+      $bulan = substr('0' . date("m", strtotime($belih->tglbeli)), -2);
+      $periode = $tahun . $bulan;
+      $saplikasi = Saplikasi::where('aktif', 'Y')->first();
+      if ($periode <= $saplikasi->closing_hpp) {
+        // return response()->json('1');
         return response()->json([
           'sukses' => false, //view('tbbarang.tabel_barang')
         ]);
-      } else {
-        $beliproses->load('beliDetail');
-        $subtotal = $beliproses->belidetail->sum('subtotal');
-        $subtotal = Belih::join('belid', 'belih.nobeli', '=', 'belid.nobeli')->where('belid.nobeli', $nobeli)->sum('belid.subtotal');
-        // $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
-        $total_sementara = $beliproses->biaya_lain + $subtotal;
-        $total = $total_sementara + ($total_sementara * ($belih->ppn / 100));
-        $belih = Belih::find($id);
-        $belih->fill([
-          'proses' => 'Y',
-          'subtotal' => $subtotal,
-          'total_sementara' => $total_sementara,
-          'total' => $total,
-          'kurangbayar' => $total,
-          'sudahbayar' => 0,
-          'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
-        ]);
-        $belih->save();
-        $nopo = "";
-        $Belid = Belid::where('nobeli', $nobeli)->get();
-        foreach ($Belid as $row) {
-          $idd = $row->id;
-          $qty = $row->qty;
-          $harga = $row->harga;
-          DB::table('belid')->where('id', $idd)->update(['proses' => 'Y']);
-          if ($row->nopo <> "") {
-            $nopo = $row->nopo;
-            $kdbarang = $row->kdbarang;
-            $pod = Pod::where('nopo', $nopo)->where('kdbarang', $kdbarang)->first();
-            $terima = $pod->terima + $qty;
-            $kurang = $pod->kurang - $qty;
-            DB::table('pod')->where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
-          }
-          //Update stock
-          $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
-          $stockakhir = $tbbarang->stock + $qty;
-          DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
-          // Update HPP
-          $hpptbbarang = $tbbarang->hpp;
-          if ($hpptbbarang < 0) {
-            $hpptbbarang = 0;
-          }
-          $stocktbbarang = $tbbarang->stock;
-          if ($stocktbbarang < 0) {
-            $stocktbbarang = 0;
-          }
+        $lanjut = false;
+      }
+      if ($lanjut == true) {
+        if ($belih->total == 0) {
+          return response()->json([
+            'sukses' => false,
+          ]);
+        } else {
+          $beliproses->load('beliDetail');
+          $subtotal = $beliproses->belidetail->sum('subtotal');
+          $subtotal = Belih::join('belid', 'belih.nobeli', '=', 'belid.nobeli')->where('belid.nobeli', $nobeli)->sum('belid.subtotal');
+          // $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
+          $total_sementara = $beliproses->biaya_lain + $subtotal;
+          $total = $total_sementara + ($total_sementara * ($belih->ppn / 100));
+          $belih = Belih::find($id);
+          $tglbeli = $belih->tglbeli;
+          $belih->fill([
+            'proses' => 'Y',
+            'subtotal' => $subtotal,
+            'total_sementara' => $total_sementara,
+            'total' => $total,
+            'kurangbayar' => $total,
+            'sudahbayar' => 0,
+            'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
+          ]);
+          $belih->save();
+          $nopo = "";
+          $belid = Belid::where('nobeli', $nobeli)->get();
+          foreach ($belid as $row) {
+            $idd = $row->id;
+            $qty = $row->qty;
+            $harga = $row->harga;
+            // DB::table('belid')->where('id', $idd)->update(['proses' => 'Y']);
+            Belid::where('id', $idd)->update(['proses' => 'Y', 'tglbeli' => $tglbeli]);
+            if ($row->nopo <> "") {
+              $nopo = $row->nopo;
+              $kdbarang = $row->kdbarang;
+              $pod = Pod::where('nopo', $nopo)->where('kdbarang', $kdbarang)->first();
+              $terima = $pod->terima + $qty;
+              $kurang = $pod->kurang - $qty;
+              // DB::table('pod')->where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+              Pod::where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+            }
+            //Update stock
+            $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
+            $stockakhir = $tbbarang->stock + $qty;
+            // DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+            Tbbarang::where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+            // Update HPP
+            $hpptbbarang = $tbbarang->hpp;
+            if ($hpptbbarang < 0) {
+              $hpptbbarang = 0;
+            }
+            $stocktbbarang = $tbbarang->stock;
+            if ($stocktbbarang < 0) {
+              $stocktbbarang = 0;
+            }
 
-          $jumstock = $stocktbbarang + $qty;
-          $harga_beli_lama  = $tbbarang->harga_beli_lama;
-          if ($harga_beli_lama = 0) {
-            $harga_beli_lama = $harga;
-          } else {
-            $harga_beli_lama = $tbbarang->harga_beli;
+            $jumstock = $stocktbbarang + $qty;
+            $harga_beli_lama  = $tbbarang->harga_beli_lama;
+            if ($harga_beli_lama = 0) {
+              $harga_beli_lama = $harga;
+            } else {
+              $harga_beli_lama = $tbbarang->harga_beli;
+            }
+            $totalharga = ($hpptbbarang * $stocktbbarang) + ($harga * $qty);
+            // dd($totalharga . '   ' . $jumstock . '   ' . ($totalharga / $jumstock));
+            $hpp = $totalharga / ($jumstock > 0 ? $jumstock : 1);
+            // dd($hpp);
+            // if ($stocktbbarang > 0) {
+            //   DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
+            //     'hpp_lama' => $hpptbbarang, 'harga_beli_lama' => $harga_beli_lama, 'hpp' => $hpp, 'harga_beli' => $harga
+            //   ]);
+            // } else {
+            //   DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
+            //     'hpp_lama' => '0', 'hpp' => $hpp, 'harga_beli' => $harga
+            //   ]);
+            // }
+            // DB::table('belid')->where('id', $idd)->update(['proses' => 'Y', 'hpp' => $hpp]);
+            if ($stocktbbarang > 0) {
+              Tbbarang::where('kode', $row->kdbarang)->update([
+                'hpp_lama' => $hpptbbarang, 'harga_beli_lama' => $harga_beli_lama, 'hpp' => $hpp, 'harga_beli' => $harga
+              ]);
+            } else {
+              Tbbarang::where('kode', $row->kdbarang)->update([
+                'hpp_lama' => '0', 'hpp' => $hpp, 'harga_beli' => $harga
+              ]);
+            }
+            Belid::where('id', $idd)->update(['proses' => 'Y', 'hpp' => $hpp]);
           }
-          $totalharga = ($hpptbbarang * $stocktbbarang) + ($harga * $qty);
-          $hpp = $totalharga / ($jumstock);
-          if ($stocktbbarang > 0) {
-            DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
-              'hpp_lama' => $hpptbbarang, 'harga_beli_lama' => $harga_beli_lama, 'hpp' => $hpp, 'harga_beli' => $harga
-            ]);
-          } else {
-            DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
-              'hpp_lama' => '0', 'hpp' => $hpp, 'harga_beli' => $harga
-            ]);
+          if ($nopo <> "") {
+            Poh::where('nopo', $nopo)->update(['terima' => 'Y']);
           }
-          DB::table('belid')->where('id', $idd)->update(['proses' => 'Y', 'hpp' => $hpp]);
+          //Create History
+          $belih = Belih::where('id', $request->id)->first();
+          $tanggal = date('Y-m-d');
+          $datetime = date('Y-m-d H:i:s');
+          $dokumen = $belih->nobeli;
+          $form = 'Penerimaan Pembelian';
+          $status = 'Proses';
+          $catatan = isset($request->catatan) ? $request->catatan : '';
+          $username = session('username');
+          DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+          return response()->json([
+            'sukses' => true,
+          ]);
+          // return redirect()->back()->with('message', 'Berhasil di update');
         }
-        if ($nopo <> "") {
-          Poh::where('nopo', $nopo)->update(['terima' => 'Y']);
-        }
-        //Create History
-        $belih = Belih::where('id', $request->id)->first();
-        $tanggal = date('Y-m-d');
-        $datetime = date('Y-m-d H:i:s');
-        $dokumen = $belih->nobeli;
-        $form = 'Penerimaan Pembelian';
-        $status = 'Proses';
-        $catatan = isset($request->catatan) ? $request->catatan : '';
-        $username = session('username');
-        DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
-        return response()->json([
-          'sukses' => true, //view('tbbarang.tabel_barang')
-        ]);
-        // return redirect()->back()->with('message', 'Berhasil di update');
       }
     } else {
       exit('Maaf tidak dapat diproses');
@@ -422,7 +471,8 @@ class BeliController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('belih')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      // DB::table('belih')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      Belih::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
       //Create History
       $belih = Belih::where('id', $id)->first();
       $tanggal = date('Y-m-d');
@@ -444,7 +494,7 @@ class BeliController extends Controller
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
+        'sukses' => 'Data berhasil di Cancel',
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -457,10 +507,22 @@ class BeliController extends Controller
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
+      $belih = Belih::where('id', $id)->first();
+      if ($belih->sudahbayar > 0) {
+        return response()->json('2');
+      }
+      $bulan = substr('0' . date('m', strtotime($belih->tglbeli)), -2);
+      $tahun = date('Y', strtotime($belih->tglbeli));
+      $periode = $tahun . $bulan;
+      $saplikasi = Saplikasi::where('aktif', 'Y')->first();
+      // dd($saplikasi->closing_hpp . '   ' . $periode);
+      if ($periode <= $saplikasi->closing_hpp) {
+        return response()->json('1');
+      }
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Batal Proses Pembelian',
       ];
       // var_dump($data);
@@ -487,7 +549,8 @@ class BeliController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('belih')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      // DB::table('belih')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      Belih::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
       $belih = Belih::find($id);
       $nopo = "";
       $belid = Belid::where('nobeli', $belih->nobeli)->get();
@@ -500,12 +563,14 @@ class BeliController extends Controller
           $pod = Pod::where('nopo', $nopo)->where('kdbarang', $kdbarang)->first();
           $terima = $pod->terima - $qty;
           $kurang = $pod->kurang + $qty;
-          DB::table('pod')->where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+          // DB::table('pod')->where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+          Pod::where('nopo', $nopo)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
         }
         //Update stock
         $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
         $stockakhir = $tbbarang->stock - $qty;
-        DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+        // DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+        Tbbarang::where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
         $hpp_lama = $tbbarang->hpp_lama;
         $harga_beli_lama = $tbbarang->harga_beli_lama;
         if ($harga_beli_lama = 0) {
@@ -519,10 +584,14 @@ class BeliController extends Controller
         if ($hpp_lama == 0) {
           $hpp_lama = $harga_beli_lama;
         }
-        DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
+        // DB::table('tbbarang')->where('kode', $row->kdbarang)->update([
+        //   'hpp_lama' => $hpp_lama, 'harga_beli_lama' => $harga_beli_lama, 'hpp' => $hpp_lama, 'harga_beli' => $harga_beli_lama
+        // ]);
+        // DB::table('belid')->where('id', $idd)->update(['proses' => 'N']);
+        Tbbarang::where('kode', $row->kdbarang)->update([
           'hpp_lama' => $hpp_lama, 'harga_beli_lama' => $harga_beli_lama, 'hpp' => $hpp_lama, 'harga_beli' => $harga_beli_lama
         ]);
-        DB::table('belid')->where('id', $idd)->update(['proses' => 'N']);
+        Belid::where('id', $idd)->update(['proses' => 'N']);
       }
       if ($nopo <> "") {
         $terima = Pod::where('nopo', $nopo)->sum('terima');
@@ -544,7 +613,7 @@ class BeliController extends Controller
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
+        'sukses' => 'Data berhasil di Cancel',
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -558,7 +627,8 @@ class BeliController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Cancel-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('belih')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      // DB::table('belih')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      Belih::where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
       //Create History
       $belih = Belih::where('id', $request->id)->first();
       $tanggal = date('Y-m-d');
@@ -570,7 +640,7 @@ class BeliController extends Controller
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
+        'sukses' => 'Data berhasil di Cancel',
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -584,7 +654,8 @@ class BeliController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Ambil-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('belih')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      // DB::table('belih')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      Belih::where('id', $id)->update(['batal' => 'N', 'user' => $user]);
       //Create History
       $belih = Belih::where('id', $request->id)->first();
       $tanggal = date('Y-m-d');
@@ -596,7 +667,7 @@ class BeliController extends Controller
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
+        'sukses' => 'Data berhasil di Cancel',
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -610,9 +681,11 @@ class BeliController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $belih = Belih::where('id', $id)->first();
-      $deleted = DB::table('belih')->where('id', $id)->delete();
+      // $deleted = DB::table('belih')->where('id', $id)->delete();
+      $deleted = Belih::where('id', $id)->delete();
       if ($deleted) {
-        DB::table('belid')->where('nobeli', $belih->nobeli)->delete();
+        // DB::table('belid')->where('nobeli', $belih->nobeli)->delete();
+        Belid::where('nobeli', $belih->nobeli)->delete();
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
@@ -686,7 +759,9 @@ class BeliController extends Controller
       // var_dump($data);
       return response()->json([
         'body' => view('modalcari.modalcaripo', [
-          'poh' => Poh::where('proses', 'Y')->orderBy('nopo', 'desc')->get(),
+          // 'poh' => Poh::where('proses', 'Y')->orderBy('nopo', 'desc')->get(),
+          'poh' => Poh::join('pod', 'pod.nopo', '=', 'poh.nopo')->where('poh.proses', 'Y')->where('pod.kurang', '>', 0)
+            ->groupBy('poh.nopo')->orderBy('poh.nopo', 'desc')->get(),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -704,27 +779,38 @@ class BeliController extends Controller
       $nobeli = $request->nobeli;
       $tglbeli = $request->tglbeli;
       $user = 'Salin-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('belid')->where('nobeli', $nobeli)->delete();
-      $pod = Pod::where('nopo', $nopo)->get();
-      foreach ($pod as $row) {
-        $insert = DB::table('belid')->insert([
-          'nobeli' => $nobeli, 'tglbeli' => $tglbeli, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
-          'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount, 'subtotal' => $row->subtotal, 'user' => $user,
-          'nopo' => $row->nopo
-        ]);
-        if (!$insert) {
-          $insertdetail = false;
+      // DB::table('belid')->Where('nobeli', $nobeli)->Where('nopo', $nopo)->delete();
+      $delete = Belid::where('nobeli', $nobeli)->where('nopo', $nopo)->delete();
+      if ($delete >= 0) {
+        $pod = Pod::Where('nopo', $nopo)->Get();
+        // dd($pod);
+        foreach ($pod as $row) {
+          // $insert = DB::table('belid')->Insert([
+          //   'nobeli' => $nobeli, 'tglbeli' => $tglbeli, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
+          //   'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount, 'subtotal' => $row->subtotal, 'user' => $user,
+          //   'nopo' => $row->nopo
+          // ]);
+          $insert = Belid::insert([
+            'nobeli' => $nobeli, 'tglbeli' => $tglbeli, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
+            'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount,
+            'subtotal' => $row->subtotal, 'nopo' => $row->nopo, 'user' => $user,
+          ]);
+          if ($insert <> true) {
+            $insertdetail = false;
+          }
         }
       }
-      $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
+      // $subtotal = DB::table('belid')->where('nobeli', $nobeli)->sum('subtotal');
+      $subtotal = Belid::where('nobeli', $nobeli)->sum('subtotal');
       $belih = Belih::where('nobeli', $nobeli)->first();
       $biaya_lain = isset($belih->biaya_lain) ? $belih->biaya_lain : '0';
       $materai = isset($belih->materai) ? $belih->materai : '0';
       $ppn = isset($belih->ppn) ? $belih->ppn : '0';
       $total_sementara = $biaya_lain + $subtotal + $materai;
       $total = $total_sementara + ($total_sementara * ($ppn / 100));
-      $update = DB::table('belih')->where('nobeli', $nobeli)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
-      if ($update and $insertdetail) {
+      // $update = DB::table('belih')->where('nobeli', $nobeli)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
+      $update = Belih::where('nobeli', $nobeli)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
+      if ($update >= 0 and $insertdetail) {
         $msg = [
           'sukses' => true,
         ];
@@ -749,7 +835,7 @@ class BeliController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Pembelian',
       ];
       // var_dump($data);
@@ -775,11 +861,14 @@ class BeliController extends Controller
     }
   }
 
-  public function Belidajax(Request $request) //: View
+  public function belidajax(Request $request) //: View
   {
     $nobeli = $request->nobeli;
     if ($request->ajax()) {
-      $data = Belid::where('nobeli', $nobeli); //->orderBy('kode', 'asc');
+      // $data = Belid::where('nobeli', $nobeli); //->orderBy('kode', 'asc');
+      $data = Belid::leftjoin('tbsatuan', 'tbsatuan.kode', '=', 'belid.kdsatuan')
+        ->select('belid.*', 'tbsatuan.nama as nmsatuan')
+        ->where('nobeli', $nobeli); //->orderBy('kode', 'asc');
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -829,20 +918,25 @@ class BeliController extends Controller
         $biaya_lain = $belih->biaya_lain;
         $materai = $belih->materai;
         $ppn = $belih->ppn;
-        $subtotal = DB::table('belid')->where('nobeli', $request->noBelid)->sum('subtotal');
+        // $subtotal = DB::table('belid')->where('nobeli', $request->noBelid)->sum('subtotal');
+        $subtotal = Belid::where('nobeli', $request->noBelid)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        DB::table('belih')->where('nobeli', $request->noBelid)->update([
+        // DB::table('belih')->where('nobeli', $request->noBelid)->update([
+        //   'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+        //   $total_sementara, 'total' => $total
+        // ]);
+        Belih::where('nobeli', $request->noBelid)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);
         $msg = [
-          'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')
+          'sukses' => 'Data berhasil di tambah',
         ];
         // }
       } else {
         $msg = [
-          'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
+          'sukses' => 'Data gagal di tambah',
         ];
       }
       echo json_encode($msg);
@@ -861,7 +955,7 @@ class BeliController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'Beli',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Pembelian',
       ];
       // var_dump($data);
@@ -967,5 +1061,6 @@ class BeliController extends Controller
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
     $mpdf->Output($namafile, 'I');
+    exit;
   }
 }

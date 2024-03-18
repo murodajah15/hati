@@ -46,7 +46,7 @@ class TerimadController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'terima',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Penterimaan',
       ];
       // var_dump($data);
@@ -136,7 +136,7 @@ class TerimadController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'Penterimaan',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Penterimaan',
       ];
       // var_dump($data);

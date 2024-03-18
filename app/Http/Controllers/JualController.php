@@ -34,14 +34,18 @@ class JualController extends Controller
     $data = [
       'menu' => 'transaksi',
       'submenu' => 'jual',
-      'submenu1' => 'ref_umum',
+      'submenu1' => 'spare_part',
       'title' => 'Penjualan',
       // 'jualh' => Jualh::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
       'userdtl' => Userdtl::where('cmodule', 'Penjualan')->where('username', $username)->first(),
     ];
-    // var_dump($data);
-    return view('jual.index')->with($data);
+    $userdtl = Userdtl::where('cmodule', 'Penjualan')->where('username', $username)->first();
+    if ($userdtl->pakai == '1') {
+      return view('jual.index')->with($data);
+    } else {
+      return redirect('home');
+    }
   }
   public function jualajax(Request $request) //: View
   {
@@ -67,7 +71,7 @@ class JualController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'jual',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Tambah Data Penjualan',
       ];
       return response()->json([
@@ -105,22 +109,22 @@ class JualController extends Controller
         $sort_num = $aplikasi->nojual;
         $tahun = $aplikasi->tahun;
         $bulan = $aplikasi->bulan;
-        DB::table('saplikasi')->where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
+        Saplikasi::where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
       } else {
         while ($ketemu == $record) { //0=0
           $aplikasi = Saplikasi::where('aktif', 'Y')->first();
           $sort_num = $aplikasi->nojual;
           $tahun = $aplikasi->tahun;
           $bulan = $aplikasi->bulan;
-          DB::table('saplikasi')->where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
+          Saplikasi::where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
           $new_code = 'JL' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
           $rec = Jualh::where('nojual', $new_code)->first();
           if ($rec == null) {
             $record = 0;
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
             break;
           } else {
-            DB::table('saplikasi')->where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
+            Saplikasi::where('aktif', 'Y')->update(['nojual' => $sort_num + 1]);
           }
         }
       }
@@ -188,7 +192,7 @@ class JualController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'jual',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Penjualan',
         // 'userdtl' => Userdtl::where('cmodule', 'Penjualan')->where('username', $username)->first(),
       ];
@@ -215,7 +219,7 @@ class JualController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'jual',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Edit Data Penjualan',
       ];
       // var_dump($data);
@@ -248,10 +252,12 @@ class JualController extends Controller
           [
             'nojual' => 'required',
             'tgljual' => 'required',
+            'carabayar' => 'required',
           ],
           [
             'nojual.required' => 'No. SO harus di isi',
             'tgljual.required' => 'Tanggal SO harus di isi',
+            'carabayar.required' => 'Cara Bayar harus di isi',
           ],
         );
       } else {
@@ -259,17 +265,20 @@ class JualController extends Controller
           [
             'nojual' => 'required|unique:Jualh|max:255',
             'tgljual' => 'required',
+            'carabayar' => 'required',
           ],
           [
             'nojual.required' => 'No. SO harus di isi',
             'tgljual.required' => 'Tanggal SO harus di isi',
+            'carabayar.required' => 'Cara Bayar harus di isi',
           ],
         );
       }
       $Jualh = Jualh::find($id);
       if ($validate) {
         $nojual = $request->nojual;
-        $subtotal = DB::table('juald')->where('nojual', $nojual)->sum('subtotal');
+        // $subtotal = DB::table('juald')->where('nojual', $nojual)->sum('subtotal');
+        $subtotal = Juald::where('nojual', $nojual)->sum('subtotal');
         $biaya_lain = isset($request->biaya_lain) ? $request->biaya_lain : '0';
         $materai = isset($request->materai) ? $request->materai : '0';
         $ppn = isset($request->ppn) ? $request->ppn : '0';
@@ -329,53 +338,98 @@ class JualController extends Controller
   public function jualproses(Request $request, Jualh $jualproses)
   {
     if ($request->Ajax()) {
+      $lanjut = true;
       $id = $request->id;
       $jualh = Jualh::where('id', $id)->first();
-      $nojual = $jualh->nojual;
-      $jualproses->load('jualDetail');
-      $subtotal = $jualproses->jualdetail->sum('subtotal');
-      $total_sementara = $jualproses->biaya_lain + $subtotal;
-      // $jualproses->proses = 'Y';
-      // $jualproses->subtotal = $subtotal;
-      // $jualproses->total_sementara = $total_sementara;
-      // $jualproses->total = $total_sementara + ($total_sementara * ($jualproses->ppn / 100));
-      // $jualproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      // $jualproses->save();
-      $jualh = Jualh::find($id);
-      $sudahbayar = $jualh->sudahbayar;
-      $jualh->fill([
-        'proses' => 'Y',
-        'subtotal' => $subtotal,
-        'total_sementara' => $total_sementara,
-        'total' => $total_sementara + ($total_sementara * ($jualh->ppn / 100)),
-        'kurangbayar' => $total_sementara + ($total_sementara * ($jualh->ppn / 100)) - $sudahbayar,
-        'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
-      ]);
-      $jualh->save();
-      $juald = Juald::where('nojual', $nojual)->get();
-      foreach ($juald as $row) {
-        $idd = $row->id;
-        $qty = $row->qty;
-        //Update stock
-        $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
-        $stockakhir = $tbbarang->stock - $qty;
-        DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
-        DB::table('juald')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty, 'hpp' => $tbbarang->hpp]);
+      $tahun = date("Y", strtotime($jualh->tgljual));
+      $bulan = substr('0' . date("m", strtotime($jualh->tgljual)), -2);
+      $periode = $tahun . $bulan;
+      $saplikasi = Saplikasi::where('aktif', 'Y')->first();
+      if ($periode <= $saplikasi->closing_hpp) {
+        // return response()->json('1');
+        return response()->json([
+          'sukses' => false, //view('tbbarang.tabel_barang')
+        ]);
+        $lanjut = false;
       }
-      //Create History
-      $jualh = Jualh::where('id', $request->id)->first();
-      $tanggal = date('Y-m-d');
-      $datetime = date('Y-m-d H:i:s');
-      $dokumen = $jualh->nojual;
-      $form = 'Penjualan';
-      $status = 'Proses';
-      $catatan = isset($request->catatan) ? $request->catatan : '';
-      $username = session('username');
-      DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
-      return response()->json([
-        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
-      ]);
-      // return redirect()->back()->with('message', 'Berhasil di update');
+      if ($lanjut == true) {
+        if ($saplikasi->kunci_stock == 'Y') {
+          $juald = Juald::where('nojual', $jualh->nojual)->get();
+          foreach ($juald as $row) {
+            //check stock tidak boleh minus
+            $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
+            if ($tbbarang->stock - $row->qty < 0) {
+              $lanjut = false;
+            }
+          }
+        }
+
+        if ($lanjut == true) {
+          $id = $request->id;
+          $jualh = Jualh::where('id', $id)->first();
+          $nojual = $jualh->nojual;
+          $tgljual = $jualh->tgljual;
+          $jualproses->load('jualDetail');
+          $subtotal = $jualproses->jualdetail->sum('subtotal');
+          $total_sementara = $jualproses->biaya_lain + $subtotal;
+          // $jualproses->proses = 'Y';
+          // $jualproses->subtotal = $subtotal;
+          // $jualproses->total_sementara = $total_sementara;
+          // $jualproses->total = $total_sementara + ($total_sementara * ($jualproses->ppn / 100));
+          // $jualproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
+          // $jualproses->save();
+          $jualh = Jualh::find($id);
+          $sudahbayar = $jualh->sudahbayar;
+          $jualh->fill([
+            'proses' => 'Y',
+            'subtotal' => $subtotal,
+            'total_sementara' => $total_sementara,
+            'total' => $total_sementara + ($total_sementara * ($jualh->ppn / 100)),
+            'kurangbayar' => $total_sementara + ($total_sementara * ($jualh->ppn / 100)) - $sudahbayar,
+            'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
+          ]);
+          $jualh->save();
+          $juald = Juald::where('nojual', $nojual)->get();
+          foreach ($juald as $row) {
+            $idd = $row->id;
+            $qty = $row->qty;
+            //Update stock
+            $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
+            $stockakhir = $tbbarang->stock - $qty;
+            // DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+            Tbbarang::where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+            // DB::table('juald')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty, 'hpp' => $tbbarang->hpp]);
+            Juald::where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty, 'hpp' => $tbbarang->hpp, 'tgljual' => $tgljual]);
+            if ($row->noso <> "") {
+              $noso = $row->noso;
+              $kdbarang = $row->kdbarang;
+              $sod = Sod::where('noso', $noso)->where('kdbarang', $kdbarang)->first();
+              $terima = $sod->terima + $qty;
+              $kurang = $sod->kurang - $qty;
+              // DB::table('sod')->where('noso', $noso)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+              Sod::where('noso', $noso)->where('kdbarang', $kdbarang)->update(['terima' =>  $terima, 'kurang' =>  $kurang]);
+            }
+          }
+          //Create History
+          $jualh = Jualh::where('id', $request->id)->first();
+          $tanggal = date('Y-m-d');
+          $datetime = date('Y-m-d H:i:s');
+          $dokumen = $jualh->nojual;
+          $form = 'Penjualan';
+          $status = 'Proses';
+          $catatan = isset($request->catatan) ? $request->catatan : '';
+          $username = session('username');
+          DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+          return response()->json([
+            'sukses' => 'Data berhasil di proses', //view('tbbarang.tabel_barang')
+          ]);
+          // return redirect()->back()->with('message', 'Berhasil di update');        
+        } else {
+          return response()->json([
+            'sukses' => false,
+          ]);
+        }
+      }
     } else {
       exit('Maaf tidak dapat diproses');
     }
@@ -386,7 +440,8 @@ class JualController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('jualh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      // DB::table('jualh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      Jualh::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
       //Create History
       $jualh = Jualh::where('id', $id)->first();
       $tanggal = date('Y-m-d');
@@ -417,26 +472,21 @@ class JualController extends Controller
     }
   }
 
-  public function jualbatalproses(jualh $jualh, Request $request)
+  public function jualkurir(jualh $jualh, Request $request)
   {
     if ($request->Ajax()) {
-      $id = $_GET['id'];
+      $id = $request->id;
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'jual',
-        'submenu1' => 'ref_umum',
-        'title' => 'Batal Proses Penjualan',
+        'submenu1' => 'spare_part',
+        'title' => 'Penjualan',
       ];
-      // var_dump($data);
-
-      // return response()->json([
-      //     'data' => $data,
-      // ]);
       return response()->json([
-        'body' => view('jual.modalbatalproses', [
-          'jual' => jualh::where('id', $id)->first(),
+        'body' => view('jual.modalkurir', [
+          'jual' => Jualh::where('id', $id)->first(),
           // 'action' => route('so.update', $soh->id),
-          'action' => 'jualbatalprosesok',
+          'action' => 'jualkurirsimpan',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -446,33 +496,20 @@ class JualController extends Controller
     }
   }
 
-  public function jualbatalprosesok(Request $request, jualh $jualh)
+  public function jualkurirsimpan(Request $request, jualh $jualh)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('jualh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
-      $jualh = Jualh::where('id', $id)->first();
-      //Update stock
-      $juald = Juald::where('nojual', $jualh->nojual)->get();
-      foreach ($juald as $row) {
-        $idd = $row->id;
-        $qty = $row->qty;
-        //Update stock
-        $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
-        $stockakhir = $tbbarang->stock + $qty;
-        DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
-        DB::table('juald')->where('id', $idd)->update(['proses' => 'N', 'kurang' => $qty, 'hpp' => $tbbarang->hpp]);
-      }
+      Jualh::where('id', $id)->update(['kdkurir' => $request->kdkurir, 'nmkurir' => $request->nmkurir]);
       //Create History
-      $jualh = jualh::where('id', $id)->first();
+      $jualh = Jualh::where('id', $id)->first();
       $nojual = $jualh->nojual;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
       $dokumen = $nojual;
       $form = 'Penjualan';
-      $status = 'Batal Proses';
-      $catatan = isset($request->catatan) ? $request->catatan : '';
+      $status = 'Input Kurir';
+      $catatan = isset($request->nmkurir) ? $request->nmkurir : '';
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
@@ -490,7 +527,8 @@ class JualController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Cancel-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('jualh')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      // DB::table('jualh')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      Jualh::where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
       //Create History
       $jualh = Jualh::where('id', $request->id)->first();
       $tanggal = date('Y-m-d');
@@ -516,7 +554,8 @@ class JualController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Ambil-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      DB::table('jualh')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      // DB::table('jualh')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      Jualh::where('id', $id)->update(['batal' => 'N', 'user' => $user]);
       //Create History
       $jualh = Jualh::where('id', $request->id)->first();
       $tanggal = date('Y-m-d');
@@ -542,9 +581,11 @@ class JualController extends Controller
     if ($request->Ajax()) {
       $id = $request->id;
       $jualh = Jualh::where('id', $request->id)->first();
-      $deleted = DB::table('jualh')->where('id', $id)->delete();
+      // $deleted = DB::table('jualh')->where('id', $id)->delete();
+      $deleted = Jualh::where('id', $id)->delete();
       if ($deleted) {
-        DB::table('juald')->where('nojual', $jualh->nojual)->delete();
+        // DB::table('juald')->where('nojual', $jualh->nojual)->delete();
+        Juald::where('nojual', $jualh->nojual)->delete();
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
@@ -577,7 +618,9 @@ class JualController extends Controller
       // var_dump($data);
       return response()->json([
         'body' => view('jual.modalcariso', [
-          'soh' => Soh::where('proses', 'Y')->orderBy('noso', 'desc')->get(),
+          // 'soh' => Soh::where('proses', 'Y')->orderBy('noso', 'desc')->get(),
+          'soh' => Soh::join('sod', 'sod.noso', '=', 'soh.noso')->where('soh.proses', 'Y')->where('sod.kurang', '>', 0)
+            ->groupBy('soh.noso')->orderBy('soh.noso', 'desc')->get(),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -595,26 +638,37 @@ class JualController extends Controller
       $nojual = $request->nojual;
       $tgljual = $request->tgljual;
       $user = 'Salin-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      $sod = Sod::where('noso', $noso)->get();
-      DB::table('juald')->where('nojual', $nojual)->delete();
-      foreach ($sod as $row) {
-        $insert = DB::table('juald')->insert([
-          'nojual' => $nojual, 'tgljual' => $tgljual, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
-          'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount, 'subtotal' => $row->subtotal, 'user' => $user
-        ]);
-        if (!$insert) {
-          $insertdetail = false;
+      // DB::table('juald')->where('nojual', $nojual)->where('noso', $noso)->delete();
+      $delete = Juald::where('nojual', $nojual)->where('noso', $noso)->delete();
+      if ($delete >= 0) {
+        $sod = Sod::where('noso', $noso)->get();
+        foreach ($sod as $row) {
+          // $insert = DB::table('juald')->insert([
+          //   'nojual' => $nojual, 'tgljual' => $tgljual, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
+          //   'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount, 'subtotal' => $row->subtotal,
+          //   'noso' => $noso, 'user' => $user
+          // ]);
+          $insert = Juald::insert([
+            'nojual' => $nojual, 'tgljual' => $tgljual, 'kdbarang' => $row->kdbarang, 'nmbarang' => $row->nmbarang,
+            'kdsatuan' => $row->kdsatuan, 'qty' => $row->qty, 'harga' => $row->harga, 'discount' => $row->discount, 'subtotal' => $row->subtotal,
+            'noso' => $noso, 'user' => $user
+          ]);
+          if ($insert <> true) {
+            $insertdetail = false;
+          }
         }
       }
-      $subtotal = DB::table('juald')->where('nojual', $nojual)->sum('subtotal');
+      // $subtotal = DB::table('juald')->where('nojual', $nojual)->sum('subtotal');
+      $subtotal = Juald::where('nojual', $nojual)->sum('subtotal');
       $jualh = Jualh::where('nojual', $nojual)->first();
       $biaya_lain = isset($jualh->biaya_lain) ? $jualh->biaya_lain : '0';
       $materai = isset($jualh->materai) ? $jualh->materai : '0';
       $ppn = isset($jualh->ppn) ? $jualh->ppn : '0';
       $total_sementara = $biaya_lain + $subtotal + $materai;
       $total = $total_sementara + ($total_sementara * ($ppn / 100));
-      $update = DB::table('jualh')->where('nojual', $nojual)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
-      if ($update and $insertdetail) {
+      // $update = DB::table('jualh')->where('nojual', $nojual)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
+      $update = Jualh::where('nojual', $nojual)->update(['biaya_lain' => $biaya_lain, 'subtotal' => $subtotal, 'total_sementara' => $total_sementara, 'ppn' => $ppn, 'total' => $total]);
+      if ($update >= 0 and $insertdetail) {
         $msg = [
           'sukses' => true,
         ];
@@ -642,7 +696,7 @@ class JualController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'jual',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Penjualan',
       ];
       // var_dump($data);
@@ -673,7 +727,10 @@ class JualController extends Controller
   {
     $nojual = $request->nojual;
     if ($request->ajax()) {
-      $data = juald::where('nojual', $nojual); //->orderBy('kode', 'asc');
+      // $data = juald::where('nojual', $nojual); //->orderBy('kode', 'asc');
+      $data = Juald::leftjoin('tbsatuan', 'tbsatuan.kode', '=', 'juald.kdsatuan')
+        ->select('juald.*', 'tbsatuan.nama as nmsatuan')
+        ->where('nojual', $nojual); //->orderBy('kode', 'asc');
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -723,10 +780,15 @@ class JualController extends Controller
         $biaya_lain = $Jualh->biaya_lain;
         $materai = $Jualh->materai;
         $ppn = $Jualh->ppn;
-        $subtotal = DB::table('juald')->where('nojual', $request->nojuald)->sum('subtotal');
+        // $subtotal = DB::table('juald')->where('nojual', $request->nojuald)->sum('subtotal');
+        $subtotal = Juald::where('nojual', $request->nojuald)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        DB::table('jualh')->where('nojual', $request->nojuald)->update([
+        // DB::table('jualh')->where('nojual', $request->nojuald)->update([
+        //   'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+        //   $total_sementara, 'total' => $total
+        // ]);
+        Jualh::where('nojual', $request->nojuald)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);
@@ -755,7 +817,7 @@ class JualController extends Controller
       $data = [
         'menu' => 'transaksi',
         'submenu' => 'Penjualan',
-        'submenu1' => 'ref_umum',
+        'submenu1' => 'spare_part',
         'title' => 'Detail Data Penjualan',
       ];
       // var_dump($data);
@@ -860,7 +922,9 @@ class JualController extends Controller
     $namafile = $nojual . ' - ' . date('dmY H:i:s') . '.pdf';
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
+    // $mpdf->Output($namafile, 'I');
     $mpdf->Output($namafile, 'I');
+    exit;
   }
 
   public function jualcetaksj(Request $request)
@@ -948,5 +1012,90 @@ class JualController extends Controller
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
     $mpdf->Output($namafile, 'I');
+    exit;
+  }
+
+  public function jualbatalproses(jualh $jualh, Request $request)
+  {
+    if ($request->Ajax()) {
+      $id = $_GET['id'];
+      $jualh = Jualh::where('id', $id)->first();
+      if ($jualh->sudahbayar > 0) {
+        return response()->json('2');
+      }
+      $bulan = substr('0' . date('m', strtotime($jualh->tgljual)), -2);
+      $tahun = date('Y', strtotime($jualh->tgljual));
+      $periode = $tahun . $bulan;
+      $saplikasi = Saplikasi::where('aktif', 'Y')->first();
+      // dd($saplikasi->closing_hpp . '   ' . $periode);
+      if ($periode <= $saplikasi->closing_hpp) {
+        return response()->json('1');
+      }
+      $data = [
+        'menu' => 'transaksi',
+        'submenu' => 'jual',
+        'submenu1' => 'spare_part',
+        'title' => 'Batal Proses Penjualan',
+      ];
+      // var_dump($data);
+
+      // return response()->json([
+      //   'data' => $data,
+      // ]);
+
+      return response()->json([
+        'body' => view('jual.modalbatalproses', [
+          'jual' => Jualh::where('id', $id)->first(),
+          // 'action' => route('so.update', $soh->id),
+          'action' => 'jualbatalprosesok',
+          'vdata' => $data,
+        ])->render(),
+        'data' => $data,
+      ]);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function jualbatalprosesok(Request $request, jualh $jualh)
+  {
+    if ($request->Ajax()) {
+      $id = $request->id;
+      $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
+      // DB::table('jualh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      Jualh::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      $jualh = Jualh::where('id', $id)->first();
+      //Update stock
+      $juald = Juald::where('nojual', $jualh->nojual)->get();
+      foreach ($juald as $row) {
+        $idd = $row->id;
+        $qty = $row->qty;
+        //Update stock
+        $tbbarang = Tbbarang::where('kode', $row->kdbarang)->first();
+        $stockakhir = $tbbarang->stock + $qty;
+        // DB::table('tbbarang')->where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+        Tbbarang::where('kode', $row->kdbarang)->update(['stock' => $stockakhir]);
+        // DB::table('juald')->where('id', $idd)->update(['proses' => 'N', 'kurang' => $qty, 'hpp' => $tbbarang->hpp]);
+        Juald::where('id', $idd)->update(['proses' => 'N', 'kurang' => $qty, 'hpp' => $tbbarang->hpp]);
+      }
+      //Create History
+      $jualh = Jualh::where('id', $id)->first();
+      $nojual = $jualh->nojual;
+      $tanggal = date('Y-m-d');
+      $datetime = date('Y-m-d H:i:s');
+      $dokumen = $nojual;
+      $form = 'Penjualan';
+      $status = 'Batal Proses';
+      $catatan = isset($request->catatan) ? $request->catatan : '';
+      $username = session('username');
+      DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
+      $msg = [
+        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
+      ];
+      echo json_encode($msg);
+      // return redirect()->back()->with('message', 'Berhasil di update');
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
   }
 }
