@@ -3,23 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\Sod_bahanRequest;
+use App\Http\Requests\pod_bahanRequest;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\Facades\DataTables;
-use App\Models\Sod_bahan;
-use App\Models\Soh_bahan;
+use App\Models\Pod_bahan;
+use App\Models\Poh_bahan;
 use App\Models\Saplikasi;
 
-class Sod_bahanController extends Controller
+class Pod_bahanController extends Controller
 {
-  public function sod_bahanajax(Request $request) //: View
+  public function pod_bahanajax(Request $request) //: View
   {
-    $noso = $request->noso;
+    $nopo = $request->nopo;
     if ($request->ajax()) {
-      // $data = Sod_bahan::where('noso', $noso); //->orderBy('kode', 'asc');
-      $data = Sod_bahan::leftjoin('tbsatuan', 'tbsatuan.kode', '=', 'sod_bahan.kdsatuan')
-        ->select('sod_bahan.*', 'tbsatuan.nama as nmsatuan')
-        ->where('noso', $noso); //->orderBy('kode', 'asc');      
+      $data = Pod_bahan::where('nopo', $nopo); //->orderBy('kode', 'asc');
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -36,13 +33,13 @@ class Sod_bahanController extends Controller
   public function create(Request $request)
   {
     if ($request->Ajax()) {
-      $noso = $request->noso;
+      $nopo = $request->nopo;
       $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'so',
-        'submenu1' => 'bahan',
-        'title' => 'Tambah Data Sales Order',
+        'submenu' => 'po',
+        'submenu1' => 'ref_umum',
+        'title' => 'Tambah Data Purchase Order',
       ];
       // var_dump($data);
 
@@ -50,12 +47,12 @@ class Sod_bahanController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('so_bahan.modaleditdetail', [
-          'soh_bahan' => Soh_bahan::where('noso', $noso)->first(),
-          'sod_bahan' => new Sod_bahan(),
+        'body' => view('po_bahan.modaleditdetail', [
+          'poh_bahan' => Poh_bahan::where('nopo', $nopo)->first(),
+          'pod_bahan' => new pod_bahan(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'action' => route('so.update', $soh->id),
-          'action' => route('sod_bahan.store'),
+          'action' => route('pod_bahan.store'),
+          // 'action' => route('podstore'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -65,11 +62,11 @@ class Sod_bahanController extends Controller
     }
   }
 
-  public function store(Request $request, Sod_bahanRequest $Sod_bahanrequest, Sod_bahan $Sod_bahan)
-  // public function store(Request $request, Soh $soh)
+  public function store(Request $request, Pod_bahan $pod_bahan)
+  // public function store(Request $request, Soh $poh)
   {
     if ($request->Ajax()) {
-      $noso = $request->noso;
+      $nopo = $request->nopo;
       $id = $request->id;
       $validate = $request->validate(
         [
@@ -80,15 +77,14 @@ class Sod_bahanController extends Controller
         ],
       );
       if ($validate) {
-        $recSod_bahan = Sod_bahan::where('noso', $request->noso)->where('kdbarang', $request->kdbarang)->first();
-        if (isset($recSod_bahan->noso)) {
+        $recpod = Pod_bahan::where('nopo', $request->nopo)->where('kdbarang', $request->kdbarang)->first();
+        if (isset($recpod->nopo)) {
           $msg = [
             'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
           ];
         } else {
-          $multiprc = isset($request->multiprc) ? 'Y' : 'N';
-          $Sod_bahan->fill([
-            'noso' => isset($request->noso) ? $request->noso : '',
+          $pod_bahan->fill([
+            'nopo' => isset($request->nopo) ? $request->nopo : '',
             'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
             'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
             'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -97,19 +93,22 @@ class Sod_bahanController extends Controller
             'discount' => isset($request->discount) ? $request->discount : '',
             'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
             'total' => isset($request->total) ? $request->total : '',
-            'multiprc' => $multiprc,
             'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
           ]);
-          $Sod_bahan->save($validate);
-          $soh = Soh_bahan::select('*')->where('noso', $noso)->first();
-          // dd($soh);
-          $biaya_lain = $soh->biaya_lain;
-          $materai = $soh->materai;
-          $ppn = $soh->ppn;
-          $subtotal = Sod_bahan::where('noso', $request->noso)->sum('subtotal');
+          $pod_bahan->save($validate);
+          $poh = Poh_bahan::select('*')->where('nopo', $nopo)->first();
+          $biaya_lain = $poh->biaya_lain;
+          $materai = $poh->materai;
+          $ppn = $poh->ppn;
+          // $subtotal = DB::table('pod')->where('nopo', $request->nopo)->sum('subtotal');
+          $subtotal = Pod_bahan::where('nopo', $request->nopo)->sum('subtotal');
           $total_sementara = $biaya_lain + $subtotal + $materai;
           $total = $total_sementara + ($total_sementara * ($ppn / 100));
-          Soh_bahan::where('noso', $request->noso)->update([
+          // DB::table('poh')->where('nopo', $request->nopo)->update([
+          //   'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+          //   $total_sementara, 'total' => $total
+          // ]);
+          Poh_bahan::where('nopo', $request->nopo)->update([
             'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
             $total_sementara, 'total' => $total
           ]);
@@ -129,18 +128,18 @@ class Sod_bahanController extends Controller
     }
   }
 
-  public function edit(Sod_bahan $Sod_bahan, Request $request)
+  public function edit(Pod_bahan $pod_bahan, Request $request)
   {
     if ($request->Ajax()) {
       // $id = $_GET['id'];
       $id = $request->id;
-      $row = Sod_bahan::where('id', $id)->first();
-      $noso = $row->noso;
+      $row = Pod_bahan::where('id', $id)->first();
+      $nopo = $row->nopo;
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'Sales Order',
-        'submenu1' => 'bahan',
-        'title' => 'Edit Data Sales Order',
+        'submenu' => 'Purchase Order',
+        'submenu1' => 'ref_umum',
+        'title' => 'Edit Data Purchase Order',
       ];
       // var_dump($data);
 
@@ -148,12 +147,12 @@ class Sod_bahanController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('so_bahan.modaleditdetail', [
-          'soh_bahan' => Soh_bahan::where('noso', $noso)->first(),
-          'sod_bahan' => Sod_bahan::where('id', $id)->first(),
+        'body' => view('po_bahan.modaleditdetail', [
+          'poh_bahan' => Poh_bahan::where('nopo', $nopo)->first(),
+          'pod_bahan' => Pod_bahan::where('id', $id)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          'action' => route('sod_bahan.update', $id),
-          // 'action' => 'Sod_bahanupdate',
+          'action' => route('pod_bahan.update', $pod_bahan->id),
+          // 'action' => 'podupdate',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -163,7 +162,7 @@ class Sod_bahanController extends Controller
     }
   }
 
-  public function update(Request $request, Sod_bahan $Sod_bahan)
+  public function update(Request $request, Pod_bahan $pod_bahan)
   {
     if ($request->Ajax()) {
       $id = $request->id;
@@ -177,17 +176,16 @@ class Sod_bahanController extends Controller
         ],
       );
 
-      $Sod_bahan = Sod_bahan::find($id);
+      $pod = Pod_bahan::find($id);
       if ($validate) {
-        // $recSod_bahan = Sod_bahan::where('noso', $request->noso)->where('kdbarang', $request->kdbarang)->first();
-        // if (isset($recSod_bahan->noso)) {
+        // $recpod = Pod_bahan::where('nopo', $request->nopod)->where('kdbarang', $request->kdbarang)->first();
+        // if (isset($recpod->nopo)) {
         //   $msg = [
         //     'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
         //   ];
         // } else {
-        $multiprc = isset($request->multiprc) ? 'Y' : 'N';
-        $Sod_bahan->fill([
-          'noso' => isset($request->noso) ? $request->noso : '',
+        $pod_bahan->fill([
+          'nopo' => isset($request->nopod) ? $request->nopod : '',
           'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
           'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
           'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -196,18 +194,22 @@ class Sod_bahanController extends Controller
           'discount' => isset($request->discount) ? $request->discount : '',
           'subtotal' => isset($request->subtotal) ? $request->subtotal : '',
           'total' => isset($request->total) ? $request->total : '',
-          'multiprc' => $multiprc,
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $Sod_bahan->save($validate);
-        $soh = Soh_bahan::where('noso', $request->noso)->first();
-        $biaya_lain = $soh->biaya_lain;
-        $materai = $soh->materai;
-        $ppn = $soh->ppn;
-        $subtotal = Sod_bahan::where('noso', $request->noso)->sum('subtotal');
+        $pod_bahan->save($validate);
+        $poh = Poh_bahan::where('nopo', $request->nopod)->first();
+        $biaya_lain = $poh->biaya_lain;
+        $materai = $poh->materai;
+        $ppn = $poh->ppn;
+        // $subtotal = DB::table('pod')->where('nopo', $request->nopod)->sum('subtotal');
+        $subtotal = Pod_bahan::where('nopo', $request->nopod)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        Soh_bahan::where('noso', $request->noso)->update([
+        // DB::table('poh')->where('nopo', $request->nopod)->update([
+        //   'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
+        //   $total_sementara, 'total' => $total
+        // ]);
+        Poh_bahan::where('nopo', $request->nopod)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);
@@ -227,22 +229,22 @@ class Sod_bahanController extends Controller
     }
   }
 
-  public function destroy(Sod_bahan $Sod_bahan, Request $request)
+  public function destroy(Pod_bahan $pod_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      // $soh->delete('id', $id);
-      $recso = Sod_bahan::where('id', $id)->first();
-      $noso = $recso->noso;
-      $deleted = Sod_bahan::where('id', $id)->delete();
-      $soh = Soh_bahan::where('noso', $noso)->first();
-      $biaya_lain = $soh->biaya_lain;
-      $materai = $soh->materai;
-      $ppn = $soh->ppn;
-      $subtotal = Sod_bahan::where('noso', $noso)->sum('subtotal');
+      // $poh->delete('id', $id);
+      $rowpod = Pod_bahan::where('id', $id)->first();
+      $nopo = $rowpod->nopo;
+      $deleted = Pod_bahan::where('id', $id)->delete();
+      $poh = Poh_bahan::where('nopo', $nopo)->first();
+      $biaya_lain = $poh->biaya_lain;
+      $materai = $poh->materai;
+      $ppn = $poh->ppn;
+      $subtotal = Pod_bahan::where('nopo', $nopo)->sum('subtotal');
       $total_sementara = $biaya_lain + $subtotal + $materai;
       $total = $total_sementara + ($total_sementara * ($ppn / 100));
-      Soh_bahan::where('noso', $noso)->update([
+      Poh_bahan::where('nopo', $nopo)->update([
         'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
         $total_sementara, 'total' => $total
       ]);

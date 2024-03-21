@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Soh_bahan extends Model
+class Poh_bahan extends Model
 {
   use HasFactory;
 
   // Fillable
-  protected $table = "soh_bahan";
+  protected $table = "poh_bahan";
 
   // protected $fillable = [
   //   'noso', 'tglso', 'nopo_customer', 'tglpo_customer', 'noreferensi', 'kdcustomer', 'nmcustomer', 'kdsales', 'nmsales', 'tglkirim',
@@ -21,8 +21,8 @@ class Soh_bahan extends Model
   protected $guarded = ['id'];
   public $timestamps = false;
 
-  public function so_bahanDetail()
+  public function poDetail()
   {
-    return $this->hasMany(Sod_bahan::class, 'noso', 'noso');
+    return $this->hasMany(Pod_bahan::class, 'nopo', 'nopo');
   }
 }

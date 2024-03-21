@@ -107,10 +107,10 @@ use App\Http\Controllers\So_bahanController;
 use App\Http\Controllers\Sod_bahanController;
 use App\Http\Controllers\Jual_bahanController;
 use App\Http\Controllers\Juald_bahanController;
-// use App\Http\Controllers\Po_bahandController;
-// use App\Http\Controllers\Pod_bahanController;
-// use App\Http\Controllers\Beli_bahandController;
-// use App\Http\Controllers\Belid_bahanController;
+use App\Http\Controllers\Po_bahanController;
+use App\Http\Controllers\Pod_bahanController;
+use App\Http\Controllers\Beli_bahandController;
+use App\Http\Controllers\Belid_bahanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -322,6 +322,8 @@ Route::middleware('auth')->group(function () {
   Route::get('repltbjnskartu', [CariController::class, 'repltbjnskartu'])->name('repltbjnskartu');
   Route::get('caritbbarang', [CariController::class, 'caritbbarang'])->name('caritbbarang');
   Route::get('repltbbarang', [CariController::class, 'repltbbarang'])->name('repltbbarang');
+  Route::get('caritbbahan', [CariController::class, 'caritbbahan'])->name('caritbbahan');
+  Route::get('repltbbahan', [CariController::class, 'repltbbahan'])->name('repltbbahan');
   Route::get('caritbmultiprc', [CariController::class, 'caritbmultiprc'])->name('caritbmultiprc');
   Route::get('repltbmultiprc', [CariController::class, 'repltbmultiprc'])->name('repltbmultiprc');
   Route::get('carisupplier', [CariController::class, 'carisupplier'])->name('carisupplier');
@@ -759,64 +761,25 @@ Route::middleware('auth')->group(function () {
   Route::get('opnamebatalproses', [OpnameController::class, 'opnamebatalproses'])->name('opnamebatalproses');
   Route::get('opnamebatalprosesok', [OpnameController::class, 'opnamebatalprosesok'])->name('opnamebatalprosesok');
 
-  //Sales Order Bahan
-  Route::resource('/so_bahan', \App\Http\Controllers\So_bahanController::class);
-  Route::get('so_bahanajax', [So_bahanController::class, 'so_bahanajax'])->name('so_bahanajax');
-  Route::get('so_bahanupdate', [So_bahanController::class, 'update'])->name('update');
-  Route::post('so_bahanproses/{so_bahanproses}', [So_bahanController::class, 'so_bahanproses'])->name('so_bahanproses');
-  Route::post('so_bahanunproses', [So_bahanController::class, 'so_bahanunproses'])->name('so_bahanunproses');
-  Route::post('so_bahancancel', [So_bahanController::class, 'so_bahancancel'])->name('so_bahancancel');
-  Route::post('so_bahanambil', [So_bahanController::class, 'so_bahanambil'])->name('so_bahanambil');
-  Route::resource('/so_bahand', \App\Http\Controllers\Sod_bahanController::class);
-  Route::get('so_bahandajax', [So_bahanController::class, 'so_bahandajax'])->name('so_bahandajax');
-  Route::get('so_bahantambahdetail', [So_bahanController::class, 'so_bahantambahdetail'])->name('so_bahantambahdetail');
-  Route::get('so_bahantotaldetail', [So_bahanController::class, 'so_bahantotaldetail'])->name('so_bahantotaldetail');
-  Route::get('so_bahaninputso_bahand', [So_bahanController::class, 'so_bahaninputso_bahand'])->name('so_bahaninputso_bahand');
-  Route::get('so_bahandstore', [Sod_bahanController::class, 'store'])->name('so_bahandstore');
-  Route::get('so_bahandupdate', [Sod_bahanController::class, 'update'])->name('update');
-  Route::get('so_bahancetak', [So_bahanController::class, 'so_bahancetak'])->name('so_bahancetak');
-  Route::get('so_bahanbatalproses', [So_bahanController::class, 'so_bahanbatalproses'])->name('so_bahanbatalproses');
-  Route::get('so_bahanbatalproseso_bahank', [So_bahanController::class, 'so_bahanbatalproseso_bahank'])->name('so_bahanbatalprosesok');
-  //Penjualan Bahan
-  Route::resource('/jual', \App\Http\Controllers\JualController::class);
-  Route::get('jualajax', [JualController::class, 'jualajax'])->name('jualajax');
-  Route::get('jualupdate', [JualController::class, 'update'])->name('update');
-  Route::post('jualproses/{jualproses}', [JualController::class, 'jualproses'])->name('jualproses');
-  Route::post('jualunproses', [JualController::class, 'jualunproses'])->name('jualunproses');
-  Route::post('Jualcancel', [JualController::class, 'Jualcancel'])->name('Jualcancel');
-  Route::post('jualambil', [JualController::class, 'jualambil'])->name('jualambil');
-  Route::resource('/juald', \App\Http\Controllers\JualdController::class);
-  Route::get('jualdajax', [JualController::class, 'jualdajax'])->name('jualdajax');
-  Route::get('cariso', [JualController::class, 'cariso'])->name('cariso');
-  Route::get('replso', [JualController::class, 'replso'])->name('replso');
-  Route::get('prosessalinso', [JualController::class, 'prosessalinso'])->name('prosessalinso');
-  Route::get('jualtambahdetail', [JualController::class, 'jualtambahdetail'])->name('jualtambahdetail');
-  Route::get('jualtotaldetail', [JualController::class, 'jualtotaldetail'])->name('jualtotaldetail');
-  Route::get('jualinputjuald', [JualController::class, 'jualinputjuald'])->name('jualinputjuald');
-  Route::get('jualdstore', [JualdController::class, 'store'])->name('jualdstore');
-  Route::get('jualdupdate', [JualdController::class, 'update'])->name('update');
-  Route::get('jualcetakfp', [JualController::class, 'jualcetakfp'])->name('jualcetakfp');
-  Route::get('jualcetaksj', [JualController::class, 'jualcetaksj'])->name('jualcetaksj');
-  Route::get('jualbatalproses', [JualController::class, 'jualbatalproses'])->name('jualbatalproses');
-  Route::get('jualbatalprosesok', [JualController::class, 'jualbatalprosesok'])->name('jualbatalprosesok');
   //Purchase Order Bahan
-  Route::resource('/po', \App\Http\Controllers\PoController::class);
-  Route::get('poajax', [PoController::class, 'poajax'])->name('poajax');
-  Route::get('poupdate', [PoController::class, 'update'])->name('update');
-  Route::post('poproses/{poproses}', [PoController::class, 'poproses'])->name('poproses');
-  Route::post('pounproses', [PoController::class, 'pounproses'])->name('pounproses');
-  Route::post('pocancel', [PoController::class, 'pocancel'])->name('pocancel');
-  Route::post('poambil', [PoController::class, 'poambil'])->name('poambil');
-  Route::resource('/pod', \App\Http\Controllers\PodController::class);
-  Route::get('podajax', [PoController::class, 'podajax'])->name('podajax');
-  Route::get('potambahdetail', [PoController::class, 'potambahdetail'])->name('potambahdetail');
-  Route::get('pototaldetail', [PoController::class, 'pototaldetail'])->name('pototaldetail');
-  Route::get('poinputpod', [PoController::class, 'poinputpod'])->name('poinputpod');
-  Route::get('podstore', [PodController::class, 'store'])->name('podstore');
-  Route::get('podupdate', [PodController::class, 'update'])->name('update');
-  Route::get('pocetak', [PoController::class, 'pocetak'])->name('pocetak');
-  Route::get('pobatalproses', [PoController::class, 'pobatalproses'])->name('pobatalproses');
-  Route::get('pobatalprosesok', [PoController::class, 'pobatalprosesok'])->name('pobatalprosesok');
+  Route::resource('/po_bahan', \App\Http\Controllers\Po_bahanController::class);
+  Route::get('po_bahanajax', [Po_bahanController::class, 'po_bahanajax'])->name('po_bahanajax');
+  Route::get('po_bahanupdate', [Po_bahanController::class, 'update'])->name('update');
+  Route::post('po_bahanproses/{poproses}', [Po_bahanController::class, 'po_bahanproses'])->name('po_bahanproses');
+  Route::post('po_bahanunproses', [Po_bahanController::class, 'po_bahanunproses'])->name('po_bahanunproses');
+  Route::post('po_bahancancel', [Po_bahanController::class, 'po_bahancancel'])->name('po_bahancancel');
+  Route::post('po_bahanambil', [Po_bahanController::class, 'po_bahanambil'])->name('po_bahanambil');
+  Route::resource('/pod_bahan', \App\Http\Controllers\Pod_bahanController::class);
+  Route::get('pod_bahanajax', [Pod_bahanController::class, 'pod_bahanajax'])->name('pod_bahanajax');
+  Route::get('po_bahantambahdetail', [Po_bahanController::class, 'po_bahantambahdetail'])->name('po_bahantambahdetail');
+  Route::get('po_bahantotaldetail', [Po_bahanController::class, 'po_bahantotaldetail'])->name('po_bahantotaldetail');
+  Route::get('po_bahaninputpod', [Po_bahanController::class, 'po_bahaninputpod'])->name('po_bahaninputpod');
+  // Route::get('pod_bahanstore', [Pod_bahanController::class, 'store'])->name('pod_bahanstore');
+  // Route::get('pod_bahanupdate', [Pod_bahanController::class, 'update'])->name('update');
+  Route::get('po_bahancetak', [Po_bahanController::class, 'po_bahancetak'])->name('po_bahancetak');
+  Route::get('po_bahanbatalproses', [Po_bahanController::class, 'po_bahanbatalproses'])->name('po_bahanbatalproses');
+  Route::get('po_bahanbatalprosesok', [Po_bahanController::class, 'po_bahanbatalprosesok'])->name('po_bahanbatalprosesok');
+
   //Pembelian Bahan
   Route::resource('/beli', \App\Http\Controllers\BeliController::class);
   Route::get('beliajax', [BeliController::class, 'beliajax'])->name('beliajax');
@@ -860,6 +823,46 @@ Route::middleware('auth')->group(function () {
   Route::get('terimacetak', [TerimaController::class, 'terimacetak'])->name('terimacetak');
   Route::get('terimabatalproses', [TerimaController::class, 'terimabatalproses'])->name('terimabatalproses');
   Route::get('terimabatalprosesok', [TerimaController::class, 'terimabatalprosesok'])->name('terimabatalprosesok');
+  //Sales Order Bahan
+  Route::resource('/so_bahan', \App\Http\Controllers\So_bahanController::class);
+  Route::get('so_bahanajax', [So_bahanController::class, 'so_bahanajax'])->name('so_bahanajax');
+  // Route::get('so_bahanupdate', [So_bahanController::class, 'update'])->name('update');
+  Route::post('so_bahanproses/{so_bahanproses}', [So_bahanController::class, 'so_bahanproses'])->name('so_bahanproses');
+  Route::post('so_bahanunproses', [So_bahanController::class, 'so_bahanunproses'])->name('so_bahanunproses');
+  Route::post('so_bahancancel', [So_bahanController::class, 'so_bahancancel'])->name('so_bahancancel');
+  Route::post('so_bahanambil', [So_bahanController::class, 'so_bahanambil'])->name('so_bahanambil');
+  Route::resource('/sod_bahan', \App\Http\Controllers\Sod_bahanController::class);
+  Route::get('sod_bahanajax', [Sod_bahanController::class, 'sod_bahanajax'])->name('sod_bahanajax');
+  // Route::get('so_bahantambahdetail', [So_bahanController::class, 'so_bahantambahdetail'])->name('so_bahantambahdetail');
+  Route::get('so_bahantotaldetail', [So_bahanController::class, 'so_bahantotaldetail'])->name('so_bahantotaldetail');
+  Route::get('so_bahaninputsod', [So_bahanController::class, 'so_bahaninputsod'])->name('so_bahaninputsod');
+  // Route::get('so_bahandstore', [Sod_bahanController::class, 'store'])->name('so_bahandstore');
+  // Route::get('so_bahandupdate', [Sod_bahanController::class, 'update'])->name('update');
+  Route::get('so_bahancetak', [So_bahanController::class, 'so_bahancetak'])->name('so_bahancetak');
+  Route::get('so_bahanbatalproses', [So_bahanController::class, 'so_bahanbatalproses'])->name('so_bahanbatalproses');
+  Route::get('so_bahanbatalprosesok', [So_bahanController::class, 'so_bahanbatalprosesok'])->name('so_bahanbatalprosesok');
+  //Penjualan Bahan
+  Route::resource('/jual', \App\Http\Controllers\JualController::class);
+  Route::get('jualajax', [JualController::class, 'jualajax'])->name('jualajax');
+  Route::get('jualupdate', [JualController::class, 'update'])->name('update');
+  Route::post('jualproses/{jualproses}', [JualController::class, 'jualproses'])->name('jualproses');
+  Route::post('jualunproses', [JualController::class, 'jualunproses'])->name('jualunproses');
+  Route::post('Jualcancel', [JualController::class, 'Jualcancel'])->name('Jualcancel');
+  Route::post('jualambil', [JualController::class, 'jualambil'])->name('jualambil');
+  Route::resource('/juald', \App\Http\Controllers\JualdController::class);
+  Route::get('jualdajax', [JualController::class, 'jualdajax'])->name('jualdajax');
+  Route::get('cariso', [JualController::class, 'cariso'])->name('cariso');
+  Route::get('replso', [JualController::class, 'replso'])->name('replso');
+  Route::get('prosessalinso', [JualController::class, 'prosessalinso'])->name('prosessalinso');
+  Route::get('jualtambahdetail', [JualController::class, 'jualtambahdetail'])->name('jualtambahdetail');
+  Route::get('jualtotaldetail', [JualController::class, 'jualtotaldetail'])->name('jualtotaldetail');
+  Route::get('jualinputjuald', [JualController::class, 'jualinputjuald'])->name('jualinputjuald');
+  Route::get('jualdstore', [JualdController::class, 'store'])->name('jualdstore');
+  Route::get('jualdupdate', [JualdController::class, 'update'])->name('update');
+  Route::get('jualcetakfp', [JualController::class, 'jualcetakfp'])->name('jualcetakfp');
+  Route::get('jualcetaksj', [JualController::class, 'jualcetaksj'])->name('jualcetaksj');
+  Route::get('jualbatalproses', [JualController::class, 'jualbatalproses'])->name('jualbatalproses');
+  Route::get('jualbatalprosesok', [JualController::class, 'jualbatalprosesok'])->name('jualbatalprosesok');
   //Pengeluaran Bahan
   Route::resource('/keluar', \App\Http\Controllers\KeluarController::class);
   Route::get('keluarajax', [KeluarController::class, 'keluarajax'])->name('keluarajax');

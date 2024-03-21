@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
-class Sod_bahanRequest extends FormRequest
+class Poh_bahanRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -23,14 +23,19 @@ class Sod_bahanRequest extends FormRequest
     public function rules(): array
     {
         return [
-            // 'noso' => ['required', Rule::unique('soh')->ignore($this->soh)],
-            'kdbarang' => ['required'],
+            // 'nopo' => ['required', Rule::unique('poh')->ignore($this->poh)],
+            'nopo' => ['required'],
+            'tglpo' => ['required'],
+            'kdsupplier' => ['required'],
         ];
     }
     public function messages()
     {
         return [
-            'kdbarang.required' => 'Barang harus di isi',
+            'nopo.unique' => 'Nomor tidak boleh sama',
+            'nopo.required' => 'Nomor harus di isi',
+            'tglpo.required' => 'Tanggal harus di isi',
+            'kdsupplier.required' => 'Supplier harus di isi',
         ];
     }
 }

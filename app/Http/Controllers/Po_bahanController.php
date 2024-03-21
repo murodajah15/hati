@@ -4,16 +4,16 @@ namespace App\Http\Controllers;
 
 use Mpdf\Mpdf;
 use Mpdf\Output\Destination;
-use App\Http\Requests\Soh_bahanRequest;
-use App\Http\Requests\Sod_bahanRequest;
+use App\Http\Requests\Poh_bahanRequest;
 use Illuminate\Http\Request;
 use Session;
 // use Yajra\DataTables\Contracts\DataTables;
 use Yajra\DataTables\Facades\DataTables;
 use Illuminate\Support\Facades\DB;
-use App\Models\Soh_bahan;
-use App\Models\Sod_bahan;
-// use App\Models\Tbsales;
+use App\Models\Poh_bahan;
+use App\Models\Pod_bahan;
+use App\Models\Tbsupplier;
+use App\Models\Tbsales;
 use App\Models\Tbbarang;
 use App\Models\Tbmultiprc;
 use App\Models\Userdtl;
@@ -22,31 +22,28 @@ use App\Models\Saplikasi;
 // //return type View
 // use Illuminate\View\View;
 
-class So_bahanController extends Controller
+class Po_bahanController extends Controller
 {
   public function index(Request $request) //: View
   {
     $username = session('username');
     $data = [
       'menu' => 'transaksi',
-      'submenu' => 'so_bahan',
+      'submenu' => 'po_bahan',
       'submenu1' => 'bahan',
-      'title' => 'Sales Order Bahan',
+      'title' => 'Purchase Order Bahan',
       // 'tbbarang' => Tbbarang::all(),
       'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
-      'userdtl' => Userdtl::where('cmodule', 'Sales Order Bahan')->where('username', $username)->first(),
+      'userdtl' => Userdtl::where('cmodule', 'Purchase Order Bahan')->where('username', $username)->first(),
     ];
-    $userdtl = Userdtl::where('cmodule', 'Sales Order Bahan')->where('username', $username)->first();
-    if ($userdtl->pakai == '1') {
-      return view('so_bahan.index')->with($data);
-    } else {
-      return redirect('home');
-    }
+    // var_dump($data);
+    return view('po_bahan.index')->with($data);
   }
-  public function so_bahanajax(Request $request) //: View
+  public function po_bahanajax(Request $request) //: View
   {
     if ($request->ajax()) {
-      $data = Soh_bahan::select('*'); //->orderBy('kode', 'asc');
+      // $data = Poh_bahan::select('*'); //->orderBy('kode', 'asc');
+      $data = Poh_bahan::select('id', DB::raw("DATE_FORMAT(poh_bahan.tglpo, '%Y-%m-%d') as tglpo"), 'nopo', 'nmsupplier', 'total', 'proses', 'batal'); //->orderBy('kode', 'asc');
       return Datatables::of($data)
         ->addIndexColumn()
         ->addColumn('kode1', function ($row) {
@@ -56,7 +53,7 @@ class So_bahanController extends Controller
         })
         ->rawColumns(['kode1'])
         ->make(true);
-      // return view('so');
+      // return view('po');
     }
   }
 
@@ -66,59 +63,56 @@ class So_bahanController extends Controller
       $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'so_bahan',
-        'submenu1' => 'bahan',
-        'title' => 'Tambah Data Sales Order Bahan',
+        'submenu' => 'po',
+        'submenu1' => 'ref_umum',
+        'title' => 'Tambah Data Purchase Order Bahan',
       ];
       return response()->json([
-        'body' => view('so_bahan.modaltambahmaster', [
-          'tambahtbnegara' => Userdtl::where('cmodule', 'Tabel Negara')->where('username', $username)->first(),
-          'tambahtbjnbrg' => Userdtl::where('cmodule', 'Tabel Jenis Barang')->where('username', $username)->first(),
-          'tambahtbsatuan' => Userdtl::where('cmodule', 'Tabel Satuan')->where('username', $username)->first(),
-          'tambahtbmove' => Userdtl::where('cmodule', 'Tabel Perputaran Barang')->where('username', $username)->first(),
-          'tambahtbdisc' => Userdtl::where('cmodule', 'Tabel Discount')->where('username', $username)->first(),
+        'body' => view('po_bahan.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'tbsales' => Tbsales::orderBy('nama')->get(),
-          'soh_bahan' => new Soh_bahan(),
-          'action' => route('so_bahan.store'),
+          'tbsales' => Tbsales::orderBy('nama')->get(),
+          'poh_bahan' => new Poh_bahan(),
+          'action' => route('po_bahan.store'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
+
       ]);
     } else {
       exit('Maaf tidak dapat diproses');
     }
   }
 
-  public function store(Soh_bahanRequest $request, Soh_bahan $soh_bahan)
+  public function store(Poh_bahanRequest $request, Poh_bahan $poh_bahan)
+  // public function store(Request $request, Poh_bahan $poh_bahan)
   {
     if ($request->Ajax()) {
       $sort_num = 0;
-      $new_code = $request->noso;
+      $new_code = $request->nopo;
       $ketemu = 0;
       $record = 0;
-      $rec = Soh_bahan::where('noso', $new_code)->first();
+      $rec = Poh_bahan::where('nopo', $new_code)->first();
       if ($rec == null) {
         $aplikasi = Saplikasi::where('aktif', 'Y')->first();
-        $sort_num = $aplikasi->noso;
+        $sort_num = $aplikasi->nopo;
         $tahun = $aplikasi->tahun;
         $bulan = $aplikasi->bulan;
-        Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+        DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
       } else {
         while ($ketemu == $record) { //0=0
           $aplikasi = Saplikasi::where('aktif', 'Y')->first();
-          $sort_num = $aplikasi->noso;
+          $sort_num = $aplikasi->nopo;
           $tahun = $aplikasi->tahun;
           $bulan = $aplikasi->bulan;
-          Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
-          $new_code = 'SOB' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
-          $rec = Soh_bahan::where('noso', $new_code)->first();
+          DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
+          $new_code = 'POB' . $tahun . sprintf('%02s', $bulan) . sprintf("%05s", $sort_num + 1);
+          $rec = Poh_bahan::where('nopo', $new_code)->first();
           if ($rec == null) {
             $record = 0;
-            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+            DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
             break;
           } else {
-            Saplikasi::where('aktif', 'Y')->update(['noso' => $sort_num + 1]);
+            DB::table('saplikasi')->where('aktif', 'Y')->update(['nopo' => $sort_num + 1]);
           }
         }
       }
@@ -130,16 +124,12 @@ class So_bahanController extends Controller
         $ppn = isset($request->ppn) ? $request->ppn : '0';
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        $soh_bahan->fill([
-          'noso' => isset($request->noso) ? $new_code : '',
-          'tglso' => isset($request->tglso) ? $request->tglso : '',
+        $poh_bahan->fill([
+          'nopo' => isset($request->nopo) ? $new_code : '',
+          'tglpo' => isset($request->tglpo) ? $request->tglpo : '',
           'noreferensi' => isset($request->noreferensi) ? $request->noreferensi : '',
-          'nopo_customer' => isset($request->nopo_customer) ? $request->nopo_customer : '',
-          'tglpo_customer' => isset($request->tglpo_customer) ? $request->tglpo_customer : '',
-          'kdcustomer' => isset($request->kdcustomer) ? $request->kdcustomer : '',
-          'nmcustomer' => isset($request->nmcustomer) ? $request->nmcustomer : '',
-          'kdsales' => isset($request->kdsales) ? $request->kdsales : '',
-          'nmsales' => isset($request->nmsales) ? $request->nmsales : '',
+          'kdsupplier' => isset($request->kdsupplier) ? $request->kdsupplier : '',
+          'nmsupplier' => isset($request->nmsupplier) ? $request->nmsupplier : '',
           'tglkirim' => isset($request->tglkirim) ? $request->tglkirim : '',
           'jenis_order' => isset($request->jenis_order) ? $request->jenis_order : '',
           'carabayar' => isset($request->carabayar) ? $request->carabayar : '',
@@ -155,22 +145,18 @@ class So_bahanController extends Controller
           'keterangan' => isset($request->keterangan) ? $request->keterangan : '',
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $soh_bahan->save($validated);
+        $poh_bahan->save($validated);
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
         $dokumen = $new_code;
-        $form = 'Sales Order Bahan';
+        $form = 'Purchase Order Bahan';
         $status = 'Tambah';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
         DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
         $msg = [
-          'sukses' => 'Data berhasil di tambah',
-        ];
-      } else {
-        $msg = [
-          'sukses' => 'Data gagal di tambah',
+          'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')
         ];
       }
       echo json_encode($msg);
@@ -188,16 +174,16 @@ class So_bahanController extends Controller
     if ($request->Ajax()) {
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'so',
-        'submenu1' => 'bahan',
-        'title' => 'Detail Sales Order Bahan',
-        // 'userdtl' => Userdtl::where('cmodule', 'Sales Order Bahan')->where('username', $username)->first(),
+        'submenu' => 'po',
+        'submenu1' => 'ref_umum',
+        'title' => 'Detail Purchase Order Bahan',
+        // 'userdtl' => Userdtl::where('cmodule', 'Purchase Order Bahan')->where('username', $username)->first(),
       ];
       return response()->json([
-        'body' => view('so_bahan.modaltambahmaster', [
+        'body' => view('po_bahan.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'tbsales' => Tbsales::get(),
-          'soh_bahan' => Soh_bahan::where('id', $id)->first(),
+          'tbsales' => Tbsales::get(),
+          'poh_bahan' => Poh_bahan::where('id', $id)->first(),
           'action' => route('tbbarang.store'),
           'vdata' => $data,
         ])->render(),
@@ -208,15 +194,16 @@ class So_bahanController extends Controller
     }
   }
 
-  public function edit(Soh_bahan $soh_bahan, Request $request)
+  public function edit(Poh_bahan $poh_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
+      $username = session('username');
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'so',
-        'submenu1' => 'bahan',
-        'title' => 'Edit Data Sales Order Bahan',
+        'submenu' => 'po',
+        'submenu1' => 'ref_umum',
+        'title' => 'Edit Data Purchase Order Bahan',
       ];
       // var_dump($data);
 
@@ -224,12 +211,13 @@ class So_bahanController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('so_bahan.modaltambahmaster', [
+        'body' => view('po_bahan.modaltambahmaster', [
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'tbsales' => Tbsales::get(),
-          'soh_bahan' => Soh_bahan::where('id', $id)->first(),
-          'action' => route('so_bahan.update', $id),
-          // 'action' => 'soupdate',
+          'tbsales' => Tbsales::get(),
+          'poh_bahan' => Poh_bahan::where('id', $id)->first(),
+          'action' => route('po_bahan.update', $id),
+          // 'action' => route('po_bahan.update', $poh_bahan->id),
+          // 'action' => 'poupdate',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -239,53 +227,53 @@ class So_bahanController extends Controller
     }
   }
 
-  public function update(Request $request, Soh_bahan $soh_bahan)
+  public function update(Request $request, Poh_bahan $poh_bahan)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      if ($request->noso === $request->nosolama) {
+      if ($request->nopo === $request->nopolama) {
         $validate = $request->validate(
           [
-            'noso' => 'required',
-            'tglso' => 'required',
+            'nopo' => 'required',
+            'tglpo' => 'required',
+            'kdsupplier' => 'required',
           ],
           [
-            'noso_bahan.required' => 'No. SO harus di isi',
-            'tglso_bahan.required' => 'Tanggal SO harus di isi',
+            'nopo.required' => 'No. SO harus di isi',
+            'tglpo.required' => 'Tanggal SO harus di isi',
+            'kdsupplier.required' => 'Supplier harus di isi',
           ],
         );
       } else {
         $validate = $request->validate(
           [
-            'noso' => 'required|unique:soh|max:255',
-            'tglso' => 'required',
+            'nopo' => 'required|unique:Poh|max:255',
+            'tglpo' => 'required',
+            'kdsupplier' => 'required',
           ],
           [
-            'noso_bahan.required' => 'No. SO harus di isi',
-            'tglso_bahan.required' => 'Tanggal SO harus di isi',
+            'nopo.required' => 'No. SO harus di isi',
+            'tglpo.required' => 'Tanggal SO harus di isi',
+            'kdsupplier.required' => 'Supplier harus di isi',
           ],
         );
       }
-      $soh_bahan = Soh_bahan::find($id);
+      $poh_bahan = Poh_bahan::find($id);
       if ($validate) {
-        $noso = $request->noso;
-        $subtotal = Sod_bahan::where('noso', $noso)->sum('subtotal');
-        // $subtotal = DB::table('sod')->where('noso', $noso)->sum('subtotal');
+        $nopo = $request->nopo;
+        // $subtotal = DB::table('pod_bahan')->where('nopo', $nopo)->sum('subtotal');
+        $subtotal = Pod_bahan::where('nopo', $nopo)->sum('subtotal');
         $biaya_lain = isset($request->biaya_lain) ? $request->biaya_lain : '0';
         $materai = isset($request->materai) ? $request->materai : '0';
         $ppn = isset($request->ppn) ? $request->ppn : '0';
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        $soh_bahan->fill([
-          'noso' => isset($request->noso) ? $request->noso : '',
-          'tglso' => isset($request->tglso) ? $request->tglso : '',
+        $poh_bahan->fill([
+          'nopo' => isset($request->nopo) ? $request->nopo : '',
+          'tglpo' => isset($request->tglpo) ? $request->tglpo : '',
           'noreferensi' => isset($request->noreferensi) ? $request->noreferensi : '',
-          'nopo_customer' => isset($request->nopo_customer) ? $request->nopo_customer : '',
-          'tglpo_customer' => isset($request->tglpo_customer) ? $request->tglpo_customer : '',
-          'kdcustomer' => isset($request->kdcustomer) ? $request->kdcustomer : '',
-          'nmcustomer' => isset($request->nmcustomer) ? $request->nmcustomer : '',
-          'kdsales' => isset($request->kdsales) ? $request->kdsales : '',
-          'nmsales' => isset($request->nmsales) ? $request->nmsales : '',
+          'kdsupplier' => isset($request->kdsupplier) ? $request->kdsupplier : '',
+          'nmsupplier' => isset($request->nmsupplier) ? $request->nmsupplier : '',
           'tglkirim' => isset($request->tglkirim) ? $request->tglkirim : '',
           'jenis_order' => isset($request->jenis_order) ? $request->jenis_order : '',
           'carabayar' => isset($request->carabayar) ? $request->carabayar : '',
@@ -301,22 +289,22 @@ class So_bahanController extends Controller
           'keterangan' => isset($request->keterangan) ? $request->keterangan : '',
           'user' => 'Update-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $soh_bahan->save($validate);
+        $poh_bahan->save($validate);
         //Create History
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
-        $dokumen = $noso;
-        $form = 'Sales Order Bahan';
+        $dokumen = $nopo;
+        $form = 'Purchase Order Bahan';
         $status = 'Update';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
         DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
         $msg = [
-          'sukses' => 'Data berhasil di update',
+          'sukses' => 'Data berhasil di update', //view('tbbarang.tabel_barang')
         ];
       } else {
         $msg = [
-          'sukses' => 'Data gagal di update',
+          'sukses' => 'Data gagal di update', //view('tbbarang.tabel_barang')
         ];
       }
       echo json_encode($msg);
@@ -326,49 +314,49 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahanproses(Request $request, Soh_bahan $soproses)
+  public function po_bahanproses(Request $request, Poh_bahan $poproses)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $soh_bahan = Soh_bahan::where('id', $id)->first();
-      $noso = $soh_bahan->noso;
-      // $soproses->load('so_bahanDetail');
-      // $subtotal = $soproses->so_bahanDetail->sum('subtotal');
-      $subtotal = Sod_bahan::where('noso', $noso)->sum('subtotal');
-      $total_sementara = $soh_bahan->biaya_lain + $subtotal;
-      // $soproses->proses = 'Y';
-      // $soproses->subtotal = $subtotal;
-      // $soproses->total_sementara = $total_sementara;
-      // $soproses->total = $total_sementara + ($total_sementara * ($soproses->ppn / 100));
-      // $soproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      // $soproses->save();
-      $soh_bahan = Soh_bahan::find($id);
-      $soh_bahan->fill([
+      $poh_bahan = Poh_bahan::where('id', $id)->first();
+      $nopo = $poh_bahan->nopo;
+      // $poproses->load('poDetail');
+      // $subtotal = $poproses->soDetail->sum('subtotal');
+      $subtotal = Pod_bahan::where('nopo', $nopo)->sum('subtotal');
+      $total_sementara = $poproses->biaya_lain + $subtotal;
+      // $poproses->proses = 'Y';
+      // $poproses->subtotal = $subtotal;
+      // $poproses->total_sementara = $total_sementara;
+      // $poproses->total = $total_sementara + ($total_sementara * ($poproses->ppn / 100));
+      // $poproses->user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
+      // $poproses->save();
+      $poh_bahan = Poh_bahan::find($id);
+      $poh_bahan->fill([
         'proses' => 'Y',
         'subtotal' => $subtotal,
         'total_sementara' => $total_sementara,
-        'total' => $total_sementara + ($total_sementara * ($soh_bahan->ppn / 100)),
+        'total' => $total_sementara + ($total_sementara * ($poh_bahan->ppn / 100)),
         'user' => 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s'),
       ]);
-      $soh_bahan->save();
-      $sod_bahan = Sod_bahan::where('noso', $noso)->get();
-      foreach ($sod_bahan as $row) {
+      $poh_bahan->save();
+      $pod_bahan = Pod_bahan::where('nopo', $nopo)->get();
+      foreach ($pod_bahan as $row) {
         $idd = $row->id;
         $qty = $row->qty;
-        Sod_bahan::where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
-        // DB::table('sod_bahan')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
+        // DB::table('pod_bahan')->where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
+        Pod_bahan::where('id', $idd)->update(['proses' => 'Y', 'kurang' => $qty]);
       }
       //Create History
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $noso;
-      $form = 'Sales Order Bahan';
+      $dokumen = $nopo;
+      $form = 'Purchase Order Bahan';
       $status = 'Proses';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       return response()->json([
-        'sukses' => 'Data berhasil di Cancel',
+        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
       ]);
       // return redirect()->back()->with('message', 'Berhasil di update');
     } else {
@@ -376,23 +364,23 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahanbatalproses(Soh_bahan $soh_bahan, Request $request)
+  public function po_bahanbatalproses(Poh_bahan $poh_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
-      $soh_bahan = Soh_bahan::where('id', $id)->first();
-      $sod_bahan = Sod_bahan::where('noso', $soh_bahan->noso)->where('terima', '>', '0')->first();
-      if (isset($sod_bahan->noso)) {
+      $poh_bahan = Poh_bahan::where('id', $id)->first();
+      $pod_bahan = Pod_bahan::where('nopo', $poh_bahan->nopo)->where('terima', '>', '0')->first();
+      if (isset($pod_bahan->nopo)) {
         $msg = [
-          'sukses' => 'Data gagal di cancel',
+          'sukses' => 'Data gagal di cancel', //view('tbbarang.tabel_barang')
         ];
         echo json_encode($msg);
       } else {
         $data = [
           'menu' => 'transaksi',
-          'submenu' => 'so',
-          'submenu1' => 'bahan',
-          'title' => 'Batal Proses Sales Order Bahan',
+          'submenu' => 'po',
+          'submenu1' => 'ref_umum',
+          'title' => 'Batal Proses Purchase Order Bahan',
         ];
         // var_dump($data);
 
@@ -400,10 +388,10 @@ class So_bahanController extends Controller
         //     'data' => $data,
         // ]);
         return response()->json([
-          'body' => view('so_bahan.modalbatalproses', [
-            'soh_bahan' => Soh_bahan::where('id', $id)->first(),
-            // 'action' => route('so_bahan.update', $soh->id),
-            'action' => 'so_bahanbatalprosesok',
+          'body' => view('po_bahan.modalbatalproses', [
+            'poh_bahan' => Poh_bahan::where('id', $id)->first(),
+            // 'action' => route('po.update', $poh_bahan->id),
+            'action' => 'po_bahanbatalprosesok',
             'vdata' => $data,
           ])->render(),
           'data' => $data,
@@ -414,26 +402,26 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahanbatalprosesok(Request $request, Soh_bahan $soh_bahan)
+  public function po_bahanbatalprosesok(Request $request, Poh_bahan $poh_bahan)
   {
     if ($request->Ajax()) {
       $id = $request->id;
       $user = 'Proses-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      Soh_bahan::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
-      // DB::table('soh')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      // DB::table('poh_bahan')->where('id', $id)->update(['proses' => 'N', 'user' => $user]);
+      Poh_bahan::where('id', $id)->update(['proses' => 'N', 'user' => $user]);
       //Create History
-      $soh_bahan = Soh_bahan::where('id', $id)->first();
-      $noso = $soh_bahan->noso;
+      $poh_bahan = Poh_bahan::where('id', $id)->first();
+      $nopo = $poh_bahan->nopo;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $noso;
-      $form = 'Sales Order Bahan';
+      $dokumen = $nopo;
+      $form = 'Purchase Order Bahan';
       $status = 'Batal Proses';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel',
+        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -442,26 +430,26 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahancancel(Request $request, Soh_bahan $soh_bahan)
+  public function po_bahancancel(Request $request, Poh_bahan $poh_bahan)
   {
     if ($request->Ajax()) {
       $id = $_POST['id'];
       $user = 'Cancel-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      Soh_bahan::where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
-      // DB::table('soh_bahan')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      // DB::table('poh_bahan')->where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
+      Poh_bahan::where('id', $id)->update(['batal' => 'Y', 'user' => $user]);
       //Create History
-      $soh_bahan = Soh_bahan::where('id', $id)->first();
-      $noso = $soh_bahan->noso;
+      $poh_bahan = Poh_bahan::where('id', $id)->first();
+      $nopo = $poh_bahan->nopo;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $noso;
-      $form = 'Sales Order Bahan';
+      $dokumen = $nopo;
+      $form = 'Purchase Order Bahan';
       $status = 'Cancel';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel',
+        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -470,26 +458,26 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahanambil(Request $request, Soh_bahan $soh_bahan)
+  public function po_bahanambil(Request $request, Poh_bahan $poh_bahan)
   {
     if ($request->Ajax()) {
       $id = $_POST['id'];
       $user = 'Ambil-' . session('username') . ', ' . date('d-m-Y h:i:s');
-      Soh_bahan::where('id', $id)->update(['batal' => 'N', 'user' => $user]);
-      // DB::table('soh_bahan')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      // DB::table('poh_bahan')->where('id', $id)->update(['batal' => 'N', 'user' => $user]);
+      Poh_bahan::where('id', $id)->update(['batal' => 'N', 'user' => $user]);
       //Create History
-      $row = Soh_bahan::where('id', $request->id)->first();
-      $noso = $row->noso;
+      $row = Poh_bahan::where('id', $request->id)->first();
+      $nopo = $row->nopo;
       $tanggal = date('Y-m-d');
       $datetime = date('Y-m-d H:i:s');
-      $dokumen = $noso;
-      $form = 'Sales Order Bahan';
+      $dokumen = $nopo;
+      $form = 'Purchase Order Bahan';
       $status = 'Ambil';
       $catatan = isset($request->catatan) ? $request->catatan : '';
       $username = session('username');
       DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
       $msg = [
-        'sukses' => 'Data berhasil di Cancel',
+        'sukses' => 'Data berhasil di Cancel', //view('tbbarang.tabel_barang')
       ];
       echo json_encode($msg);
       // return redirect()->back()->with('message', 'Berhasil di update');
@@ -498,22 +486,22 @@ class So_bahanController extends Controller
     }
   }
 
-  public function destroy(Soh_bahan $soh_bahan, Request $request)
+  public function destroy(Poh_bahan $poh_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $request->id;
-      $soh_bahan = Soh_bahan::where('id', $request->id)->first();
-      $deleted = Soh_bahan::where('id', $id)->delete();
-      // $deleted = DB::table('soh_bahan')->where('id', $id)->delete();
+      $row = Poh_bahan::where('id', $request->id)->first();
+      // $deleted = DB::table('poh_bahan')->where('id', $id)->delete();
+      $deleted = Poh_bahan::where('id', $id)->delete();
       if ($deleted) {
-        Sod_bahan::where('noso', $soh_bahan->noso)->delete();
-        // DB::table('sod_bahan')->where('noso', $soh_bahan->noso)->delete();
+        // DB::table('pod_bahan')->where('nopo', $row->nopo)->delete();
+        Poh_bahan::where('nopo', $row->nopo)->delete();
         //Create History
-        $noso = $soh_bahan->noso;
+        $nopo = $row->nopo;
         $tanggal = date('Y-m-d');
         $datetime = date('Y-m-d H:i:s');
-        $dokumen = $noso;
-        $form = 'Sales Order Bahan';
+        $dokumen = $nopo;
+        $form = 'Purchase Order Bahan';
         $status = 'Hapus';
         $catatan = isset($request->catatan) ? $request->catatan : '';
         $username = session('username');
@@ -532,18 +520,18 @@ class So_bahanController extends Controller
     }
   }
 
-  public function socaritbbarang(Request $request)
+  public function pocaritbbarang(Request $request)
   {
     if ($request->Ajax()) {
       $data = [
         // 'menu' => 'transaksi',
-        // 'submenu' => 'tbcustomer',
-        // 'submenu1' => 'bahan',
-        'title' => 'Cari Tabel barang',
+        // 'submenu' => 'tbsupplier',
+        // 'submenu1' => 'ref_umum',
+        'title' => 'Cari tabel barang',
       ];
       // var_dump($data);
       return response()->json([
-        'body' => view('modalcari.modalcaritbbarang', [
+        'body' => view('so.modalcaritbbarang', [
           'tbbarang' => Tbbarang::all(),
           'vdata' => $data,
         ])->render(),
@@ -554,7 +542,7 @@ class So_bahanController extends Controller
     }
   }
 
-  public function sorepltbbarang(Request $request)
+  public function porepltbbarang(Request $request)
   {
     if ($request->Ajax()) {
       $kode = $request->kode_barang; //$_GET['kode_barang'];
@@ -580,23 +568,23 @@ class So_bahanController extends Controller
     }
   }
 
-  public function socaritbmultiprc(Request $request)
+  public function pocaritbmultiprc(Request $request)
   {
     if ($request->Ajax()) {
-      $kdcustomer = $request->kode_customer;
-      // $kdcustomer = $_GET['kode_customer'];
-      // dd($kdcustomer);
+      $kdsupplier = $request->kode_supplier;
+      // $kdsupplier = $_GET['kode_supplier'];
+      // dd($kdsupplier);
       $data = [
         // 'menu' => 'transaksi',
-        // 'submenu' => 'tbcustomer',
-        // 'submenu1' => 'bahan',
+        // 'submenu' => 'tbsupplier',
+        // 'submenu1' => 'ref_umum',
         'title' => 'Cari Tabel Multi Price',
       ];
       // var_dump($data);
       return response()->json([
-        'body' => view('modalcari.modalcaritbmultiprc', [
+        'body' => view('so.modalcaritbmultiprc', [
           // 'tbmultiprc' => Tbmultiprc::all(),
-          'tbmultiprc' => Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdcustomer', $kdcustomer)->get(),
+          'tbmultiprc' => Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdsupplier', $kdsupplier)->get(),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -606,12 +594,12 @@ class So_bahanController extends Controller
     }
   }
 
-  public function sorepltbmultiprc(Request $request)
+  public function porepltbmultiprc(Request $request)
   {
     if ($request->Ajax()) {
       // $kode = $request->kode_barang; //$_GET['kode_multiprc'];
       // $row = DB::table('select tbmultiprc.kode,tbmultiprc.nama,tbmultiprc.kdsatuan,tbsatuan.nama as nmsatuan')->join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdbarang', $kode)->first();
-      $row = Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdcustomer', $request->kode_customer)->where('kdbarang', $request->kode_barang)->first();
+      $row = Tbmultiprc::join('tbbarang', 'tbmultiprc.kdbarang', '=', 'tbbarang.kode')->where('tbmultiprc.kdsupplier', $request->kode_supplier)->where('kdbarang', $request->kode_barang)->first();
       if (isset($row)) {
         $data = [
           'kdbarang' => $row['kdbarang'],
@@ -633,18 +621,18 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahaninputsod(Soh_bahan $soh_bahan, Request $request)
+  public function po_bahaninputpod(Poh_bahan $poh_bahan, Request $request)
   {
     if ($request->Ajax()) {
       $id = $_GET['id'];
       $username = session('username');
-      $soh_bahan = Soh_bahan::where('id', $id)->first();
-      $noso = $soh_bahan->noso;
+      $poh_bahan = Poh_bahan::where('id', $id)->first();
+      $nopo = $poh_bahan->nopo;
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'so',
-        'submenu1' => 'bahan',
-        'title' => 'Detail Data Sales Order Bahan',
+        'submenu' => 'po',
+        'submenu1' => 'ref_umum',
+        'title' => 'Detail Data Purchase Order Bahan',
       ];
       // var_dump($data);
 
@@ -652,15 +640,15 @@ class So_bahanController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('so_bahan.modaldetail', [
+        'body' => view('po_bahan.modaldetail', [
           'userdtlmenu' => Userdtl::join('tbmodule', 'userdtl.cmodule', '=', 'tbmodule.cmodule')->where('userdtl.pakai', '1')->where('username', $username)->orderBy('userdtl.nurut')->get(),
-          'userdtl' => Userdtl::where('cmodule', 'Sales Order Bahan')->where('username', $username)->first(),
+          'userdtl' => Userdtl::where('cmodule', 'Purchase Order Bahan')->where('username', $username)->first(),
           'saplikasi' => Saplikasi::where('aktif', 'Y')->first(),
-          // 'tbsales' => Tbsales::get(),
-          'soh_bahan' => Soh_bahan::where('id', $id)->first(),
-          'sod_bahan' => Sod_bahan::where('noso', $noso)->get(),
-          // 'action' => route('so_bahan.update', $soh_bahan->id),
-          'action' => 'sotambahdetail',
+          'tbsales' => Tbsales::get(),
+          'poh_bahan' => Poh_bahan::where('id', $id)->first(),
+          'pod_bahan' => Pod_bahan::where('nopo', $nopo)->get(),
+          // 'action' => route('po.update', $poh_bahan->id),
+          'action' => 'potambahdetail',
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -670,7 +658,7 @@ class So_bahanController extends Controller
     }
   }
 
-  public function sotambahdetail(Request $request, Sod_bahanRequest $sodrequest, Sod_bahan $sod_bahan)
+  public function potambahdetail(Request $request, Pod_bahan $pod_bahan)
   {
     if ($request->Ajax()) {
       $id = $request->id;
@@ -683,14 +671,14 @@ class So_bahanController extends Controller
         ],
       );
       if ($validate) {
-        // $recsod = Sod_bahan::where('noso', $request->nosod)->where('kdbarang', $request->kdbarang)->first();
-        // if (isset($recsod->noso)) {
+        // $recsod = Pod_bahan::where('nopo', $request->nopod)->where('kdbarang', $request->kdbarang)->first();
+        // if (isset($recsod->nopo)) {
         //   $msg = [
         //     'sukses' => 'Data gagal di tambah',
         //   ];
         // } else {
-        $sod_bahan->fill([
-          'noso' => isset($request->nosod) ? $request->nosod : '',
+        $pod_bahan->fill([
+          'nopo' => isset($request->nopod) ? $request->nopod : '',
           'kdbarang' => isset($request->kdbarang) ? $request->kdbarang : '',
           'nmbarang' => isset($request->nmbarang) ? $request->nmbarang : '',
           'kdsatuan' => isset($request->kdsatuan) ? $request->kdsatuan : '',
@@ -701,29 +689,25 @@ class So_bahanController extends Controller
           'total' => isset($request->total) ? $request->total : '',
           'user' => 'Tambah-' . $request->username . ', ' . date('d-m-Y h:i:s'),
         ]);
-        $sod_bahan->save($validate);
-        $soh_bahan = Soh_bahan::where('noso', $request->nosod)->first();
-        $biaya_lain = $soh_bahan->biaya_lain;
-        $materai = $soh_bahan->materai;
-        $ppn = $soh_bahan->ppn;
-        $subtotal = DB::table('sod_bahan')->where('noso', $request->nosod)->sum('subtotal');
+        $pod_bahan->save($validate);
+        $poh_bahan = Poh_bahan::where('nopo', $request->nopod)->first();
+        $biaya_lain = $poh_bahan->biaya_lain;
+        $materai = $poh_bahan->materai;
+        $ppn = $poh_bahan->ppn;
+        $subtotal = DB::table('pod_bahan')->where('nopo', $request->nopod)->sum('subtotal');
         $total_sementara = $biaya_lain + $subtotal + $materai;
         $total = $total_sementara + ($total_sementara * ($ppn / 100));
-        Soh_bahan::where('noso', $request->nosod)->update([
+        DB::table('poh_bahan')->where('nopo', $request->nopod)->update([
           'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
           $total_sementara, 'total' => $total
         ]);
-        // DB::table('soh_bahan')->where('noso', $request->nosod)->update([
-        //   'subtotal' => $subtotal, 'biaya_lain' => $biaya_lain, 'materai' => $materai, 'total_sementara' => $total_sementara, 'total_sementara' =>
-        //   $total_sementara, 'total' => $total
-        // ]);
         $msg = [
-          'sukses' => 'Data berhasil di tambah',
+          'sukses' => 'Data berhasil di tambah', //view('tbbarang.tabel_barang')
         ];
         // }
       } else {
         $msg = [
-          'sukses' => 'Data gagal di tambah',
+          'sukses' => 'Data gagal di tambah', //view('tbbarang.tabel_barang')
         ];
       }
       echo json_encode($msg);
@@ -733,16 +717,16 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahantotaldetail(Soh_bahan $soh_bahan, Request $request)
+  public function po_bahantotaldetail(Poh_bahan $poh_bahan, Request $request)
   {
     if ($request->Ajax()) {
-      $noso = $request->noso;
-      $soh_bahan = Soh_bahan::where('noso', $noso)->first();
+      $nopo = $request->nopo;
+      $poh_bahan = Poh_bahan::where('nopo', $nopo)->first();
       $data = [
         'menu' => 'transaksi',
-        'submenu' => 'Sales Order Bahan',
-        'submenu1' => 'bahan',
-        'title' => 'Detail Data Sales Order Bahan',
+        'submenu' => 'Purchase Order Bahan',
+        'submenu1' => 'ref_umum',
+        'title' => 'Detail Data Purchase Order Bahan',
       ];
       // var_dump($data);
 
@@ -750,9 +734,9 @@ class So_bahanController extends Controller
       //     'data' => $data,
       // ]);
       return response()->json([
-        'body' => view('so_bahan.totaldetail', [
-          'subtotalsod' => Sod_bahan::where('noso', $noso)->sum('subtotal'),
-          'qtysod' => Sod_bahan::where('noso', $noso)->sum('qty'),
+        'body' => view('po_bahan.totaldetail', [
+          'subtotalpod' => Pod_bahan::where('nopo', $nopo)->sum('subtotal'),
+          'qtypod' => Pod_bahan::where('nopo', $nopo)->sum('qty'),
           'vdata' => $data,
         ])->render(),
         'data' => $data,
@@ -762,22 +746,19 @@ class So_bahanController extends Controller
     }
   }
 
-  public function so_bahancetak(Request $request)
+  public function po_bahancetak(Request $request)
   {
     //Create History
-    $rowsoh = Soh_bahan::leftjoin('tbcustomer', 'soh_bahan.kdcustomer', '=', 'tbcustomer.kode')->where('soh_bahan.id', $request->id)->first();
-    $noso = $rowsoh->noso;
-    $rowsod = Soh_bahan::join('sod_bahan', 'sod_bahan.noso', '=', 'soh_bahan.noso')
-      ->join('tbsatuan', 'tbsatuan.kode', '=', 'sod_bahan.kdsatuan')
-      ->select('soh_bahan.*', 'sod_bahan.*', 'tbsatuan.nama as nmsatuan')
-      ->where('soh_bahan.noso', $noso)->get();
+    $rowpoh_bahan = Poh_bahan::join('tbsupplier', 'poh_bahan.kdsupplier', '=', 'tbsupplier.kode')->where('poh_bahan.id', $request->id)->first();
+    $nopo = $rowpoh_bahan->nopo;
+    $rowpod_bahan = Poh_bahan::join('pod_bahan', 'pod_bahan.nopo', '=', 'poh_bahan.nopo')->where('poh_bahan.nopo', $nopo)->get();
     $data = [
-      'soh_bahan' => $rowsoh,
-      'sod_bahan' => $rowsod,
+      'poh_bahan' => $rowpoh_bahan,
+      'pod_bahan' => $rowpod_bahan,
     ];
-    // return view('so_bahan.cetak', $data);
+    // return view('po.cetak', $data);
 
-    $rowd = Sod_bahan::where('noso', $noso)->get();
+    $rowd = Pod_bahan::where('nopo', $nopo)->get();
     $rowd = $rowd->count();
 
     if ($rowd > 10) {
@@ -807,11 +788,11 @@ class So_bahanController extends Controller
     }
 
     //Create History
-    $soh = Soh_bahan::where('id', $request->id)->first();
+    $poh_bahan = Poh_bahan::where('id', $request->id)->first();
     $tanggal = date('Y-m-d');
     $datetime = date('Y-m-d H:i:s');
-    $dokumen = $soh->noso;
-    $form = 'Sales Order Bahan';
+    $dokumen = $poh_bahan->nopo;
+    $form = 'Purchase Order Bahan';
     $status = 'Cetak';
     $catatan = isset($request->catatan) ? $request->catatan : '';
     $username = session('username');
@@ -842,99 +823,10 @@ class So_bahanController extends Controller
 
     //write content
     // $mpdf->WriteHTML($request->get('content'));
-    $mpdf->WriteHTML(view('so_bahan.cetak', $data));
-    $namafile = $noso . ' - ' . date('dmY H:i:s') . '.pdf';
+    $mpdf->WriteHTML(view('po_bahan.cetak', $data));
+    $namafile = $nopo . ' - ' . date('dmY H:i:s') . '.pdf';
     //return the PDF for download
     // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
     $mpdf->Output($namafile, 'I');
-  }
-
-  public function socetakpl(Request $request)
-  {
-    //Create History
-    $rowsoh = Soh_bahan::join('tbcustomer', 'soh.kdcustomer', '=', 'tbcustomer.kode')->where('soh.id', $request->id)->first();
-    $noso = $rowsoh->noso;
-    $rowsod = Soh_bahan::join('sod', 'sod.noso', '=', 'soh.noso')
-      ->join('tbsatuan', 'tbsatuan.kode', '=', 'sod.kdsatuan')
-      ->select('soh.*', 'sod.*', 'tbsatuan.nama as nmsatuan')
-      ->where('soh.noso', $noso)->get();
-    $data = [
-      'soh' => $rowsoh,
-      'sod' => $rowsod,
-    ];
-    // return view('so_bahan.cetak', $data);
-
-    $rowd = Sod_bahan::where('noso', $noso)->get();
-    $rowd = $rowd->count();
-
-    if ($rowd > 10) {
-      //create PDF
-      $mpdf = new Mpdf([
-        'format' => 'Letter',
-        'margin_left' => 10,
-        'margin_right' => 10,
-        'margin_top' => 8,
-        'margin_bottom' => 5,
-        'margin_header' => 5,
-        'margin_footer' => 5,
-      ]);
-    } else {
-      //create PDF
-      $mpdf = new Mpdf([
-        // 'format' => [150, 210], //gagal jadi ke landscape
-        'format' => [60, 60], //gagal jadi ke landscape
-        // 'format' => 'Letter-P',
-        'orientation' => 'P',
-        'margin_left' => 4,
-        'margin_right' => 4,
-        'margin_top' => 2,
-        'margin_bottom' => 2,
-        'margin_header' => 2,
-        'margin_footer' => 2,
-      ]);
-    }
-
-    //Create History
-    $soh = Soh_bahan::where('id', $request->id)->first();
-    $tanggal = date('Y-m-d');
-    $datetime = date('Y-m-d H:i:s');
-    $dokumen = $soh->noso;
-    $form = 'Sales Order Bahan';
-    $status = 'Cetak';
-    $catatan = isset($request->catatan) ? $request->catatan : '';
-    $username = session('username');
-    DB::table('hisuser')->insert(['tanggal' => $tanggal, 'dokumen' => $dokumen, 'form' => $form, 'status' => $status, 'user' => $username, 'catatan' => $catatan, 'datetime' => $datetime]);
-
-    $header = trim($request->get('header', ''));
-    $footer = trim($request->get('footer', ''));
-
-    if (strlen($header)) {
-      $mpdf->SetHTMLHeader($header);
-    }
-
-    if (strlen($footer)) {
-      $mpdf->SetHTMLFooter($footer);
-    }
-
-    if ($request->get('show_toc')) {
-      $mpdf->h2toc = array(
-        'H1' => 0,
-        'H2' => 1,
-        'H3' => 2,
-        'H4' => 3,
-        'H5' => 4,
-        'H6' => 5
-      );
-      $mpdf->TOCpagebreak();
-    }
-
-    //write content
-    // $mpdf->WriteHTML($request->get('content'));
-    $mpdf->WriteHTML(view('so_bahan.cetakpl', $data));
-    $namafile = $noso . ' - ' . date('dmY H:i:s') . '.pdf';
-    //return the PDF for download
-    // return $mpdf->Output($request->get('name') . $namafile, Destination::DOWNLOAD);
-    $mpdf->Output($namafile, 'I');
-    exit;
   }
 }

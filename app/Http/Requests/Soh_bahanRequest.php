@@ -23,8 +23,8 @@ class Soh_bahanRequest extends FormRequest
     public function rules(): array
     {
         return [
-            // 'noso' => ['required', Rule::unique('soh')->ignore($this->soh)],
-            'noso' => ['required'],
+            'noso' => ['required', Rule::unique('soh_bahan')->ignore($this->soh_bahan)],
+            // 'noso' => ['required'],
             'tglso' => ['required'],
             'kdcustomer' => ['required'],
             'kdsales' => ['required'],
@@ -33,11 +33,11 @@ class Soh_bahanRequest extends FormRequest
     public function messages()
     {
         return [
-            'noso.unique' => 'Nomor tidak boleh sama',
+            // 'noso.unique' => 'Nomor tidak boleh sama',
             'noso.required' => 'Nomor harus di isi',
-            'tglso.required' => 'Tanggal harus di isi',
-            'kdcustomer.required' => 'Customer harus di isi',
-            'kdsales.required' => 'Sales harus di isi',
+            // 'tglso.required' => 'Tanggal harus di isi',
+            // 'kdcustomer.required' => 'Customer harus di isi',
+            // 'kdsales.required' => 'Sales harus di isi',
         ];
     }
 }

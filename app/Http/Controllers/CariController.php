@@ -653,6 +653,56 @@ class CariController extends Controller
     }
   }
 
+  public function caritbbahan(Request $request)
+  {
+    if ($request->Ajax()) {
+      $data = [
+        // 'menu' => 'transaksi',
+        // 'submenu' => 'tbcustomer',
+        // 'submenu1' => 'ref_umum',
+        'title' => 'Cari Data Bahan',
+      ];
+      // var_dump($data);
+      return response()->json([
+        'body' => view('modalcari.modalcaritbbahan', [
+          'tbbahan' => Tbbahan::all(),
+          'vdata' => $data,
+        ])->render(),
+        'data' => $data,
+      ]);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
+  public function repltbbahan(Request $request)
+  {
+    if ($request->Ajax()) {
+      $kode = $request->kode_barang; //$_GET['kode_bahan'];
+      $row = Tbbahan::where('kode', $kode)->first();
+      if (isset($row)) {
+        $data = [
+          'kdbarang' => $row['kode'],
+          'nmbarang' => $row['nama'],
+          'kdsatuan' => $row['kdsatuan'],
+          'harga_jual' => $row['harga_jual'],
+          'harga_beli' => $row['harga_beli'],
+        ];
+      } else {
+        $data = [
+          'kdbarang' => '',
+          'nmbarang' => '',
+          'kdsatuan' => '',
+          'harga_jual' => 0,
+          'harga_beli' => 0,
+        ];
+      }
+      echo json_encode($data);
+    } else {
+      exit('Maaf tidak dapat diproses');
+    }
+  }
+
   public function caritbmultiprc(Request $request)
   {
     if ($request->Ajax()) {

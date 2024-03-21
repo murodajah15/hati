@@ -51,10 +51,10 @@ $n = 0;
                         <i class="nav-icon fas fa-edit text-primary"></i>
                     @endif
                     @if ($nmainmenu == 3)
-                        <i class="nav-icon fas fa-copy text-success"></i>
+                        <i class="nav-icon fas fa-gears text-success"></i>
                     @endif
                     @if ($nmainmenu == 4)
-                        <i class="nav-icon fas fa-gears text-warning"></i>
+                        <i class="nav-icon fas fa-copy text-warning"></i>
                     @endif
                     @if ($nmainmenu == 5)
                         {{-- <i class="nav-icon fas fa-cog"></i> --}}
